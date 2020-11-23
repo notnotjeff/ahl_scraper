@@ -1,0 +1,77 @@
+Metrics/AbcSize:
+  Max: 51
+
+Metrics/CyclomaticComplexity:
+  Max: 15
+
+Metrics/ParameterLists:
+  Max: 7
+
+Metrics/PerceivedComplexity:
+  Max: 17
+
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.3
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HeredocIndentation:
+  Enabled: false
+
+Layout/LineLength:
+  Exclude:
+    - "lib/stripe/resources/**/*.rb"
+    - "test/**/*.rb"
+
+Metrics/BlockLength:
+  Max: 40
+  Exclude:
+    - "test/**/*.rb"
+
+Metrics/ClassLength:
+  Exclude:
+    - "test/**/*.rb"
+
+Metrics/MethodLength:
+  Max: 55
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  EnforcedStyle: inline
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: consistent_comma
