@@ -9,6 +9,7 @@ require "ahl_scraper/games/format/scoring_statlines"
 
 # Objects
 require "ahl_scraper/games/game_resource"
+require "ahl_scraper/games/event_object"
 require "ahl_scraper/games/game_object"
 
 module AhlScraper
