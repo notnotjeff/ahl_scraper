@@ -1,19 +1,19 @@
 # frozen_string_literal: true
 
-require 'ahl_scraper/games/game_resources/coach'
-require 'ahl_scraper/games/game_resources/goal'
-require 'ahl_scraper/games/game_resources/goalie'
-require 'ahl_scraper/games/game_resources/info'
-require 'ahl_scraper/games/game_resources/on_ice_skater'
-require 'ahl_scraper/games/game_resources/overtime'
-require 'ahl_scraper/games/game_resources/penalty_shot'
-require 'ahl_scraper/games/game_resources/penalty'
-require 'ahl_scraper/games/game_resources/period'
-require 'ahl_scraper/games/game_resources/referee'
-require 'ahl_scraper/games/game_resources/shootout_attempt'
-require 'ahl_scraper/games/game_resources/skater'
-require 'ahl_scraper/games/game_resources/star'
-require 'ahl_scraper/games/game_resources/team'
+require "ahl_scraper/games/game_resources/coach"
+require "ahl_scraper/games/game_resources/goal"
+require "ahl_scraper/games/game_resources/goalie"
+require "ahl_scraper/games/game_resources/info"
+require "ahl_scraper/games/game_resources/on_ice_skater"
+require "ahl_scraper/games/game_resources/overtime"
+require "ahl_scraper/games/game_resources/penalty_shot"
+require "ahl_scraper/games/game_resources/penalty"
+require "ahl_scraper/games/game_resources/period"
+require "ahl_scraper/games/game_resources/referee"
+require "ahl_scraper/games/game_resources/shootout_attempt"
+require "ahl_scraper/games/game_resources/skater"
+require "ahl_scraper/games/game_resources/star"
+require "ahl_scraper/games/game_resources/team"
 
 module AhlScraper
   module Games
@@ -45,11 +45,11 @@ module AhlScraper
         @status ||=
           case details[:status]
           when /Final/
-            'finished'
-          when ''
-            'in-progress'
+            "finished"
+          when ""
+            "in-progress"
           else
-            'not-started'
+            "not-started"
           end
       end
 
@@ -76,11 +76,15 @@ module AhlScraper
       end
 
       def home_goalies
-        @home_goalies ||= raw_data[:homeTeam][:goalies].map { |goalie| OpenStruct.new({ **underscore_case(goalie), team_id: home_team.id, on_home_team: true }) }
+        @home_goalies ||= raw_data[:homeTeam][:goalies].map do |goalie|
+          OpenStruct.new({ **underscore_case(goalie), team_id: home_team.id, on_home_team: true })
+        end
       end
 
       def away_goalies
-        @away_goalies ||= raw_data[:visitingTeam][:goalies].map { |goalie| OpenStruct.new({ **underscore_case(goalie), team_id: away_team.id, on_home_team: false }) }
+        @away_goalies ||= raw_data[:visitingTeam][:goalies].map do |goalie|
+          OpenStruct.new({ **underscore_case(goalie), team_id: away_team.id, on_home_team: false })
+        end
       end
 
       def home_team
@@ -89,7 +93,7 @@ module AhlScraper
             **raw_data[:homeTeam][:info],
             score: raw_data[:homeTeam][:stats][:goals],
             **underscore_case(raw_data[:homeTeam][:stats]),
-            is_home_team: true
+            is_home_team: true,
           }
         )
       end
@@ -100,7 +104,7 @@ module AhlScraper
             **raw_data[:visitingTeam][:info],
             **underscore_case(raw_data[:visitingTeam][:stats]),
             score: raw_data[:visitingTeam][:stats][:goals],
-            is_home_team: false
+            is_home_team: false,
           }
         )
       end
@@ -118,8 +122,8 @@ module AhlScraper
             scored_by: OpenStruct.new(underscore_case(goal[:scoredBy])),
             assists: goal[:assists].map { |a| OpenStruct.new(underscore_case(a)) },
             properties: OpenStruct.new(underscore_case(goal[:properties])),
-            plus_players: goal[:plus_players].map.with_index { |p, i| OpenStruct.new(underscore_case(p.merge!(number: i + 1))) },
-            minus_players: goal[:minus_players].map.with_index { |p, i| OpenStruct.new(underscore_case(p.merge!(number: i + 1))) }
+            plus_players: goal[:plus_players].map.with_index { |p, ind| OpenStruct.new(underscore_case(p.merge!(number: ind + 1))) },
+            minus_players: goal[:minus_players].map.with_index { |p, ind| OpenStruct.new(underscore_case(p.merge!(number: ind + 1))) },
           }
         end
       end
@@ -133,7 +137,9 @@ module AhlScraper
       end
 
       def penalty_shots
-        @penalty_shots ||= (raw_data[:penaltyShots][:homeTeam] + raw_data[:penaltyShots][:visitingTeam]).map.with_index { |ps, i| { **ps, number: i + 1 } } || []
+        @penalty_shots ||= Array.new(
+          (raw_data[:penaltyShots][:homeTeam] + raw_data[:penaltyShots][:visitingTeam]).map.with_index { |ps, i| { **ps, number: i + 1 } }
+        )
       end
 
       def shootout?
@@ -193,12 +199,12 @@ module AhlScraper
       end
 
       def underscore_case(object)
-        object.keys.each do |key|
+        object.each_key do |key|
           underscore_key = key.to_s
-                              .gsub(/::/, '/')
+                              .gsub(/::/, "/")
                               .gsub(/([A-Z]+)([A-Z][a-z])/, '\1_\2')
                               .gsub(/([a-z\d])([A-Z])/, '\1_\2')
-                              .tr('-', '_')
+                              .tr("-", "_")
                               .downcase
                               .to_sym
 
@@ -209,7 +215,7 @@ module AhlScraper
       end
 
       def convert_time(game_time)
-        time = game_time.split(':')
+        time = game_time.split(":")
         time[0].to_i * 60 + time[1].to_i
       end
     end

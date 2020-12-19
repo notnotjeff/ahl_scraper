@@ -4,6 +4,8 @@ module AhlScraper
   module Games
     module Format
       module ScoringStatlines
+        module_function
+
         def format(skater_data, goal_data)
           statlines = {}
           skater_data.each do |s|
@@ -25,10 +27,10 @@ module AhlScraper
               goals_pp: 0,
               a1_pp: 0,
               a2_pp: 0,
-              points_pp: 0
+              points_pp: 0,
             }
           end
-          goal_data.each do |goal| # rubocop:disable Metrics/BlockLength
+          goal_data.each do |goal|
             statlines[goal[:scored_by][:id]][:goals_as] += 1
             statlines[goal[:assists][0].try(:[], :id)][:a1_as] += 1
             statlines[goal[:assists][1].try(:[], :id)][:a2_as] += 1
@@ -67,7 +69,6 @@ module AhlScraper
           end
           statlines
         end
-        module_function :format
       end
     end
   end

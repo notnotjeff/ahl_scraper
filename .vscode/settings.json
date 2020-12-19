@@ -1,0 +1,11 @@
+{
+  "solargraph.autoformat": true,
+  "solargraph.completion": true,
+  "solargraph.formatting": true,
+  "solargraph.diagnostics": true,
+  "[ruby]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  }
+}

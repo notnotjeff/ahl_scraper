@@ -3,20 +3,20 @@
 RSpec.describe AhlScraper::Games::Penalty do
   let(:penalty_data) do
     {
-      period: { id: '2', shortName: '', longName: '2nd' },
-      time: '05:28',
-      againstTeam: { id: 372, name: 'Rockford IceHogs', city: 'Rockford', nickname: 'IceHogs', abbreviation: 'RFD', logo: 'https://assets.leaguestat.com/ahl/logos/372.jpg' },
+      period: { id: "2", shortName: "", longName: "2nd" },
+      time: "05:28",
+      againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
       minutes: 5,
-      description: 'Fighting',
-      ruleNumber: '',
-      takenBy: { id: 6914, firstName: 'Nathan', lastName: 'Noel', jerseyNumber: 20, position: 'LW', birthDate: '' },
-      servedBy: { id: 6914, firstName: 'Nathan', lastName: 'Noel', jerseyNumber: 20, position: 'LW', birthDate: '' },
-      isPowerPlay: false
+      description: "Fighting",
+      ruleNumber: "",
+      takenBy: { id: 6914, firstName: "Nathan", lastName: "Noel", jerseyNumber: 20, position: "LW", birthDate: "" },
+      servedBy: { id: 6914, firstName: "Nathan", lastName: "Noel", jerseyNumber: 20, position: "LW", birthDate: "" },
+      isPowerPlay: false,
     }
   end
   let(:opts) { { number: 1 } }
 
-  it 'imports penalty data' do
+  it "imports penalty data" do
     penalty = described_class.new(penalty_data, opts)
 
     expect(penalty.number).to eq(opts[:number])
@@ -49,22 +49,22 @@ RSpec.describe AhlScraper::Games::Penalty do
     expect(penalty.infracting_player_birthdate).to eq(penalty_data[:takenBy][:birthdate])
   end
 
-  context 'when penalty is served by another player' do
+  context "when penalty is served by another player" do
     let(:penalty_data) do
       {
-        period: { id: '1', shortName: '', longName: '1st' },
-        time: '00:52',
-        againstTeam: { id: 372, name: 'Rockford IceHogs', city: 'Rockford', nickname: 'IceHogs', abbreviation: 'RFD', logo: 'https://assets.leaguestat.com/ahl/logos/372.jpg' },
+        period: { id: "1", shortName: "", longName: "1st" },
+        time: "00:52",
+        againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
         minutes: 2,
-        description: 'Bench minor - Too many men',
-        ruleNumber: '',
+        description: "Bench minor - Too many men",
+        ruleNumber: "",
         takenBy: nil,
-        servedBy: { id: 7432, firstName: 'Dylan', lastName: 'Sikura', jerseyNumber: 15, position: 'RW', birthDate: '' },
-        isPowerPlay: true
+        servedBy: { id: 7432, firstName: "Dylan", lastName: "Sikura", jerseyNumber: 15, position: "RW", birthDate: "" },
+        isPowerPlay: true,
       }
     end
 
-    it 'imports nil infractor data into object' do
+    it "imports nil infractor data into object" do
       penalty = described_class.new(penalty_data, opts)
 
       expect(penalty.infracting_player_id).to eq(nil)

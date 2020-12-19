@@ -2,8 +2,7 @@
 
 RSpec.describe AhlScraper::Games::GameObject do
   it "testing", :vcr do
-    game = described_class.new(1_018_340)
-    byebug
+    described_class.new(1_018_340)
   end
 
   describe "#raw_data" do

@@ -15,7 +15,7 @@ Style/Documentation:
 
 AllCops:
   DisplayCopNames: true
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.7
 
 Layout/CaseIndentation:
   EnforcedStyle: end
@@ -30,27 +30,25 @@ Layout/HeredocIndentation:
   Enabled: false
 
 Layout/LineLength:
+  Max: 150
   Exclude:
     - "lib/stripe/resources/**/*.rb"
-    - "test/**/*.rb"
+    - "spec/**/*.rb"
 
 Metrics/BlockLength:
   Max: 40
   Exclude:
-    - "test/**/*.rb"
+    - "spec/**/*.rb"
 
 Metrics/ClassLength:
   Exclude:
-    - "test/**/*.rb"
+    - "spec/**/*.rb"
 
 Metrics/MethodLength:
   Max: 55
 
 Metrics/ModuleLength:
   Enabled: false
-
-Style/AccessModifierDeclarations:
-  EnforcedStyle: inline
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: always
