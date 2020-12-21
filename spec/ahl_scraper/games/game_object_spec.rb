@@ -2,7 +2,20 @@
 
 RSpec.describe AhlScraper::Games::GameObject do
   it "testing", :vcr do
-    described_class.new(1_018_340)
+    game = described_class.new(1_018_340)
+  end
+
+  it "testing shootout", :vcr do
+    game = described_class.new(1_019_769)
+  end
+
+  it "testing overtime only", :vcr do
+    game = described_class.new(1_019_877)
+  end
+
+  it "testing penalty shots", :vcr do
+    game = described_class.new(1_018_452)
+    byebug
   end
 
   describe "#raw_data" do

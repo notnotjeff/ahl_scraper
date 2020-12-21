@@ -3,6 +3,7 @@
 require "json"
 require "nokogiri"
 require "open-uri"
+require "time"
 
 require "ahl_scraper/version"
 

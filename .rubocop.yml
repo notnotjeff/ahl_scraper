@@ -17,6 +17,9 @@ AllCops:
   DisplayCopNames: true
   TargetRubyVersion: 2.7
 
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
 Layout/CaseIndentation:
   EnforcedStyle: end
 
@@ -41,6 +44,7 @@ Metrics/BlockLength:
     - "spec/**/*.rb"
 
 Metrics/ClassLength:
+  Max: 125
   Exclude:
     - "spec/**/*.rb"
 
