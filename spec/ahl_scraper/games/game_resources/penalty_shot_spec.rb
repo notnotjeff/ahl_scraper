@@ -35,7 +35,8 @@ RSpec.describe AhlScraper::Games::PenaltyShot do
     expect(penalty_shot.shooting_team[:logo_url]).to eq(raw_data[:shooter_team][:logo])
     expect(penalty_shot.period).to eq(raw_data[:period][:id].to_i)
     expect(penalty_shot.time).to eq(raw_data[:time])
-    expect(penalty_shot.time_in_seconds).to eq(287)
+    expect(penalty_shot.period_time_in_seconds).to eq(287)
+    expect(penalty_shot.game_time_in_seconds).to eq(1487)
     expect(penalty_shot.scored?).to eq(raw_data[:isGoal] == true)
   end
 end

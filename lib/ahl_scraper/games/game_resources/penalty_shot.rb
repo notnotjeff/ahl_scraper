@@ -46,8 +46,12 @@ module AhlScraper
         @time ||= @raw_data[:time]
       end
 
-      def time_in_seconds
-        @time_in_seconds ||= convert_time(time)
+      def period_time_in_seconds
+        @period_time_in_seconds ||= convert_time(time)
+      end
+
+      def game_time_in_seconds
+        @game_time_in_seconds ||= convert_time(time) + (period - 1) * 1200
       end
 
       def scored?

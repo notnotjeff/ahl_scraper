@@ -16,11 +16,25 @@ module AhlScraper
       end
 
       def taken_by
-        @taken_by || @raw_data[:takenBy]
+        @taken_by ||= {
+          id: @raw_data.dig(:takenBy, :id),
+          first_name: @raw_data.dig(:takenBy, :firstName),
+          last_name: @raw_data.dig(:takenBy, :lastName),
+          jersey_number: @raw_data.dig(:takenBy, :jerseyNumber),
+          position: @raw_data.dig(:takenBy, :position),
+          birthdate: @raw_data.dig(:takenBy, :birthdate),
+        }
       end
 
       def served_by
-        @served_by || @raw_data[:servedBy]
+        @served_by ||= {
+          id: @raw_data.dig(:servedBy, :id),
+          first_name: @raw_data.dig(:servedBy, :firstName),
+          last_name: @raw_data.dig(:servedBy, :lastName),
+          jersey_number: @raw_data.dig(:servedBy, :jerseyNumber),
+          position: @raw_data.dig(:servedBy, :position),
+          birthdate: @raw_data.dig(:servedBy, :birthdate),
+        }
       end
 
       def opposing_team

@@ -27,26 +27,26 @@ RSpec.describe AhlScraper::Games::Penalty do
     expect(penalty.rule_number).to be_nil
     expect(penalty.power_play?).to eq(penalty_data[:isPowerPlay])
 
-    expect(penalty.opposing_team_id).to eq(penalty_data[:againstTeam][:id])
-    expect(penalty.opposing_team_name).to eq(penalty_data[:againstTeam][:name])
-    expect(penalty.opposing_team_city).to eq(penalty_data[:againstTeam][:city])
-    expect(penalty.opposing_team_nickname).to eq(penalty_data[:againstTeam][:nickname])
-    expect(penalty.opposing_team_abbreviation).to eq(penalty_data[:againstTeam][:abbreviation])
-    expect(penalty.opposing_team_logo_url).to eq(penalty_data[:againstTeam][:logo])
+    expect(penalty.opposing_team[:id]).to eq(penalty_data[:againstTeam][:id])
+    expect(penalty.opposing_team[:name]).to eq(penalty_data[:againstTeam][:name])
+    expect(penalty.opposing_team[:city]).to eq(penalty_data[:againstTeam][:city])
+    expect(penalty.opposing_team[:nickname]).to eq(penalty_data[:againstTeam][:nickname])
+    expect(penalty.opposing_team[:abbreviation]).to eq(penalty_data[:againstTeam][:abbreviation])
+    expect(penalty.opposing_team[:logo]).to eq(penalty_data[:againstTeam][:logo])
 
-    expect(penalty.infracting_player_id).to eq(penalty_data[:servedBy][:id])
-    expect(penalty.infracting_player_first_name).to eq(penalty_data[:servedBy][:firstName])
-    expect(penalty.infracting_player_last_name).to eq(penalty_data[:servedBy][:lastName])
-    expect(penalty.infracting_player_jersey_number).to eq(penalty_data[:servedBy][:jerseyNumber])
-    expect(penalty.infracting_player_position).to eq(penalty_data[:servedBy][:position])
-    expect(penalty.infracting_player_birthdate).to eq(penalty_data[:servedBy][:birthdate])
+    expect(penalty.served_by[:id]).to eq(penalty_data[:servedBy][:id])
+    expect(penalty.served_by[:first_name]).to eq(penalty_data[:servedBy][:firstName])
+    expect(penalty.served_by[:last_name]).to eq(penalty_data[:servedBy][:lastName])
+    expect(penalty.served_by[:jersey_number]).to eq(penalty_data[:servedBy][:jerseyNumber])
+    expect(penalty.served_by[:position]).to eq(penalty_data[:servedBy][:position])
+    expect(penalty.served_by[:birthdate]).to eq(penalty_data[:servedBy][:birthdate])
 
-    expect(penalty.infracting_player_id).to eq(penalty_data[:takenBy][:id])
-    expect(penalty.infracting_player_first_name).to eq(penalty_data[:takenBy][:firstName])
-    expect(penalty.infracting_player_last_name).to eq(penalty_data[:takenBy][:lastName])
-    expect(penalty.infracting_player_jersey_number).to eq(penalty_data[:takenBy][:jerseyNumber])
-    expect(penalty.infracting_player_position).to eq(penalty_data[:takenBy][:position])
-    expect(penalty.infracting_player_birthdate).to eq(penalty_data[:takenBy][:birthdate])
+    expect(penalty.taken_by[:id]).to eq(penalty_data[:takenBy][:id])
+    expect(penalty.taken_by[:first_name]).to eq(penalty_data[:takenBy][:firstName])
+    expect(penalty.taken_by[:last_name]).to eq(penalty_data[:takenBy][:lastName])
+    expect(penalty.taken_by[:jersey_number]).to eq(penalty_data[:takenBy][:jerseyNumber])
+    expect(penalty.taken_by[:position]).to eq(penalty_data[:takenBy][:position])
+    expect(penalty.taken_by[:birthdate]).to eq(penalty_data[:takenBy][:birthdate])
   end
 
   context "when penalty is served by another player" do
@@ -67,12 +67,12 @@ RSpec.describe AhlScraper::Games::Penalty do
     it "imports nil infractor data into object" do
       penalty = described_class.new(penalty_data, opts)
 
-      expect(penalty.infracting_player_id).to eq(nil)
-      expect(penalty.infracting_player_first_name).to eq(nil)
-      expect(penalty.infracting_player_last_name).to eq(nil)
-      expect(penalty.infracting_player_jersey_number).to eq(nil)
-      expect(penalty.infracting_player_position).to eq(nil)
-      expect(penalty.infracting_player_birthdate).to eq(nil)
+      expect(penalty.taken_by[:id]).to eq(nil)
+      expect(penalty.taken_by[:first_name]).to eq(nil)
+      expect(penalty.taken_by[:last_name]).to eq(nil)
+      expect(penalty.taken_by[:jersey_number]).to eq(nil)
+      expect(penalty.taken_by[:position]).to eq(nil)
+      expect(penalty.taken_by[:birthdate]).to eq(nil)
     end
   end
 end

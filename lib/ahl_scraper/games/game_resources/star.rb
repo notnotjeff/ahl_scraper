@@ -4,15 +4,15 @@ module AhlScraper
   module Games
     class Star < GameResource
       def id
-        @id ||= @raw_data[:player][:id]
+        @id ||= @raw_data[:player][:info][:id]
       end
 
       def first_name
-        @first_name ||= @raw_data[:player][:firstName]
+        @first_name ||= @raw_data[:player][:info][:firstName]
       end
 
       def last_name
-        @last_name ||= @raw_data[:player][:lastName]
+        @last_name ||= @raw_data[:player][:info][:lastName]
       end
 
       def team_id
@@ -20,15 +20,15 @@ module AhlScraper
       end
 
       def jersey_name
-        @jersey_name ||= @raw_data[:player][:jerseyNumber]
+        @jersey_name ||= @raw_data[:player][:info][:jerseyNumber]
       end
 
       def position
-        @position ||= @raw_data[:player][:position]
+        @position ||= @raw_data[:player][:info][:position]
       end
 
       def birthdate
-        @birthdate ||= @raw_data[:player][:birthDate]
+        @birthdate ||= @raw_data[:player][:info][:birthDate]
       end
 
       def goalie?

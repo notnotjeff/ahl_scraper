@@ -7,7 +7,7 @@ require "vcr"
 require "bundler/setup"
 require "ahl_scraper"
 
-VCR.config do |config|
+VCR.configure do |config|
   config.cassette_library_dir = "spec/support/fixtures/cassettes"
   config.allow_http_connections_when_no_cassette = true
   config.configure_rspec_metadata!

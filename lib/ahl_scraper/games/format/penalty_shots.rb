@@ -4,7 +4,6 @@ module AhlScraper
   module Games
     module Format
       class PenaltyShots
-        # TODO: TEST THIS
         attr_reader :penalty_shot_data
 
         def initialize(penalty_shot_data)
@@ -12,11 +11,16 @@ module AhlScraper
         end
 
         def call
-          penalty_shot_data.sort { |a, b| [a[:period][:id].to_i, convert_time(a[:time])] <=> [b[:period][:id].to_i, convert_time(b[:time])] }
-                           .map.with_index { |ps, i| PenaltyShot.new(ps, { number: i + 1 }) }
+          ordered_penalty_shots.map.with_index { |ps, i| PenaltyShot.new(ps, { number: i + 1 }) }
         end
 
         private
+
+        def ordered_penalty_shots
+          @ordered_penalty_shots ||= penalty_shot_data.sort do |a, b|
+            [a[:period][:id].to_i, convert_time(a[:time])] <=> [b[:period][:id].to_i, convert_time(b[:time])]
+          end
+        end
 
         def convert_time(game_time)
           time = game_time.split(":")

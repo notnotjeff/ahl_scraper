@@ -16,7 +16,7 @@ module AhlScraper
       end
 
       def game_number
-        @game_number ||= @raw_data[:gameNumber]
+        @game_number ||= @raw_data[:gameNumber].to_i
       end
 
       def venue
@@ -24,7 +24,7 @@ module AhlScraper
       end
 
       def attendance
-        @attendance ||= @raw_data[:attendance]
+        @attendance ||= @raw_data[:attendance].to_i
       end
 
       def start_time
@@ -52,11 +52,11 @@ module AhlScraper
       end
 
       def started
-        @started ||= @raw_data[:started]
+        @started ||= @raw_data[:started] == "1"
       end
 
       def final
-        @final ||= @raw_data[:final]
+        @final ||= @raw_data[:final] == "1"
       end
 
       def public_notes
@@ -68,7 +68,7 @@ module AhlScraper
       end
 
       def season_id
-        @season_id ||= @raw_data[:seasonId]
+        @season_id ||= @raw_data[:seasonId].to_i
       end
 
       def htv_game_id

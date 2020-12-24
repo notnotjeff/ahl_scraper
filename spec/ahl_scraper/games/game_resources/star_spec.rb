@@ -16,13 +16,13 @@ RSpec.describe AhlScraper::Games::Star do
   it "converts raw data into Star record" do
     star = described_class.new(raw_data, { number: 1 })
 
-    expect(star.id).to eq(raw_data[:player][:id])
-    expect(star.first_name).to eq(raw_data[:player][:firstName])
-    expect(star.last_name).to eq(raw_data[:player][:lastName])
+    expect(star.id).to eq(raw_data[:player][:info][:id])
+    expect(star.first_name).to eq(raw_data[:player][:info][:firstName])
+    expect(star.last_name).to eq(raw_data[:player][:info][:lastName])
     expect(star.team_id).to eq(raw_data[:team][:id])
-    expect(star.jersey_name).to eq(raw_data[:player][:jerseyNumber])
-    expect(star.position).to eq(raw_data[:player][:position])
-    expect(star.birthdate).to eq(raw_data[:player][:birthDate])
+    expect(star.jersey_name).to eq(raw_data[:player][:info][:jerseyNumber])
+    expect(star.position).to eq(raw_data[:player][:info][:position])
+    expect(star.birthdate).to eq(raw_data[:player][:info][:birthDate])
     expect(star.goalie?).to eq(raw_data[:isGoalie])
     expect(star.image_url).to eq(raw_data[:playerImage])
   end

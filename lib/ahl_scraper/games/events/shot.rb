@@ -2,9 +2,7 @@
 
 module AhlScraper
   module Games
-    module Events
-      class Shot < EventObject
-      end
+    class Shot < EventObject
     end
   end
 end
