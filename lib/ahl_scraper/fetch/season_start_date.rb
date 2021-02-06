@@ -11,7 +11,7 @@ module AhlScraper
       def call
         return if %i[all_star_game exhibition].include? @season_type
 
-        return Format::SeasonDates::DATE_EXCEPTIONS[@season_id][:start_date] if DATE_EXCEPTIONS.keys.include? @season_id
+        return Helpers::SeasonDates::DATE_EXCEPTIONS[@season_id][:start_date] if Helpers::SeasonDates::DATE_EXCEPTIONS.keys.include? @season_id
 
         JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)
           &.first

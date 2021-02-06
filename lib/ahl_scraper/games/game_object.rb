@@ -17,9 +17,6 @@ require "ahl_scraper/games/game_resources/team"
 
 require "ahl_scraper/games/events/shot"
 
-require "ahl_scraper/games/format/penalty_shots"
-require "ahl_scraper/games/format/scoring_statlines"
-
 module AhlScraper
   module Games
     class GameObject # rubocop:disable Metrics/ClassLength

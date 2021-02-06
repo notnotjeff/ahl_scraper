@@ -6,10 +6,6 @@ require "open-uri"
 
 require "ahl_scraper/version"
 
-# Format
-require "ahl_scraper/format/teams"
-
-# Scraper Modules
 require "ahl_scraper/games"
 require "ahl_scraper/seasons"
 require "ahl_scraper/fetch"

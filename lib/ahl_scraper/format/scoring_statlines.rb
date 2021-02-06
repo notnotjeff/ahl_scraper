@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "ahl_scraper/games/format/merge_goal"
-
 module AhlScraper
   module Format
     class ScoringStatlines
