@@ -4,7 +4,7 @@ module AhlScraper
   module Seasons
     module Format
       class SeasonDates
-        include Fetch::StartAndEndDays
+        # include Fetch::StartAndEndDays
 
         DATE_EXCEPTIONS = {
           68 => { start_date: "Mon, Feb 1 2021", end_date: "Sat, Jun 8 2021" },
@@ -28,7 +28,8 @@ module AhlScraper
 
           return [nil, nil] if %i[all_star_game exhibition].include? season_type
 
-          @start_day, @end_day = Fetch::StartAndEndDays.fetch(season_id, SEASON_START_KEY[season_type][:start_month], SEASON_START_KEY[season_type][:end_month])
+          @start_day = "asdf"
+          @end_day = "fdsa" # Fetch::StartAndEndDays.fetch(season_id, SEASON_START_KEY[season_type][:start_month], SEASON_START_KEY[season_type][:end_month])
           [start_date, end_date]
         end
 

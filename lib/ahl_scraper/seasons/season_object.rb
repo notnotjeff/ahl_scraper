@@ -10,7 +10,7 @@ module AhlScraper
         @id = @raw_data[:id].to_i
         @name = @raw_data[:name]
         @season_type = season_type
-        @division_data = season_type == :regular ? Fetch::DivisionData.fetch(id) : []
+        @division_data = %i[regular playoffs].include?(season_type) ? [] : [] # Fetch::DivisionData.fetch(id)
         @start_date, @end_date = Format::SeasonDates.new(@id, @season_type, @name).call
       end
 
@@ -93,7 +93,7 @@ module AhlScraper
       end
 
       def teams
-        @teams ||= Format::Teams.new(@division_data).call
+        @teams ||= %i[regular playoffs].include?(season_type) ? Format::Teams.new(@division_data).call : []
       end
     end
   end

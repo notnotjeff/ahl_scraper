@@ -2,6 +2,102 @@
 http_interactions:
 - request:
     method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=64&site_id=1&view=teams
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 23 Jan 2021 23:32:24 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=t3v95p2b11l3uv4p99pbtjf6q7; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '1886'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: json([{"sections":[{"title":"","headers":{"overall_rank":{"properties":{"key":"overall_rank","hidden":false,"class":"ht-hide-column","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":true,"sortKey":"overall_rank"}},"rank":{"properties":{"key":"rank","hidden":false,"class":"","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_code":{"properties":{"key":"team_code","hidden":false,"class":"show-mobile","label":"Atlantic","title":"Atlantic","sortable":true,"align":"left","highlight":false,"sortKey":""}},"name":{"properties":{"key":"name","hidden":false,"class":"hide-mobile","label":"Atlantic
+        Division","title":"Atlantic Division","sortable":true,"align":"left","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":"games_played"}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":"wins"}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":"losses"}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OTL","title":"OTL","sortable":true,"align":"center","highlight":false,"sortKey":"ot_losses"}},"shootout_losses":{"properties":{"key":"shootout_losses","hidden":false,"class":"","label":"SOL","title":"SOL","sortable":true,"align":"center","highlight":false,"sortKey":"shootout_losses"}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":"points"}},"percentage":{"properties":{"key":"percentage","hidden":false,"class":"","label":"PCT","title":"PCT","sortable":true,"align":"center","highlight":false,"sortKey":"percentage"}},"regulation_wins":{"properties":{"key":"regulation_wins","hidden":false,"class":"","label":"RW","title":"Regulation
+        Win","sortable":true,"align":"center","highlight":false,"sortKey":"regulation_wins"}},"row":{"properties":{"key":"row","hidden":false,"class":"","label":"ROW","title":"Regulation
+        and OT Wins","sortable":true,"align":"center","highlight":false,"sortKey":"row"}},"goals_for":{"properties":{"key":"goals_for","hidden":false,"class":"","label":"GF","title":"GF","sortable":true,"align":"center","highlight":false,"sortKey":"goals_for"}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":"goals_against"}},"streak":{"properties":{"key":"streak","hidden":false,"class":"","label":"STK","title":"Streaks","sortable":true,"align":"center","highlight":false,"sortKey":""}},"past_10":{"properties":{"key":"past_10","hidden":false,"class":"","label":"P10","title":"Past
+        10 Games","sortable":true,"align":"center","highlight":false,"sortKey":""}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":"penalty_minutes"}}},"data":[{"prop":{"team_code":{"teamLink":"384"},"name":{"teamLink":"384"}},"row":{"team_code":"CHA","wins":"15","losses":"4","ot_losses":"0","shootout_losses":"0","regulation_wins":"14","row":"15","points":"30","penalty_minutes":"294","streak":"8-0-0-2","goals_for":"77","goals_against":"44","percentage":"0.789","overall_rank":"1","games_played":"19","rank":1,"past_10":"8-0-0-2","name":"Charlotte
+        Checkers"}},{"prop":{"team_code":{"teamLink":"319"},"name":{"teamLink":"319"}},"row":{"team_code":"HER","wins":"3","losses":"6","ot_losses":"0","shootout_losses":"0","regulation_wins":"2","row":"3","points":"6","penalty_minutes":"126","streak":"0-4-0-0","goals_for":"18","goals_against":"28","percentage":"0.333","overall_rank":"8","games_played":"9","rank":2,"past_10":"3-4-0-2","name":"Hershey
+        Bears"}},{"prop":{"team_code":{"teamLink":"317"},"name":{"teamLink":"317"}},"row":{"team_code":"BRI","wins":"2","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"0","row":"2","points":"4","penalty_minutes":"55","streak":"1-0-0-1","goals_for":"9","goals_against":"11","percentage":"0.400","overall_rank":"11","games_played":"5","rank":3,"past_10":"2-2-0-1","name":"Bridgeport
+        Sound Tigers"}},{"prop":{"team_code":{"teamLink":"309"},"name":{"teamLink":"309"}},"row":{"team_code":"PRO","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"45","streak":"0-2-0-0","goals_for":"9","goals_against":"14","percentage":"0.250","overall_rank":"14","games_played":"4","rank":4,"past_10":"1-3-0-0","name":"Providence
+        Bruins"}}]},{"title":"","headers":{"overall_rank":{"properties":{"key":"overall_rank","hidden":false,"class":"ht-hide-column","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":true,"sortKey":"overall_rank"}},"rank":{"properties":{"key":"rank","hidden":false,"class":"","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_code":{"properties":{"key":"team_code","hidden":false,"class":"show-mobile","label":"North","title":"North","sortable":true,"align":"left","highlight":false,"sortKey":""}},"name":{"properties":{"key":"name","hidden":false,"class":"hide-mobile","label":"North
+        Division","title":"North Division","sortable":true,"align":"left","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":"games_played"}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":"wins"}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":"losses"}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OTL","title":"OTL","sortable":true,"align":"center","highlight":false,"sortKey":"ot_losses"}},"shootout_losses":{"properties":{"key":"shootout_losses","hidden":false,"class":"","label":"SOL","title":"SOL","sortable":true,"align":"center","highlight":false,"sortKey":"shootout_losses"}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":"points"}},"percentage":{"properties":{"key":"percentage","hidden":false,"class":"","label":"PCT","title":"PCT","sortable":true,"align":"center","highlight":false,"sortKey":"percentage"}},"regulation_wins":{"properties":{"key":"regulation_wins","hidden":false,"class":"","label":"RW","title":"Regulation
+        Win","sortable":true,"align":"center","highlight":false,"sortKey":"regulation_wins"}},"row":{"properties":{"key":"row","hidden":false,"class":"","label":"ROW","title":"Regulation
+        and OT Wins","sortable":true,"align":"center","highlight":false,"sortKey":"row"}},"goals_for":{"properties":{"key":"goals_for","hidden":false,"class":"","label":"GF","title":"GF","sortable":true,"align":"center","highlight":false,"sortKey":"goals_for"}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":"goals_against"}},"streak":{"properties":{"key":"streak","hidden":false,"class":"","label":"STK","title":"Streaks","sortable":true,"align":"center","highlight":false,"sortKey":""}},"past_10":{"properties":{"key":"past_10","hidden":false,"class":"","label":"P10","title":"Past
+        10 Games","sortable":true,"align":"center","highlight":false,"sortKey":""}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":"penalty_minutes"}}},"data":[{"prop":{"team_code":{"teamLink":"335"},"name":{"teamLink":"335"}},"row":{"team_code":"TOR","wins":"9","losses":"4","ot_losses":"0","shootout_losses":"0","regulation_wins":"6","row":"9","points":"18","penalty_minutes":"107","streak":"0-1-0-1","goals_for":"41","goals_against":"33","percentage":"0.692","overall_rank":"3","games_played":"13","rank":1,"past_10":"6-3-0-1","name":"Toronto
+        Marlies"}},{"prop":{"team_code":{"teamLink":"373"},"name":{"teamLink":"373"}},"row":{"team_code":"CLE","wins":"3","losses":"5","ot_losses":"0","shootout_losses":"0","regulation_wins":"3","row":"3","points":"6","penalty_minutes":"87","streak":"0-3-0-1","goals_for":"21","goals_against":"23","percentage":"0.375","overall_rank":"7","games_played":"8","rank":2,"past_10":"3-4-0-1","name":"Cleveland
+        Monsters"}},{"prop":{"team_code":{"teamLink":"324"},"name":{"teamLink":"324"}},"row":{"team_code":"SYR","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"43","streak":"0-1-0-0","goals_for":"6","goals_against":"14","percentage":"0.250","overall_rank":"15","games_played":"4","rank":3,"past_10":"1-3-0-0","name":"Syracuse
+        Crunch"}},{"prop":{"team_code":{"teamLink":"323"},"name":{"teamLink":"323"}},"row":{"team_code":"ROC","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"0","row":"0","points":"0","penalty_minutes":"21","streak":"0-2-0-1","goals_for":"4","goals_against":"10","percentage":"0.000","overall_rank":"16","games_played":"3","rank":4,"past_10":"0-2-0-1","name":"Rochester
+        Americans"}}]},{"title":"","headers":{"overall_rank":{"properties":{"key":"overall_rank","hidden":false,"class":"ht-hide-column","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":true,"sortKey":"overall_rank"}},"rank":{"properties":{"key":"rank","hidden":false,"class":"","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_code":{"properties":{"key":"team_code","hidden":false,"class":"show-mobile","label":"Central","title":"Central","sortable":true,"align":"left","highlight":false,"sortKey":""}},"name":{"properties":{"key":"name","hidden":false,"class":"hide-mobile","label":"Central
+        Division","title":"Central Division","sortable":true,"align":"left","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":"games_played"}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":"wins"}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":"losses"}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OTL","title":"OTL","sortable":true,"align":"center","highlight":false,"sortKey":"ot_losses"}},"shootout_losses":{"properties":{"key":"shootout_losses","hidden":false,"class":"","label":"SOL","title":"SOL","sortable":true,"align":"center","highlight":false,"sortKey":"shootout_losses"}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":"points"}},"percentage":{"properties":{"key":"percentage","hidden":false,"class":"","label":"PCT","title":"PCT","sortable":true,"align":"center","highlight":false,"sortKey":"percentage"}},"regulation_wins":{"properties":{"key":"regulation_wins","hidden":false,"class":"","label":"RW","title":"Regulation
+        Win","sortable":true,"align":"center","highlight":false,"sortKey":"regulation_wins"}},"row":{"properties":{"key":"row","hidden":false,"class":"","label":"ROW","title":"Regulation
+        and OT Wins","sortable":true,"align":"center","highlight":false,"sortKey":"row"}},"goals_for":{"properties":{"key":"goals_for","hidden":false,"class":"","label":"GF","title":"GF","sortable":true,"align":"center","highlight":false,"sortKey":"goals_for"}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":"goals_against"}},"streak":{"properties":{"key":"streak","hidden":false,"class":"","label":"STK","title":"Streaks","sortable":true,"align":"center","highlight":false,"sortKey":""}},"past_10":{"properties":{"key":"past_10","hidden":false,"class":"","label":"P10","title":"Past
+        10 Games","sortable":true,"align":"center","highlight":false,"sortKey":""}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":"penalty_minutes"}}},"data":[{"prop":{"team_code":{"teamLink":"330"},"name":{"teamLink":"330"}},"row":{"team_code":"CHI","wins":"12","losses":"10","ot_losses":"0","shootout_losses":"0","regulation_wins":"8","row":"12","points":"24","penalty_minutes":"267","streak":"0-4-0-0","goals_for":"64","goals_against":"67","percentage":"0.545","overall_rank":"2","games_played":"22","rank":1,"past_10":"4-6-0-0","name":"Chicago
+        Wolves"}},{"prop":{"team_code":{"teamLink":"389"},"name":{"teamLink":"389"}},"row":{"team_code":"IA","wins":"5","losses":"6","ot_losses":"0","shootout_losses":"0","regulation_wins":"5","row":"5","points":"10","penalty_minutes":"139","streak":"0-2-0-0","goals_for":"34","goals_against":"28","percentage":"0.455","overall_rank":"6","games_played":"11","rank":2,"past_10":"4-4-0-2","name":"Iowa
+        Wild"}},{"prop":{"team_code":{"teamLink":"328"},"name":{"teamLink":"328"}},"row":{"team_code":"GR","wins":"2","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"2","row":"2","points":"4","penalty_minutes":"126","streak":"0-2-0-0","goals_for":"17","goals_against":"15","percentage":"0.400","overall_rank":"9","games_played":"5","rank":3,"past_10":"2-3-0-0","name":"Grand
+        Rapids Griffins"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"2","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"2","points":"4","penalty_minutes":"95","streak":"0-1-0-0","goals_for":"10","goals_against":"20","percentage":"0.400","overall_rank":"10","games_played":"5","rank":4,"past_10":"2-3-0-0","name":"Milwaukee
+        Admirals"}}]},{"title":"","headers":{"overall_rank":{"properties":{"key":"overall_rank","hidden":false,"class":"ht-hide-column","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":true,"sortKey":"overall_rank"}},"rank":{"properties":{"key":"rank","hidden":false,"class":"","label":"
+        ","title":"Rank","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_code":{"properties":{"key":"team_code","hidden":false,"class":"show-mobile","label":"Pacific","title":"Pacific","sortable":true,"align":"left","highlight":false,"sortKey":""}},"name":{"properties":{"key":"name","hidden":false,"class":"hide-mobile","label":"Pacific
+        Division","title":"Pacific Division","sortable":true,"align":"left","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":"games_played"}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":"wins"}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":"losses"}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OTL","title":"OTL","sortable":true,"align":"center","highlight":false,"sortKey":"ot_losses"}},"shootout_losses":{"properties":{"key":"shootout_losses","hidden":false,"class":"","label":"SOL","title":"SOL","sortable":true,"align":"center","highlight":false,"sortKey":"shootout_losses"}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":"points"}},"percentage":{"properties":{"key":"percentage","hidden":false,"class":"","label":"PCT","title":"PCT","sortable":true,"align":"center","highlight":false,"sortKey":"percentage"}},"regulation_wins":{"properties":{"key":"regulation_wins","hidden":false,"class":"","label":"RW","title":"Regulation
+        Win","sortable":true,"align":"center","highlight":false,"sortKey":"regulation_wins"}},"row":{"properties":{"key":"row","hidden":false,"class":"","label":"ROW","title":"Regulation
+        and OT Wins","sortable":true,"align":"center","highlight":false,"sortKey":"row"}},"goals_for":{"properties":{"key":"goals_for","hidden":false,"class":"","label":"GF","title":"GF","sortable":true,"align":"center","highlight":false,"sortKey":"goals_for"}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":"goals_against"}},"streak":{"properties":{"key":"streak","hidden":false,"class":"","label":"STK","title":"Streaks","sortable":true,"align":"center","highlight":false,"sortKey":""}},"past_10":{"properties":{"key":"past_10","hidden":false,"class":"","label":"P10","title":"Past
+        10 Games","sortable":true,"align":"center","highlight":false,"sortKey":""}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":"penalty_minutes"}}},"data":[{"prop":{"team_code":{"teamLink":"404"},"name":{"teamLink":"404"}},"row":{"team_code":"SD","wins":"9","losses":"7","ot_losses":"0","shootout_losses":"0","regulation_wins":"7","row":"9","points":"18","penalty_minutes":"146","streak":"0-2-0-1","goals_for":"56","goals_against":"47","percentage":"0.563","overall_rank":"4","games_played":"16","rank":1,"past_10":"4-2-0-4","name":"San
+        Diego Gulls"}},{"prop":{"team_code":{"teamLink":"402"},"name":{"teamLink":"402"}},"row":{"team_code":"BAK","wins":"5","losses":"5","ot_losses":"0","shootout_losses":"0","regulation_wins":"3","row":"5","points":"10","penalty_minutes":"118","streak":"0-1-0-0","goals_for":"30","goals_against":"34","percentage":"0.500","overall_rank":"5","games_played":"10","rank":2,"past_10":"5-4-0-1","name":"Bakersfield
+        Condors"}},{"prop":{"team_code":{"teamLink":"405"},"name":{"teamLink":"405"}},"row":{"team_code":"SJ","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"50","streak":"0-2-0-0","goals_for":"14","goals_against":"18","percentage":"0.250","overall_rank":"12","games_played":"4","rank":3,"past_10":"1-2-0-1","name":"San
+        Jose Barracuda"}},{"prop":{"team_code":{"teamLink":"419"},"name":{"teamLink":"419"}},"row":{"team_code":"COL","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"59","streak":"0-2-0-0","goals_for":"10","goals_against":"14","percentage":"0.250","overall_rank":"13","games_played":"4","rank":4,"past_10":"1-3-0-0","name":"Colorado
+        Eagles"}}]}]}])
+  recorded_at: Sat, 23 Jan 2021 23:32:25 GMT
+- request:
+    method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&location=homeaway&month=4&season=64&site_id=1&team=-1&view=schedule
     body:
       encoding: US-ASCII
@@ -23,7 +119,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 23 Jan 2021 22:28:14 GMT
+      - Sat, 23 Jan 2021 23:32:25 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +127,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=pjpnc9vf1ggbjjkant85ur3o9f; path=/
+      - PHPSESSID=lpp885ese2utadnvmbja83skm7; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -127,7 +223,7 @@ http_interactions:
         Center"}},{"prop":{"home_team_city":{"teamLink":"327"},"visiting_team_city":{"teamLink":"389"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1019558&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1019558&lang_id=1"},"game_center":{"link":"\/game-center\/?game_id=1019558","gameLink":"1019558"}},"row":{"game_id":"1019558","date_with_day":"Mon,
         Apr 29","home_goal_count":"1","visiting_goal_count":"2","game_status":"Final","home_team_city":"Milwaukee","visiting_team_city":"Iowa","game_report":"Game
         Report","game_sheet":"Game Sheet","game_center":"Game Center"}}]}]}])
-  recorded_at: Sat, 23 Jan 2021 22:28:14 GMT
+  recorded_at: Sat, 23 Jan 2021 23:32:25 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division_id=-1&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_id=4&location=homeaway&month=6&season=64&site_id=1&team=-1&view=schedule
@@ -151,7 +247,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 23 Jan 2021 22:28:15 GMT
+      - Sat, 23 Jan 2021 23:32:26 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -159,7 +255,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=bhqg4n2ijjb0pe235ssuqs45nv; path=/
+      - PHPSESSID=rua2ieh7a7p7ig215n11ds7v36; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -184,5 +280,5 @@ http_interactions:
         Report","game_sheet":"Game Sheet","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"330"},"visiting_team_city":{"teamLink":"384"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1019615&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1019615&lang_id=1"},"game_center":{"link":"\/game-center\/?game_id=1019615","gameLink":"1019615"}},"row":{"game_id":"1019615","date_with_day":"Sat,
         Jun 8","home_goal_count":"3","visiting_goal_count":"5","game_status":"Final","home_team_city":"Chicago","visiting_team_city":"Charlotte","game_report":"Game
         Report","game_sheet":"Game Sheet","game_center":"Game Center"}}]}]}])
-  recorded_at: Sat, 23 Jan 2021 22:28:15 GMT
+  recorded_at: Sat, 23 Jan 2021 23:32:26 GMT
 recorded_with: VCR 6.0.0

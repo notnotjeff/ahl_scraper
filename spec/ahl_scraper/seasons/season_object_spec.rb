@@ -8,7 +8,6 @@ RSpec.describe AhlScraper::Seasons::SeasonObject do
   it "converts raw data into Season record", :vcr do
     season = described_class.new(raw_data)
     season.teams
-    byebug
 
     expect(season.id).to eq(57)
     expect(season.name).to eq("2017-18 Regular Season")
@@ -18,6 +17,8 @@ RSpec.describe AhlScraper::Seasons::SeasonObject do
     expect(season.end_year).to eq(2018)
     expect(season.start_date).to eq("Fri, Oct 6 2017")
     expect(season.end_date).to eq("Sun, Apr 15 2018")
+    expect(season.teams.length).to eq(30)
+    expect(season.divisions).to match_array(["Atlantic Division", "North Division", "Central Division", "Pacific Division"])
   end
 
   context "when playoffs" do
@@ -36,6 +37,8 @@ RSpec.describe AhlScraper::Seasons::SeasonObject do
       expect(season.end_year).to eq(2019)
       expect(season.start_date).to eq("Wed, Apr 17 2019")
       expect(season.end_date).to eq("Sat, Jun 8 2019")
+      expect(season.teams.length).to eq(16)
+      expect(season.divisions).to match_array(["Atlantic Division", "North Division", "Central Division", "Pacific Division"])
     end
   end
 
@@ -55,6 +58,8 @@ RSpec.describe AhlScraper::Seasons::SeasonObject do
       expect(season.end_year).to eq(2020)
       expect(season.start_date).to eq(nil)
       expect(season.end_date).to eq(nil)
+      expect(season.teams.length).to eq(0)
+      expect(season.divisions).to match_array([])
     end
   end
 
@@ -74,6 +79,8 @@ RSpec.describe AhlScraper::Seasons::SeasonObject do
       expect(season.end_year).to eq(2018)
       expect(season.start_date).to eq(nil)
       expect(season.end_date).to eq(nil)
+      expect(season.teams.length).to eq(0)
+      expect(season.divisions).to match_array([])
     end
   end
 end
