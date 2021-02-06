@@ -4,7 +4,7 @@ module AhlScraper
   module Fetch
     class SeasonData
       def call
-        JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)&.first&.dig(:sections)
+        JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)&.dig(:seasons)
       end
 
       private
