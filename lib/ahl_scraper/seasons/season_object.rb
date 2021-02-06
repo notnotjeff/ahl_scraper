@@ -3,15 +3,16 @@
 module AhlScraper
   module Seasons
     class SeasonObject
-      attr_reader :id, :name, :start_date, :end_date
+      attr_reader :id, :name, :season_type, :start_date, :end_date
 
       def initialize(raw_data)
         @raw_data = raw_data
         @id = @raw_data[:id].to_i
         @name = @raw_data[:name]
         @season_type = season_type
-        @division_data = %i[regular playoffs].include?(season_type) ? [] : [] # Fetch::DivisionData.fetch(id)
-        @start_date, @end_date = Format::SeasonDates.new(@id, @season_type, @name).call
+        @start_date = Fetch::StartDate.new(@id, season_type).call
+        @end_date = Fetch::EndDate.new(@id, season_type).call
+        @division_data = %i[regular playoffs].include?(season_type) ? Fetch::DivisionData.new(@id).call : []
       end
 
       def values

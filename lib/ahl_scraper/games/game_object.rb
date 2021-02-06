@@ -24,9 +24,6 @@ module AhlScraper
   module Games
     class GameObject # rubocop:disable Metrics/ClassLength
       include Enumerable
-      include Fetch::GameData
-      include Fetch::GameEventData
-      include Fetch::SeasonType
 
       ATTRIBUTES = %i[
         game_id
@@ -61,9 +58,9 @@ module AhlScraper
 
       def initialize(game_id, opts = {})
         @game_id = game_id
-        @raw_data = Fetch::GameData.fetch(game_id)
-        @raw_event_data = Fetch::GameEventData.fetch(game_id)
-        @season_type = opts[:season_type] || Fetch::SeasonType.fetch(@raw_data[:details][:seasonId])
+        @raw_data = Fetch::GameData.new(game_id).call
+        @raw_event_data = Fetch::GameEventData.new(game_id).call
+        @season_type = opts[:season_type] || Fetch::SeasonType.new(@raw_data[:details][:seasonId]).call
       end
 
       def values
