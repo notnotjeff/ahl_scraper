@@ -2,10 +2,16 @@
 
 module AhlScraper
   module Helpers
-    module Parameterize
-      module_function
+    class Parameterize
+      attr_reader :string, :separator, :preserve_case
 
-      def parameterize(string, separator: "-", preserve_case: false)
+      def initialize(string, separator: "-", preserve_case: false)
+        @string = string
+        @separator = separator
+        @preserve_case = preserve_case
+      end
+
+      def call
         parameterized_string = string.dup.to_s
 
         parameterized_string.gsub!(/[^a-zA-Z0-9\-_]+/, separator)

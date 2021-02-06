@@ -3,7 +3,6 @@
 module AhlScraper
   module Seasons
     class TeamObject
-      include AhlScraper::Helpers::Parameterize
       attr_reader :division
 
       EXCEPTIONS = {
@@ -72,7 +71,7 @@ module AhlScraper
       end
 
       def parameterized_name
-        @parameterized_name ||= parameterize(full_name)
+        @parameterized_name ||= Helpers::Parameterize.new(full_name).call
       end
 
       def city
