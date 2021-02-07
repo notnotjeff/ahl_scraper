@@ -2,11 +2,8 @@
 
 RSpec.describe AhlScraper::Games do
   describe ".retrieve" do
-    it "returns game object" do
-      # Revert to GID: 1_022_057
-      game = described_class.retrieve(1_019_623)
-      byebug
-      game.values
+    it "returns game object", :vcr do
+      game = described_class.retrieve(1_022_057)
 
       expect(game.class).to eq(AhlScraper::Games::GameObject)
     end
@@ -16,6 +13,14 @@ RSpec.describe AhlScraper::Games do
         expect(AhlScraper::Fetch::SeasonType).not_to receive(:new)
         described_class.retrieve(1_022_057, :regular)
       end
+    end
+  end
+
+  describe ".list" do
+    it "returns array of game_ids for season", :vcr do
+      game_ids = described_class.list(65)
+
+      expect(game_ids).to all(be_a(Integer))
     end
   end
 end

@@ -8,6 +8,8 @@ require "ahl_scraper/fetch/season_end_date"
 require "ahl_scraper/fetch/season_game_ids"
 require "ahl_scraper/fetch/season_start_date"
 require "ahl_scraper/fetch/season_type"
+require "ahl_scraper/fetch/team_data"
+require "ahl_scraper/fetch/team_roster_data"
 module AhlScraper
   module Fetch
   end

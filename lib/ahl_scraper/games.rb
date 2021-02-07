@@ -10,15 +10,13 @@ require "ahl_scraper/games/game_object"
 
 module AhlScraper
   module Games
-    @@games_list = {}
-
     class << self
       def retrieve(game_id, season_type = nil)
         GameObject.new(game_id, season_type: season_type)
       end
 
       def list(season_id)
-        @@games_list[season_id] ||= Fetch::SeasonGameIds.new(season_id).call
+        Fetch::SeasonGameIds.new(season_id).call
       end
     end
   end

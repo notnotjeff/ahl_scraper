@@ -10,6 +10,8 @@ require "ahl_scraper/resource"
 
 require "ahl_scraper/games"
 require "ahl_scraper/seasons"
+require "ahl_scraper/teams"
+require "ahl_scraper/players"
 require "ahl_scraper/fetch"
 require "ahl_scraper/helpers"
 
