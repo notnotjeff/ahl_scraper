@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module AhlScraper
-  module Seasons
+  module Games
     module Format
       class MergeGoal
         attr_reader :goal, :statlines
