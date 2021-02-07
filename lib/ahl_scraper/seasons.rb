@@ -19,7 +19,7 @@ module AhlScraper
         season_ids = Array(season_ids).map(&:to_i)
 
         @@season_data ||= Fetch::SeasonData.new.call
-        filtered_season_data = @@season_data.select { |s| season_ids.include? s[:id].to_i }
+        filtered_season_data = @@season_data.select { |s| season_ids.include? s.id }
 
         season_objects = filtered_season_data.map do |season|
           SeasonObject.new(season)

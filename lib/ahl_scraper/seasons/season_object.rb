@@ -8,9 +8,8 @@ module AhlScraper
       attr_reader :id, :name, :season_type, :start_date, :end_date
 
       def initialize(raw_data)
-        @raw_data = raw_data
-        @id = @raw_data[:id].to_i
-        @name = @raw_data[:name]
+        @id = raw_data.id
+        @name = raw_data.name
         @season_type = season_type
         @start_date = Fetch::SeasonStartDate.new(@id, season_type).call
         @end_date = Fetch::SeasonEndDate.new(@id, season_type).call

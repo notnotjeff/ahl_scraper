@@ -6,6 +6,8 @@ require "open-uri"
 
 require "ahl_scraper/version"
 
+require "ahl_scraper/resource"
+
 require "ahl_scraper/games"
 require "ahl_scraper/seasons"
 require "ahl_scraper/fetch"
