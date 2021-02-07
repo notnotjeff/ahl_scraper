@@ -28,7 +28,6 @@ module AhlScraper
         status
         info
         season_id
-        regular_season
         referees
         home_coaches
         away_coaches
@@ -107,19 +106,19 @@ module AhlScraper
       end
 
       def referees
-        @referees ||= Array.new((@raw_data[:referees] + @raw_data[:linesmen])).map { |r| Referee.new(r) }
+        @referees ||= Array((@raw_data[:referees] + @raw_data[:linesmen])).map { |r| Referee.new(r) }
       end
 
       def three_stars
-        @three_stars ||= Array.new(@raw_data[:mostValuablePlayers]).map.with_index { |t, i| Star.new(t, { number: i + 1 }) }
+        @three_stars ||= Array(@raw_data[:mostValuablePlayers]).map.with_index { |t, i| Star.new(t, { number: i + 1 }) }
       end
 
       def home_coaches
-        @home_coaches ||= Array.new(@raw_data[:homeTeam][:coaches]).map { |coach| Coach.new(coach, { team_id: home_team.id }) }
+        @home_coaches ||= Array(@raw_data[:homeTeam][:coaches]).map { |coach| Coach.new(coach, { team_id: home_team.id }) }
       end
 
       def away_coaches
-        @away_coaches ||= Array.new(@raw_data[:visitingTeam][:coaches]).map { |coach| Coach.new(coach, { team_id: away_team.id }) }
+        @away_coaches ||= Array(@raw_data[:visitingTeam][:coaches]).map { |coach| Coach.new(coach, { team_id: away_team.id }) }
       end
 
       def home_team
@@ -144,18 +143,18 @@ module AhlScraper
 
       def away_skaters
         @away_skaters ||= Format::ScoringStatlines.new(
-          @raw_data[:visitingTeam][:skaters],
+          Array(@raw_data[:visitingTeam][:skaters]),
           raw_goals.filter { |g| g[:team][:id] == away_team.id },
           { home_team: false, team_id: away_team.id, team_abbreviation: away_team.abbreviation }
         ).call
       end
 
       def home_goalies
-        @home_goalies ||= Array.new(@raw_data[:homeTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: true }) }
+        @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: true }) }
       end
 
       def away_goalies
-        @away_goalies ||= Array.new(@raw_data[:visitingTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: false }) }
+        @away_goalies ||= Array(@raw_data[:visitingTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: false }) }
       end
 
       def goals
@@ -171,11 +170,11 @@ module AhlScraper
       end
 
       def periods
-        @periods ||= Array.new(@raw_data[:periods][0..2]).map { |per| Period.new(per) }
+        @periods ||= Array(@raw_data[:periods][0..2]).map { |per| Period.new(per) }
       end
 
       def overtimes
-        @overtimes ||= Array.new(@raw_data[:periods][3..-1]).map { |o| Overtime.new(o, { regular_season: season_type == :regular }) }
+        @overtimes ||= Array(@raw_data[:periods][3..-1]).map { |o| Overtime.new(o, { regular_season: season_type == :regular }) }
       end
 
       def overtime
@@ -201,11 +200,11 @@ module AhlScraper
       private
 
       def raw_goals
-        @raw_goals ||= Array.new(@raw_data[:periods]).map { |period| period[:goals] }.flatten
+        @raw_goals ||= Array(@raw_data[:periods]).map { |period| period[:goals] }.flatten
       end
 
       def raw_penalties
-        @raw_penalties ||= Array.new(@raw_data[:periods]).map { |pd| pd[:penalties] }.flatten
+        @raw_penalties ||= Array(@raw_data[:periods]).map { |pd| pd[:penalties] }.flatten
       end
     end
   end

@@ -168,4 +168,12 @@ RSpec.describe AhlScraper::Games::Format::MergeGoal do
       expect(statlines[3][:a2_as]).to eq(0)
     end
   end
+
+  context "when id does not exist in statlines (usually when goalie gets point)" do
+    let(:statlines) { {} }
+
+    it "does not break or add any players to statlines" do
+      expect { described_class.new(goal_data, statlines).call }.not_to change(statlines.keys, :length)
+    end
+  end
 end

@@ -2,8 +2,11 @@
 
 RSpec.describe AhlScraper::Games do
   describe ".retrieve" do
-    it "returns game object", :vcr do
-      game = described_class.retrieve(1_022_057)
+    it "returns game object" do
+      # Revert to GID: 1_022_057
+      game = described_class.retrieve(1_019_623)
+      byebug
+      game.values
 
       expect(game.class).to eq(AhlScraper::Games::GameObject)
     end

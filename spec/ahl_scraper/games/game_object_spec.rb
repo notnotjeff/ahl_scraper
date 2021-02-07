@@ -4,6 +4,7 @@ RSpec.describe AhlScraper::Games::GameObject do
   describe "#game_id", :vcr do
     it "returns game id" do
       game = described_class.new(1_018_340)
+      byebug
       expect(game.game_id).to eq(1_018_340)
     end
   end
