@@ -11,8 +11,8 @@ require "ahl_scraper/games/game_object"
 module AhlScraper
   module Games
     class << self
-      def retrieve(game_id)
-        GameObject.new(game_id)
+      def retrieve(game_id, season_type = nil)
+        GameObject.new(game_id, season_type: season_type)
       end
     end
   end
