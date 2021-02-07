@@ -10,7 +10,6 @@ require "ahl_scraper/games"
 require "ahl_scraper/seasons"
 require "ahl_scraper/fetch"
 require "ahl_scraper/helpers"
-require "ahl_scraper/format"
 
 module AhlScraper
   class Error < StandardError; end

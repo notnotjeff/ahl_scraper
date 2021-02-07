@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "ahl_scraper/seasons/resources/team"
+
 module AhlScraper
   module Seasons
     class SeasonObject
@@ -10,8 +12,8 @@ module AhlScraper
         @id = @raw_data[:id].to_i
         @name = @raw_data[:name]
         @season_type = season_type
-        @start_date = Fetch::StartDate.new(@id, season_type).call
-        @end_date = Fetch::EndDate.new(@id, season_type).call
+        @start_date = Fetch::SeasonStartDate.new(@id, season_type).call
+        @end_date = Fetch::SeasonEndDate.new(@id, season_type).call
         @division_data = %i[regular playoffs].include?(season_type) ? Fetch::DivisionData.new(@id).call : []
       end
 
