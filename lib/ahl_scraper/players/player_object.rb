@@ -3,8 +3,12 @@
 module AhlScraper
   module Players
     class PlayerObject < Resource
-      def initialize(raw_data)
+      attr_reader :team_id, :season_id
+
+      def initialize(raw_data, team_id, season_id)
         @raw_data = raw_data
+        @team_id = team_id
+        @season_id = season_id
       end
 
       def id
@@ -29,6 +33,14 @@ module AhlScraper
 
       def birthdate
         @birthdate ||= @raw_data.dig(:bio, :row, :birthdate)
+      end
+
+      def draft_year
+        @draft_year ||= birthdate ? Helpers::Birthdate.new(birthdate).draft_year : "Not Found"
+      end
+
+      def current_age
+        @current_age ||= birthdate ? Helpers::Birthdate.new(birthdate).current_age : "Not Found"
       end
 
       def number

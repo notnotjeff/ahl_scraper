@@ -15,6 +15,10 @@ module AhlScraper
         @last_name ||= @raw_data[:info][:lastName]
       end
 
+      def number
+        @number ||= @raw_data[:info][:jerseyNumber]
+      end
+
       def team_id
         @team_id ||= @opts[:team_id]
       end
@@ -57,6 +61,10 @@ module AhlScraper
 
       def status
         @status ||= @raw_data[:status]
+      end
+
+      def captaincy
+        nil
       end
     end
   end

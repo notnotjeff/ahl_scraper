@@ -19,7 +19,7 @@ require "ahl_scraper/games/events/shot"
 
 module AhlScraper
   module Games
-    class GameObject # rubocop:disable Metrics/ClassLength
+    class GameObject < Resource # rubocop:disable Metrics/ClassLength
       include Enumerable
 
       ATTRIBUTES = %i[
@@ -33,12 +33,15 @@ module AhlScraper
         away_coaches
         home_team
         away_team
+        teams
         winning_team
         three_stars
         home_skaters
         away_skaters
         home_goalies
         away_goalies
+        home_roster
+        away_roster
         goals
         penalties
         penalty_shots
@@ -63,26 +66,6 @@ module AhlScraper
         @values ||= ATTRIBUTES.map do |m|
           [m, send(m)]
         end.to_h.transform_keys(&:to_sym)
-      end
-
-      def inspect
-        "#<#{self.class.to_s.split('::').last}:0x#{object_id.to_s(16)} #{values}>"
-      end
-
-      def [](key)
-        values[key.to_sym]
-      end
-
-      def keys
-        values.keys
-      end
-
-      def to_json(*_opts)
-        JSON.generate(values)
-      end
-
-      def each(&blk)
-        values.each(&blk)
       end
 
       def status
@@ -129,6 +112,10 @@ module AhlScraper
         @away_team ||= Team.new(@raw_data[:visitingTeam], { home_team: false })
       end
 
+      def teams
+        @teams ||= [home_team, away_team]
+      end
+
       def winning_team
         @winning_team ||= @raw_data[:homeTeam][:stats][:goals] > @raw_data[:visitingTeam][:stats][:goals] ? home_team : away_team
       end
@@ -155,6 +142,14 @@ module AhlScraper
 
       def away_goalies
         @away_goalies ||= Array(@raw_data[:visitingTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: false }) }
+      end
+
+      def home_roster
+        @home_roster ||= [*home_skaters, *home_goalies]
+      end
+
+      def away_roster
+        @away_roster ||= [*away_skaters, *away_goalies]
       end
 
       def goals

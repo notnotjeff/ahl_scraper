@@ -15,6 +15,18 @@ module AhlScraper
         @last_name ||= @raw_data[:last_name]
       end
 
+      def position
+        @position ||= @raw_data[:position]
+      end
+
+      def number
+        @number ||= @raw_data[:number]
+      end
+
+      def birthdate
+        @birthdate ||= @raw_data[:birthdate]
+      end
+
       def team_id
         @team_id ||= @raw_data[:team_id]
       end
@@ -37,7 +49,7 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          **@raw_data.slice(*(@raw_data.keys - %i[id first_name last_name starting captaincy home_team team_id team_abbreviation])),
+          **@raw_data.slice(*(@raw_data.keys - %i[id first_name last_name starting captaincy home_team team_id team_abbreviation position number birthdate])),
         }
       end
     end
