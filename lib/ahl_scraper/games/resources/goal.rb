@@ -48,7 +48,11 @@ module AhlScraper
       end
 
       def penalty_shot?
-        @penalty_shot ||= @raw_data[:properties][:isInsuranceGoal] == "1"
+        @penalty_shot ||= @raw_data[:properties][:isPenaltyShot] == "1"
+      end
+
+      def insurance_goal?
+        @insurance_goal ||= @raw_data[:properties][:isInsuranceGoal] == "1"
       end
 
       def game_winner?
@@ -60,7 +64,7 @@ module AhlScraper
       end
 
       def minus_players
-        @minus_players ||= @raw_data[:minus_players].map { |player| OnIceSkater.new(player, { scoring_team: true }) }
+        @minus_players ||= @raw_data[:minus_players].map { |player| OnIceSkater.new(player, { scoring_team: false }) }
       end
     end
   end

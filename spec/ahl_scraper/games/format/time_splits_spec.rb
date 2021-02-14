@@ -1,15 +1,9 @@
 # frozen_string_literal: true
 
-RSpec.describe AhlScraper::Games::Team do
-  let(:raw_data) do
+RSpec.describe AhlScraper::Games::Format::TimeSplits do
+  let(:team_id) { 390 }
+  let(:raw_goals) do
     # GAMEID: 1019976
-    {
-      "info": { "id": 390, "name": "Utica Comets", "city": "Utica", "nickname": "Comets", "abbreviation": "UTI", "logo": "https:\/\/assets.leaguestat.com\/ahl\/logos\/390.jpg", "divisionName": "North Division" },
-      "stats": { "shots": 31, "goals": 4, "hits": 0, "powerPlayGoals": 1, "powerPlayOpportunities": 4, "goalCount": 4, "assistCount": 6, "penaltyMinuteCount": 12, "infractionCount": 6 },
-    }
-  end
-  let(:opts) { { goals: goal_data, current_state: current_state, home_team: is_home_team } }
-  let(:goal_data) do
     [
       { game_goal_id: "103634", team: { id: 390, name: "Utica Comets", city: "Utica", nickname: "Comets", abbreviation: "UTI", logo: "https://assets.leaguestat.com/ahl/logos/390.jpg", divisionName: "North Division" }, period: { id: "1", shortName: "", longName: "1st" }, time: "16:00", scorerGoalNumber: "2", scoredBy: { id: 6901, firstName: "Guillaume", lastName: "Brisebois", jerseyNumber: 55, position: "D", birthDate: "" }, assists: [{ id: 4122, firstName: "Carter", lastName: "Camper", jerseyNumber: 19, position: "C", birthDate: "" }], assistNumbers: %w[11 0], properties: { isPowerPlay: "0", isShortHanded: "0", isEmptyNet: "0", isPenaltyShot: "0", isInsuranceGoal: "0", isGameWinningGoal: "0" }, plus_players: [{ id: 7101, firstName: "Kole", lastName: "Lind", jerseyNumber: 13, position: "RW", birthDate: "" }, { id: 4122, firstName: "Carter", lastName: "Camper", jerseyNumber: 19, position: "C", birthDate: "" }, { id: 7893, firstName: "Brogan", lastName: "Rafferty", jerseyNumber: 25, position: "D", birthDate: "" }, { id: 6901, firstName: "Guillaume", lastName: "Brisebois", jerseyNumber: 55, position: "D", birthDate: "" }, { id: 6080, firstName: "Justin", lastName: "Bailey", jerseyNumber: 95, position: "RW", birthDate: "" }], minus_players: [{ id: 5478, firstName: "Kyle", lastName: "Burroughs", jerseyNumber: 8, position: "D", birthDate: "" }, { id: 4186, firstName: "Ryan", lastName: "Bourque", jerseyNumber: 10, position: "LW", birthDate: "" }, { id: 6241, firstName: "Parker", lastName: "Wotherspoon", jerseyNumber: 27, position: "D", birthDate: "" }, { id: 7189, firstName: "Arnaud", lastName: "Durandeau", jerseyNumber: 29, position: "LW", birthDate: "" }, { id: 6748, firstName: "Jeff", lastName: "Kubiak", jerseyNumber: 36, position: "C", birthDate: "" }] },
       { game_goal_id: "103636", team: { id: 317, name: "Bridgeport Sound Tigers", city: "Bridgeport", nickname: "Sound Tigers", abbreviation: "BRI", logo: "https://assets.leaguestat.com/ahl/logos/317.jpg", divisionName: "Atlantic Division" }, period: { id: "1", shortName: "", longName: "1st" }, time: "18:28", scorerGoalNumber: "7", scoredBy: { id: 5834, firstName: "Matt", lastName: "Lorito", jerseyNumber: 14, position: "RW", birthDate: "" }, assists: [{ id: 2050, firstName: "Colin", lastName: "McDonald", jerseyNumber: 13, position: "RW", birthDate: "" }], assistNumbers: %w[6 0], properties: { isPowerPlay: "0", isShortHanded: "0", isEmptyNet: "0", isPenaltyShot: "0", isInsuranceGoal: "0", isGameWinningGoal: "0" }, plus_players: [{ id: 5478, firstName: "Kyle", lastName: "Burroughs", jerseyNumber: 8, position: "D", birthDate: "" }, { id: 2050, firstName: "Colin", lastName: "McDonald", jerseyNumber: 13, position: "RW", birthDate: "" }, { id: 5834, firstName: "Matt", lastName: "Lorito", jerseyNumber: 14, position: "RW", birthDate: "" }, { id: 7188, firstName: "Kieffer", lastName: "Bellows", jerseyNumber: 20, position: "LW", birthDate: "" }, { id: 6241, firstName: "Parker", lastName: "Wotherspoon", jerseyNumber: 27, position: "D", birthDate: "" }], minus_players: [{ id: 5929, firstName: "Ashton", lastName: "Sautner", jerseyNumber: 6, position: "D", birthDate: "" }, { id: 7082, firstName: "Lukas", lastName: "Jasek", jerseyNumber: 9, position: "RW", birthDate: "" }, { id: 7287, firstName: "Jonah", lastName: "Gadjovich", jerseyNumber: 21, position: "F", birthDate: "" }, { id: 6404, firstName: "Francis", lastName: "Perron", jerseyNumber: 27, position: "LW", birthDate: "" }, { id: 7416, firstName: "Olli", lastName: "Juolevi", jerseyNumber: 48, position: "D", birthDate: "" }] },
@@ -22,44 +16,12 @@ RSpec.describe AhlScraper::Games::Team do
     ]
   end
   let(:current_state) { { status: "finished", time: nil, period: nil, period_number: nil, overtime: true, shootout: true } }
-  let(:is_home_team) { true }
 
-  it "converts raw data into attributes" do
-    team = described_class.new(raw_data, opts)
+  it "sets time splits correctly based on goal data" do
+    time_splits = described_class.new(raw_goals, team_id, current_state).call
 
-    expect(team.id).to eq(raw_data[:info][:id])
-    expect(team.full_name).to eq(raw_data[:info][:name])
-    expect(team.city).to eq(raw_data[:info][:city])
-    expect(team.name).to eq(raw_data[:info][:nickname])
-    expect(team.abbreviation).to eq(raw_data[:info][:abbreviation])
-    expect(team.logo_url).to eq(raw_data[:info][:logo])
-    expect(team.stats[:score]).to eq(raw_data[:stats][:goals])
-    expect(team.stats[:hits]).to eq(raw_data[:stats][:hits])
-    expect(team.stats[:power_play_goals]).to eq(raw_data[:stats][:powerPlayGoals])
-    expect(team.stats[:power_play_opportunities]).to eq(raw_data[:stats][:powerPlayOpportunities])
-    expect(team.stats[:goals]).to eq(raw_data[:stats][:goalCount])
-    expect(team.stats[:assist_count]).to eq(raw_data[:stats][:assisCount])
-    expect(team.stats[:penalty_minute_count]).to eq(raw_data[:stats][:penaltyMinuteCount])
-    expect(team.stats[:infraction_count]).to eq(raw_data[:stats][:infractionCount])
-  end
-
-  context "when away team" do
-    let(:is_home_team) { false }
-
-    it "sets home_team? to false" do
-      team = described_class.new(raw_data, opts)
-
-      expect(team.home_team?).to eq(false)
-    end
-  end
-
-  context "when home team" do
-    let(:is_home_team) { true }
-
-    it "sets home_team? to true" do
-      team = described_class.new(raw_data, { home_team: true })
-
-      expect(team.home_team?).to eq(true)
-    end
+    expect(time_splits[:leading]).to eq(148)
+    expect(time_splits[:trailing]).to eq(634)
+    expect(time_splits[:tied]).to eq(3118)
   end
 end

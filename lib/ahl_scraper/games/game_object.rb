@@ -25,9 +25,15 @@ module AhlScraper
       ATTRIBUTES = %i[
         game_id
         season_type
-        status
+        end_state
         info
+        result
+        current_time
+        current_period
+        current_period_number
         season_id
+        played
+        in_progress
         referees
         home_coaches
         away_coaches
@@ -69,19 +75,34 @@ module AhlScraper
       end
 
       def status
-        @status ||=
-          case @raw_data[:details][:status]
-          when /Final/
-            "finished"
-          when ""
-            "in-progress"
-          else
-            "not-started"
-          end
+        @status ||= set_game_status
       end
 
       def info
         @info ||= Info.new(@raw_data[:details], { name: "#{away_team.abbreviation} @ #{home_team.abbreviation}" })
+      end
+
+      def end_state
+        @end_state ||=
+          if overtime? && !shootout?
+            "OT"
+          elsif shootout?
+            "SO"
+          else
+            "REG"
+          end
+      end
+
+      def current_time
+        @current_time ||= set_current_game_time
+      end
+
+      def current_period
+        @current_period ||= set_current_game_period
+      end
+
+      def current_period_number
+        @current_period_number ||= @raw_data[:periods].length
       end
 
       def season_id
@@ -105,11 +126,11 @@ module AhlScraper
       end
 
       def home_team
-        @home_team ||= Team.new(@raw_data[:homeTeam], { home_team: true })
+        @home_team ||= Team.new(@raw_data[:homeTeam], { home_team: true, goals: raw_goals, current_state: current_state })
       end
 
       def away_team
-        @away_team ||= Team.new(@raw_data[:visitingTeam], { home_team: false })
+        @away_team ||= Team.new(@raw_data[:visitingTeam], { home_team: false, goals: raw_goals, current_state: current_state })
       end
 
       def teams
@@ -172,8 +193,8 @@ module AhlScraper
         @overtimes ||= Array(@raw_data[:periods][3..-1]).map { |o| Overtime.new(o, { regular_season: season_type == :regular }) }
       end
 
-      def overtime
-        overtimes.length.positive?
+      def overtime?
+        @overtime ||= overtimes.length.positive?
       end
 
       def home_shootout_attempts
@@ -188,8 +209,16 @@ module AhlScraper
         end || []
       end
 
-      def shootout
+      def shootout?
         @shootout ||= @raw_data[:hasShootout] == true
+      end
+
+      def played?
+        @played ||= status == "finished"
+      end
+
+      def in_progress?
+        @in_progress ||= status == "in-progress"
       end
 
       private
@@ -200,6 +229,43 @@ module AhlScraper
 
       def raw_penalties
         @raw_penalties ||= Array(@raw_data[:periods]).map { |pd| pd[:penalties] }.flatten
+      end
+
+      def current_state
+        @current_state ||= {
+          status: status,
+          period: current_period,
+          period_number: current_period_number,
+          time: current_time,
+          shootout: shootout?,
+          overtime: overtime?,
+        }
+      end
+
+      def set_game_status
+        return "finished" if @raw_data[:details][:final] == "1"
+
+        return "in-progress" if @raw_data[:details][:started] == "1"
+
+        "not-started"
+      end
+
+      def set_current_game_time
+        return if @raw_data[:details][:status] =~ /Final/
+
+        game_time = @raw_data[:details][:status].match(/\d{1,2}:\d{2}/).to_s
+        return if game_time.empty?
+
+        game_time
+      end
+
+      def set_current_game_period
+        return if @raw_data[:details][:status] =~ /Final/
+
+        period = @raw_data[:details][:status].match(/(1st|2nd|3rd|OT|[1-9]?[0-9]OT|SO)/).to_s
+        return if period.empty?
+
+        period
       end
     end
   end

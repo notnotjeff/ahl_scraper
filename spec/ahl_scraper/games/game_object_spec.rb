@@ -4,7 +4,6 @@ RSpec.describe AhlScraper::Games::GameObject do
   describe "#game_id", :vcr do
     it "returns game id" do
       game = described_class.new(1_018_340)
-      byebug
       expect(game.game_id).to eq(1_018_340)
     end
   end
@@ -179,14 +178,14 @@ RSpec.describe AhlScraper::Games::GameObject do
     context "when game does not go to overtime" do
       it "returns false" do
         game = described_class.new(1_018_340)
-        expect(game.overtime).to eq(false)
+        expect(game.overtime?).to eq(false)
       end
     end
 
     context "when game goes to overtime" do
       it "returns true" do
         game = described_class.new(1_019_877)
-        expect(game.overtime).to eq(true)
+        expect(game.overtime?).to eq(true)
       end
     end
   end
@@ -209,14 +208,14 @@ RSpec.describe AhlScraper::Games::GameObject do
     context "when game does not go to shootout" do
       it "returns false" do
         game = described_class.new(1_018_340)
-        expect(game.shootout).to eq(false)
+        expect(game.shootout?).to eq(false)
       end
     end
 
     context "when game has shootout" do
       it "returns true" do
         game = described_class.new(1_019_976)
-        expect(game.shootout).to eq(true)
+        expect(game.shootout?).to eq(true)
       end
     end
   end

@@ -33,14 +33,22 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          goals: @raw_data[:stats][:goals],
+          score: @raw_data[:stats][:goals],
           hits: @raw_data[:stats][:hits],
           power_play_goals: @raw_data[:stats][:powerPlayGoals],
           power_play_opportunities: @raw_data[:stats][:powerPlayOpportunities],
-          goal_count: @raw_data[:stats][:goalCount],
+          goals: @raw_data[:stats][:goalCount],
           penalty_minute_count: @raw_data[:stats][:penaltyMinuteCount],
           infraction_count: @raw_data[:stats][:infractionCount],
         }
+      end
+
+      def on_ice_stats
+        @on_ice_stats ||= Format::TeamOnIceGoals.new(id, @opts[:goals]).call
+      end
+
+      def time_splits
+        @time_splits ||= Format::TimeSplits.new(@opts[:goals], id, @opts[:current_state]).call
       end
     end
   end
