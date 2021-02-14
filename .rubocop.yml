@@ -80,3 +80,6 @@ Style/TrailingCommaInHashLiteral:
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+
+Layout/MultilineAssignmentLayout:
+  EnforcedStyle: new_line

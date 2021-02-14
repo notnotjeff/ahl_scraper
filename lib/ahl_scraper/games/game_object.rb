@@ -126,11 +126,17 @@ module AhlScraper
       end
 
       def home_team
-        @home_team ||= Team.new(@raw_data[:homeTeam], { home_team: true, goals: raw_goals, current_state: current_state })
+        @home_team ||= Team.new(
+          @raw_data[:homeTeam],
+          { home_team: true, goals: raw_goals, current_state: current_state, shots: raw_period_shots, winning_team_id: winning_team_id }
+        )
       end
 
       def away_team
-        @away_team ||= Team.new(@raw_data[:visitingTeam], { home_team: false, goals: raw_goals, current_state: current_state })
+        @away_team ||= Team.new(
+          @raw_data[:visitingTeam],
+          { home_team: false, goals: raw_goals, current_state: current_state, shots: raw_period_shots, winning_team_id: winning_team_id }
+        )
       end
 
       def teams
@@ -138,7 +144,10 @@ module AhlScraper
       end
 
       def winning_team
-        @winning_team ||= @raw_data[:homeTeam][:stats][:goals] > @raw_data[:visitingTeam][:stats][:goals] ? home_team : away_team
+        @winning_team ||=
+          if status == "finished"
+            winning_team_id == home_team.id ? home_team : away_team
+          end
       end
 
       def home_skaters
@@ -229,6 +238,26 @@ module AhlScraper
 
       def raw_penalties
         @raw_penalties ||= Array(@raw_data[:periods]).map { |pd| pd[:penalties] }.flatten
+      end
+
+      def raw_period_shots
+        @raw_period_shots ||= Array(@raw_data[:periods]).map do |period|
+          { home: period[:stats][:homeShots].to_i, away: period[:stats][:visitingShots].to_i }
+        end
+      end
+
+      def winning_team_id
+        @winning_team_id ||= status == "finished" ? set_winning_team_id : nil
+      end
+
+      def set_winning_team_id
+        if @raw_data[:homeTeam][:stats][:goals] > @raw_data[:visitingTeam][:stats][:goals]
+          @raw_data[:homeTeam][:info][:id]
+        elsif @raw_data[:homeTeam][:stats][:goals] < @raw_data[:visitingTeam][:stats][:goals]
+          @raw_data[:visitingTeam][:info][:id]
+        else
+          @raw_data[:shootoutDetails][:winningTeam][:id]
+        end
       end
 
       def current_state

@@ -33,7 +33,7 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          score: @raw_data[:stats][:goals],
+          score: score,
           hits: @raw_data[:stats][:hits],
           power_play_goals: @raw_data[:stats][:powerPlayGoals],
           power_play_opportunities: @raw_data[:stats][:powerPlayOpportunities],
@@ -43,12 +43,28 @@ module AhlScraper
         }
       end
 
+      def shot_stats
+        @shot_stats ||= {
+          shots: @opts[:shots].map { |period| period[home_team? ? :home : :away] }.reduce(:+),
+          p1_shots: @opts[:shots][0][home_team? ? :home : :away],
+          p2_shots: @opts[:shots][1][home_team? ? :home : :away],
+          p3_shots: @opts[:shots][2][home_team? ? :home : :away],
+          ot_shots: @opts[:shots][3..-1].map { |ot| ot[home_team? ? :home : :away] },
+        }
+      end
+
       def on_ice_stats
         @on_ice_stats ||= Format::TeamOnIceGoals.new(id, @opts[:goals]).call
       end
 
       def time_splits
         @time_splits ||= Format::TimeSplits.new(@opts[:goals], id, @opts[:current_state]).call
+      end
+
+      private
+
+      def score
+        @score ||= @opts[:shootout] && @opts[:winning_team_id] == id ? @raw_data[:stats][:goals] + 1 : @raw_data[:stats][:goals]
       end
     end
   end

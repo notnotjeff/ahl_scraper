@@ -193,6 +193,7 @@ RSpec.describe AhlScraper::Games::GameObject do
   describe "#home_shootout_attempts", :vcr do
     it "returns no shootout attempts" do
       game = described_class.new(1_019_976)
+
       expect(game.home_shootout_attempts.map { |att| att.shooter[:id] }).to match_array([4632, 7101, 4552])
     end
   end

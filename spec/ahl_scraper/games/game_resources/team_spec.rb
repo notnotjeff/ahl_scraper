@@ -8,7 +8,7 @@ RSpec.describe AhlScraper::Games::Team do
       "stats": { "shots": 31, "goals": 4, "hits": 0, "powerPlayGoals": 1, "powerPlayOpportunities": 4, "goalCount": 4, "assistCount": 6, "penaltyMinuteCount": 12, "infractionCount": 6 },
     }
   end
-  let(:opts) { { goals: goal_data, current_state: current_state, home_team: is_home_team } }
+  let(:opts) { { goals: goal_data, shots: shot_data, current_state: current_state, home_team: is_home_team, winning_team_id: 317 } }
   let(:goal_data) do
     [
       { game_goal_id: "103634", team: { id: 390, name: "Utica Comets", city: "Utica", nickname: "Comets", abbreviation: "UTI", logo: "https://assets.leaguestat.com/ahl/logos/390.jpg", divisionName: "North Division" }, period: { id: "1", shortName: "", longName: "1st" }, time: "16:00", scorerGoalNumber: "2", scoredBy: { id: 6901, firstName: "Guillaume", lastName: "Brisebois", jerseyNumber: 55, position: "D", birthDate: "" }, assists: [{ id: 4122, firstName: "Carter", lastName: "Camper", jerseyNumber: 19, position: "C", birthDate: "" }], assistNumbers: %w[11 0], properties: { isPowerPlay: "0", isShortHanded: "0", isEmptyNet: "0", isPenaltyShot: "0", isInsuranceGoal: "0", isGameWinningGoal: "0" }, plus_players: [{ id: 7101, firstName: "Kole", lastName: "Lind", jerseyNumber: 13, position: "RW", birthDate: "" }, { id: 4122, firstName: "Carter", lastName: "Camper", jerseyNumber: 19, position: "C", birthDate: "" }, { id: 7893, firstName: "Brogan", lastName: "Rafferty", jerseyNumber: 25, position: "D", birthDate: "" }, { id: 6901, firstName: "Guillaume", lastName: "Brisebois", jerseyNumber: 55, position: "D", birthDate: "" }, { id: 6080, firstName: "Justin", lastName: "Bailey", jerseyNumber: 95, position: "RW", birthDate: "" }], minus_players: [{ id: 5478, firstName: "Kyle", lastName: "Burroughs", jerseyNumber: 8, position: "D", birthDate: "" }, { id: 4186, firstName: "Ryan", lastName: "Bourque", jerseyNumber: 10, position: "LW", birthDate: "" }, { id: 6241, firstName: "Parker", lastName: "Wotherspoon", jerseyNumber: 27, position: "D", birthDate: "" }, { id: 7189, firstName: "Arnaud", lastName: "Durandeau", jerseyNumber: 29, position: "LW", birthDate: "" }, { id: 6748, firstName: "Jeff", lastName: "Kubiak", jerseyNumber: 36, position: "C", birthDate: "" }] },
@@ -21,6 +21,7 @@ RSpec.describe AhlScraper::Games::Team do
       { game_goal_id: "103674", team: { id: 390, name: "Utica Comets", city: "Utica", nickname: "Comets", abbreviation: "UTI", logo: "https://assets.leaguestat.com/ahl/logos/390.jpg", divisionName: "North Division" }, period: { id: "3", shortName: "", longName: "3rd" }, time: "7:45", scorerGoalNumber: "16", scoredBy: { id: 4552, firstName: "Reid", lastName: "Boucher", jerseyNumber: 24, position: "LW", birthDate: "" }, assists: [{ id: 4632, firstName: "Sven", lastName: "Baertschi", jerseyNumber: 47, position: "LW", birthDate: "" }], assistNumbers: %w[12 0], properties: { isPowerPlay: "0", isShortHanded: "0", isEmptyNet: "0", isPenaltyShot: "0", isInsuranceGoal: "0", isGameWinningGoal: "0" }, plus_players: [{ id: 6834, firstName: "Stefan", lastName: "LeBlanc", jerseyNumber: 3, position: "D", birthDate: "" }, { id: 7082, firstName: "Lukas", lastName: "Jasek", jerseyNumber: 9, position: "RW", birthDate: "" }, { id: 4552, firstName: "Reid", lastName: "Boucher", jerseyNumber: 24, position: "LW", birthDate: "" }, { id: 4632, firstName: "Sven", lastName: "Baertschi", jerseyNumber: 47, position: "LW", birthDate: "" }, { id: 7598, firstName: "Mitch", lastName: "Eliot", jerseyNumber: 52, position: "D", birthDate: "" }], minus_players: [{ id: 134, firstName: "Andrew", lastName: "Ladd", jerseyNumber: 16, position: "LW", birthDate: "" }, { id: 6241, firstName: "Parker", lastName: "Wotherspoon", jerseyNumber: 27, position: "D", birthDate: "" }, { id: 7189, firstName: "Arnaud", lastName: "Durandeau", jerseyNumber: 29, position: "LW", birthDate: "" }, { id: 6748, firstName: "Jeff", lastName: "Kubiak", jerseyNumber: 36, position: "C", birthDate: "" }, { id: 7198, firstName: "Bode", lastName: "Wilde", jerseyNumber: 46, position: "D", birthDate: "" }] },
     ]
   end
+  let(:shot_data) { [{ home: 8, away: 11 }, { home: 9, away: 11 }, { home: 9, away: 15 }, { home: 5, away: 3 }] }
   let(:current_state) { { status: "finished", time: nil, period: nil, period_number: nil, overtime: true, shootout: true } }
   let(:is_home_team) { true }
 
@@ -41,6 +42,11 @@ RSpec.describe AhlScraper::Games::Team do
     expect(team.stats[:assist_count]).to eq(raw_data[:stats][:assisCount])
     expect(team.stats[:penalty_minute_count]).to eq(raw_data[:stats][:penaltyMinuteCount])
     expect(team.stats[:infraction_count]).to eq(raw_data[:stats][:infractionCount])
+    expect(team.shot_stats[:shots]).to eq(31)
+    expect(team.shot_stats[:p1_shots]).to eq(8)
+    expect(team.shot_stats[:p2_shots]).to eq(9)
+    expect(team.shot_stats[:p3_shots]).to eq(9)
+    expect(team.shot_stats[:ot_shots]).to match_array([5])
   end
 
   context "when away team" do
