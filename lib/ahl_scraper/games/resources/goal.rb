@@ -116,7 +116,7 @@ module AhlScraper
 
       def description
         @description ||=
-          if assists.nil?
+          if assists.nil? || assists.empty?
             goalscorer_name
           elsif assists.length == 1
             "#{goalscorer_name} (#{a1_name})"
@@ -146,11 +146,11 @@ module AhlScraper
       end
 
       def a1_name
-        @a1_name ||= "#{assists[0][:first_name]} #{assists[0][:last_name]}"
+        @a1_name ||= "#{assists.dig(0, :first_name)} #{assists.dig(0, :last_name)}"
       end
 
       def a2_name
-        @a2_name ||= "#{assists[1][:first_name]} #{assists[1][:last_name]}"
+        @a2_name ||= "#{assists.dig(1, :first_name)} #{assists.dig(1, :last_name)}"
       end
 
       def period_time

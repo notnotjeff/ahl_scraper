@@ -8,6 +8,14 @@ RSpec.describe AhlScraper::Games::GameObject do
     end
   end
 
+  describe "#asdf", :vcr do
+    it "returns game id" do
+      game = described_class.new(1_019_620)
+      game.goals
+      byebug
+    end
+  end
+
   describe "#status", :vcr do
     context "when game has ended" do
       it "returns finished" do
