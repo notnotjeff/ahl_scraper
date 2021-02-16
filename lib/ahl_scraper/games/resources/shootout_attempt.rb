@@ -45,6 +45,17 @@ module AhlScraper
           logo_url: @raw_data[:shooterTeam][:logo],
         }
       end
+
+      def goalie_team
+        @goalie_team ||= {
+          id: @opts[:opposing_team].id,
+          full_name: @opts[:opposing_team].name,
+          city: @opts[:opposing_team].city,
+          name: @opts[:opposing_team].name,
+          abbreviation: @opts[:opposing_team].abbreviation,
+          logo_url: @opts[:opposing_team].logo_url,
+        }
+      end
     end
   end
 end

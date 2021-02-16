@@ -23,10 +23,10 @@ module AhlScraper
         private
 
         def create_blank_statlines_for_skaters
-          skater_data.each { |s| statlines[s[:info][:id]] = blank_statline(s[:info], s[:starting] == 1, s[:status]) }
+          skater_data.each { |s| statlines[s[:info][:id]] = blank_statline(s[:info], s[:stats], s[:starting] == 1, s[:status]) }
         end
 
-        def blank_statline(info, starting, captaincy)
+        def blank_statline(info, stats, starting, captaincy)
           {
             id: info[:id],
             first_name: info[:firstName],
@@ -39,6 +39,11 @@ module AhlScraper
             home_team: opts[:home_team],
             team_id: opts[:team_id],
             team_abbreviation: opts[:team_abbreviation],
+            faceoff_attempts: stats[:faceoffAttempts],
+            faceoff_wins: stats[:faceoffWins],
+            hits: stats[:hits],
+            penalty_minutes: stats[:penaltyMinutes],
+            shots_as: stats[:shots],
             goals_as: 0,
             a1_as: 0,
             a2_as: 0,

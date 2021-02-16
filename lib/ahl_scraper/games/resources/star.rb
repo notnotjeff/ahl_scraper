@@ -7,6 +7,10 @@ module AhlScraper
         @id ||= @raw_data[:player][:info][:id]
       end
 
+      def number
+        @number ||= @opts[:number]
+      end
+
       def first_name
         @first_name ||= @raw_data[:player][:info][:firstName]
       end

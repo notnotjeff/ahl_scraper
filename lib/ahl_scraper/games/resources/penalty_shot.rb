@@ -47,18 +47,31 @@ module AhlScraper
       end
 
       def period_time_in_seconds
-        @period_time_in_seconds ||= convert_time(time)
+        @period_time_in_seconds ||= period_time.to_sec
       end
 
-      def game_time_in_seconds
-        @game_time_in_seconds ||= convert_time(time) + (period - 1) * 1200
+      def game_time_elapsed
+        @game_time_elapsed ||= period_time.to_elapsed
       end
 
       def scored?
         @scored ||= @raw_data[:isGoal] == true
       end
 
+      def scored_in_words
+        @scored_in_words ||=
+          if scored?
+            "Scored"
+          else
+            "Missed"
+          end
+      end
+
       private
+
+      def period_time
+        @period_time ||= Helpers::PeriodTime.new(time, period)
+      end
 
       def convert_time(game_time)
         time = game_time.split(":")

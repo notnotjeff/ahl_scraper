@@ -11,8 +11,8 @@ module AhlScraper
         @last_name ||= @raw_data[:lastName]
       end
 
-      def role
-        @role ||= @raw_data[:role]
+      def position
+        @position ||= @raw_data[:role]
       end
 
       def team_id

@@ -15,8 +15,8 @@ module AhlScraper
         @last_name ||= @raw_data[:lastName]
       end
 
-      def jersey_number
-        @jersey_number ||= @raw_data[:jerseyNumber]
+      def number
+        @number ||= @raw_data[:jerseyNumber]
       end
 
       def position

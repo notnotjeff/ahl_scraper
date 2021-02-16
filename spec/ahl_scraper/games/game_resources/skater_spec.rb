@@ -9,6 +9,11 @@ RSpec.describe AhlScraper::Games::Skater do
       starting: true,
       captaincy: "C",
       home_team: true,
+      faceoff_attempts: 5,
+      faceoff_wins: 2,
+      hits: 5,
+      penalty_minutes: 4,
+      shots_as: 3,
       goals_as: 1,
       a1_as: 0,
       a2_as: 0,
@@ -42,6 +47,11 @@ RSpec.describe AhlScraper::Games::Skater do
     expect(skater.captaincy).to eq(raw_data[:captaincy])
     expect(skater.home_team).to eq(raw_data[:home_team])
 
+    expect(skater.stats[:faceoff_wins]).to eq(raw_data[:faceoff_wins])
+    expect(skater.stats[:faceoff_attempts]).to eq(raw_data[:faceoff_attempts])
+    expect(skater.stats[:hits]).to eq(raw_data[:hits])
+    expect(skater.stats[:penalty_minutes]).to eq(raw_data[:penalty_minutes])
+    expect(skater.stats[:shots_as]).to eq(raw_data[:shots_as])
     expect(skater.stats[:goals_as]).to eq(raw_data[:goals_as])
     expect(skater.stats[:a1_as]).to eq(raw_data[:a1_as])
     expect(skater.stats[:a2_as]).to eq(raw_data[:a2_as])

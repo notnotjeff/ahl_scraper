@@ -29,19 +29,19 @@ module AhlScraper
       end
 
       def home_goals
-        @home_goals ||= @raw_data[:stats][:homeGoals]
+        @home_goals ||= @raw_data[:stats][:homeGoals].to_i
       end
 
       def home_shots
-        @home_shots ||= @raw_data[:stats][:homeShots]
+        @home_shots ||= @raw_data[:stats][:homeShots].to_i
       end
 
       def away_goals
-        @away_goals ||= @raw_data[:stats][:visitingGoals]
+        @away_goals ||= @raw_data[:stats][:visitingGoals].to_i
       end
 
       def away_shots
-        @away_shots ||= @raw_data[:stats][:visitingShots]
+        @away_shots ||= @raw_data[:stats][:visitingShots].to_i
       end
 
       private

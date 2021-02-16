@@ -8,11 +8,19 @@ module AhlScraper
       end
 
       def period
-        @period ||= @raw_data.dig(:period, :id)
+        @period ||= @raw_data.dig(:period, :id).to_i
       end
 
       def time
         @time ||= @raw_data[:time]
+      end
+
+      def period_time_in_seconds
+        @period_time_in_seconds ||= period_time.to_sec
+      end
+
+      def game_time_elapsed
+        @game_time_elapsed ||= period_time.to_elapsed
       end
 
       def taken_by
@@ -37,12 +45,20 @@ module AhlScraper
         }
       end
 
-      def opposing_team
-        @opposing_team ||= @raw_data[:againstTeam]
+      def penalized_team
+        @penalized_team ||= @raw_data[:againstTeam]
       end
 
       def minutes
         @minutes ||= @raw_data[:minutes]
+      end
+
+      def duration
+        @duration ||= "#{minutes}:00"
+      end
+
+      def duration_in_seconds
+        @duration_in_seconds ||= minutes * 60
       end
 
       def description
@@ -55,6 +71,30 @@ module AhlScraper
 
       def power_play?
         @power_play ||= @raw_data[:isPowerPlay]
+      end
+
+      def penalty_type
+        @penalty_type ||=
+          case @raw_data[:description]
+          when /double minor/i
+            :double_minor
+          when /major/i
+            :major
+          when /fighting/i
+            :fight
+          when /game misconduct/i
+            :game_misconduct
+          when /misconduct/i
+            :misconduct
+          else
+            :minor
+          end
+      end
+
+      private
+
+      def period_time
+        @period_time ||= Helpers::PeriodTime.new(time, period)
       end
     end
   end

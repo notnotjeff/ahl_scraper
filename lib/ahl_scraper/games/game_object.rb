@@ -39,7 +39,6 @@ module AhlScraper
         away_coaches
         home_team
         away_team
-        teams
         winning_team
         three_stars
         home_skaters
@@ -139,10 +138,6 @@ module AhlScraper
         )
       end
 
-      def teams
-        @teams ||= [home_team, away_team]
-      end
-
       def winning_team
         @winning_team ||=
           if status == "finished"
@@ -167,7 +162,7 @@ module AhlScraper
       end
 
       def home_goalies
-        @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: true }) }
+        @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map { |g| Goalie.new(g, { team_id: home_team.id, home_team: true }) }
       end
 
       def away_goalies
@@ -206,15 +201,19 @@ module AhlScraper
         @overtime ||= overtimes.length.positive?
       end
 
+      def shootout_attempts
+        @shootout_attempts ||= [*home_shootout_attempts, *away_shootout_attempts]
+      end
+
       def home_shootout_attempts
         @home_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :homeTeamShots)&.map&.with_index do |att, i|
-          ShootoutAttempt.new(att, { number: i + 1 })
+          ShootoutAttempt.new(att, { number: i + 1, opposing_team: find_opposing_team(att[:shooterTeam][:id].to_i) })
         end || []
       end
 
       def away_shootout_attempts
         @away_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :visitingTeamShots)&.map&.with_index do |att, i|
-          ShootoutAttempt.new(att, { number: i + 1 })
+          ShootoutAttempt.new(att, { number: i + 1, opposing_team: find_opposing_team(att[:shooterTeam][:id].to_i) })
         end || []
       end
 
@@ -244,6 +243,10 @@ module AhlScraper
         @raw_period_shots ||= Array(@raw_data[:periods]).map do |period|
           { home: period[:stats][:homeShots].to_i, away: period[:stats][:visitingShots].to_i }
         end
+      end
+
+      def find_opposing_team(team_id)
+        team_id == home_team.id ? away_team : home_team
       end
 
       def winning_team_id

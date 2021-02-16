@@ -5,14 +5,12 @@ require "ahl_scraper/seasons/resources/team"
 module AhlScraper
   module Seasons
     class SeasonObject
-      attr_reader :id, :name, :season_type, :start_date, :end_date
+      attr_reader :id, :name, :season_type
 
       def initialize(raw_data)
         @id = raw_data.id
         @name = raw_data.name
-        @season_type = season_type
-        @start_date = Fetch::SeasonStartDate.new(@id, season_type).call
-        @end_date = Fetch::SeasonEndDate.new(@id, season_type).call
+        @season_type = set_season_type
         @division_data = %i[regular playoffs].include?(season_type) ? Fetch::DivisionData.new(@id).call : []
       end
 
@@ -56,20 +54,6 @@ module AhlScraper
           end
       end
 
-      def season_type
-        @season_type ||=
-          case name
-          when /Exhibition/
-            :exhibition
-          when /All-Star/
-            :all_star_game
-          when /Playoffs/
-            :playoffs
-          when /Regular/
-            :regular
-          end
-      end
-
       def start_year
         @start_year ||=
           case season_type
@@ -78,6 +62,14 @@ module AhlScraper
           when :playoffs, :all_star_game
             name[/(.*?) /].to_i
           end
+      end
+
+      def start_date
+        @start_date ||= set_start_date
+      end
+
+      def end_date
+        @end_date ||= set_end_date
       end
 
       def end_year
@@ -96,6 +88,31 @@ module AhlScraper
 
       def teams
         @teams ||= %i[regular playoffs].include?(season_type) ? Format::Teams.new(@division_data).call : []
+      end
+
+      private
+
+      def set_season_type
+        case name
+        when /Exhibition/
+          :exhibition
+        when /All-Star/
+          :all_star_game
+        when /Playoffs/
+          :playoffs
+        when /Regular/
+          :regular
+        end
+      end
+
+      def set_start_date
+        day = Fetch::SeasonStartDate.new(@id, season_type).call
+        "#{day} #{start_year}"
+      end
+
+      def set_end_date
+        day = Fetch::SeasonEndDate.new(@id, season_type).call
+        "#{day} #{end_year}"
       end
     end
   end

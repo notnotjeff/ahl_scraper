@@ -1,0 +1,288 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=modulekit&fmt=json&key=ccb91f29d6744675&lang=en&league_id=&season_id=64&site_id=3&view=brackets
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=240
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 16 Feb 2021 04:16:35 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=095rbodroqpcl02n3g8n86tkeq; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '6471'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: 'json({"SiteKit":{"Parameters":{"callback":"json","client_code":"ahl","feed":"modulekit","fmt":"json","key":"ccb91f29d6744675","lang":"en","lang_id":1,"league_id":"4","season_id":64,"site_id":"3","view":"brackets","ck":"ahlen643brackets","ch":"no"},"Brackets":{"teams":{"323":{"id":"323","city":"Rochester","team_code":"ROC","name":"Rochester
+        Americans","division_long_name":"North Division","division_short_name":"North","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/323.jpg"},"324":{"id":"324","city":"Syracuse","team_code":"SYR","name":"Syracuse
+        Crunch","division_long_name":"North Division","division_short_name":"North","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/324.jpg"},"335":{"id":"335","city":"Toronto","team_code":"TOR","name":"Toronto
+        Marlies","division_long_name":"North Division","division_short_name":"North","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/335_64.jpg"},"373":{"id":"373","city":"Cleveland","team_code":"CLE","name":"Cleveland
+        Monsters","division_long_name":"North Division","division_short_name":"North","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/373_64.jpg"},"327":{"id":"327","city":"Milwaukee","team_code":"MIL","name":"Milwaukee
+        Admirals","division_long_name":"Central Division","division_short_name":"Central","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/327_64.jpg"},"328":{"id":"328","city":"Grand
+        Rapids","team_code":"GR","name":"Grand Rapids Griffins","division_long_name":"Central
+        Division","division_short_name":"Central","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/328_64.jpg"},"330":{"id":"330","city":"Chicago","team_code":"CHI","name":"Chicago
+        Wolves","division_long_name":"Central Division","division_short_name":"Central","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/330.jpg"},"389":{"id":"389","city":"Iowa","team_code":"IA","name":"Iowa
+        Wild","division_long_name":"Central Division","division_short_name":"Central","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/389.jpg"},"402":{"id":"402","city":"Bakersfield","team_code":"BAK","name":"Bakersfield
+        Condors","division_long_name":"Pacific Division","division_short_name":"Pacific","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/402_64.jpg"},"404":{"id":"404","city":"San
+        Diego","team_code":"SD","name":"San Diego Gulls","division_long_name":"Pacific
+        Division","division_short_name":"Pacific","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/404.jpg"},"405":{"id":"405","city":"San
+        Jose","team_code":"SJ","name":"San Jose Barracuda","division_long_name":"Pacific
+        Division","division_short_name":"Pacific","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/405_64.jpg"},"419":{"id":"419","city":"Colorado","team_code":"COL","name":"Colorado
+        Eagles","division_long_name":"Pacific Division","division_short_name":"Pacific","conf_id":"2","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/419.jpg"},"309":{"id":"309","city":"Providence","team_code":"PRO","name":"Providence
+        Bruins","division_long_name":"Atlantic Division","division_short_name":"Atlantic","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/309.jpg"},"317":{"id":"317","city":"Bridgeport","team_code":"BRI","name":"Bridgeport
+        Sound Tigers","division_long_name":"Atlantic Division","division_short_name":"Atlantic","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/317.jpg"},"319":{"id":"319","city":"Hershey","team_code":"HER","name":"Hershey
+        Bears","division_long_name":"Atlantic Division","division_short_name":"Atlantic","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/319.jpg"},"384":{"id":"384","city":"Charlotte","team_code":"CHA","name":"Charlotte
+        Checkers","division_long_name":"Atlantic Division","division_short_name":"Atlantic","conf_id":"1","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/384.jpg"}},"rounds":[{"round":"1","round_name":"Round
+        1","season_id":"64","round_type_id":"1","round_type_name":"Regular Playoff
+        Series","matchups":[{"series_letter":"A","series_name":"Atlantic Division
+        Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"384","team2":"309","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019529","home_team":"309","home_goal_count":"4","visiting_team":"384","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-20
+        19:05:00","if_necessary":"0","game_notes":""},{"game_id":"1019530","home_team":"309","home_goal_count":"4","visiting_team":"384","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-21
+        17:05:00","if_necessary":"0","game_notes":""},{"game_id":"1019531","home_team":"384","home_goal_count":"3","visiting_team":"309","visiting_goal_count":"0","status":"4","game_status":"Final","date_time":"2019-04-24
+        19:00:00","if_necessary":"0","game_notes":"On ice after the completion of
+        warm-up from the Providence Bruins.   #5 for 17 seconds, #10 14 for seconds
+        #16 for 5 seconds, #23 for 19 seconds, #25 for 9 seconds.\nThe integrated
+        clock is not working."},{"game_id":"1019532","home_team":"384","home_goal_count":"4","visiting_team":"309","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-26
+        19:00:00","if_necessary":"0","game_notes":"Providence Bruins players still
+        on the ice after warm-up was over,  #5 for 7 seconds, #10 for 10 seconds #11
+        for 23 seconds #30 for 5 seconds.  Intermission was not noted until 3 minutes
+        remained in the intermission."}],"team1_wins":3,"team2_wins":1,"ties":0},{"series_letter":"B","series_name":"Atlantic
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"317","team2":"319","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019534","home_team":"317","home_goal_count":"3","visiting_team":"319","visiting_goal_count":"2","status":"4","game_status":"Final
+        2OT","date_time":"2019-04-19 19:00:00","if_necessary":"0","game_notes":"Delay
+        at 8:58 of Period 3 due to a man getting hurt.  There is a stretcher on the
+        ice.  Waiting for an Ambulance to replace the one that is leaving before the
+        game can restart.  Delay lasted for 11 minutes.\nHershey #35 Samsonov Goalie
+        was 3rd star of the night but never came out on the ice."},{"game_id":"1019535","home_team":"317","home_goal_count":"0","visiting_team":"319","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-20
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019536","home_team":"319","home_goal_count":"2","visiting_team":"317","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-23
+        19:00:00","if_necessary":"0","game_notes":"2nd period @ 7:53 - play under
+        review.  Ruled no goal."},{"game_id":"1019537","home_team":"319","home_goal_count":"2","visiting_team":"317","visiting_goal_count":"3","status":"4","game_status":"Final
+        OT","date_time":"2019-04-25 19:00:00","if_necessary":"0","game_notes":"Video
+        review at 5:35 pd 1 resulted in a confirmed No goal.\n\nHer #30 \tV. Vanecek
+        did not appear for post game 3-star skate."},{"game_id":"1019538","home_team":"317","home_goal_count":"2","visiting_team":"319","visiting_goal_count":"3","status":"4","game_status":"Final
+        OT","date_time":"2019-04-27 19:00:00","if_necessary":"0","game_notes":""}],"team1_wins":2,"team2_wins":3,"ties":0},{"series_letter":"C","series_name":"North
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"324","team2":"373","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019539","home_team":"324","home_goal_count":"3","visiting_team":"373","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-19
+        19:00:00","if_necessary":"0","game_notes":"1. #72 Ryan MacInnis did not appear
+        on the ice for the three stars of the game\n2. #12 Alex Barre-Boulet did not
+        appear on the ice for the three stars of the game\n3. #21 Carter Verhaeghe
+        did not appear on the ice for the three stars of the game"},{"game_id":"1019540","home_team":"324","home_goal_count":"1","visiting_team":"373","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-20
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019541","home_team":"373","home_goal_count":"1","visiting_team":"324","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-23
+        19:30:00","if_necessary":"0","game_notes":"Potential SYR goal at 17:53 under
+        video review - inadvertent goal light - No goal. -- Delay: 1:59"},{"game_id":"1019542","home_team":"373","home_goal_count":"3","visiting_team":"324","visiting_goal_count":"0","status":"4","game_status":"Final","date_time":"2019-04-25
+        19:00:00","if_necessary":"0","game_notes":"Times and shot locations updated
+        for first two second period shots.\nLosing sync with game clock again at beginning
+        of period. reload did not fix.\n30  second delay at 3:14 remaining in 3rd
+        period to scrape blood off the ice."}],"team1_wins":1,"team2_wins":3,"ties":0},{"series_letter":"D","series_name":"North
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"323","team2":"335","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019544","home_team":"323","home_goal_count":"1","visiting_team":"335","visiting_goal_count":"4","status":"4","game_status":"Final","date_time":"2019-04-19
+        19:05:00","if_necessary":"0","game_notes":""},{"game_id":"1019545","home_team":"323","home_goal_count":"2","visiting_team":"335","visiting_goal_count":"3","status":"4","game_status":"Final
+        OT","date_time":"2019-04-21 15:05:00","if_necessary":"0","game_notes":"Integrated
+        clock system is functioning"},{"game_id":"1019546","home_team":"335","home_goal_count":"3","visiting_team":"323","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-24
+        19:00:00","if_necessary":"0","game_notes":"Integrated clock did not work for
+        this game."}],"team1_wins":0,"team2_wins":3,"ties":0},{"series_letter":"E","series_name":"Central
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"330","team2":"328","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019549","home_team":"330","home_goal_count":"1","visiting_team":"328","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-19
+        19:00:00","if_necessary":"0","game_notes":"Grand  Rapids #25 shot a puck the
+        length of the ice into the Chicago net from the at the conclusion of warm
+        ups.\n\nThe integrated clock was functioning tonight."},{"game_id":"1019550","home_team":"330","home_goal_count":"3","visiting_team":"328","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-20
+        19:00:00","if_necessary":"0","game_notes":"Grand Rapids #27 shot a puck at
+        the opposing teams net at the end of warm-ups."},{"game_id":"1019551","home_team":"328","home_goal_count":"6","visiting_team":"330","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-23
+        19:00:00","if_necessary":"0","game_notes":"WARM-UP: Grand Rapids players Rybar
+        (42) and Cholowski (44) were still on the ice following the final horn.\nGAME:
+        HockeyTech integrated clock feature is non-operational.\n1ST PERIOD: Grand
+        Rapids goal at 19:28 was reviewed by the officials after call on ice was goal.
+        GOAL CONFIRMED.\n2ND PERIOD: Grand Rapids goal at 16:55 was reviewed by the
+        officials after call on ice was goal. GOAL CONFIRMED.\n3RD PERIOD: Prior to
+        the start of the period, 9:15pm EST, game delayed twenty (20) minutes for
+        ice repair. Teams sent to locker room at 9:35pm EST for official ten (10)
+        minute delay. At 9:45pm EST, teams returned to ice. At 9:50pm EST, game delayed
+        an additional twenty (20) minutes due to ice repair (teams sent back to locker
+        rooms). After inspection at 10:10pm EST, players returned to the ice to commence
+        third period. Total delay 55 minutes.\n5-STARS: Grand Rapids player Frk (91)
+        did not return to ice for presentation of 2nd Star. Frk (91) was serving a
+        10-minute misconduct penalty from the game at 13:42 of the 3rd period."},{"game_id":"1019552","home_team":"328","home_goal_count":"2","visiting_team":"330","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-24
+        19:00:00","if_necessary":"0","game_notes":"#18 Chicago shot the puck into
+        the Griffins at the end of warm up and then shooting after the horn went off
+        into his on net. Integrated clock not working. At 17:24 of the second period
+        the officials review a Grand Rapids Shot.  No Goal."},{"game_id":"1019553","home_team":"330","home_goal_count":"4","visiting_team":"328","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-28
+        15:00:00","if_necessary":"0","game_notes":"After the horn sounded ending warmups,
+        the following players were still on the ice: For Chicago 32,13, and 18. For
+        Grand Rapids 42, 44, 54, 91, and 9. No shots were made on opposing nets. Grand
+        Rapids 91, 9, and 4 continued to shoot on their own net for 5 seconds.\n\nBench
+        minor 3rd period at 8:30. A player threw a water bottle onto ice."}],"team1_wins":3,"team2_wins":2,"ties":0},{"series_letter":"F","series_name":"Central
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"327","team2":"389","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019554","home_team":"389","home_goal_count":"7","visiting_team":"327","visiting_goal_count":"0","status":"4","game_status":"Final","date_time":"2019-04-21
+        16:00:00","if_necessary":"0","game_notes":"IA #12 was 7 seconds late leaving
+        ice during warmups\nIA #27 shot ice to opposing end during warmups"},{"game_id":"1019555","home_team":"389","home_goal_count":"6","visiting_team":"327","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-23
+        19:00:00","if_necessary":"0","game_notes":"Player #27 for the Iowa Wild shot
+        the puck at the opponent''s goal at the conclusion of the shoot around.\n8:12
+        PM (5:17 of 2nd period) game delay due to glass repair, Delay lasted 3 minutes
+        (First media TO taken at this time)\n8:37 PM (16:54 of 2nd period) Game delayed
+        due to glass repair, Delay Lasted 2 minutes\nMilwaukee TO 6:38 of the 3rd,
+        play resumed at 9:41pm\n9:36 PM (15:07 of 3rd) Linesman Alex Stagnone injured
+        on the ice taken off by EMS, delay lasted 5 minutes. Final media To taken
+        after delay\n17:27 of 3rd Referee Anderson Called double minor roughing to
+        Iowa 42 and Milwaukee 46"},{"game_id":"1019556","home_team":"327","home_goal_count":"3","visiting_team":"389","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-25
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019557","home_team":"327","home_goal_count":"5","visiting_team":"389","visiting_goal_count":"4","status":"4","game_status":"Final
+        OT","date_time":"2019-04-26 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019558","home_team":"327","home_goal_count":"1","visiting_team":"389","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-29
+        19:00:00","if_necessary":"0","game_notes":"#27 Iowa shot puck from Iowa end
+        to Admirals net at the end of pregame warmup."}],"team1_wins":2,"team2_wins":3,"ties":0},{"series_letter":"G","series_name":"Pacific
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"402","team2":"419","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019559","home_team":"419","home_goal_count":"2","visiting_team":"402","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-04-19
+        19:05:00","if_necessary":"0","game_notes":"Colorado Eagles came on the ice
+        for warm up 5 sec early\n# 17 Bakersfield stayed on the ice after horn and
+        #61 Colorado for 5 to 10 sec.  # 61 Colorado took 2 shots on visitors net
+        after the horn  # 17 stayed on the ice clapped after 61 scored.\nglass out
+        1045 period 1 for about 5 min.\nintegrated clock not working\nGlass out :47
+        3rd period 5 min delay"},{"game_id":"1019560","home_team":"419","home_goal_count":"4","visiting_team":"402","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-04-20
+        19:05:00","if_necessary":"0","game_notes":"on ice after horn for warm up #17
+        Condors and #61 Eagles for about 5  to 10 seconds.  Eagles player #61 took
+        1 shot at visitor net.  The last 2 min of warm up # 15 condors shot 4 or 5
+        puck at home net.  #4 Condors in last 30 seconds of warm up shot puck on home
+        side.\nVideo replay used 1727 2nd period it was called no goal the puck went
+        off the post.\nintegrated clock still not working."},{"game_id":"1019561","home_team":"402","home_goal_count":"5","visiting_team":"419","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-23
+        19:00:00","if_necessary":"0","game_notes":"1.  Colorado Eagles came out at
+        16:35 of warmup period.\n2.  Kaut (COL) shot one puck at BAK goal during warmup
+        period.\n3.  Jones (BAK) shot one puck at COL goal during warmup period.\n4.  Callahan
+        (BAK) shot three pucks at COL goal during warmup period.\n5. Bass (COL) wearing
+        \"A\" on jersey at alternate captain, making three alternate captains and
+        one captain for COL. (Rule 6.2)\n6. Glass repair delay at 8:31 of first period.\n7.
+        Arena lights went out at 6:56 of third period, causing the game to stop and
+        a 30-second game delay."},{"game_id":"1019562","home_team":"402","home_goal_count":"5","visiting_team":"419","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-04-27
+        19:00:00","if_necessary":"0","game_notes":"1.  Callahan (BAK) shot two pucks
+        at COL goal near end of warmup period."}],"team1_wins":3,"team2_wins":1,"ties":0},{"series_letter":"H","series_name":"Pacific
+        Division Semifinals","series_logo":"","round":"1","active":"1","feeder_series1":"N\/A","feeder_series2":"N\/A","team1":"405","team2":"404","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019564","home_team":"404","home_goal_count":"6","visiting_team":"405","visiting_goal_count":"5","status":"4","game_status":"Final
+        OT","date_time":"2019-04-17 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019565","home_team":"404","home_goal_count":"3","visiting_team":"405","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-18
+        19:00:00","if_necessary":"0","game_notes":"San Jose challenged the ruling
+        of a San Diego goal call at 19:33 of the 3rd period.  The result of the challenge
+        was a good goal for San Diego"},{"game_id":"1019566","home_team":"405","home_goal_count":"2","visiting_team":"404","visiting_goal_count":"4","status":"4","game_status":"Final","date_time":"2019-04-22
+        19:00:00","if_necessary":"0","game_notes":"TO SJ @ 19:27 in the 3rd"},{"game_id":"1019567","home_team":"405","home_goal_count":"2","visiting_team":"404","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-04-24
+        19:00:00","if_necessary":"0","game_notes":"1.  I am sorry to report that:
+        Gulls #5 and Barracuda #89: both shot pucks into the opposing team net as
+        they were leaving the ice during warm-ups, while opposing team players were
+        in immediate vicinity.\n2.  2nd per @ 2:39\/17:21  4 min delay for injured
+        Gull player #16\n3.  Minor delay to assess penalties @ 1:02\/18:58 in the
+        2nd - 3-4 minutes\n4. TO  SJ @ 0:36\/19:24 in the 3rd"}],"team1_wins":1,"team2_wins":3,"ties":0}]},{"round":"2","round_name":"Round
+        2","season_id":"64","round_type_id":"1","round_type_name":"Regular Playoff
+        Series","matchups":[{"series_letter":"I","series_name":"Atlantic Division
+        Finals","series_logo":"","round":"2","active":"1","feeder_series1":"A","feeder_series2":"B","team1":"384","team2":"319","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019576","home_team":"384","home_goal_count":"4","visiting_team":"319","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-05-03
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019577","home_team":"384","home_goal_count":"7","visiting_team":"319","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-05-04
+        18:00:00","if_necessary":"0","game_notes":"The goalie time at the end of the
+        end of the first period were not correct.  Charlotte goalie time should have
+        been 19:58 and it showed 19:47.  The Hershey goalie should have showed 20
+        minutes, but was 19:49."},{"game_id":"1019578","home_team":"319","home_goal_count":"1","visiting_team":"384","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-05-07
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019579","home_team":"319","home_goal_count":"2","visiting_team":"384","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-05-08
+        19:00:00","if_necessary":"0","game_notes":""}],"team1_wins":4,"team2_wins":0,"ties":0},{"series_letter":"J","series_name":"North
+        Division Finals","series_logo":"","round":"2","active":"1","feeder_series1":"C","feeder_series2":"D","team1":"335","team2":"373","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019569","home_team":"335","home_goal_count":"5","visiting_team":"373","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-01
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019570","home_team":"335","home_goal_count":"4","visiting_team":"373","visiting_goal_count":"3","status":"4","game_status":"Final
+        OT","date_time":"2019-05-03 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019571","home_team":"373","home_goal_count":"0","visiting_team":"335","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-05
+        15:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019572","home_team":"373","home_goal_count":"2","visiting_team":"335","visiting_goal_count":"6","status":"4","game_status":"Final","date_time":"2019-05-07
+        19:00:00","if_necessary":"0","game_notes":"Timeout for Cleveland with 2:26
+        remaining in 3rd period."}],"team1_wins":4,"team2_wins":0,"ties":0},{"series_letter":"K","series_name":"Central
+        Division Finals","series_logo":"","round":"2","active":"1","feeder_series1":"E","feeder_series2":"F","team1":"330","team2":"389","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019590","home_team":"330","home_goal_count":"3","visiting_team":"389","visiting_goal_count":"2","status":"4","game_status":"Final
+        OT","date_time":"2019-05-01 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019591","home_team":"330","home_goal_count":"4","visiting_team":"389","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-05-02
+        19:00:00","if_necessary":"0","game_notes":"A goal was reviewed at 17:50 of
+        the first period resulting in a call of a good goal.\nThe integrated clock
+        was working in the game."},{"game_id":"1019592","home_team":"389","home_goal_count":"2","visiting_team":"330","visiting_goal_count":"0","status":"4","game_status":"Final","date_time":"2019-05-05
+        15:00:00","if_necessary":"0","game_notes":"IA #27 shot puck to opposite end
+        during warmups\nIA #12 late leaving ice after warmups ended"},{"game_id":"1019593","home_team":"389","home_goal_count":"2","visiting_team":"330","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-05-08
+        19:00:00","if_necessary":"0","game_notes":"TO Iowa 3rd period 19:17"},{"game_id":"1019594","home_team":"389","home_goal_count":"4","visiting_team":"330","visiting_goal_count":"7","status":"4","game_status":"Final","date_time":"2019-05-10
+        19:00:00","if_necessary":"0","game_notes":"IA #27 shot puck to opposing end
+        during warmups\nOfficial review of CHI goal at 10:14 of the 3rd - confirmed
+        good goal"},{"game_id":"1019595","home_team":"330","home_goal_count":"3","visiting_team":"389","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-05-13
+        19:00:00","if_necessary":"0","game_notes":"Brennan Menell #27 from Iowa shot
+        the puck at the Chicago Wolves goal with under 10 seconds remaining.\n\nAt
+        2:27 remaining in the second period a review was conducted, the determination
+        was good goal.\n\nTime out, Iowa. 2:13 remaining in the 3rd period"}],"team1_wins":4,"team2_wins":2,"ties":0},{"series_letter":"L","series_name":"Pacific
+        Division Finals","series_logo":"","round":"2","active":"1","feeder_series1":"G","feeder_series2":"H","team1":"402","team2":"404","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019583","home_team":"402","home_goal_count":"2","visiting_team":"404","visiting_goal_count":"3","status":"4","game_status":"Final
+        4OT","date_time":"2019-05-03 19:00:00","if_necessary":"0","game_notes":"1.  #39
+        (Sherwood) San Diego shot a puck into Bakersfield goal near end of warmup
+        period.\n2.  #3 (Jones) Bakersfield shot a puck into San Diego goal at end
+        of warmup period."},{"game_id":"1019584","home_team":"402","home_goal_count":"1","visiting_team":"404","visiting_goal_count":"4","status":"4","game_status":"Final","date_time":"2019-05-04
+        19:00:00","if_necessary":"0","game_notes":"1. Jones (Bakersfield) shot a puck
+        into the San Diego goal at the end of the warmup period.\n2. Game delay for
+        2 minutes; 3:58 of first period.  San Diego goalie injured.\n3. Game delay
+        for 2 minutes; 8:51 of third period.  San Diego goalie injured and replaced
+        by backup goalie."},{"game_id":"1019585","home_team":"404","home_goal_count":"6","visiting_team":"402","visiting_goal_count":"7","status":"4","game_status":"Final
+        OT","date_time":"2019-05-08 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019586","home_team":"404","home_goal_count":"4","visiting_team":"402","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-10
+        19:00:00","if_necessary":"0","game_notes":"integrated clock not working for
+        this game"},{"game_id":"1019587","home_team":"402","home_goal_count":"2","visiting_team":"404","visiting_goal_count":"1","status":"4","game_status":"Final
+        2OT","date_time":"2019-05-11 19:00:00","if_necessary":"0","game_notes":"1.
+        Jones (BAK) shot a puck into the San Diego goal at end of warmup period.\n2.
+        45-second game delay at second media timeout of the third period (11:23) to
+        repair ice."},{"game_id":"1019588","home_team":"404","home_goal_count":"6","visiting_team":"402","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-13
+        19:00:00","if_necessary":"0","game_notes":"new people with new assignments
+        missed intermission clock"}],"team1_wins":2,"team2_wins":4,"ties":0}]},{"round":"3","round_name":"Round
+        3","season_id":"64","round_type_id":"1","round_type_name":"Regular Playoff
+        Series","matchups":[{"series_letter":"M","series_name":"Eastern Conference
+        Finals","series_logo":"","round":"3","active":"1","feeder_series1":"I","feeder_series2":"J","team1":"384","team2":"335","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019597","home_team":"384","home_goal_count":"1","visiting_team":"335","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-17
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019598","home_team":"384","home_goal_count":"5","visiting_team":"335","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-05-18
+        18:00:00","if_necessary":"0","game_notes":"At 6:04 of the 1st period video
+        review went down.  At 17:59 of the 1st period the referee wanted to review
+        a possible Charlotte goal.  Video was not working and referee conferred with
+        goal judge.  No goal.\nVideo review working at start of 2nd period."},{"game_id":"1019599","home_team":"335","home_goal_count":"1","visiting_team":"384","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-05-21
+        19:00:00","if_necessary":"0","game_notes":"Integrated clock did not work"},{"game_id":"1019600","home_team":"335","home_goal_count":"4","visiting_team":"384","visiting_goal_count":"3","status":"4","game_status":"Final
+        OT","date_time":"2019-05-23 19:00:00","if_necessary":"0","game_notes":"Integrated
+        clock not working."},{"game_id":"1019601","home_team":"335","home_goal_count":"1","visiting_team":"384","visiting_goal_count":"4","status":"4","game_status":"Final","date_time":"2019-05-24
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019602","home_team":"384","home_goal_count":"4","visiting_team":"335","visiting_goal_count":"3","status":"4","game_status":"Final
+        2OT","date_time":"2019-05-26 19:00:00","if_necessary":"0","game_notes":"The
+        third star from Toronto #48 Rosen did not go on the ice, but the stars were
+        announced very late."}],"team1_wins":4,"team2_wins":2,"ties":0},{"series_letter":"N","series_name":"Western
+        Conference Finals","series_logo":"","round":"3","active":"1","feeder_series1":"K","feeder_series2":"L","team1":"330","team2":"404","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019604","home_team":"330","home_goal_count":"5","visiting_team":"404","visiting_goal_count":"4","status":"4","game_status":"Final
+        OT","date_time":"2019-05-17 19:00:00","if_necessary":"0","game_notes":"The
+        integrated clock was not functioning in the game."},{"game_id":"1019605","home_team":"330","home_goal_count":"0","visiting_team":"404","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-05-18
+        19:00:00","if_necessary":"0","game_notes":"San Diego Gulls #29,  shot a puck
+        into the opposing team''s net during warmups.\n\nIntegrated clock is not operational
+        for today''s game."},{"game_id":"1019606","home_team":"404","home_goal_count":"3","visiting_team":"330","visiting_goal_count":"2","status":"4","game_status":"Final","date_time":"2019-05-22
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019607","home_team":"404","home_goal_count":"1","visiting_team":"330","visiting_goal_count":"2","status":"4","game_status":"Final
+        2OT","date_time":"2019-05-24 19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019608","home_team":"404","home_goal_count":"2","visiting_team":"330","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-05-25
+        19:00:00","if_necessary":"0","game_notes":""},{"game_id":"1019609","home_team":"330","home_goal_count":"3","visiting_team":"404","visiting_goal_count":"1","status":"4","game_status":"Final","date_time":"2019-05-27
+        19:00:00","if_necessary":"0","game_notes":"San Diego #17 and #29 shot pucks
+        into the opposite end of the ice at the conclusion of warm-ups.\n\nIntegrated
+        clock stopped functioning at 4:25 of the 1st Per."}],"team1_wins":4,"team2_wins":2,"ties":0}]},{"round":"4","round_name":"Round
+        4","season_id":"64","round_type_id":"1","round_type_name":"Regular Playoff
+        Series","matchups":[{"series_letter":"O","series_name":"2019 Calder Cup Finals","series_logo":"","round":"4","active":"1","feeder_series1":"M","feeder_series2":"N","team1":"384","team2":"330","content_en":"","content_fr":"","winner":"","games":[{"game_id":"1019611","home_team":"384","home_goal_count":"3","visiting_team":"330","visiting_goal_count":"4","status":"4","game_status":"Final
+        OT","date_time":"2019-06-01 18:00:00","if_necessary":"0","game_notes":"Players
+        on the ice after warm up.  Chicago Number 2 Nic Hague, 14 seconds.  Chicago
+        #15 Dylan Cochlan, 16 seconds.  Checkers #19 Morgan Geeke, 5 seconds, Checkers
+        #40 Dustin Tokarski, 6 seconds\nAt the start of the 2nd period the video replay
+        is down."},{"game_id":"1019612","home_team":"384","home_goal_count":"5","visiting_team":"330","visiting_goal_count":"3","status":"4","game_status":"Final","date_time":"2019-06-02
+        18:00:00","if_necessary":"0","game_notes":"Players on the ice after warm-up.  Chicago
+        #2 Nic Hague,12 seconds  #18 T J Tynan, 9 seconds.\nAt 18:53 of the second
+        period a Charlotte goal was reviewed.  Good goal."},{"game_id":"1019613","home_team":"330","home_goal_count":"1","visiting_team":"384","visiting_goal_count":"4","status":"4","game_status":"Final","date_time":"2019-06-05
+        19:00:00","if_necessary":"0","game_notes":"After warm-ups ended, the following
+        players were still on the ice: For the Checkers #88, 12, 24, 9, 40. For the
+        Wolves #2, 9, and 18."},{"game_id":"1019614","home_team":"330","home_goal_count":"3","visiting_team":"384","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-06-06
+        19:00:00","if_necessary":"0","game_notes":"Charlotte #9 shot three pucks into
+        the Chicago end of the ice at the conclusion of warm ups.\nThe integrated
+        clock was functioning correctly in the game."},{"game_id":"1019615","home_team":"330","home_goal_count":"3","visiting_team":"384","visiting_goal_count":"5","status":"4","game_status":"Final","date_time":"2019-06-08
+        19:00:00","if_necessary":"0","game_notes":"#40 on Charlotte shot a puck down
+        the length of the ice into the Chicago end at the conclusion of warm ups.\n\nThe
+        integrated clock worked"}],"team1_wins":4,"team2_wins":1,"ties":0}]}],"logo":"https:\/\/lscluster.hockeytech.com\/download.php?file_path=img\/playoffs_64.jpg&client_code=ahl"},"Copyright":{"required_copyright":"Official
+        statistics provided by American Hockey League","required_link":"http:\/\/leaguestat.com","powered_by":"Powered
+        by HockeyTech.com","powered_by_url":"http:\/\/hockeytech.com"}}})'
+  recorded_at: Tue, 16 Feb 2021 04:16:35 GMT
+recorded_with: VCR 6.0.0

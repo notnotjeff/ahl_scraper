@@ -49,8 +49,14 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          **@raw_data.slice(*(@raw_data.keys - %i[id first_name last_name starting captaincy home_team team_id team_abbreviation position number birthdate])),
+          **@raw_data.slice(*(@raw_data.keys - stat_keys)),
         }
+      end
+
+      private
+
+      def stat_keys
+        %i[id first_name last_name starting captaincy home_team team_id team_abbreviation position number birthdate]
       end
     end
   end
