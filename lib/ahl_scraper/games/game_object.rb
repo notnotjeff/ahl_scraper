@@ -22,6 +22,8 @@ module AhlScraper
     class GameObject < Resource # rubocop:disable Metrics/ClassLength
       include Enumerable
 
+      VOIDED_GAMES = [1_022_174].freeze
+
       ATTRIBUTES = %i[
         game_id
         season_type
@@ -55,6 +57,8 @@ module AhlScraper
         overtime
         home_shootout_attempts
         away_shootout_attempts
+        home_penalty_shots
+        away_penalty_shots
         shootout
       ].freeze
 
@@ -68,9 +72,9 @@ module AhlScraper
       end
 
       def values
-        @values ||= ATTRIBUTES.map do |m|
-          [m, send(m)]
-        end.to_h.transform_keys(&:to_sym)
+        @values ||= ATTRIBUTES.index_with do |m|
+          send(m)
+        end.transform_keys(&:to_sym)
       end
 
       def status
@@ -127,14 +131,14 @@ module AhlScraper
       def home_team
         @home_team ||= Team.new(
           @raw_data[:homeTeam],
-          { home_team: true, goals: raw_goals, current_state: current_state, shots: raw_period_shots, winning_team_id: winning_team_id }
+          { home_team: true, goals: raw_goals, current_state: current_state, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
         )
       end
 
       def away_team
         @away_team ||= Team.new(
           @raw_data[:visitingTeam],
-          { home_team: false, goals: raw_goals, current_state: current_state, shots: raw_period_shots, winning_team_id: winning_team_id }
+          { home_team: false, goals: raw_goals, current_state: current_state, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
         )
       end
 
@@ -146,27 +150,43 @@ module AhlScraper
       end
 
       def home_skaters
-        @home_skaters ||= Format::ScoringStatlines.new(
+        @home_skaters ||= CreateSkatersService.new(
           @raw_data[:homeTeam][:skaters],
-          raw_goals.filter { |g| g[:team][:id] == home_team.id },
+          raw_goals,
+          raw_penalties,
+          raw_home_shootout_attempts,
+          @raw_data[:penaltyShots][:homeTeam],
           { home_team: true, team_id: home_team.id, team_abbreviation: home_team.abbreviation }
         ).call
       end
 
       def away_skaters
-        @away_skaters ||= Format::ScoringStatlines.new(
+        @away_skaters ||= CreateSkatersService.new(
           Array(@raw_data[:visitingTeam][:skaters]),
-          raw_goals.filter { |g| g[:team][:id] == away_team.id },
+          raw_goals,
+          raw_penalties,
+          raw_away_shootout_attempts,
+          @raw_data[:penaltyShots][:visitingTeam],
           { home_team: false, team_id: away_team.id, team_abbreviation: away_team.abbreviation }
         ).call
       end
 
       def home_goalies
-        @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map { |g| Goalie.new(g, { team_id: home_team.id, home_team: true }) }
+        @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map do |g|
+          Goalie.new(
+            g,
+            { team_id: home_team.id, home_team: true, shootout_data: @raw_data.dig(:shootoutDetails, :visitingTeamShots), penalty_shot_data: @raw_data.dig(:penaltyShots, :visitingTeam) }
+          )
+        end
       end
 
       def away_goalies
-        @away_goalies ||= Array(@raw_data[:visitingTeam][:goalies]).map { |g| Goalie.new(g, { team_id: away_team.id, home_team: false }) }
+        @away_goalies ||= Array(@raw_data[:visitingTeam][:goalies]).map do |g|
+          Goalie.new(
+            g,
+            { team_id: away_team.id, home_team: false, shootout_data: @raw_data.dig(:shootoutDetails, :homeTeamShots), penalty_shot_data: @raw_data.dig(:penaltyShots, :homeTeam) }
+          )
+        end
       end
 
       def home_roster
@@ -186,7 +206,15 @@ module AhlScraper
       end
 
       def penalty_shots
-        @penalty_shots ||= Format::PenaltyShots.new(@raw_data[:penaltyShots][:homeTeam] + @raw_data[:penaltyShots][:visitingTeam]).call
+        @penalty_shots ||= (home_penalty_shots || []) + (away_penalty_shots || [])
+      end
+
+      def home_penalty_shots
+        @home_penalty_shots ||= Format::PenaltyShots.new(@raw_data[:penaltyShots][:homeTeam]).call
+      end
+
+      def away_penalty_shots
+        @away_penalty_shots ||= Format::PenaltyShots.new(@raw_data[:penaltyShots][:visitingTeam]).call
       end
 
       def periods
@@ -206,13 +234,13 @@ module AhlScraper
       end
 
       def home_shootout_attempts
-        @home_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :homeTeamShots)&.map&.with_index do |att, i|
+        @home_shootout_attempts ||= raw_home_shootout_attempts&.map&.with_index do |att, i|
           ShootoutAttempt.new(att, { number: i + 1, opposing_team: find_opposing_team(att[:shooterTeam][:id].to_i) })
         end || []
       end
 
       def away_shootout_attempts
-        @away_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :visitingTeamShots)&.map&.with_index do |att, i|
+        @away_shootout_attempts ||= raw_away_shootout_attempts&.map&.with_index do |att, i|
           ShootoutAttempt.new(att, { number: i + 1, opposing_team: find_opposing_team(att[:shooterTeam][:id].to_i) })
         end || []
       end
@@ -229,20 +257,45 @@ module AhlScraper
         @in_progress ||= status == "in-progress"
       end
 
+      def ended_in
+        @ended_in ||=
+          if shootout?
+            "SO"
+          elsif overtime?
+            "OT"
+          else
+            "REG"
+          end
+      end
+
       private
 
       def raw_goals
-        @raw_goals ||= Array(@raw_data[:periods]).map { |period| period[:goals] }.flatten
+        @raw_goals ||= Array(@raw_data[:periods]).map { |a| a[:goals] }.flatten
       end
 
       def raw_penalties
-        @raw_penalties ||= Array(@raw_data[:periods]).map { |pd| pd[:penalties] }.flatten
+        @raw_penalties ||= Array(@raw_data[:periods]).map { |a| a[:penalties] }.flatten
       end
 
       def raw_period_shots
         @raw_period_shots ||= Array(@raw_data[:periods]).map do |period|
           { home: period[:stats][:homeShots].to_i, away: period[:stats][:visitingShots].to_i }
         end
+      end
+
+      def raw_period_goals
+        @raw_period_goals ||= Array(@raw_data[:periods]).map do |period|
+          { home: period[:stats][:homeGoals].to_i, away: period[:stats][:visitingGoals].to_i }
+        end
+      end
+
+      def raw_home_shootout_attempts
+        @raw_home_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :homeTeamShots)
+      end
+
+      def raw_away_shootout_attempts
+        @raw_away_shootout_attempts ||= @raw_data.dig(:shootoutDetails, :visitingTeamShots)
       end
 
       def find_opposing_team(team_id)
@@ -275,6 +328,8 @@ module AhlScraper
       end
 
       def set_game_status
+        return "void" if VOIDED_GAMES.include? game_id
+
         return "finished" if @raw_data[:details][:final] == "1"
 
         return "in-progress" if @raw_data[:details][:started] == "1"
@@ -283,7 +338,7 @@ module AhlScraper
       end
 
       def set_current_game_time
-        return if @raw_data[:details][:status] =~ /Final/
+        return if /Final/.match?(@raw_data[:details][:status])
 
         game_time = @raw_data[:details][:status].match(/\d{1,2}:\d{2}/).to_s
         return if game_time.empty?
@@ -292,7 +347,7 @@ module AhlScraper
       end
 
       def set_current_game_period
-        return if @raw_data[:details][:status] =~ /Final/
+        return if /Final/.match?(@raw_data[:details][:status])
 
         period = @raw_data[:details][:status].match(/(1st|2nd|3rd|OT|[1-9]?[0-9]OT|SO)/).to_s
         return if period.empty?

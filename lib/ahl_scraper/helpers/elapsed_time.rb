@@ -10,7 +10,7 @@ module AhlScraper
       end
 
       def to_minutes
-        "#{time / 60}:#{time % 60}"
+        "#{time / 60}:#{(time % 60).to_s.rjust(2, '0')}"
       end
 
       def to_minutes_with_period

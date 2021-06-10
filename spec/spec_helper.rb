@@ -7,6 +7,8 @@ require "vcr"
 require "bundler/setup"
 require "ahl_scraper"
 
+Dir[File.join(File.dirname(__FILE__), 'support/helpers/*.rb')].sort.each { |f| require f }
+
 VCR.configure do |config|
   config.cassette_library_dir = "spec/support/fixtures/cassettes"
   config.allow_http_connections_when_no_cassette = true
@@ -31,4 +33,6 @@ RSpec.configure do |config|
 
   config.filter_run focus: true
   config.run_all_when_everything_filtered = true
+
+  config.include NextInstanceOf
 end

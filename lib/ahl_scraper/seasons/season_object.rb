@@ -4,7 +4,7 @@ require "ahl_scraper/seasons/resources/team"
 
 module AhlScraper
   module Seasons
-    class SeasonObject
+    class SeasonObject < Resource
       attr_reader :id, :name, :season_type
 
       def initialize(raw_data)
@@ -12,32 +12,6 @@ module AhlScraper
         @name = raw_data.name
         @season_type = set_season_type
         @division_data = %i[regular playoffs].include?(season_type) ? Fetch::DivisionData.new(@id).call : []
-      end
-
-      def values
-        @values ||= (self.class.instance_methods(false) - %i[to_json inspect each keys [] values]).map do |m|
-          [m, send(m)]
-        end.to_h.transform_keys(&:to_sym)
-      end
-
-      def inspect
-        "#<#{self.class.to_s.split('::').last}:0x#{object_id.to_s(16)} #{values}>"
-      end
-
-      def [](key)
-        values[key.to_sym]
-      end
-
-      def keys
-        values.keys
-      end
-
-      def to_json(*_opts)
-        JSON.generate(values)
-      end
-
-      def each(&blk)
-        values.each(&blk)
       end
 
       def abbreviation

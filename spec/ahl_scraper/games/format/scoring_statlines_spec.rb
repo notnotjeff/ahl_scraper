@@ -40,4 +40,6 @@ RSpec.describe AhlScraper::Games::Format::ScoringStatlines do
     expect(skaters.length).to eq(skater_data.length)
     expect(skaters.map(&:id)).to eq(skater_data.map { |s| s[:info][:id] })
   end
+
+  # TODO: Add penalty shot test, game_id: 1022469
 end

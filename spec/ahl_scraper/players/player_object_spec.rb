@@ -1,69 +1,56 @@
 # frozen_string_literal: true
 
 RSpec.describe AhlScraper::Players::PlayerObject do
-  let(:is_rookie) { "0" }
   let(:raw_data) do
     {
-      bio: {
-        prop: {
-          name: { playerLink: "7363", seoName: "Aaron Luchuk" },
-        },
-        row: { shoots: "L", birthplace: "Kingston, ON", height_hyphenated: "5-10", player_id: "7363", birthdate: "1997-04-04", tp_jersey_number: "9", position: "C", w: "186", name: "Aaron Luchuk" },
-      },
-      stats: {
-        prop: {
-          name: { playerLink: "7363", seoName: "Aaron Luchuk" },
-          rookie: { rookie: is_rookie }, team_code: { teamLink: "335" },
-        },
-        row: {
-          player_id: "7363",
-          name: "Aaron Luchuk",
-          position: "C",
-          rookie: "0",
-          team_code: "TOR",
-          games_played: "3",
-          goals: "0",
-          shots: "0",
-          assists: "0",
-          points: "0",
-          points_per_game: "0.00",
-          plus_minus: "-1",
-          penalty_minutes: "0",
-          penalty_minutes_per_game: "0.00",
-          power_play_goals: "0",
-          short_handed_goals: "0",
-          shootout_goals: "0",
-          shootout_attempts: "0",
-          shootout_winning_goals: "0",
-          shootout_percentage: "0.0",
-          rank: 50,
-        },
-      },
+      info: {
+        jerseyNumber: "5",
+        firstName: "Urho",
+        lastName: "Vaakanainen",
+        playerId: "7446",
+        personId: "7527",
+        position: "D",
+        shoots: "L",
+        catches: "R",
+        height: "6-1",
+        height_sans_hyphen: "6.1",
+        height_hyphenated: "6-1",
+        weight: "185",
+        birthDate: "1999-01-01",
+        profileImage: "https://assets.leaguestat.com/ahl/240x240/7446.jpg",
+        teamImage: "https://assets.leaguestat.com/ahl/logos/309.jpg", 
+        bio: "",
+        teamName: "Providence Bruins",
+        division: "Atlantic Division",
+        commitment: false,
+        currentTeam: "",
+        suspension_games_remaining: "",
+        birthPlace: "Joensuu, Finland ",
+        playerType: "skater",
+      }
     }
   end
 
-  it "converts raw data into PlayerObject record" do
+  it "creates a new player object" do
+    mocked_age = 100
+    allow_next_instance_of(AhlScraper::Helpers::Birthdate) do |helper|
+      allow(helper).to receive(:current_age).and_return(mocked_age)
+    end
+
     player = described_class.new(raw_data)
 
-    expect(player.id).to eq(raw_data[:bio][:row][:player_id].to_i)
-    expect(player.name).to eq(raw_data[:bio][:row][:name])
-    expect(player.shoots).to eq(raw_data[:bio][:row][:shoots])
-    expect(player.birthplace).to eq(raw_data[:bio][:row][:birthplace])
-    expect(player.height).to eq(raw_data[:bio][:row][:height_hyphenated])
-    expect(player.birthdate).to eq(raw_data[:bio][:row][:birthdate])
-    expect(player.number).to eq(raw_data[:bio][:row][:tp_jersey_number].to_i)
-    expect(player.position).to eq(raw_data[:bio][:row][:position])
-    expect(player.weight).to eq(raw_data[:bio][:row][:w].to_i)
-    expect(player.rookie?).to eq(false)
-  end
-
-  context "when player is a rookie" do
-    let(:is_rookie) { "1" }
-
-    it "sets rookie? to true" do
-      player = described_class.new(raw_data)
-
-      expect(player.rookie?).to eq(true)
-    end
+    expect(player.current_age).to eq(mocked_age)
+    expect(player.weight).to eq(185)
+    expect(player.id).to eq(7446)
+    expect(player.catches).to eq("R")
+    expect(player.position).to eq("D")
+    expect(player.first_name).to eq("Urho")
+    expect(player.last_name).to eq("Vaakanainen")
+    expect(player.number).to eq(5)
+    expect(player.birthdate).to eq("1999-01-01")
+    expect(player.shoots).to eq("L")
+    expect(player.birthplace).to eq("Joensuu, Finland")
+    expect(player.height).to eq("6-1")
+    expect(player.draft_year).to eq(2016)
   end
 end

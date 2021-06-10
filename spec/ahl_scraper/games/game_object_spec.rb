@@ -8,20 +8,20 @@ RSpec.describe AhlScraper::Games::GameObject do
     end
   end
 
-  describe "#asdf", :vcr do
-    it "returns game id" do
-      game = described_class.new(1_019_620)
-      game.goals
-      byebug
-    end
-  end
-
   describe "#status", :vcr do
     context "when game has ended" do
       it "returns finished" do
         game = described_class.new(1_018_340)
 
         expect(game.status).to eq("finished")
+      end
+    end
+
+    context "when game was voided" do
+      it "returns void" do
+        game = described_class.new(1_022_174)
+
+        expect(game.status).to eq("void")
       end
     end
   end
@@ -178,6 +178,7 @@ RSpec.describe AhlScraper::Games::GameObject do
   describe "#overtimes", :vcr do
     it "it returns overtime periods" do
       game = described_class.new(1_019_877)
+      game.home_team.goal_stats
       expect(game.overtimes.map(&:number)).to eq([1])
     end
   end

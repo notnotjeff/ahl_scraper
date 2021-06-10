@@ -53,6 +53,16 @@ module AhlScraper
         }
       end
 
+      def goal_stats
+        @goal_stats ||= {
+          goals: @opts[:goal_totals].map { |period| period[home_team? ? :home : :away] }.reduce(:+),
+          p1_goals: @opts[:goal_totals][0][home_team? ? :home : :away],
+          p2_goals: @opts[:goal_totals][1][home_team? ? :home : :away],
+          p3_goals: @opts[:goal_totals][2][home_team? ? :home : :away],
+          ot_goals: @opts[:goal_totals][3..-1].map { |ot| ot[home_team? ? :home : :away] },
+        }
+      end
+
       def on_ice_stats
         @on_ice_stats ||= Format::TeamOnIceGoals.new(id, @opts[:goals]).call
       end

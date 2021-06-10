@@ -25,6 +25,7 @@ module AhlScraper
         "cincinnati-mighty-ducks" => { city: "Cincinnati", name: "Mighty Ducks" },
         "wilkes-barre-scranton-penguins" => { city: "Wilkes-Barre/Scranton", name: "Penguins", game_file_city: "W-B/Scranton" },
         "edmonton-road-runners" => { city: "Edmonton", name: "Road Runners" },
+        "henderson-silver-knights" => { city: "Henderson", name: "Silver Knights" },
       }.freeze
 
       def initialize(raw_data, division)
@@ -49,15 +50,27 @@ module AhlScraper
       end
 
       def city
-        @city ||= full_name.split.length > 2 ? EXCEPTIONS[parameterized_name][:city] : full_name.split[0]
+        @city ||= full_name.split.length > 2 ? exception_split_object&.dig(:city) : full_name.split[0]
       end
 
       def name
-        @name ||= full_name.split.length > 2 ? EXCEPTIONS[parameterized_name][:name] : full_name.split[1]
+        @name ||= full_name.split.length > 2 ? exception_split_object&.dig(:name) : full_name.split[1]
       end
 
       def game_file_city
         @game_file_city ||= EXCEPTIONS[parameterized_name]&.dig(:game_file_city)
+      end
+
+      private
+
+      def exception_split_object
+        @exception_split_object ||=
+          if !EXCEPTIONS[parameterized_name]
+            puts "Three word team name #{full_name} not recognized, must manually decipher team name and city"
+            {}
+          else
+            EXCEPTIONS[parameterized_name]
+          end
       end
     end
   end

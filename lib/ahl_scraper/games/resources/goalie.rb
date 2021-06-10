@@ -15,8 +15,8 @@ module AhlScraper
         @last_name ||= @raw_data[:info][:lastName]
       end
 
-      def number
-        @number ||= @raw_data[:info][:jerseyNumber]
+      def jersey_number
+        @jersey_number ||= @raw_data[:info][:jerseyNumber]
       end
 
       def team_id
@@ -62,6 +62,20 @@ module AhlScraper
         nil
       end
 
+      def shootout
+        @shootout ||= {
+          attempts_against: shootout_data.size,
+          goals_against: shootout_data.filter { |attempt| attempt[:isGoal] == true }.size,
+        }
+      end
+
+      def penalty_shots
+        @penalty_shots ||= {
+          attempts_against: penalty_shot_data.size,
+          goals_against: penalty_shot_data.filter { |attempt| attempt[:isGoal] == true }.size,
+        }
+      end
+
       private
 
       def set_save_percent
@@ -70,6 +84,14 @@ module AhlScraper
 
       def set_time_on_ice_in_seconds
         @raw_data[:stats][:timeOnIce].nil? ? nil : Helpers::IceTime.new(@raw_data[:stats][:timeOnIce]).to_sec
+      end
+
+      def shootout_data
+        @shootout_data ||= (@opts[:shootout_data] || []).filter { |so| so[:goalie][:id] == id }
+      end
+
+      def penalty_shot_data
+        @penalty_shot_data ||= (@opts[:penalty_shot_data] || []).filter { |so| so[:goalie][:id] == id }
       end
     end
   end

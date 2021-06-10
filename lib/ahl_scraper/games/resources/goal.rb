@@ -73,8 +73,8 @@ module AhlScraper
         @empty_net ||= @raw_data[:properties][:isEmptyNet] == "1"
       end
 
-      def empty_net_for?
-        @empty_net_for ||= set_empty_net_for
+      def extra_skater?
+        @extra_skater ||= set_extra_skater
       end
 
       def penalty_shot?
@@ -90,11 +90,11 @@ module AhlScraper
       end
 
       def plus_players
-        @plus_players ||= @raw_data[:plus_players].map { |player| OnIceSkater.new(player, { scoring_team: true }) }
+        @plus_players ||= @raw_data[:plus_players].map { |player| OnIceSkater.new(player, { scoring_team: true, goal_id: id }) }
       end
 
       def minus_players
-        @minus_players ||= @raw_data[:minus_players].map { |player| OnIceSkater.new(player, { scoring_team: false }) }
+        @minus_players ||= @raw_data[:minus_players].map { |player| OnIceSkater.new(player, { scoring_team: false, goal_id: id }) }
       end
 
       def situation
@@ -105,8 +105,8 @@ module AhlScraper
             "SH"
           elsif @raw_data[:properties][:isEmptyNet] == "1"
             "EN"
-          elsif empty_net_for? == true
-            "ENF"
+          elsif extra_skater? == true
+            "EX"
           elsif @raw_data[:properties][:isPenaltyShot] == "1"
             "PS"
           else
@@ -131,7 +131,7 @@ module AhlScraper
 
       private
 
-      def set_empty_net_for
+      def set_extra_skater
         return true if plus_players.length > minus_players.length && !special_teams? && !penalty_shot?
 
         return true if plus_players.length == minus_players.length && short_handed?

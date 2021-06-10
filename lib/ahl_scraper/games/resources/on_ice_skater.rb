@@ -7,6 +7,10 @@ module AhlScraper
         @id ||= @raw_data[:id]
       end
 
+      def goal_id
+        @goal_id ||= @opts[:goal_id]
+      end
+
       def first_name
         @first_name ||= @raw_data[:firstName]
       end
@@ -15,8 +19,8 @@ module AhlScraper
         @last_name ||= @raw_data[:lastName]
       end
 
-      def number
-        @number ||= @raw_data[:jerseyNumber]
+      def jersey_number
+        @jersey_number ||= @raw_data[:jerseyNumber]
       end
 
       def position

@@ -3,36 +3,44 @@
 module AhlScraper
   module Players
     class PlayerObject < Resource
-      attr_reader :team_id, :season_id
-
-      def initialize(raw_data, team_id, season_id)
+      def initialize(raw_data)
         @raw_data = raw_data
-        @team_id = team_id
-        @season_id = season_id
       end
 
       def id
-        @id ||= @raw_data.dig(:bio, :row, :player_id).to_i
+        @id ||= @raw_data.dig(:info, :playerId).to_i
       end
 
       def name
-        @name ||= @raw_data.dig(:bio, :row, :name)
+        @name ||= "#{first_name} #{last_name}"
+      end
+
+      def first_name
+        @first_name ||= @raw_data.dig(:info, :firstName)
+      end
+
+      def last_name
+        @last_name ||= @raw_data.dig(:info, :lastName)
       end
 
       def shoots
-        @shoots ||= @raw_data.dig(:bio, :row, :shoots)
+        @shoots ||= @raw_data.dig(:info, :shoots)
+      end
+
+      def catches
+        @catches ||= @raw_data.dig(:info, :catches)
       end
 
       def birthplace
-        @birthplace ||= @raw_data.dig(:bio, :row, :birthplace)
+        @birthplace ||= @raw_data.dig(:info, :birthPlace)&.strip
       end
 
       def height
-        @height ||= @raw_data.dig(:bio, :row, :height_hyphenated)
+        @height ||= @raw_data.dig(:info, :height_hyphenated)
       end
 
       def birthdate
-        @birthdate ||= @raw_data.dig(:bio, :row, :birthdate)
+        @birthdate ||= @raw_data.dig(:info, :birthDate)
       end
 
       def draft_year
@@ -43,20 +51,16 @@ module AhlScraper
         @current_age ||= birthdate ? Helpers::Birthdate.new(birthdate).current_age : "Not Found"
       end
 
-      def number
-        @number ||= @raw_data.dig(:bio, :row, :tp_jersey_number).to_i
+      def jersey_number
+        @jersey_number ||= @raw_data.dig(:info, :jerseyNumber).to_i
       end
 
       def position
-        @position ||= @raw_data.dig(:bio, :row, :position)
+        @position ||= @raw_data.dig(:info, :position)
       end
 
       def weight
-        @weight ||= @raw_data.dig(:bio, :row, :w).to_i
-      end
-
-      def rookie?
-        @rookie ||= @raw_data.dig(:stats, :prop, :rookie, :rookie) == "1"
+        @weight ||= @raw_data.dig(:info, :weight).to_i
       end
     end
   end

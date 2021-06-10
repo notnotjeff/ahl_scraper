@@ -5,8 +5,9 @@ require "ahl_scraper/players/player_object"
 module AhlScraper
   module Players
     class << self
-      def retrieve(team_id, season_id)
-        Fetch::TeamRosterData.new(team_id, season_id).call&.map { |player| PlayerObject.new(player, team_id, season_id) }
+      def retrieve(player_id)
+        player_data = Fetch::PlayerData.new(player_id).call
+        PlayerObject.new(player_data)
       end
     end
   end

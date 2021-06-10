@@ -1,8 +1,13 @@
 # frozen_string_literal: true
 
-require "ahl_scraper/games/format/merge_goal"
+require "ahl_scraper/games/services/create_skaters_service"
+
+require "ahl_scraper/games/format/on_ice_statlines"
 require "ahl_scraper/games/format/penalty_shots"
+require "ahl_scraper/games/format/penalty_shot_statlines"
+require "ahl_scraper/games/format/penalty_statlines"
 require "ahl_scraper/games/format/scoring_statlines"
+require "ahl_scraper/games/format/shootout_statlines"
 require "ahl_scraper/games/format/team_on_ice_goals"
 require "ahl_scraper/games/format/time_splits"
 

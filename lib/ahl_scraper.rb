@@ -14,6 +14,7 @@ require "ahl_scraper/seasons"
 require "ahl_scraper/teams"
 require "ahl_scraper/players"
 require "ahl_scraper/fetch"
+require "ahl_scraper/errors"
 require "ahl_scraper/helpers"
 require "ahl_scraper/playoff_brackets"
 

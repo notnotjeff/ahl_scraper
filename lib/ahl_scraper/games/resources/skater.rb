@@ -19,8 +19,8 @@ module AhlScraper
         @position ||= @raw_data[:position]
       end
 
-      def number
-        @number ||= @raw_data[:number]
+      def jersey_number
+        @jersey_number ||= @raw_data[:number]
       end
 
       def birthdate
@@ -49,14 +49,35 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          **@raw_data.slice(*(@raw_data.keys - stat_keys)),
+          faceoff_attempts: @raw_data[:faceoff_ttempts],
+          faceoff_wins: @raw_data[:faceoff_wins],
+          hits: @raw_data[:hits],
+          penalty_minutes: @raw_data[:penalty_minutes],
         }
       end
 
-      private
+      def shots
+        @shots ||= { shots_as: @raw_data[:shots_as] }
+      end
 
-      def stat_keys
-        %i[id first_name last_name starting captaincy home_team team_id team_abbreviation position number birthdate]
+      def scoring
+        @scoring ||= @opts[:scoring_statline]
+      end
+
+      def on_ice
+        @on_ice ||= @opts[:on_ice_statline]
+      end
+
+      def penalty
+        @penalty ||= @opts[:penalty_statline]
+      end
+
+      def penalty_shot
+        @penalty_shot ||= @opts[:penalty_shot_statline] || {}
+      end
+
+      def shootout
+        @shootout ||= @opts[:shootout_statline] || {}
       end
     end
   end
