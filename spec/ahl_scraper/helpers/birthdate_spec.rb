@@ -19,14 +19,14 @@ RSpec.describe AhlScraper::Helpers::Birthdate do
     context "when birthday has not happend this year" do
       it "returns current age based on birthdate" do
         allow(Time).to receive(:now).and_return(Time.new(2021, 2, 7, 12))
-        expect(described_class.new("October 8th 1988").current_age).to eq(32)
+        expect(described_class.new("October 8th 1988").current_age.to_f).to eq(32.36)
       end
     end
 
     context "when birthday has happend this year" do
       it "returns current age based on birthdate" do
         allow(Time).to receive(:now).and_return(Time.new(2021, 2, 7, 12))
-        expect(described_class.new("February 1st 1988").current_age).to eq(33)
+        expect(described_class.new("February 1st 1988").current_age.to_f).to eq(33.04)
       end
     end
   end

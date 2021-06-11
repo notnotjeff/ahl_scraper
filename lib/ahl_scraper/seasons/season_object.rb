@@ -8,8 +8,8 @@ module AhlScraper
       attr_reader :id, :name, :season_type
 
       def initialize(raw_data)
-        @id = raw_data.id
-        @name = raw_data.name
+        @id = raw_data[:id].to_i
+        @name = raw_data[:name]
         @season_type = set_season_type
         @division_data = %i[regular playoffs].include?(season_type) ? Fetch::DivisionData.new(@id).call : []
       end
@@ -80,11 +80,15 @@ module AhlScraper
       end
 
       def set_start_date
+        return unless %i[playoffs regular].include? season_type
+
         day = Fetch::SeasonStartDate.new(@id, season_type).call
         "#{day} #{start_year}"
       end
 
       def set_end_date
+        return unless %i[playoffs regular].include? season_type
+
         day = Fetch::SeasonEndDate.new(@id, season_type).call
         "#{day} #{end_year}"
       end

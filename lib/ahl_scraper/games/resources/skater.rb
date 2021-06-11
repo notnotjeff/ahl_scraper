@@ -27,6 +27,10 @@ module AhlScraper
         @birthdate ||= @raw_data[:birthdate]
       end
 
+      def current_age
+        @current_age ||= birthdate ? Helpers::Birthdate.new(birthdate).age_on_date(@opts[:game_date]) : nil
+      end
+
       def team_id
         @team_id ||= @raw_data[:team_id]
       end
@@ -49,7 +53,7 @@ module AhlScraper
 
       def stats
         @stats ||= {
-          faceoff_attempts: @raw_data[:faceoff_ttempts],
+          faceoff_attempts: @raw_data[:faceoff_attempts],
           faceoff_wins: @raw_data[:faceoff_wins],
           hits: @raw_data[:hits],
           penalty_minutes: @raw_data[:penalty_minutes],
@@ -57,7 +61,7 @@ module AhlScraper
       end
 
       def shots
-        @shots ||= { shots_as: @raw_data[:shots_as] }
+        @shots ||= { sog_as: @raw_data[:sog_as] }
       end
 
       def scoring

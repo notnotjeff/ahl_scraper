@@ -8,6 +8,13 @@ RSpec.describe AhlScraper::Games::GameObject do
     end
   end
 
+  describe "deleteme!1", :vcr do
+    it "returns game id" do
+      game = described_class.new(1_020_527)
+      game.home_team.shot_stats
+    end
+  end
+
   describe "#status", :vcr do
     context "when game has ended" do
       it "returns finished" do

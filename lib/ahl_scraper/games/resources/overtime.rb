@@ -8,7 +8,7 @@ module AhlScraper
       end
 
       def name
-        @name ||= @raw_data[:info][:longName] + @raw_data[:info][:id]
+        @name ||= "#{@raw_data[:info][:longName]}#{number}"
       end
 
       def length
@@ -32,16 +32,16 @@ module AhlScraper
         @home_goals ||= @raw_data[:stats][:homeGoals].to_i
       end
 
-      def home_shots
-        @home_shots ||= @raw_data[:stats][:homeShots].to_i
+      def home_sog
+        @home_sog ||= @raw_data[:stats][:homeShots].to_i
       end
 
       def away_goals
         @away_goals ||= @raw_data[:stats][:visitingGoals].to_i
       end
 
-      def away_shots
-        @away_shots ||= @raw_data[:stats][:visitingShots].to_i
+      def away_sog
+        @away_sog ||= @raw_data[:stats][:visitingShots].to_i
       end
 
       private

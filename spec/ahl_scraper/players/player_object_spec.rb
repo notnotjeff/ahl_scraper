@@ -18,7 +18,7 @@ RSpec.describe AhlScraper::Players::PlayerObject do
         weight: "185",
         birthDate: "1999-01-01",
         profileImage: "https://assets.leaguestat.com/ahl/240x240/7446.jpg",
-        teamImage: "https://assets.leaguestat.com/ahl/logos/309.jpg", 
+        teamImage: "https://assets.leaguestat.com/ahl/logos/309.jpg",
         bio: "",
         teamName: "Providence Bruins",
         division: "Atlantic Division",
@@ -27,7 +27,7 @@ RSpec.describe AhlScraper::Players::PlayerObject do
         suspension_games_remaining: "",
         birthPlace: "Joensuu, Finland ",
         playerType: "skater",
-      }
+      },
     }
   end
 
@@ -46,7 +46,7 @@ RSpec.describe AhlScraper::Players::PlayerObject do
     expect(player.position).to eq("D")
     expect(player.first_name).to eq("Urho")
     expect(player.last_name).to eq("Vaakanainen")
-    expect(player.number).to eq(5)
+    expect(player.jersey_number).to eq(5)
     expect(player.birthdate).to eq("1999-01-01")
     expect(player.shoots).to eq("L")
     expect(player.birthplace).to eq("Joensuu, Finland")

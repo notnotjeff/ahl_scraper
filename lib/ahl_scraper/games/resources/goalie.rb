@@ -35,6 +35,10 @@ module AhlScraper
         @birthdate ||= @raw_data[:info][:birthDate]
       end
 
+      def current_age
+        @current_age ||= birthdate ? Helpers::Birthdate.new(birthdate).age_on_date(@opts[:game_date]) : nil
+      end
+
       def stats
         @stats ||= {
           goals: @raw_data[:stats][:goals],

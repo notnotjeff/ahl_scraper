@@ -15,16 +15,16 @@ module AhlScraper
         @home_goals ||= @raw_data[:stats][:homeGoals]
       end
 
-      def home_shots
-        @home_shots ||= @raw_data[:stats][:homeShots]
+      def home_sog
+        @home_sog ||= @raw_data[:stats][:homeShots]
       end
 
       def away_goals
         @away_goals ||= @raw_data[:stats][:visitingGoals]
       end
 
-      def away_shots
-        @away_shots ||= @raw_data[:stats][:visitingShots]
+      def away_sog
+        @away_sog ||= @raw_data[:stats][:visitingShots]
       end
     end
   end

@@ -63,7 +63,7 @@ module AhlScraper
             faceoff_wins: s[:stats][:faceoffWins],
             hits: s[:stats][:hits],
             penalty_minutes: s[:stats][:penaltyMinutes],
-            shots_as: s[:stats][:shots],
+            sog_as: s[:stats][:shots],
           }
         end
       end

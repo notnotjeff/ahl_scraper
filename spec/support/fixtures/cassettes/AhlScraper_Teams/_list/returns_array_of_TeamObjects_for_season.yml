@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 07 Feb 2021 18:31:44 GMT
+      - Fri, 11 Jun 2021 04:52:40 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=t470lf4un66l71tcubr4488m1r; path=/
+      - PHPSESSID=l54heqk3leqbb4murqbi450nc6; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -110,5 +110,5 @@ http_interactions:
         Reign"}},{"prop":{"team_code":{"teamLink":"402"},"name":{"teamLink":"402"}},"row":{"team_code":"BAK","wins":"21","losses":"27","ot_losses":"5","shootout_losses":"3","regulation_wins":"17","row":"18","points":"50","penalty_minutes":"723","streak":"1-0-0-0","goals_for":"162","goals_against":"202","percentage":"0.446","overall_rank":"28","games_played":"56","rank":6,"past_10":"1-6-1-2","name":"Bakersfield
         Condors"}},{"prop":{"team_code":{"teamLink":"405"},"name":{"teamLink":"405"}},"row":{"team_code":"SJ","wins":"21","losses":"27","ot_losses":"5","shootout_losses":"2","regulation_wins":"17","row":"21","points":"49","penalty_minutes":"670","streak":"4-0-2-0","goals_for":"179","goals_against":"192","percentage":"0.445","overall_rank":"29","games_played":"55","rank":7,"past_10":"6-2-2-0","name":"San
         Jose Barracuda"}}]}]}])
-  recorded_at: Sun, 07 Feb 2021 18:31:45 GMT
+  recorded_at: Fri, 11 Jun 2021 04:52:40 GMT
 recorded_with: VCR 6.0.0

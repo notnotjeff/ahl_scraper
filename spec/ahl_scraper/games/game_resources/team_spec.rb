@@ -42,11 +42,11 @@ RSpec.describe AhlScraper::Games::Team do
     expect(team.stats[:assist_count]).to eq(raw_data[:stats][:assisCount])
     expect(team.stats[:penalty_minute_count]).to eq(raw_data[:stats][:penaltyMinuteCount])
     expect(team.stats[:infraction_count]).to eq(raw_data[:stats][:infractionCount])
-    expect(team.shot_stats[:shots]).to eq(31)
-    expect(team.shot_stats[:p1_shots]).to eq(8)
-    expect(team.shot_stats[:p2_shots]).to eq(9)
-    expect(team.shot_stats[:p3_shots]).to eq(9)
-    expect(team.shot_stats[:ot_shots]).to match_array([5])
+    expect(team.shot_stats[:sog]).to eq(31)
+    expect(team.shot_stats[:p1_sog]).to eq(8)
+    expect(team.shot_stats[:p2_sog]).to eq(9)
+    expect(team.shot_stats[:p3_sog]).to eq(9)
+    expect(team.shot_stats[:ot_sog]).to match_array([5])
   end
 
   context "when away team" do

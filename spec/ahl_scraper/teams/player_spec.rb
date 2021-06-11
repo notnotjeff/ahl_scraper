@@ -53,7 +53,7 @@ RSpec.describe AhlScraper::Teams::Player do
     expect(player.birthplace).to eq(raw_data[:bio][:row][:birthplace])
     expect(player.height).to eq(raw_data[:bio][:row][:height_hyphenated])
     expect(player.birthdate).to eq(raw_data[:bio][:row][:birthdate])
-    expect(player.number).to eq(raw_data[:bio][:row][:tp_jersey_number].to_i)
+    expect(player.jersey_number).to eq(raw_data[:bio][:row][:tp_jersey_number].to_i)
     expect(player.position).to eq(raw_data[:bio][:row][:position])
     expect(player.weight).to eq(raw_data[:bio][:row][:w].to_i)
     expect(player.rookie?).to eq(false)

@@ -4,7 +4,7 @@ module AhlScraper
   module Helpers
     class SeasonDates
       DATE_EXCEPTIONS = {
-        68 => { start_date: "Mon, Feb 1 2021", end_date: "Sat, Jun 8 2021" },
+        68 => { start_date: "Mon, Feb 1", end_date: "Sat, Jun 8" },
       }.freeze
 
       SEASON_MONTH_KEY = {

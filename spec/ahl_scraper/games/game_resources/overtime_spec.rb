@@ -26,15 +26,15 @@ RSpec.describe AhlScraper::Games::Overtime do
   it "converts raw data to Overtime record" do
     overtime = described_class.new(raw_data, { regular_season: true })
 
-    expect(overtime.number).to eq(raw_data[:info][:id].to_i - 3)
-    expect(overtime.name).to eq(raw_data[:info][:longName] + raw_data[:info][:id])
+    expect(overtime.number).to eq(1)
+    expect(overtime.name).to eq("OT1")
     expect(overtime.length).to eq("4:35")
     expect(overtime.length_in_seconds).to eq(275)
     expect(overtime.scoring?).to eq(true)
-    expect(overtime.home_goals).to eq(raw_data[:stats][:homeGoals])
-    expect(overtime.home_shots).to eq(raw_data[:stats][:homeShots])
-    expect(overtime.away_goals).to eq(raw_data[:stats][:visitingGoals])
-    expect(overtime.away_shots).to eq(raw_data[:stats][:visitingShots])
+    expect(overtime.home_goals).to eq(1)
+    expect(overtime.home_sog).to eq(2)
+    expect(overtime.away_goals).to eq(0)
+    expect(overtime.away_sog).to eq(5)
   end
 
   context "when overtime has no goals" do

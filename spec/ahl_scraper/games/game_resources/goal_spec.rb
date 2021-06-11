@@ -15,24 +15,28 @@ RSpec.describe AhlScraper::Games::Goal do
       minus_players: [{ id: 6725, firstName: "Ryan", lastName: "Collins", jerseyNumber: 6, position: "D", birthDate: "" }],
     }
   end
+  let(:number) { 1 }
 
   it "converts raw data into goal" do
-    number = 1
     goal = described_class.new(raw_data, { number: number })
 
     expect(goal.number).to equal(number)
     expect(goal.period).to equal(raw_data[:period][:id].to_i)
     expect(goal.time).to equal(raw_data[:time])
-    expect(goal.time_in_seconds).to equal(raw_data[:time])
+    expect(goal.period_time_in_seconds).to equal(1031)
     expect(goal.scorer_goal_number).to equal(raw_data[:scorerGoalNumber])
-    expect(goal.scored_by).to eq(raw_data[:scoredBy])
-    expect(goal.assists).to match_array(raw_data[:assists])
-    expect(goal.assist_numbers).to match_array(raw_data[:assistNumbers])
-    expect(goal.power_play?).to eq(raw_data[:properties][:isPowerPlay] == "1")
-    expect(goal.short_handed?).to eq(raw_data[:properties][:isShortHanded] == "1")
-    expect(goal.empty_net?).to eq(raw_data[:properties][:isEmptyNet] == "1")
-    expect(goal.penalty_shot?).to eq(raw_data[:properties][:isInsuranceGoal] == "1")
-    expect(goal.game_winner?).to eq(raw_data[:properties][:isGameWinningGoal] == "1")
+    expect(goal.scored_by[:id]).to eq(6861)
+    expect(goal.scored_by[:first_name]).to eq("Matthew")
+    expect(goal.scored_by[:last_name]).to eq("Highmore")
+    expect(goal.scored_by[:number]).to eq(9)
+    expect(goal.scored_by[:position]).to eq("LW")
+    expect(goal.assists.map { |a| a[:id] }).to match_array([7046, 6632])
+    expect(goal.assist_numbers).to match_array(%w[1 1])
+    expect(goal.power_play?).to eq(false)
+    expect(goal.short_handed?).to eq(false)
+    expect(goal.empty_net?).to eq(false)
+    expect(goal.penalty_shot?).to eq(false)
+    expect(goal.game_winner?).to eq(false)
   end
 
   # it "converts plus players into on ice skaters" do

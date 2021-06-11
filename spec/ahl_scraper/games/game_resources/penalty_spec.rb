@@ -20,19 +20,19 @@ RSpec.describe AhlScraper::Games::Penalty do
     penalty = described_class.new(penalty_data, opts)
 
     expect(penalty.number).to eq(opts[:number])
-    expect(penalty.period).to eq(penalty_data[:period][:id])
+    expect(penalty.period).to eq(penalty_data[:period][:id].to_i)
     expect(penalty.time).to eq(penalty_data[:time])
     expect(penalty.minutes).to eq(penalty_data[:minutes])
     expect(penalty.description).to eq(penalty_data[:description])
     expect(penalty.rule_number).to be_nil
     expect(penalty.power_play?).to eq(penalty_data[:isPowerPlay])
 
-    expect(penalty.opposing_team[:id]).to eq(penalty_data[:againstTeam][:id])
-    expect(penalty.opposing_team[:name]).to eq(penalty_data[:againstTeam][:name])
-    expect(penalty.opposing_team[:city]).to eq(penalty_data[:againstTeam][:city])
-    expect(penalty.opposing_team[:nickname]).to eq(penalty_data[:againstTeam][:nickname])
-    expect(penalty.opposing_team[:abbreviation]).to eq(penalty_data[:againstTeam][:abbreviation])
-    expect(penalty.opposing_team[:logo]).to eq(penalty_data[:againstTeam][:logo])
+    expect(penalty.penalized_team[:id]).to eq(penalty_data[:againstTeam][:id])
+    expect(penalty.penalized_team[:name]).to eq(penalty_data[:againstTeam][:name])
+    expect(penalty.penalized_team[:city]).to eq(penalty_data[:againstTeam][:city])
+    expect(penalty.penalized_team[:nickname]).to eq(penalty_data[:againstTeam][:nickname])
+    expect(penalty.penalized_team[:abbreviation]).to eq(penalty_data[:againstTeam][:abbreviation])
+    expect(penalty.penalized_team[:logo]).to eq(penalty_data[:againstTeam][:logo])
 
     expect(penalty.served_by[:id]).to eq(penalty_data[:servedBy][:id])
     expect(penalty.served_by[:first_name]).to eq(penalty_data[:servedBy][:firstName])

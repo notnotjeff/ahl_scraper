@@ -35,9 +35,25 @@ RSpec.describe AhlScraper::Games::CreateSkatersService do
   let(:team_id) { 372 }
   let(:team_abbreviation) { "RFD" }
   let(:home_team) { true }
+  let(:penalty_data) { [] }
+  let(:penalty_shot_data) { [] }
+  let(:shootout_data) { [] }
 
-  it "converts goal data into a team's skater's on ice statlines" do
-    skaters = described_class.new(skater_data, goal_data, { home_team: home_team, team_id: team_id, team_abbreviation: team_abbreviation }).call
+  it "converts goal data into a team's skater's on ice statlines", :aggregate_failures do
+    expect_next_instance_of(AhlScraper::Games::Format::ScoringStatlines) { |formatter| expect(formatter).to receive(:call).and_return({ "7117": {} }) }
+    expect_next_instance_of(AhlScraper::Games::Format::OnIceStatlines) { |formatter| expect(formatter).to receive(:call).and_return({ "7117": {} }) }
+    expect_next_instance_of(AhlScraper::Games::Format::PenaltyStatlines) { |formatter| expect(formatter).to receive(:call).and_return({ "7117": {} }) }
+    expect_next_instance_of(AhlScraper::Games::Format::PenaltyShotStatlines) { |formatter| expect(formatter).to receive(:call).and_return({ "7117": {} }) }
+    expect_next_instance_of(AhlScraper::Games::Format::ShootoutStatlines) { |formatter| expect(formatter).to receive(:call).and_return({ "7117": {} }) }
+
+    skaters = described_class.new(
+      skater_data,
+      goal_data,
+      penalty_data,
+      shootout_data,
+      penalty_shot_data,
+      { home_team: home_team, team_id: team_id, team_abbreviation: team_abbreviation }
+    ).call
 
     expect(skaters.length).to eq(skater_data.length)
   end

@@ -156,7 +156,7 @@ module AhlScraper
           raw_penalties,
           raw_home_shootout_attempts,
           @raw_data[:penaltyShots][:homeTeam],
-          { home_team: true, team_id: home_team.id, team_abbreviation: home_team.abbreviation }
+          { home_team: true, team_id: home_team.id, team_abbreviation: home_team.abbreviation, game_date: @raw_data[:details][:date] }
         ).call
       end
 
@@ -167,7 +167,7 @@ module AhlScraper
           raw_penalties,
           raw_away_shootout_attempts,
           @raw_data[:penaltyShots][:visitingTeam],
-          { home_team: false, team_id: away_team.id, team_abbreviation: away_team.abbreviation }
+          { home_team: false, team_id: away_team.id, team_abbreviation: away_team.abbreviation, game_date: @raw_data[:details][:date] }
         ).call
       end
 
@@ -175,7 +175,13 @@ module AhlScraper
         @home_goalies ||= Array(@raw_data[:homeTeam][:goalies]).map do |g|
           Goalie.new(
             g,
-            { team_id: home_team.id, home_team: true, shootout_data: @raw_data.dig(:shootoutDetails, :visitingTeamShots), penalty_shot_data: @raw_data.dig(:penaltyShots, :visitingTeam) }
+            {
+              team_id: home_team.id,
+              home_team: true,
+              shootout_data: @raw_data.dig(:shootoutDetails, :visitingTeamShots),
+              penalty_shot_data: @raw_data.dig(:penaltyShots, :visitingTeam),
+              game_date: @raw_data[:details][:date],
+            }
           )
         end
       end
@@ -184,7 +190,13 @@ module AhlScraper
         @away_goalies ||= Array(@raw_data[:visitingTeam][:goalies]).map do |g|
           Goalie.new(
             g,
-            { team_id: away_team.id, home_team: false, shootout_data: @raw_data.dig(:shootoutDetails, :homeTeamShots), penalty_shot_data: @raw_data.dig(:penaltyShots, :homeTeam) }
+            {
+              team_id: away_team.id,
+              home_team: false,
+              shootout_data: @raw_data.dig(:shootoutDetails, :homeTeamShots),
+              penalty_shot_data: @raw_data.dig(:penaltyShots, :homeTeam),
+              game_date: @raw_data[:details][:date],
+            }
           )
         end
       end

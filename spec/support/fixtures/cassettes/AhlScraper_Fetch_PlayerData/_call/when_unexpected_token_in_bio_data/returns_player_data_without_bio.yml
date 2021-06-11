@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Thu, 06 May 2021 04:15:32 GMT
+      - Fri, 11 Jun 2021 04:51:49 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=r8ofh4sbss6g979ndbthi2m4v3; path=/
+      - PHPSESSID=jsqvaigbgevp72hvi322fp6p9u; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -48,7 +48,7 @@ http_interactions:
         Champion in 2011 and 2012<\/p><p>- Co-winner of John &quot;Snooks&quot; Kelley
         Memorial Award at Boston College<\/p><p>- Son of former NHLer Doug Brown<\/p>","teamName":"Henderson
         Silver Knights","division":"Pacific Division","commitment":false,"currentTeam":"","suspension_games_remaining":"","birthPlace":"Bloomfield
-        Hills, MI","playerType":"skater"},"currentSeason":"68","careerStats":[{"sections":[{"title":"Regular
+        Hills, MI","playerType":"skater"},"currentSeason":"72","careerStats":[{"sections":[{"title":"Regular
         Season","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season","title":"Season","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_name":{"properties":{"key":"team_name","hidden":false,"class":"","label":"Team","title":"Team","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
         Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals":{"properties":{"key":"goals","hidden":false,"class":"","label":"G","title":"Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"assists":{"properties":{"key":"assists","hidden":false,"class":"","label":"A","title":"Assists","sortable":true,"align":"center","highlight":false,"sortKey":""}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":""}},"plus_minus":{"properties":{"key":"plus_minus","hidden":false,"class":"","label":"+\/-","title":"Plus\/Minus","sortable":true,"align":"center","highlight":false,"sortKey":"plus_minus"}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
         Minutes","sortable":true,"align":"center","highlight":false,"sortKey":""}},"power_play_goals":{"properties":{"key":"power_play_goals","hidden":false,"class":"","label":"PPG","title":"Power
@@ -190,5 +190,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Thu, 06 May 2021 04:15:32 GMT
+  recorded_at: Fri, 11 Jun 2021 04:51:49 GMT
 recorded_with: VCR 6.0.0

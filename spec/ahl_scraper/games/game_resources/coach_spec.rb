@@ -11,7 +11,7 @@ RSpec.describe AhlScraper::Games::Coach do
 
     expect(coach.first_name).to eq(raw_data[:firstName])
     expect(coach.last_name).to eq(raw_data[:lastName])
-    expect(coach.role).to eq(raw_data[:role])
+    expect(coach.position).to eq(raw_data[:role])
     expect(coach.team_id).to eq(team_id)
   end
 end

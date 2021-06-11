@@ -17,9 +17,12 @@ module AhlScraper
         (birthdate + (18 * 365)).year
       end
 
-      def current_age
-        now = Time.now.utc.to_date
-        now.year - birthdate.year - (now.month > birthdate.month || (now.month == birthdate.month && now.day >= birthdate.day) ? 0 : 1)
+      def current_age(round: 2)
+        ((Time.now.utc.to_datetime - birthdate.to_datetime).to_i / BigDecimal("365")).round(round)
+      end
+
+      def age_on_date(date, round: 2)
+        ((Date.parse(date).to_datetime - birthdate.to_datetime).to_i / BigDecimal("365")).round(round)
       end
     end
   end

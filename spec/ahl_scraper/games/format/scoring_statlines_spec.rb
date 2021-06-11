@@ -1,17 +1,8 @@
 # frozen_string_literal: true
 
 RSpec.describe AhlScraper::Games::Format::ScoringStatlines do
-  let(:skater_data) do
-    [
-      {
-        info: { id: 5636, firstName: "Jake", lastName: "Dotchin", jerseyNumber: 2, position: "D", birthDate: "1994-03-24" },
-        stats: { goals: 0, assists: 0, points: 0, penaltyMinutes: 2, plusMinus: -1, faceoffAttempts: 0, faceoffWins: 0, shots: 1, hits: 0 },
-        starting: 0,
-        status: "",
-      },
-
-    ]
-  end
+  let(:skater_id) { 5636 }
+  let(:skater_ids) { [skater_id] }
   let(:goal_data) do
     [
       {
@@ -32,13 +23,15 @@ RSpec.describe AhlScraper::Games::Format::ScoringStatlines do
     ]
   end
 
-  it "converts skater and goal data into Skater records" do
-    expect(AhlScraper::Games::Format::MergeGoal).to receive(:new).exactly(2).times.and_return(instance_double("AhlScraper::Games::Format::MergeGoal", call: true))
+  it "creates statlines hash with every skater id" do
+    statlines = described_class.new(goal_data, skater_ids, { home_team: true }).call
 
-    skaters = described_class.new(skater_data, goal_data, { home_team: true }).call
-
-    expect(skaters.length).to eq(skater_data.length)
-    expect(skaters.map(&:id)).to eq(skater_data.map { |s| s[:info][:id] })
+    expect(statlines[skater_id.to_s][:goals_as]).to eq(2)
+    expect(statlines[skater_id.to_s][:points_as]).to eq(2)
+    expect(statlines[skater_id.to_s][:goals_5v5]).to eq(2)
+    expect(statlines[skater_id.to_s][:points_5v5]).to eq(2)
+    expect(statlines[skater_id.to_s][:goals_ev]).to eq(2)
+    expect(statlines[skater_id.to_s][:points_ev]).to eq(2)
   end
 
   # TODO: Add penalty shot test, game_id: 1022469

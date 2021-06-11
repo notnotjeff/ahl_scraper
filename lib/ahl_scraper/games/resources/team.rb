@@ -45,21 +45,21 @@ module AhlScraper
 
       def shot_stats
         @shot_stats ||= {
-          shots: @opts[:shots].map { |period| period[home_team? ? :home : :away] }.reduce(:+),
-          p1_shots: @opts[:shots][0][home_team? ? :home : :away],
-          p2_shots: @opts[:shots][1][home_team? ? :home : :away],
-          p3_shots: @opts[:shots][2][home_team? ? :home : :away],
-          ot_shots: @opts[:shots][3..-1].map { |ot| ot[home_team? ? :home : :away] },
+          sog: @opts[:shots].map { |period| period[home_team? ? :home : :away] }.reduce(:+),
+          p1_sog: @opts[:shots].dig(0, home_team? ? :home : :away),
+          p2_sog: @opts[:shots].dig(1, home_team? ? :home : :away),
+          p3_sog: @opts[:shots].dig(2, home_team? ? :home : :away),
+          ot_sog: @opts[:shots][3..-1]&.map { |ot| ot[home_team? ? :home : :away] },
         }
       end
 
       def goal_stats
         @goal_stats ||= {
           goals: @opts[:goal_totals].map { |period| period[home_team? ? :home : :away] }.reduce(:+),
-          p1_goals: @opts[:goal_totals][0][home_team? ? :home : :away],
-          p2_goals: @opts[:goal_totals][1][home_team? ? :home : :away],
-          p3_goals: @opts[:goal_totals][2][home_team? ? :home : :away],
-          ot_goals: @opts[:goal_totals][3..-1].map { |ot| ot[home_team? ? :home : :away] },
+          p1_goals: @opts[:goal_totals].dig(0, home_team? ? :home : :away),
+          p2_goals: @opts[:goal_totals].dig(1, home_team? ? :home : :away),
+          p3_goals: @opts[:goal_totals].dig(2, home_team? ? :home : :away),
+          ot_goals: @opts[:goal_totals][3..-1]&.map { |ot| ot[home_team? ? :home : :away] },
         }
       end
 

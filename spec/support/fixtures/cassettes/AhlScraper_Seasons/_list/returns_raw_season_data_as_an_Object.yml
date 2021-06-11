@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 07 Feb 2021 03:15:33 GMT
+      - Fri, 11 Jun 2021 04:52:27 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,21 +31,22 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=71ia3llsrpss03bqumvo60c6ro; path=/
+      - PHPSESSID=d9a018qd12mpsfecngul0ut1iq; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
       - PHP/7.3.13
       Content-Length:
-      - '4685'
+      - '3957'
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: 'json({"firebaseUrl":"leaguestat-b9523.firebaseio.com","firebaseToken":"uwM69pPkdUhb0UuVAxM8IcA6pBAzATAxOc8979oJ","firebaseApiKey":"AIzaSyBVn0Gr6zIFtba-hQy3StkifD8bb7Hi68A","current_league_id":"4","current_season_id":"68","leagues":[{"id":"4","name":"American
-        Hockey League","short_name":"AHL","code":"ahl","logo_image":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=img\/logos\/league-logo.jpg"}],"seasons":[{"id":"68","name":"2020-21
-        Regular Season","default_sort":""},{"id":"67","name":"2020 All-Star Challenge","default_sort":""},{"id":"65","name":"2019-20
-        Regular Season","default_sort":""},{"id":"64","name":"2019 Calder Cup Playoffs","default_sort":""},{"id":"63","name":"2019
+      string: 'json({"firebaseUrl":"leaguestat-b9523.firebaseio.com","firebaseToken":"uwM69pPkdUhb0UuVAxM8IcA6pBAzATAxOc8979oJ","firebaseApiKey":"AIzaSyBVn0Gr6zIFtba-hQy3StkifD8bb7Hi68A","current_league_id":"4","current_season_id":"72","leagues":[{"id":"4","name":"American
+        Hockey League","short_name":"AHL","code":"ahl","logo_image":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=img\/logos\/league-logo.jpg"}],"seasons":[{"id":"72","name":"2021
+        Playoffs","default_sort":""},{"id":"68","name":"2020-21 Regular Season","default_sort":""},{"id":"67","name":"2020
+        All-Star Challenge","default_sort":""},{"id":"65","name":"2019-20 Regular
+        Season","default_sort":""},{"id":"64","name":"2019 Calder Cup Playoffs","default_sort":""},{"id":"63","name":"2019
         All-Star Challenge","default_sort":""},{"id":"61","name":"2018-19 Regular
         Season","default_sort":""},{"id":"60","name":"2018 Calder Cup Playoffs","default_sort":""},{"id":"58","name":"2017-18
         Exhibition","default_sort":""},{"id":"59","name":"2018 All-Star Challenge","default_sort":""},{"id":"57","name":"2017-18
@@ -75,12 +76,8 @@ http_interactions:
         All-Star Game","default_sort":""},{"id":"22","name":"2000 All-Star Game","default_sort":""},{"id":"23","name":"1999
         All-Star Game","default_sort":""},{"id":"24","name":"1998 All-Star Game","default_sort":""},{"id":"25","name":"1997
         All-Star Game","default_sort":""},{"id":"26","name":"1996 All-Star Game","default_sort":""},{"id":"27","name":"1995
-        All-Star Game","default_sort":""}],"conferences":[{"conference_id":"6","conference_name":"AHL"}],"divisions":[{"id":"15","name":"Atlantic
-        Division","conference_id":"6"},{"id":"16","name":"North Division","conference_id":"6"},{"id":"26","name":"Canadian
-        Division","conference_id":"6"},{"id":"24","name":"Central Division","conference_id":"6"},{"id":"25","name":"Pacific
-        Division","conference_id":"6"}],"divisionsAll":[{"id":-1,"name":"All Divisions","conference_id":null},{"id":"15","name":"Atlantic
-        Division","conference_id":"6"},{"id":"16","name":"North Division","conference_id":"6"},{"id":"26","name":"Canadian
-        Division","conference_id":"6"},{"id":"24","name":"Central Division","conference_id":"6"},{"id":"25","name":"Pacific
+        All-Star Game","default_sort":""}],"conferences":[{"conference_id":"6","conference_name":"AHL"}],"divisions":[{"id":"25","name":"Pacific
+        Division","conference_id":"6"}],"divisionsAll":[{"id":-1,"name":"All Divisions","conference_id":null},{"id":"25","name":"Pacific
         Division","conference_id":"6"}],"first_season_year":"1995","regularSeasons":[{"id":"68","name":"2020-21
         Regular Season"},{"id":"65","name":"2019-20 Regular Season"},{"id":"61","name":"2018-19
         Regular Season"},{"id":"57","name":"2017-18 Regular Season"},{"id":"54","name":"2016-17
@@ -90,70 +87,29 @@ http_interactions:
         Regular Season"},{"id":"30","name":"2009-10 Regular Season"},{"id":"16","name":"2008-09
         Regular Season"},{"id":"12","name":"2007-08 Regular Season"},{"id":"8","name":"2006-07
         Regular Season"},{"id":"1","name":"2005-06 Regular Season"},{"id":"46","name":"2004-05
-        Regular Season"}],"playoffSeasons":[{"id":"64","name":"2019 Calder Cup Playoffs"},{"id":"60","name":"2018
-        Calder Cup Playoffs"},{"id":"56","name":"2017 Calder Cup Playoffs"},{"id":"53","name":"2016
-        Calder Cup Playoffs"},{"id":"50","name":"2015 Calder Cup Playoffs"},{"id":"47","name":"2014
-        Calder Cup Playoffs"},{"id":"42","name":"2013 Calder Cup Playoffs"},{"id":"39","name":"2012
-        Calder Cup Playoffs"},{"id":"36","name":"2011 Calder Cup Playoffs"},{"id":"33","name":"2010
-        Calder Cup Playoffs"},{"id":"29","name":"2009 Calder Cup Playoffs"},{"id":"15","name":"2008
-        Calder Cup Playoffs"},{"id":"10","name":"2007 Calder Cup Playoffs"},{"id":"7","name":"2006
-        Calder Cup Playoffs"},{"id":"69","name":"2005 Calder Cup Playoffs"}],"teams":[{"id":-1,"name":"All
-        Teams"},{"id":"402","name":"Bakersfield Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_68.png"},{"id":"413","name":"Belleville
-        Senators","nickname":"Senators","team_code":"BEL","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/413.png"},{"id":"414","name":"Binghamton
-        Devils","nickname":"Devils","team_code":"BNG","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/414_68.png"},{"id":"317","name":"Bridgeport
-        Sound Tigers","nickname":"Sound Tigers","team_code":"BRI","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/317.png"},{"id":"330","name":"Chicago
-        Wolves","nickname":"Wolves","team_code":"CHI","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/330.png"},{"id":"373","name":"Cleveland
-        Monsters","nickname":"Monsters","team_code":"CLE","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/373_68.png"},{"id":"419","name":"Colorado
-        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"328","name":"Grand
-        Rapids Griffins","nickname":"Griffins","team_code":"GR","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/328_68.png"},{"id":"307","name":"Hartford
-        Wolf Pack","nickname":"Wolf Pack","team_code":"HFD","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/307.png"},{"id":"437","name":"Henderson
-        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"319","name":"Hershey
-        Bears","nickname":"Bears","team_code":"HER","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/319_68.png"},{"id":"389","name":"Iowa
-        Wild","nickname":"Wild","team_code":"IA","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/389.png"},{"id":"415","name":"Laval
-        Rocket","nickname":"Rocket","team_code":"LAV","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/415.png"},{"id":"313","name":"Lehigh
-        Valley Phantoms","nickname":"Phantoms","team_code":"LHV","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/313.png"},{"id":"321","name":"Manitoba
-        Moose","nickname":"Moose","team_code":"MB","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/321_68.png"},{"id":"403","name":"Ontario
-        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"309","name":"Providence
-        Bruins","nickname":"Bruins","team_code":"PRO","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/309.png"},{"id":"323","name":"Rochester
-        Americans","nickname":"Americans","team_code":"ROC","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/323_68.png"},{"id":"372","name":"Rockford
-        IceHogs","nickname":"IceHogs","team_code":"RFD","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/372.png"},{"id":"404","name":"San
+        Regular Season"}],"playoffSeasons":[{"id":"72","name":"2021 Playoffs"},{"id":"64","name":"2019
+        Calder Cup Playoffs"},{"id":"60","name":"2018 Calder Cup Playoffs"},{"id":"56","name":"2017
+        Calder Cup Playoffs"},{"id":"53","name":"2016 Calder Cup Playoffs"},{"id":"50","name":"2015
+        Calder Cup Playoffs"},{"id":"47","name":"2014 Calder Cup Playoffs"},{"id":"42","name":"2013
+        Calder Cup Playoffs"},{"id":"39","name":"2012 Calder Cup Playoffs"},{"id":"36","name":"2011
+        Calder Cup Playoffs"},{"id":"33","name":"2010 Calder Cup Playoffs"},{"id":"29","name":"2009
+        Calder Cup Playoffs"},{"id":"15","name":"2008 Calder Cup Playoffs"},{"id":"10","name":"2007
+        Calder Cup Playoffs"},{"id":"7","name":"2006 Calder Cup Playoffs"},{"id":"69","name":"2005
+        Calder Cup Playoffs"}],"teams":[{"id":-1,"name":"All Teams"},{"id":"402","name":"Bakersfield
+        Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_72.png"},{"id":"419","name":"Colorado
+        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"437","name":"Henderson
+        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"403","name":"Ontario
+        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"404","name":"San
         Diego Gulls","nickname":"Gulls","team_code":"SD","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/404.png"},{"id":"405","name":"San
-        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_68.png"},{"id":"406","name":"Stockton
-        Heat","nickname":"Heat","team_code":"STK","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/406_68.png"},{"id":"324","name":"Syracuse
-        Crunch","nickname":"Crunch","team_code":"SYR","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/324.png"},{"id":"380","name":"Texas
-        Stars","nickname":"Stars","team_code":"TEX","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/380_68.png"},{"id":"335","name":"Toronto
-        Marlies","nickname":"Marlies","team_code":"TOR","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/335_68.png"},{"id":"412","name":"Tucson
-        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"},{"id":"390","name":"Utica
-        Comets","nickname":"Comets","team_code":"UTI","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/390.png"},{"id":"316","name":"Wilkes-Barre\/Scranton
-        Penguins","nickname":"Penguins","team_code":"WBS","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/316_68.png"}],"teamsNoAll":[{"id":"402","name":"Bakersfield
-        Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_68.png"},{"id":"413","name":"Belleville
-        Senators","nickname":"Senators","team_code":"BEL","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/413.png"},{"id":"414","name":"Binghamton
-        Devils","nickname":"Devils","team_code":"BNG","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/414_68.png"},{"id":"317","name":"Bridgeport
-        Sound Tigers","nickname":"Sound Tigers","team_code":"BRI","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/317.png"},{"id":"330","name":"Chicago
-        Wolves","nickname":"Wolves","team_code":"CHI","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/330.png"},{"id":"373","name":"Cleveland
-        Monsters","nickname":"Monsters","team_code":"CLE","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/373_68.png"},{"id":"419","name":"Colorado
-        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"328","name":"Grand
-        Rapids Griffins","nickname":"Griffins","team_code":"GR","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/328_68.png"},{"id":"307","name":"Hartford
-        Wolf Pack","nickname":"Wolf Pack","team_code":"HFD","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/307.png"},{"id":"437","name":"Henderson
-        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"319","name":"Hershey
-        Bears","nickname":"Bears","team_code":"HER","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/319_68.png"},{"id":"389","name":"Iowa
-        Wild","nickname":"Wild","team_code":"IA","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/389.png"},{"id":"415","name":"Laval
-        Rocket","nickname":"Rocket","team_code":"LAV","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/415.png"},{"id":"313","name":"Lehigh
-        Valley Phantoms","nickname":"Phantoms","team_code":"LHV","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/313.png"},{"id":"321","name":"Manitoba
-        Moose","nickname":"Moose","team_code":"MB","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/321_68.png"},{"id":"403","name":"Ontario
-        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"309","name":"Providence
-        Bruins","nickname":"Bruins","team_code":"PRO","division_id":"15","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/309.png"},{"id":"323","name":"Rochester
-        Americans","nickname":"Americans","team_code":"ROC","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/323_68.png"},{"id":"372","name":"Rockford
-        IceHogs","nickname":"IceHogs","team_code":"RFD","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/372.png"},{"id":"404","name":"San
+        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_72.png"},{"id":"412","name":"Tucson
+        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"}],"teamsNoAll":[{"id":"402","name":"Bakersfield
+        Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_72.png"},{"id":"419","name":"Colorado
+        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"437","name":"Henderson
+        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"403","name":"Ontario
+        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"404","name":"San
         Diego Gulls","nickname":"Gulls","team_code":"SD","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/404.png"},{"id":"405","name":"San
-        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_68.png"},{"id":"406","name":"Stockton
-        Heat","nickname":"Heat","team_code":"STK","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/406_68.png"},{"id":"324","name":"Syracuse
-        Crunch","nickname":"Crunch","team_code":"SYR","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/324.png"},{"id":"380","name":"Texas
-        Stars","nickname":"Stars","team_code":"TEX","division_id":"24","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/380_68.png"},{"id":"335","name":"Toronto
-        Marlies","nickname":"Marlies","team_code":"TOR","division_id":"26","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/335_68.png"},{"id":"412","name":"Tucson
-        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"},{"id":"390","name":"Utica
-        Comets","nickname":"Comets","team_code":"UTI","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/390.png"},{"id":"316","name":"Wilkes-Barre\/Scranton
-        Penguins","nickname":"Penguins","team_code":"WBS","division_id":"16","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/316_68.png"}],"months":[{"id":-1,"name":"All
+        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_72.png"},{"id":"412","name":"Tucson
+        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"}],"months":[{"id":-1,"name":"All
         Months"},{"id":1,"name":"January"},{"id":2,"name":"February"},{"id":3,"name":"March"},{"id":4,"name":"April"},{"id":5,"name":"May"},{"id":6,"name":"June"},{"id":7,"name":"July"},{"id":8,"name":"August"},{"id":9,"name":"September"},{"id":10,"name":"October"},{"id":11,"name":"November"},{"id":12,"name":"December"}],"monthsAll":[{"id":-1,"name":"All
         Months"},{"id":1,"name":"January"},{"id":2,"name":"February"},{"id":3,"name":"March"},{"id":4,"name":"April"},{"id":5,"name":"May"},{"id":6,"name":"June"},{"id":7,"name":"July"},{"id":8,"name":"August"},{"id":9,"name":"September"},{"id":10,"name":"October"},{"id":11,"name":"November"},{"id":12,"name":"December"}],"positions":[{"id":"skaters","name":"Skaters"},{"id":"forwards","name":"Forwards"},{"id":"defencemen","name":"Defencemen"}],"goalies":[{"id":"qualified","name":"Qualified
         Goalies"},{"id":"all","name":"All Goalies"}],"rosterstatus":[{"id":1,"name":"Active"},{"id":2,"name":"Reserve"},{"id":3,"name":"New
@@ -214,5 +170,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Sun, 07 Feb 2021 03:15:35 GMT
+  recorded_at: Fri, 11 Jun 2021 04:52:27 GMT
 recorded_with: VCR 6.0.0
