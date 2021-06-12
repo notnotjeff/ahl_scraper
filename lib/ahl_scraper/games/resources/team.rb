@@ -68,7 +68,7 @@ module AhlScraper
       end
 
       def time_splits
-        @time_splits ||= Format::TimeSplits.new(@opts[:goals], id, @opts[:current_state]).call
+        @time_splits ||= Format::TimeSplits.new(@opts[:goals], id, @opts[:current_state], @opts[:game_properties]).call
       end
 
       private

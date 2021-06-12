@@ -4,15 +4,16 @@ module AhlScraper
   module Games
     module Format
       class TimeSplits
-        def initialize(goals, team_id, current_state)
+        def initialize(goals, team_id, current_state, game_properties)
           @goals = goals
           @team_id = team_id
           @current_state = current_state
+          @game_properties = game_properties
         end
 
         def call
           @times = { leading: 0, trailing: 0, tied: 0 }
-          @time_elapsed = 0
+          @time_elapsed = @game_properties[:game_start_time_in_seconds] || 0
           calculate_time_splits
           @times
         end
@@ -49,15 +50,17 @@ module AhlScraper
         end
 
         def total_game_time
-          if !@current_state[:overtime]
-            3600
-          else
-            3900
-          end
+          return @game_properties[:game_end_time_in_seconds] if @game_properties[:game_end_time_in_seconds]
+
+          return 3600 unless @current_state[:overtime]
+
+          return 3900 unless @current_state[:playoffs]
+
+          3600 + (1200 * @game_properties[:overtime_periods])
         end
 
         def current_time
-          return if @current_state[:status] == "finished"
+          return unless @current_state[:status] == "in_progress"
 
           return total_game_time if @current_state[:period] =~ /SO/
 

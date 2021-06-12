@@ -22,17 +22,14 @@ module AhlScraper
     class GameObject < Resource # rubocop:disable Metrics/ClassLength
       include Enumerable
 
-      VOID_GAMES = [1_022_174].freeze
-      RESULT_VOID_GAMES = [].freeze
-      STATS_VOID_GAMES = [].freeze
-      FORFEITED_WITH_STATS_GAMES = [].freeze
+      IRREGULAR_GAMES = {
+        "1022174" => { status: "result_void" },
+      }.freeze
 
       ATTRIBUTES = %i[
         game_id
         season_type
-        end_state
         info
-        result
         current_time
         current_period
         current_period_number
@@ -88,17 +85,6 @@ module AhlScraper
         @info ||= Info.new(@raw_data[:details], { name: "#{away_team.abbreviation} @ #{home_team.abbreviation}" })
       end
 
-      def end_state
-        @end_state ||=
-          if overtime? && !shootout?
-            "OT"
-          elsif shootout?
-            "SO"
-          else
-            "REG"
-          end
-      end
-
       def current_time
         @current_time ||= set_current_game_time
       end
@@ -134,14 +120,14 @@ module AhlScraper
       def home_team
         @home_team ||= Team.new(
           @raw_data[:homeTeam],
-          { home_team: true, goals: raw_goals, current_state: current_state, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
+          { home_team: true, goals: raw_goals, current_state: current_state, game_properties: game_properties, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
         )
       end
 
       def away_team
         @away_team ||= Team.new(
           @raw_data[:visitingTeam],
-          { home_team: false, goals: raw_goals, current_state: current_state, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
+          { home_team: false, goals: raw_goals, current_state: current_state, game_properties: game_properties, shots: raw_period_shots, goal_totals: raw_period_goals, winning_team_id: winning_team_id }
         )
       end
 
@@ -269,7 +255,7 @@ module AhlScraper
       end
 
       def in_progress?
-        @in_progress ||= status == "in-progress"
+        @in_progress ||= status == "in_progress"
       end
 
       def ended_in
@@ -342,14 +328,18 @@ module AhlScraper
         }
       end
 
+      def game_properties
+        @game_properties ||= {
+          playoffs: @season_type == :playoffs,
+          periods: periods.length,
+          overtime_periods: overtimes.length,
+          game_start_time_in_seconds: IRREGULAR_GAMES.dig(game_id.to_s, :start_time_in_seconds),
+          game_end_time_in_seconds: IRREGULAR_GAMES.dig(game_id.to_s, :end_time_in_seconds),
+        }
+      end
+
       def set_game_status
-        return "void" if VOID_GAMES.include? game_id
-
-        # return "result_void" if RESULT_VOID_GAMES.include? game_id
-
-        # return "stats_void" if STATS_VOID_GAMES.include? game_id
-
-        # return "forfeited_with_stats" if FORFEITED_WITH_STATS_VOID_GAMES.include? game_id
+        return IRREGULAR_GAMES.dig(game_id.to_s, :status) if IRREGULAR_GAMES.dig(game_id.to_s, :status)
 
         # return "forfeited" if game is a forfeit, need to figure this out if it happens
 
