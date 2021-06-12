@@ -24,6 +24,26 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Broken Games
+
+These games need alternative methods of scraping or manual fixtures to override.
+
+| GameID                                                    | SeasonID | Description                                                                                                                                          | Notes                                                                                                                                                                      | Status   |
+| --------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| [`1022174`](https://theahl.com/stats/game-center/1022174) | `68`     | This game was postponed due to COVID and [replayed in its entirety](https://theahl.com/stats/game-center/1022609)                                    | Investigate if any data from this game is valid, if not, this is resolved                                                                                                  | `VOID`   |
+| [`1018774`](https://theahl.com/stats/game-center/1018774) | `61`     | The first period is the only one that is documented in JSON, should be an OT game but resolves to regulation which causes an error in team standings | [Game Report](https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1018774) is accurate so it could be scraped instead | `BROKEN` |
+
+### Broken Game Status Legend
+
+| Status        | Description                                                                                                        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------ |
+| `BROKEN`      | The scraper has no solution for how to properly scrape the game, will need to be properly fixed.                   |
+| `JSON`        | The scraper uses an internal JSON file to solve any issues with the game.                                          |
+| `GAME_REPORT` | Scraper uses the game report page instead of the league's JSON endpoint to fix broken game.                        |
+| `RESULT_VOID` | This game has valid skater/goalie stats but the result for the team was not counted.                               |
+| `STATS_VOID`  | This game has invalid (or no) individual skater/goalie stats but the result for the team was counted.              |
+| `VOID`        | The game was not played or finished. Usually due to the fact the game was cancelled or rescheduled on another date |
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -32,8 +52,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ahl_scraper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ahl_scraper/blob/master/CODE_OF_CONDUCT.md).
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/notnotjeff/ahl_scraper. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ahl_scraper/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 

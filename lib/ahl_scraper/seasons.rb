@@ -15,18 +15,10 @@ module AhlScraper
         @season_data
       end
 
-      def retrieve(season_ids)
-        is_array = season_ids.class == Array
-        season_ids = Array(season_ids).map(&:to_i)
-
+      def retrieve(season_id)
         @season_data ||= Fetch::SeasonData.new.call
-        filtered_season_data = @season_data.select { |s| season_ids.include? s.id }
-
-        season_objects = filtered_season_data.map do |season|
-          SeasonObject.new(season)
-        end
-
-        is_array ? season_objects : season_objects[0]
+        season = @season_data.find { |s| season_id.to_i == s.id }
+        SeasonObject.new(season)
       end
 
       def retrieve_all

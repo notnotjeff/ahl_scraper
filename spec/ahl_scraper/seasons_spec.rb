@@ -10,22 +10,10 @@ RSpec.describe AhlScraper::Seasons do
   end
 
   describe ".retrieve" do
-    context "with single season" do
-      it "returns season object", :vcr do
-        season = described_class.retrieve(61)
+    it "returns season object", :vcr do
+      season = described_class.retrieve(61)
 
-        expect(season.class).to eq(AhlScraper::Seasons::SeasonObject)
-      end
-    end
-
-    context "with multiple seasons" do
-      it "returns an array with multiple season objects", :vcr do
-        season_ids = [61, 57]
-        seasons = described_class.retrieve(season_ids)
-
-        expect(seasons).to all(be_a(AhlScraper::Seasons::SeasonObject))
-        expect(seasons.length).to eq(season_ids.length)
-      end
+      expect(season.class).to eq(AhlScraper::Seasons::SeasonObject)
     end
   end
 

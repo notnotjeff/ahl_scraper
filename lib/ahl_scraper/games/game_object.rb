@@ -22,7 +22,10 @@ module AhlScraper
     class GameObject < Resource # rubocop:disable Metrics/ClassLength
       include Enumerable
 
-      VOIDED_GAMES = [1_022_174].freeze
+      VOID_GAMES = [1_022_174].freeze
+      RESULT_VOID_GAMES = [].freeze
+      STATS_VOID_GAMES = [].freeze
+      FORFEITED_WITH_STATS_GAMES = [].freeze
 
       ATTRIBUTES = %i[
         game_id
@@ -340,13 +343,21 @@ module AhlScraper
       end
 
       def set_game_status
-        return "void" if VOIDED_GAMES.include? game_id
+        return "void" if VOID_GAMES.include? game_id
+
+        # return "result_void" if RESULT_VOID_GAMES.include? game_id
+
+        # return "stats_void" if STATS_VOID_GAMES.include? game_id
+
+        # return "forfeited_with_stats" if FORFEITED_WITH_STATS_VOID_GAMES.include? game_id
+
+        # return "forfeited" if game is a forfeit, need to figure this out if it happens
 
         return "finished" if @raw_data[:details][:final] == "1"
 
-        return "in-progress" if @raw_data[:details][:started] == "1"
+        return "in_progress" if @raw_data[:details][:started] == "1"
 
-        "not-started"
+        "not_started"
       end
 
       def set_current_game_time
