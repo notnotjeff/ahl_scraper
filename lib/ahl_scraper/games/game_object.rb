@@ -23,7 +23,7 @@ module AhlScraper
       include Enumerable
 
       IRREGULAR_GAMES = {
-        "1022174" => { status: "result_void" },
+        "1022174" => { status: "result_void", start_time_in_seconds: 0, end_time_in_seconds: 1200 },
       }.freeze
 
       ATTRIBUTES = %i[
@@ -339,7 +339,8 @@ module AhlScraper
       end
 
       def set_game_status
-        return IRREGULAR_GAMES.dig(game_id.to_s, :status) if IRREGULAR_GAMES.dig(game_id.to_s, :status)
+        irregular_game_status = IRREGULAR_GAMES.dig(game_id.to_s, :status)
+        return irregular_game_status if irregular_game_status
 
         # return "forfeited" if game is a forfeit, need to figure this out if it happens
 
