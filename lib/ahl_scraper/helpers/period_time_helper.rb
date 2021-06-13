@@ -4,7 +4,7 @@ module AhlScraper
   class PeriodTimeHelper
     attr_reader :time, :period
 
-    def initialize(time, period)
+    def initialize(time, period = nil)
       @time = time
       @period = period.to_i
     end

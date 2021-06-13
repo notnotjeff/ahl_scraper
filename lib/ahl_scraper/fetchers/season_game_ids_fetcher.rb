@@ -10,7 +10,6 @@ module AhlScraper
       JSON.parse(Nokogiri::HTML(URI.parse(url).open)
         .text[5..-2], symbolize_names: true)
         .dig(0, :sections, 0, :data)
-      # &.map { |g| g[:prop][:game_center][:gameLink].to_i }
     end
 
     private

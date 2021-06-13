@@ -12,13 +12,13 @@ module AhlScraper
       end
 
       def length
-        @length ||= convert_time_to_string(length_in_seconds)
+        @length ||= ElapsedTimeHelper.new(length_in_seconds).to_min
       end
 
       def length_in_seconds
         @length_in_seconds ||=
           if scoring?
-            convert_time(@raw_data[:goals][0][:time])
+            PeriodTimeHelper.new(@raw_data[:goals][0][:time]).to_sec
           else
             @opts[:regular_season] ? 300 : 1200
           end
@@ -42,20 +42,6 @@ module AhlScraper
 
       def away_sog
         @away_sog ||= @raw_data[:stats][:visitingShots].to_i
-      end
-
-      private
-
-      # TODO: MAKE THESE INTO HELPER METHOD AND REPLACE WHEREVER ELSE THEY ARE USED
-      def convert_time(game_time)
-        time = game_time.split(":")
-        time[0].to_i * 60 + time[1].to_i
-      end
-
-      def convert_time_to_string(game_time)
-        minutes = game_time / 60
-        seconds = game_time % 60
-        "#{minutes}:#{seconds.to_s.rjust(2, '0')}"
       end
     end
   end
