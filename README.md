@@ -28,7 +28,7 @@ Check out the [Wiki page](https://github.com/notnotjeff/ahl_scraper/wiki) for ad
 
 ## Usage
 
-This gem is divided into five modules that provide you with an assortment of methods to access data from the AHL website:
+This gem is divided into multiple modules that provide you with an assortment of methods to access data from the AHL website:
 
 - [Seasons](#seasons)
   - `list`
