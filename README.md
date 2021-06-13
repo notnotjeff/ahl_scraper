@@ -22,6 +22,10 @@ Or install it yourself as:
 
 - Ruby 2.7+
 
+## Documentation
+
+Check out the [Wiki page](https://github.com/notnotjeff/ahl_scraper/wiki) for additional documentation.
+
 ## Usage
 
 This gem is divided into five modules that provide you with an assortment of methods to access data from the AHL website:
@@ -168,24 +172,6 @@ AhlScraper::PlayoffBrackets.retrieve(64)
 
 #=> #<PlayoffBracketObject:0x41c8 {:logo_url=>"https://lscluster.hockeytech.com/download.php?file_path=img/playoffs_64.jpg&client_code=ahl", :rounds=>[#<Round:0x41dc {:series=>[#<Series:0x41f0 {:id=>"A", :games=>[#<Game:0x4204 {:notes=>"", :id=>1019529, :home_team=>309, :status=>"Final", :home_score=>4, :away_score=>5, :away_team=>384, :if_necessary?=>false, :date=>"2019-04-20 19:05:00"}>, #<Game:0x4218 {:notes=>"", :id=>1019530, :home_team=>309, :status=>"Final", :home_score=>4, :away_score=>2, :away_team=>384, :if_necessary?=>false, :date=>"2019-04-21 17:05:00"}>,
 ```
-
-## Game Statuses
-
-There are many types of statuses a game can have depending on its current state or if any problems arose to invalidate or change the status of the game (forfeit, COVID, etc). Games that need overriden statuses can be found in `game_object.rb` in the `IRREGULAR_GAMES` constant. Statuses that can be assertained from the game data are marked as `automatic`, while the ones that are manually overridden are marked `manual`.
-
-| Status               | Type        | Description                                                                |
-| -------------------- | ----------- | -------------------------------------------------------------------------- |
-| `not_started`        | `automatic` | Game has not started yet                                                   |
-| `in_progress`        | `automatic` | Game is currently being played                                             |
-| `finished`           | `automatic` | Game has finished                                                          |
-| `void`               | `manual`    | Game does not count for both the teams and the players                     |
-| `result_void`        | `manual`    | Game does not count for the team but the individual player results count   |
-| `stats_void`         | `manual`    | Game counts for the team but not for the individual player results         |
-| `finished_later`     | `manual`    | Game was partially played but finished on a different date                 |
-| `continuation`       | `manual`    | Game is a continuation of a previous game (likely a `finished_later` game) |
-| `forfeit`            | `automatic` | Game was forfeited and no player stats exist                               |
-| `forfeit_with_stats` | `manual`    | Game was forfeited but player stats do exist                               |
-| `postponed`          | `automatic` | Game was never started but moved to a different date                       |
 
 ## Development
 
