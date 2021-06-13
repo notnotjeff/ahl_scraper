@@ -1,4 +1,4 @@
-## Broken Games
+# Broken Games
 
 These games need alternative methods of scraping or manual fixtures to override.
 
@@ -7,7 +7,7 @@ These games need alternative methods of scraping or manual fixtures to override.
 | [`1022174`](https://theahl.com/stats/game-center/1022174) | `68`     | This game was postponed due to COVID and [replayed in its entirety](https://theahl.com/stats/game-center/1022609)                                    | Investigate if any data from this game is valid, if not, this is resolved                                                                                                  | `RESULT_VOID` |
 | [`1018774`](https://theahl.com/stats/game-center/1018774) | `61`     | The first period is the only one that is documented in JSON, should be an OT game but resolves to regulation which causes an error in team standings | [Game Report](https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1018774) is accurate so it could be scraped instead | `UNRESOLVED`  |
 
-### Broken Game Status Legend
+## Broken Game Status Legend
 
 | Status        | Description                                                                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
