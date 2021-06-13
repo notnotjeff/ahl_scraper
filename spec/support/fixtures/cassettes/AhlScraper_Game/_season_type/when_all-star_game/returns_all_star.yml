@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1019521&key=50c2cd9b5e18e390&lang=en&league_id=&site_id=1&view=gameSummary
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Jun 2021 17:58:04 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=sd9716ko0navedh8o89e0p3h9b; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '2522'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: json({"details":{"id":1019521,"date":"Monday, January 28, 2019","gameNumber":"1","venue":"MassMutual
+        Center","attendance":6793,"startTime":"7:18 pm","endTime":"7:33 pm","duration":"0:15","gameReportUrl":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?lang_id=1&client_code=ahl&game_id=1019521","textBoxscoreUrl":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?lang_id=1&client_code=ahl&game_id=1019521","ticketsUrl":"","started":"1","final":"1","publicNotes":"","status":"Final","seasonId":"63","htvGameId":"","GameDateISO8601":"2019-01-28T19:20:00-05:00"},"referees":[{"firstName":"Terry","lastName":"Koharski","jerseyNumber":10,"role":"Referee"},{"firstName":"Peter","lastName":"MacDougall","jerseyNumber":45,"role":"Referee"}],"linesmen":[{"firstName":"Paul","lastName":"Carnathan","jerseyNumber":93,"role":"Linesman"},{"firstName":"Paul","lastName":"Simeon","jerseyNumber":66,"role":"Linesman"}],"mostValuablePlayers":[],"hasShootout":false,"homeTeam":{"info":{"id":407,"name":"Atlantic
+        Division All-Stars","city":"Atlantic Division","nickname":"Atlantic","abbreviation":"ATL","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/407_63.jpg","divisionName":"All
+        Star"},"stats":{"shots":13,"goals":3,"hits":0,"powerPlayGoals":0,"powerPlayOpportunities":0,"goalCount":3,"assistCount":4,"penaltyMinuteCount":0,"infractionCount":0},"media":{"audioUrl":"http:\/\/bit.ly\/WHYN560AM
+        ","videoUrl":"https:\/\/theahl.com\/ahl-all-star-classic-nhl-network-sportsnet","webcastUrl":"https:\/\/www.theahl.com\/AHLTV"},"coaches":[{"firstName":"Mike","lastName":"Vellucci","role":"Head
+        Coach"}],"skaters":[{"info":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":3,"position":"D","birthDate":"1993-05-17"},"stats":{"goals":1,"assists":0,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":4,"hits":0},"starting":0,"status":""},{"info":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":5,"position":"D","birthDate":"1994-07-04"},"stats":{"goals":1,"assists":0,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":4,"hits":0},"starting":1,"status":""},{"info":{"id":6290,"firstName":"Ethan","lastName":"Prow","jerseyNumber":6,"position":"D","birthDate":"1992-11-17"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":"1990-04-05"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":0,"status":""},{"info":{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":"1984-09-30"},"stats":{"goals":1,"assists":0,"points":1,"penaltyMinutes":0,"plusMinus":2,"faceoffAttempts":0,"faceoffWins":0,"shots":2,"hits":0},"starting":1,"status":"C"},{"info":{"id":6355,"firstName":"Michael","lastName":"Dal
+        Colle","jerseyNumber":17,"position":"F","birthDate":"1996-06-20"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":"1994-01-14"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":0,"status":""},{"info":{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":25,"position":"F","birthDate":"1993-09-30"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":1,"status":""},{"info":{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":"1996-02-17"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":3604,"firstName":"Jordan","lastName":"Szwarz","jerseyNumber":37,"position":"F","birthDate":"1991-05-14"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""}],"goalies":[{"info":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":"1996-01-09"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"5:00","shotsAgainst":4,"goalsAgainst":0,"saves":4},"starting":0,"status":""},{"info":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":"1996-10-30"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"5:00","shotsAgainst":3,"goalsAgainst":1,"saves":2},"starting":1,"status":""}],"goalieLog":[{"info":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"05:00","shotsAgainst":3,"goalsAgainst":1,"saves":2},"periodStart":{"id":"1","shortName":"1","longName":"1st"},"timeStart":"0:00","periodEnd":{"id":"1","shortName":"1","longName":"1st"},"timeEnd":"5:00","result":""},{"info":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"05:00","shotsAgainst":4,"goalsAgainst":0,"saves":4},"periodStart":{"id":"2","shortName":"2","longName":"2nd"},"timeStart":"0:00","periodEnd":{"id":"2","shortName":"2","longName":"2nd"},"timeEnd":"5:00","result":"W"}],"seasonStats":[]},"visitingTeam":{"info":{"id":409,"name":"Central
+        Division All-Stars","city":"Central Division","nickname":"Central","abbreviation":"CEN","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/409_63.jpg","divisionName":"All
+        Star"},"stats":{"shots":7,"goals":1,"hits":0,"powerPlayGoals":0,"powerPlayOpportunities":0,"goalCount":1,"assistCount":2,"penaltyMinuteCount":0,"infractionCount":0},"media":{"audioUrl":"http:\/\/bit.ly\/WHYN560AM
+        ","videoUrl":"https:\/\/theahl.com\/ahl-all-star-classic-nhl-network-sportsnet","webcastUrl":"https:\/\/www.theahl.com\/AHLTV"},"coaches":[{"firstName":"Tim","lastName":"Army","role":"Head
+        Coach"}],"skaters":[{"info":{"id":2507,"firstName":"Andrew","lastName":"Campbell","jerseyNumber":2,"position":"D","birthDate":"1988-02-04"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":1,"status":"C"},{"info":{"id":5671,"firstName":"Daniel","lastName":"Carr","jerseyNumber":7,"position":"F","birthDate":"1991-11-01"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":1192,"firstName":"Cal","lastName":"O'Reilly","jerseyNumber":9,"position":"F","birthDate":"1986-09-30"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":1,"status":""},{"info":{"id":7066,"firstName":"Joel","lastName":"L'Esperance","jerseyNumber":11,"position":"F","birthDate":"1995-08-18"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":2350,"firstName":"Chris","lastName":"Terry","jerseyNumber":25,"position":"F","birthDate":"1989-04-07"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":1,"status":""},{"info":{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":"1999-09-02"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":2,"hits":0},"starting":0,"status":""},{"info":{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":"1998-05-05"},"stats":{"goals":0,"assists":1,"points":1,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":34,"position":"F","birthDate":"1997-06-07"},"stats":{"goals":1,"assists":0,"points":1,"penaltyMinutes":0,"plusMinus":-1,"faceoffAttempts":0,"faceoffWins":0,"shots":2,"hits":0},"starting":0,"status":""},{"info":{"id":4573,"firstName":"Logan","lastName":"Shaw","jerseyNumber":38,"position":"F","birthDate":"1992-10-05"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":""},{"info":{"id":4081,"firstName":"Matt","lastName":"Donovan","jerseyNumber":46,"position":"D","birthDate":"1990-05-09"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":1,"hits":0},"starting":0,"status":""}],"goalies":[{"info":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":"1989-08-27"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"5:00","shotsAgainst":6,"goalsAgainst":0,"saves":6},"starting":1,"status":""},{"info":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":35,"position":"G","birthDate":"1996-08-16"},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"4:47","shotsAgainst":6,"goalsAgainst":2,"saves":4},"starting":0,"status":""}],"goalieLog":[{"info":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"05:00","shotsAgainst":6,"goalsAgainst":0,"saves":6},"periodStart":{"id":"1","shortName":"1","longName":"1st"},"timeStart":"0:00","periodEnd":{"id":"1","shortName":"1","longName":"1st"},"timeEnd":"5:00","result":""},{"info":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"03:53","shotsAgainst":3,"goalsAgainst":2,"saves":1},"periodStart":{"id":"2","shortName":"2","longName":"2nd"},"timeStart":"0:00","periodEnd":{"id":"2","shortName":"2","longName":"2nd"},"timeEnd":"3:53","result":"L"},{"info":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"timeOnIce":"00:54","shotsAgainst":3,"goalsAgainst":0,"saves":3},"periodStart":{"id":"2","shortName":"2","longName":"2nd"},"timeStart":"4:06","periodEnd":{"id":"2","shortName":"2","longName":"2nd"},"timeEnd":"5:00","result":"L"}],"seasonStats":[]},"periods":[{"info":{"id":"1","shortName":"1","longName":"1st"},"stats":{"homeGoals":"0","homeShots":"6","visitingGoals":"1","visitingShots":"3"},"goals":[{"game_goal_id":"97793","team":{"id":409,"name":"Central
+        Division All-Stars","city":"Central Division","nickname":"Central","abbreviation":"CEN","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/409_63.jpg","divisionName":"All
+        Star"},"period":{"id":"1","shortName":"","longName":"1st"},"time":"2:30","scorerGoalNumber":"1","scoredBy":{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":34,"position":"F","birthDate":""},"assists":[{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""}],"assistNumbers":["1","1"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"0"},"plus_players":[{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":34,"position":"F","birthDate":""}],"minus_players":[{"id":6290,"firstName":"Ethan","lastName":"Prow","jerseyNumber":6,"position":"D","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""},{"id":3604,"firstName":"Jordan","lastName":"Szwarz","jerseyNumber":37,"position":"F","birthDate":""}]}],"penalties":[]},{"info":{"id":"2","shortName":"2","longName":"2nd"},"stats":{"homeGoals":"3","homeShots":"7","visitingGoals":"0","visitingShots":"4"},"goals":[{"game_goal_id":"97794","team":{"id":407,"name":"Atlantic
+        Division All-Stars","city":"Atlantic Division","nickname":"Atlantic","abbreviation":"ATL","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/407_63.jpg","divisionName":"All
+        Star"},"period":{"id":"2","shortName":"","longName":"2nd"},"time":"0:29","scorerGoalNumber":"1","scoredBy":{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},"assists":[{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""},{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":25,"position":"F","birthDate":""}],"assistNumbers":["1","1"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"0"},"plus_players":[{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":25,"position":"F","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""}],"minus_players":[{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":34,"position":"F","birthDate":""}]},{"game_goal_id":"97795","team":{"id":407,"name":"Atlantic
+        Division All-Stars","city":"Atlantic Division","nickname":"Atlantic","abbreviation":"ATL","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/407_63.jpg","divisionName":"All
+        Star"},"period":{"id":"2","shortName":"","longName":"2nd"},"time":"1:25","scorerGoalNumber":"1","scoredBy":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":5,"position":"D","birthDate":""},"assists":[{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":""},{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":""}],"assistNumbers":["1","2"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"1"},"plus_players":[{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":5,"position":"D","birthDate":""},{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":""},{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":""}],"minus_players":[{"id":2507,"firstName":"Andrew","lastName":"Campbell","jerseyNumber":2,"position":"D","birthDate":""},{"id":1192,"firstName":"Cal","lastName":"O'Reilly","jerseyNumber":9,"position":"F","birthDate":""},{"id":2350,"firstName":"Chris","lastName":"Terry","jerseyNumber":25,"position":"F","birthDate":""}]},{"game_goal_id":"97796","team":{"id":407,"name":"Atlantic
+        Division All-Stars","city":"Atlantic Division","nickname":"Atlantic","abbreviation":"ATL","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/407_63.jpg","divisionName":"All
+        Star"},"period":{"id":"2","shortName":"","longName":"2nd"},"time":"4:06","scorerGoalNumber":"3","scoredBy":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":3,"position":"D","birthDate":""},"assists":[],"assistNumbers":["0","0"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"1","isPenaltyShot":"0","isInsuranceGoal":"1","isGameWinningGoal":"0"},"plus_players":[{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":3,"position":"D","birthDate":""},{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""}],"minus_players":[{"id":7066,"firstName":"Joel","lastName":"L'Esperance","jerseyNumber":11,"position":"F","birthDate":""},{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":34,"position":"F","birthDate":""}]}],"penalties":[]}],"penaltyShots":{"homeTeam":[],"visitingTeam":[]},"featuredPlayer":{"team":{"id":409,"name":"Central
+        Division All-Stars","city":"Central Division","nickname":"Central","abbreviation":"CEN","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/409_63.jpg","divisionName":"All
+        Star"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
+        ","sponsor":{"name":null,"image":null}}})
+  recorded_at: Sun, 13 Jun 2021 17:58:04 GMT
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1019521&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Jun 2021 17:58:04 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=uk8kc24n7vml5brtph8uho75su; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '1479'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: json([{"event":"goalie_change","details":{"goalieComingIn":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"goalieGoingOut":null,"team_id":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"0:00"}},{"event":"goalie_change","details":{"goalieComingIn":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"goalieGoingOut":null,"team_id":"409","period":{"id":"1","shortName":"1","longName":"1st"},"time":"0:00"}},{"event":"shot","details":{"shooter":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"1:46","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":59,"yLocation":146}},{"event":"shot","details":{"shooter":{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""},"goalie":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"1","shortName":"1","longName":"1st"},"time":"2:20","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":530,"yLocation":133}},{"event":"shot","details":{"shooter":{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""},"goalie":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"1","shortName":"1","longName":"1st"},"time":"2:30","isGoal":true,"shotQuality":"Quality
+        goal","shotType":"Default","xLocation":542,"yLocation":150}},{"event":"goal","details":{"game_goal_id":"97793","team":{"id":409,"name":"","city":"","nickname":"","abbreviation":"CEN","logo":""},"period":{"id":"1","shortName":"1","longName":"1st"},"time":"2:30","scorerGoalNumber":"1","scoredBy":{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""},"assists":[{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""}],"assistNumbers":["1","1"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"0"},"plus_players":[{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""}],"minus_players":[{"id":6290,"firstName":"Ethan","lastName":"Prow","jerseyNumber":6,"position":"D","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""},{"id":3604,"firstName":"Jordan","lastName":"Szwarz","jerseyNumber":37,"position":"F","birthDate":""}],"xLocation":542,"yLocation":150}},{"event":"shot","details":{"shooter":{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"3:07","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":141,"yLocation":108}},{"event":"shot","details":{"shooter":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"3:13","isGoal":false,"shotQuality":"Non
+        quality on net","shotType":"Default","xLocation":98,"yLocation":63}},{"event":"shot","details":{"shooter":{"id":4081,"firstName":"Matt","lastName":"Donovan","jerseyNumber":46,"position":"D","birthDate":""},"goalie":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"1","shortName":"1","longName":"1st"},"time":"3:45","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":466,"yLocation":219}},{"event":"shot","details":{"shooter":{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"3:52","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":120,"yLocation":210}},{"event":"shot","details":{"shooter":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"4:59","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":78,"yLocation":144}},{"event":"shot","details":{"shooter":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},"goalie":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"1","shortName":"1","longName":"1st"},"time":"5:00","isGoal":false,"shotQuality":"Non
+        quality on net","shotType":"Default","xLocation":45,"yLocation":129}},{"event":"goalie_change","details":{"goalieComingIn":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"goalieGoingOut":{"id":4994,"firstName":"Troy","lastName":"Grosenick","jerseyNumber":1,"position":"G","birthDate":""},"team_id":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"0:00"}},{"event":"goalie_change","details":{"goalieComingIn":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"goalieGoingOut":{"id":6809,"firstName":"Samuel","lastName":"Montembeault","jerseyNumber":33,"position":"G","birthDate":""},"team_id":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"0:00"}},{"event":"shot","details":{"shooter":{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"0:29","isGoal":true,"shotQuality":"Quality
+        goal","shotType":"Default","xLocation":70,"yLocation":156}},{"event":"goal","details":{"game_goal_id":"97794","team":{"id":407,"name":"","city":"","nickname":"","abbreviation":"ATL","logo":""},"period":{"id":"2","shortName":"2","longName":"2nd"},"time":"0:29","scorerGoalNumber":"1","scoredBy":{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},"assists":[{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""},{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":28,"position":"F","birthDate":""}],"assistNumbers":["1","1"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"0"},"plus_players":[{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":28,"position":"F","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""}],"minus_players":[{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""}],"xLocation":70,"yLocation":156}},{"event":"shot","details":{"shooter":{"id":2507,"firstName":"Andrew","lastName":"Campbell","jerseyNumber":25,"position":"D","birthDate":""},"goalie":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"0:55","isGoal":false,"shotQuality":"Non
+        quality on net","shotType":"Default","xLocation":555,"yLocation":100}},{"event":"shot","details":{"shooter":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"1:07","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":110,"yLocation":113}},{"event":"shot","details":{"shooter":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"1:25","isGoal":true,"shotQuality":"Quality
+        goal","shotType":"Default","xLocation":99,"yLocation":140}},{"event":"goal","details":{"game_goal_id":"97795","team":{"id":407,"name":"","city":"","nickname":"","abbreviation":"ATL","logo":""},"period":{"id":"2","shortName":"2","longName":"2nd"},"time":"1:25","scorerGoalNumber":"1","scoredBy":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"assists":[{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":""},{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":""}],"assistNumbers":["1","2"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"1"},"plus_players":[{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},{"id":5442,"firstName":"Greg","lastName":"Carey","jerseyNumber":10,"position":"F","birthDate":""},{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":""}],"minus_players":[{"id":2507,"firstName":"Andrew","lastName":"Campbell","jerseyNumber":25,"position":"D","birthDate":""},{"id":1192,"firstName":"Cal","lastName":"O'Reilly","jerseyNumber":9,"position":"F","birthDate":""},{"id":2350,"firstName":"Chris","lastName":"Terry","jerseyNumber":25,"position":"F","birthDate":""}],"xLocation":99,"yLocation":140}},{"event":"shot","details":{"shooter":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:06","isGoal":true,"shotQuality":"Quality
+        goal","shotType":"Default","xLocation":127,"yLocation":130}},{"event":"goal","details":{"game_goal_id":"97796","team":{"id":407,"name":"","city":"","nickname":"","abbreviation":"ATL","logo":""},"period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:06","scorerGoalNumber":"3","scoredBy":{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},"assists":[],"assistNumbers":["0","0"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"1","isPenaltyShot":"0","isInsuranceGoal":"1","isGameWinningGoal":"0"},"plus_players":[{"id":6416,"firstName":"John","lastName":"Gilmour","jerseyNumber":33,"position":"D","birthDate":""},{"id":2050,"firstName":"Colin","lastName":"McDonald","jerseyNumber":13,"position":"F","birthDate":""},{"id":6845,"firstName":"Sebastian","lastName":"Aho","jerseyNumber":28,"position":"D","birthDate":""}],"minus_players":[{"id":7066,"firstName":"Joel","lastName":"L'Esperance","jerseyNumber":11,"position":"F","birthDate":""},{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},{"id":6704,"firstName":"Jordan","lastName":"Kyrou","jerseyNumber":29,"position":"F","birthDate":""},{"id":6459,"firstName":"Denis","lastName":"Gurianov","jerseyNumber":25,"position":"F","birthDate":""}],"xLocation":127,"yLocation":130}},{"event":"goalie_change","details":{"goalieComingIn":null,"goalieGoingOut":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"team_id":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:06"}},{"event":"shot","details":{"shooter":{"id":6212,"firstName":"Andrew","lastName":"Poturalski","jerseyNumber":22,"position":"F","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:16","isGoal":false,"shotQuality":"Non
+        quality on net","shotType":"Default","xLocation":168,"yLocation":59}},{"event":"shot","details":{"shooter":{"id":2350,"firstName":"Chris","lastName":"Terry","jerseyNumber":25,"position":"F","birthDate":""},"goalie":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:25","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":503,"yLocation":87}},{"event":"shot","details":{"shooter":{"id":6365,"firstName":"Anthony","lastName":"Greco","jerseyNumber":28,"position":"F","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:39","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":81,"yLocation":150}},{"event":"shot","details":{"shooter":{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},"goalie":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:49","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":546,"yLocation":165}},{"event":"shot","details":{"shooter":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:56","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":67,"yLocation":170}},{"event":"shot","details":{"shooter":{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},"goalie":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"5:00","isGoal":false,"shotQuality":"Quality
+        on net","shotType":"Default","xLocation":507,"yLocation":127}}])
+  recorded_at: Sun, 13 Jun 2021 17:58:04 GMT
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_code=&league_id=&pageName=schedule&season=latest&site_id=1&view=bootstrap
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 13 Jun 2021 17:58:05 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=sg841aa094gd0njfleilakcrsm; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '3957'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: 'json({"firebaseUrl":"leaguestat-b9523.firebaseio.com","firebaseToken":"uwM69pPkdUhb0UuVAxM8IcA6pBAzATAxOc8979oJ","firebaseApiKey":"AIzaSyBVn0Gr6zIFtba-hQy3StkifD8bb7Hi68A","current_league_id":"4","current_season_id":"72","leagues":[{"id":"4","name":"American
+        Hockey League","short_name":"AHL","code":"ahl","logo_image":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=img\/logos\/league-logo.jpg"}],"seasons":[{"id":"72","name":"2021
+        Playoffs","default_sort":""},{"id":"68","name":"2020-21 Regular Season","default_sort":""},{"id":"67","name":"2020
+        All-Star Challenge","default_sort":""},{"id":"65","name":"2019-20 Regular
+        Season","default_sort":""},{"id":"64","name":"2019 Calder Cup Playoffs","default_sort":""},{"id":"63","name":"2019
+        All-Star Challenge","default_sort":""},{"id":"61","name":"2018-19 Regular
+        Season","default_sort":""},{"id":"60","name":"2018 Calder Cup Playoffs","default_sort":""},{"id":"58","name":"2017-18
+        Exhibition","default_sort":""},{"id":"59","name":"2018 All-Star Challenge","default_sort":""},{"id":"57","name":"2017-18
+        Regular Season","default_sort":""},{"id":"56","name":"2017 Calder Cup Playoffs","default_sort":""},{"id":"55","name":"2017
+        All-Star Challenge","default_sort":""},{"id":"54","name":"2016-17 Regular
+        Season","default_sort":""},{"id":"53","name":"2016 Calder Cup Playoffs","default_sort":""},{"id":"52","name":"2016
+        All-Star Challenge","default_sort":""},{"id":"51","name":"2015-16 Regular
+        Season","default_sort":""},{"id":"50","name":"2015 Calder Cup Playoffs","default_sort":""},{"id":"49","name":"2015
+        All-Star Game","default_sort":""},{"id":"48","name":"2014-15 Regular Season","default_sort":""},{"id":"47","name":"2014
+        Calder Cup Playoffs","default_sort":""},{"id":"45","name":"2013-14 Exhibition","default_sort":""},{"id":"44","name":"2014
+        All-Star Game","default_sort":""},{"id":"43","name":"2013-14 Regular Season","default_sort":""},{"id":"42","name":"2013
+        Calder Cup Playoffs","default_sort":""},{"id":"41","name":"2013 All-Star Game","default_sort":""},{"id":"40","name":"2012-13
+        Regular Season","default_sort":""},{"id":"39","name":"2012 Calder Cup Playoffs","default_sort":""},{"id":"38","name":"2012
+        All-Star Game","default_sort":""},{"id":"37","name":"2011-12 Regular Season","default_sort":""},{"id":"36","name":"2011
+        Calder Cup Playoffs","default_sort":""},{"id":"35","name":"2011 All-Star Game","default_sort":""},{"id":"34","name":"2010-11
+        Regular Season","default_sort":""},{"id":"33","name":"2010 Calder Cup Playoffs","default_sort":""},{"id":"31","name":"2010
+        All-Star Game","default_sort":""},{"id":"30","name":"2009-10 Regular Season","default_sort":""},{"id":"29","name":"2009
+        Calder Cup Playoffs","default_sort":""},{"id":"28","name":"2009 All-Star Game","default_sort":""},{"id":"16","name":"2008-09
+        Regular Season","default_sort":""},{"id":"15","name":"2008 Calder Cup Playoffs","default_sort":""},{"id":"14","name":"2008
+        All-Star Game","default_sort":""},{"id":"12","name":"2007-08 Regular Season","default_sort":""},{"id":"10","name":"2007
+        Calder Cup Playoffs","default_sort":""},{"id":"9","name":"2007 All-Star Game","default_sort":""},{"id":"8","name":"2006-07
+        Regular Season","default_sort":""},{"id":"7","name":"2006 Calder Cup Playoffs","default_sort":""},{"id":"2","name":"2006
+        All-Star Game","default_sort":""},{"id":"1","name":"2005-06 Regular Season","default_sort":""},{"id":"69","name":"2005
+        Calder Cup Playoffs","default_sort":""},{"id":"17","name":"2005 All-Star Game","default_sort":""},{"id":"46","name":"2004-05
+        Regular Season","default_sort":""},{"id":"18","name":"2004 All-Star Game","default_sort":""},{"id":"19","name":"2003
+        All-Star Game","default_sort":""},{"id":"20","name":"2002 All-Star Game","default_sort":""},{"id":"21","name":"2001
+        All-Star Game","default_sort":""},{"id":"22","name":"2000 All-Star Game","default_sort":""},{"id":"23","name":"1999
+        All-Star Game","default_sort":""},{"id":"24","name":"1998 All-Star Game","default_sort":""},{"id":"25","name":"1997
+        All-Star Game","default_sort":""},{"id":"26","name":"1996 All-Star Game","default_sort":""},{"id":"27","name":"1995
+        All-Star Game","default_sort":""}],"conferences":[{"conference_id":"6","conference_name":"AHL"}],"divisions":[{"id":"25","name":"Pacific
+        Division","conference_id":"6"}],"divisionsAll":[{"id":-1,"name":"All Divisions","conference_id":null},{"id":"25","name":"Pacific
+        Division","conference_id":"6"}],"first_season_year":"1995","regularSeasons":[{"id":"68","name":"2020-21
+        Regular Season"},{"id":"65","name":"2019-20 Regular Season"},{"id":"61","name":"2018-19
+        Regular Season"},{"id":"57","name":"2017-18 Regular Season"},{"id":"54","name":"2016-17
+        Regular Season"},{"id":"51","name":"2015-16 Regular Season"},{"id":"48","name":"2014-15
+        Regular Season"},{"id":"43","name":"2013-14 Regular Season"},{"id":"40","name":"2012-13
+        Regular Season"},{"id":"37","name":"2011-12 Regular Season"},{"id":"34","name":"2010-11
+        Regular Season"},{"id":"30","name":"2009-10 Regular Season"},{"id":"16","name":"2008-09
+        Regular Season"},{"id":"12","name":"2007-08 Regular Season"},{"id":"8","name":"2006-07
+        Regular Season"},{"id":"1","name":"2005-06 Regular Season"},{"id":"46","name":"2004-05
+        Regular Season"}],"playoffSeasons":[{"id":"72","name":"2021 Playoffs"},{"id":"64","name":"2019
+        Calder Cup Playoffs"},{"id":"60","name":"2018 Calder Cup Playoffs"},{"id":"56","name":"2017
+        Calder Cup Playoffs"},{"id":"53","name":"2016 Calder Cup Playoffs"},{"id":"50","name":"2015
+        Calder Cup Playoffs"},{"id":"47","name":"2014 Calder Cup Playoffs"},{"id":"42","name":"2013
+        Calder Cup Playoffs"},{"id":"39","name":"2012 Calder Cup Playoffs"},{"id":"36","name":"2011
+        Calder Cup Playoffs"},{"id":"33","name":"2010 Calder Cup Playoffs"},{"id":"29","name":"2009
+        Calder Cup Playoffs"},{"id":"15","name":"2008 Calder Cup Playoffs"},{"id":"10","name":"2007
+        Calder Cup Playoffs"},{"id":"7","name":"2006 Calder Cup Playoffs"},{"id":"69","name":"2005
+        Calder Cup Playoffs"}],"teams":[{"id":-1,"name":"All Teams"},{"id":"402","name":"Bakersfield
+        Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_72.png"},{"id":"419","name":"Colorado
+        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"437","name":"Henderson
+        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"403","name":"Ontario
+        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"404","name":"San
+        Diego Gulls","nickname":"Gulls","team_code":"SD","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/404.png"},{"id":"405","name":"San
+        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_72.png"},{"id":"412","name":"Tucson
+        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"}],"teamsNoAll":[{"id":"402","name":"Bakersfield
+        Condors","nickname":"Condors","team_code":"BAK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/402_72.png"},{"id":"419","name":"Colorado
+        Eagles","nickname":"Eagles","team_code":"COL","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/419.png"},{"id":"437","name":"Henderson
+        Silver Knights","nickname":"Silver Knights","team_code":"HSK","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/437.png"},{"id":"403","name":"Ontario
+        Reign","nickname":"Reign","team_code":"ONT","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/403.png"},{"id":"404","name":"San
+        Diego Gulls","nickname":"Gulls","team_code":"SD","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/404.png"},{"id":"405","name":"San
+        Jose Barracuda","nickname":"Barracuda","team_code":"SJ","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/405_72.png"},{"id":"412","name":"Tucson
+        Roadrunners","nickname":"Roadrunners","team_code":"TUC","division_id":"25","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/50x50\/412.png"}],"months":[{"id":-1,"name":"All
+        Months"},{"id":1,"name":"January"},{"id":2,"name":"February"},{"id":3,"name":"March"},{"id":4,"name":"April"},{"id":5,"name":"May"},{"id":6,"name":"June"},{"id":7,"name":"July"},{"id":8,"name":"August"},{"id":9,"name":"September"},{"id":10,"name":"October"},{"id":11,"name":"November"},{"id":12,"name":"December"}],"monthsAll":[{"id":-1,"name":"All
+        Months"},{"id":1,"name":"January"},{"id":2,"name":"February"},{"id":3,"name":"March"},{"id":4,"name":"April"},{"id":5,"name":"May"},{"id":6,"name":"June"},{"id":7,"name":"July"},{"id":8,"name":"August"},{"id":9,"name":"September"},{"id":10,"name":"October"},{"id":11,"name":"November"},{"id":12,"name":"December"}],"positions":[{"id":"skaters","name":"Skaters"},{"id":"forwards","name":"Forwards"},{"id":"defencemen","name":"Defencemen"}],"goalies":[{"id":"qualified","name":"Qualified
+        Goalies"},{"id":"all","name":"All Goalies"}],"rosterstatus":[{"id":1,"name":"Active"},{"id":2,"name":"Reserve"},{"id":3,"name":"New
+        Recruit"}],"standingsFooter":"x = Clinched Playoff Position<br \/>y = Clinched
+        Division","rosterFooter":"","playerStatsFooter":"* indicates rookie<br \/>x
+        indicates inactive","showExpandedGoaliesOption":true,"showRosterStatus":null,"quickViews":[],"dailySchedRefreshToggle":true,"dailySchedChangeoverHour":10,"svfConfig":{"daily_schedule":{"show_ad":true,"showScheduleButton":true},"environment":{"isLive":true},"hockeytv_url":"https:\/\/www.hockeytv.com","game-summary":{"hide-official-numbers":true},"goalie_stats":{"showExpandedGoaliesOption":true},"schedule":{"showScheduleButton":true},"liveScoreUpdates":true,"game_summary":{"hidePlayerPlusMinus":false,"hidePlayerShots":false}},"svfLanguages":["en"],"svfLang":{"Submit":"Submit","SUBMIT":"SUBMIT","English":"TXT_ADMINISTRATION_UTILITIES_ENGLISH","French":"French","SEARCH":"SEARCH","FILTER":"FILTER","Schedule":"Schedule","Daily_Schedule":"Daily
+        Schedule and Scores","Team_Stats":"Team Stats","Skater_Stats":"Skater Stats","Goalie_Stats":"Goalie
+        Stats","Alt_Skater_Stats":"All-Time Skater Stats","Alt_Goalie_Stats":"All-Time
+        Goalie Stats","Streaks":"Streaks","Person_Search":"Person Search","Transactions":"Transactions","Playoff_Brackets":"Playoff
+        Brackets","Team_Attendance":"Team Attendance","Attendance":"Attendance","Leaders":"Leaders","Leaders_Extended":"Leaders
+        Extended","College_Commitments":"College Commitments","Home":"Home","Away":"Away","Home_Away":"Home
+        & Away","Next":"Next","Previous":"Previous","Today":"Today","Stats":"Stats","League":"League","Division":"Division","Conference":"Conference","Overall":"Overall","Special_Teams":"Special
+        Teams","Rookie":"Rookie","Standard":"Standard","Expanded":"Expanded","Skater":"Skater","Goalie":"Goalie","Goalie_min1":"Goalies
+        must have","Goalie_min2":"minutes to be considered qualified","Regular_Season":"Regular
+        Season","Team":"Team","Player":"Player","Goals":"Goals","Assists":"Assists","Points":"Points","Active":"Active","All_Players":"All
+        Players","Playoff_Tracker":"Playoff Tracker","Playoffs":"Playoffs","Round":"Round","Matchup":"Match
+        Up","Schedulescores":"Schedule\/Results","Game":"Game","Roster":"Roster","Round_Robin":"Round
+        Robin","Games":"Games","Games_Played":"Games Played","Group_Division":"Groups
+        by Division","Scoring":"Scoring","Shots":"Shots","View_All":"View All","Loading_Scoreboard":"Loading
+        Scoreboard...","Tickets":"Tickets","Boxscore":"Boxscore","wins":"wins","series":"series","if_necessary":"if
+        necessary","NO_GAMES":"NO GAMES MATCH THE SELECTED CRITERIA","NO_GAMES_SCHEDULE":"NO
+        GAMES MATCH THE SELECTED CRITERIA","NO_PLAYERS":"NO PLAYERS MATCH THE SELECTED
+        CRITERIA","NO_PLAYER":"NO DATA WAS FOUND","NO_IMAGE":"NO DATA WAS FOUND","NO_VIDEO":"NO
+        DATA WAS FOUND","NO_AUDIO":"NO DATA WAS FOUND","NO_TRANSACTIONS":"NO TRANSACTIONS
+        MATCH THE SELECTED CRITERIA","NO_DATA":"NO DATA WAS FOUND","Player_Stats":"Player
+        Stats","Player_Media":"Player Media","Images":"Images","Video":"Video","Audio":"Audio","Game_Game":"Game
+        by Game","Player_Awards":"Player Awards","Tap_Game_Summary":"Tap to see Game
+        Summary","Tap_Game_Details":"Tap to see Game Details","Schedule_Changes":"Schedule
+        Changes","Note_Players_Starting_Lineup":"NOTE: Players listed in Italics are
+        the starting lineup.","No_Scoring":"No Scoring","Plus":"plus","Minus":"minus","Penalties":"Penalties","No_Penalties":"No
+        Penalties","Penalty_Shots":"Penalty Shots","Shooter":"Shooter","Goaltender":"Goaltender","Goaltenders":"Goaltenders","Period":"Period","Time":"Time","Goal":"Goal","Yes":"Yes","No":"No","Shootout":"Shootout","Shootout_Abbrev":"SO","No_Goal":"No
+        Goal","Total":"Total","TOI":"TOI","SV_SH":"SV","G":"G","A":"A","PIM":"PIM","SA":"SA","SV":"SV","Three_Stars":"Three
+        Stars","first":"1st","second":"2nd","third":"3rd","PP":"PP","SO":"SO","FO":"FO","PS":"PS","SH":"SH","SHAND":"SH","EN":"EN","Bench":"Bench","Served_By":"Served
+        by","Player_of_the_Game":"Player of the Game","PTS":"PTS","Arena":"Arena","Officials":"OFFICIALS","Off_Ice_Officials":"Off-Ice
+        Officials","Start":"Start","End":"End","Length":"Length","Public_Notes":"Public
+        Notes","Min":"min","Inf":"inf","Game_Report":"Game Report","Text_Boxscore":"Text
+        Box Score","Error_Loading":"Error in loading data.","lbs":"lbs","Media_Kit":"Media
+        Kit","POS":"Pos","GA":"GA","MIN":"Mins","SVS":"SVS","See_All_Leaders":"See
+        All Leaders","See_Full_Standings":"See Full Standings","Player_seoTitle":"Stats
+        and Player Profile","Select":"-- Select --","TLP_Select":"Please select your
+        Season, Division and Team","TLP_Select2":"Please select your Playoff''s Season
+        and Division","NEXT_DAY":"Next Day","PREV_DAY":"Previous Day","ADD_TO_CAL":"Add
+        to Calendar","ALL_GAMES_TO_CAL":"Add All Games to Calendar","PLAYOFFS":"Playoffs","SEL_SDT_REG":"Please
+        select your Season, Division and Team:","SEL_SDT_PO":"Please select your Playoff''s
+        Season and Division:","GO":"Go","Visiting_Audio":"Visiting Audio","Home_Audio":"Home
+        Audio","Watch_Live":"Watch Live","Shots_on_Goal":"Shots on Goal","On":"On","Off":"Off","Name":"Name","Role":"Role","Head_to_Head":"Head
+        to Head","Previous_Meetings_This_Season":"Previous Meetings This Season","Top_Scorers":"Top
+        Scorers","Last_5_Games":"Last 5 Games","Last_10_Games":"Last 10 Games","Streak":"Streak","Last_Game":"Last
+        Game","Home_Record":"Home Record","Away_Record":"Away Record","Goals_For":"Goals
+        For","Goals_Against":"Goals Against","Penalty_Killing":"Penalty Killing","Penalty_Killing_Home":"Penalty
+        Killing (Home)","Penalty_Killing_Away":"Penalty Killing (Away)","Leading_Rookie":"Leading
+        Rookie","Team_PIM_GM":"Team PIM\/GM","Play_by_Play":"Play By Play","Hits":"Hits","GS_Hits":"Hits","Faceoffs":"Faceoffs","Goalie_Change":"Goalie
+        Change","In":"IN","Faceoff":"Faceoff","Shot":"Shot","Penalty":"Penalty","None":"None","None_Fem":"None","Power_Play":"Power
+        Play","Short_Handed":"SHORT HANDED","Empty_Net":"Empty Net","Penalty_Shot":"Penalty
+        shot","Hit":"Hit","Most_PIM":"Most PIM","Previous_Season":"Previous Season","Current_Season":"Current
+        Season","Last_5_Seasons":"Last 5 Seasons","Season_Record":"Season Record","Power_Plays":"Power
+        Plays","Power_Plays_Home":"Power Plays (Home)","Power_Plays_Away":"Power Plays
+        (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
+        on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
+        Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
+  recorded_at: Sun, 13 Jun 2021 17:58:05 GMT
+recorded_with: VCR 6.0.0

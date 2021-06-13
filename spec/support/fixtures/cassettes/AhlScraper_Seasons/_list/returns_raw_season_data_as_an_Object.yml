@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Fri, 11 Jun 2021 04:52:27 GMT
+      - Sun, 13 Jun 2021 17:58:31 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=d9a018qd12mpsfecngul0ut1iq; path=/
+      - PHPSESSID=cunoi6piodud2a00d06oijv2ut; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -170,5 +170,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Fri, 11 Jun 2021 04:52:27 GMT
+  recorded_at: Sun, 13 Jun 2021 17:58:31 GMT
 recorded_with: VCR 6.0.0

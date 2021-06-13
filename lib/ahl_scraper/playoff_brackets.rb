@@ -1,20 +1,16 @@
 # frozen_string_literal: true
 
-require "ahl_scraper/tags/season_tag"
-
-require "ahl_scraper/playoff_brackets/resources/game"
-require "ahl_scraper/playoff_brackets/resources/round"
-require "ahl_scraper/playoff_brackets/resources/series"
-require "ahl_scraper/playoff_brackets/resources/team"
-
-require "ahl_scraper/playoff_brackets/playoff_bracket_object"
+require "ahl_scraper/resources/playoff_brackets/game"
+require "ahl_scraper/resources/playoff_brackets/round"
+require "ahl_scraper/resources/playoff_brackets/series"
+require "ahl_scraper/resources/playoff_brackets/team"
 
 module AhlScraper
   module PlayoffBrackets
     class << self
       def retrieve(season_id)
-        bracket_data = Fetch::PlayoffBracketData.new(season_id).call
-        PlayoffBracketObject.new(bracket_data)
+        bracket_data = PlayoffBracketDataFetcher.new(season_id).call
+        PlayoffBracket.new(bracket_data)
       end
     end
   end

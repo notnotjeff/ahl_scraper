@@ -7,7 +7,7 @@ RSpec.describe AhlScraper::Players do
     it "returns array of PlayerObjects for a team season", :vcr do
       player = described_class.retrieve(player_id)
 
-      expect(player).to be_a(AhlScraper::Players::PlayerObject)
+      expect(player).to be_a(AhlScraper::Player)
     end
   end
 end

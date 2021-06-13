@@ -13,7 +13,7 @@ RSpec.describe AhlScraper::Seasons do
     it "returns season object", :vcr do
       season = described_class.retrieve(61)
 
-      expect(season.class).to eq(AhlScraper::Seasons::SeasonObject)
+      expect(season.class).to eq(AhlScraper::Season)
     end
   end
 
@@ -22,7 +22,7 @@ RSpec.describe AhlScraper::Seasons do
       raw_seasons = described_class.list
       seasons = described_class.retrieve_all
 
-      expect(seasons).to all(be_a(AhlScraper::Seasons::SeasonObject))
+      expect(seasons).to all(be_a(AhlScraper::Season))
       expect(seasons.length).to eq(raw_seasons.length)
     end
   end
