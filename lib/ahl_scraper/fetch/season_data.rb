@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
-require "ahl_scraper/fetch/resources/season"
-
 module AhlScraper
   module Fetch
     class SeasonData
       def call
-        JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)&.dig(:seasons)&.map { |season| Season.new(season) }
+        JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)&.dig(:seasons)
       end
 
       private

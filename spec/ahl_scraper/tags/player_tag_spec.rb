@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe AhlScraper::Teams::Player do
+RSpec.describe AhlScraper::PlayerTag do
   let(:is_rookie) { "0" }
   let(:team_id) { 335 }
   let(:season_id) { 61 }

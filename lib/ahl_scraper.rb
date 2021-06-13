@@ -8,6 +8,7 @@ require "bigdecimal"
 require "ahl_scraper/version"
 
 require "ahl_scraper/resource"
+require "ahl_scraper/tag"
 
 require "ahl_scraper/games"
 require "ahl_scraper/seasons"

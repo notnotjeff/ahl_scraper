@@ -2,10 +2,11 @@
 
 RSpec.describe AhlScraper::Fetch::SeasonData do
   describe "#call" do
-    it "returns season data from request", :vcr do
+    it "returns season data from request", :vcr, :aggregate_failures do
       season_data = described_class.new.call
 
-      expect(season_data).to all(be_a(AhlScraper::Fetch::Season))
+      expect(season_data).to be_a(Array)
+      expect(season_data.length).to be_positive
     end
   end
 end

@@ -16,9 +16,18 @@ RSpec.describe AhlScraper::Games::Format::TimeSplits do
     ]
   end
   let(:current_state) { { status: "finished", time: nil, period: nil, period_number: nil, overtime: true, shootout: true } }
+  let(:game_properties) do
+    {
+      playoffs: false,
+      periods: 3,
+      overtime_periods: 1,
+      game_start_time_in_seconds: nil,
+      game_end_time_in_seconds: nil,
+    }
+  end
 
   it "sets time splits correctly based on goal data" do
-    time_splits = described_class.new(raw_goals, team_id, current_state).call
+    time_splits = described_class.new(raw_goals, team_id, current_state, game_properties).call
 
     expect(time_splits[:leading]).to eq(148)
     expect(time_splits[:trailing]).to eq(634)

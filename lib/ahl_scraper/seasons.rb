@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "ahl_scraper/tags/season_tag"
+
 require "ahl_scraper/seasons/format/teams"
 
 require "ahl_scraper/seasons/season_resource"
@@ -11,7 +13,7 @@ module AhlScraper
 
     class << self
       def list
-        @season_data ||= Fetch::SeasonData.new.call
+        @season_data ||= Fetch::SeasonData.new.call&.map { |season_data| SeasonTag.new(season_data) }
         @season_data
       end
 

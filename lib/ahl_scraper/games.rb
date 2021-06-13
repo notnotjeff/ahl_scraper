@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "ahl_scraper/tags/game_tag"
+
 require "ahl_scraper/games/services/create_skaters_service"
 
 require "ahl_scraper/games/format/on_ice_statlines"
@@ -17,13 +19,15 @@ require "ahl_scraper/games/game_object"
 
 module AhlScraper
   module Games
+    @season_games = {}
+
     class << self
       def retrieve(game_id, season_type = nil)
         GameObject.new(game_id, season_type: season_type)
       end
 
       def list(season_id)
-        Fetch::SeasonGameIds.new(season_id).call
+        @season_games[season_id.to_s] ||= Fetch::SeasonGameIds.new(season_id).call&.map { |game_data| GameTag.new(game_data) }
       end
     end
   end

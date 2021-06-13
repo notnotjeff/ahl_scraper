@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "ahl_scraper/tags/season_tag"
+
 require "ahl_scraper/playoff_brackets/resources/game"
 require "ahl_scraper/playoff_brackets/resources/round"
 require "ahl_scraper/playoff_brackets/resources/series"
@@ -11,7 +13,10 @@ module AhlScraper
   module PlayoffBrackets
     class << self
       def list
-        Fetch::SeasonData.new.call.filter { |season| season.season_type == :playoffs }
+        Fetch::SeasonData.new
+          .call
+          &.map { |season_data| SeasonTag.new(season_data) }
+          &.filter { |season| season.season_type == :playoffs }
       end
 
       def retrieve(season_id)

@@ -24,11 +24,11 @@ RSpec.describe AhlScraper::Games::GameObject do
       end
     end
 
-    context "when game was voided" do
-      it "returns void" do
+    context "when game result needs to be voided" do
+      it "returns result_void" do
         game = described_class.new(1_022_174)
 
-        expect(game.status).to eq("void")
+        expect(game.status).to eq("result_void")
       end
     end
   end

@@ -8,7 +8,7 @@ RSpec.describe AhlScraper::PlayoffBrackets do
       playoff_seasons = described_class.list
 
       expect(playoff_seasons.map(&:season_type).uniq).to match_array([:playoffs])
-      expect(playoff_seasons).to all(be_a(AhlScraper::Fetch::Season))
+      expect(playoff_seasons).to all(be_a(AhlScraper::SeasonTag))
     end
   end
 

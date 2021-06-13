@@ -2,10 +2,11 @@
 
 RSpec.describe AhlScraper::Fetch::SeasonGameIds do
   describe "#call" do
-    it "returns game ids for season", :vcr do
-      game_ids = described_class.new(65).call
+    it "returns game ids for season", :vcr, :aggregate_failures do
+      game_data = described_class.new(65).call
 
-      expect(game_ids).to all(be_a(Integer))
+      expect(game_data.length).to be_positive
+      expect(game_data).to be_a(Array)
     end
   end
 end
