@@ -39,7 +39,6 @@ This gem is divided into five modules that provide you with an assortment of met
   - `list`
   - `retrieve`
 - [PlayoffBrackets](#playoffbrackets)
-  - `list`
   - `retrieve`
 
 ### Seasons
@@ -158,28 +157,6 @@ AhlScraper::Teams.retrieve(335, 68)
 ```
 
 ### PlayoffBrackets
-
-#### list
-
-Returns a list of `SeasonTag` classes for all playoff seasons:
-
-```ruby
-require "ahl_scraper"
-AhlScraper::PlayoffBrackets.list
-
-#=> [#<SeasonTag:0x4088 {:id=>72, :season_type=>:playoffs, :name=>"2021 Playoffs"}>,
- #<SeasonTag:0x409c {:id=>64, :season_type=>:playoffs, :name=>"2019 Calder Cup Playoffs"}>,
- #<SeasonTag:0x40b0 {:id=>60, :season_type=>:playoffs, :name=>"2018 Calder Cup Playoffs"}>,
- #<SeasonTag:0x40c4 {:id=>56, :season_type=>:playoffs, :name=>"2017 Calder Cup Playoffs"}>,
- #<SeasonTag:0x40d8 {:id=>53, :season_type=>:playoffs, :name=>"2016 Calder Cup Playoffs"}>,
- #<SeasonTag:0x40ec {:id=>50, :season_type=>:playoffs, :name=>"2015 Calder Cup Playoffs"}>,
- #<SeasonTag:0x4100 {:id=>47, :season_type=>:playoffs, :name=>"2014 Calder Cup Playoffs"}>,
- #<SeasonTag:0x4114 {:id=>42, :season_type=>:playoffs, :name=>"2013 Calder Cup Playoffs"}>,
- #<SeasonTag:0x4128 {:id=>39, :season_type=>:playoffs, :name=>"2012 Calder Cup Playoffs"}>,
- #<SeasonTag:0x413c {:id=>36, :season_type=>:playoffs, :name=>"2011 Calder Cup Playoffs"}>,
- #...
- #]
-```
 
 #### retrieve(season_id)
 
