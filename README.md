@@ -187,10 +187,6 @@ There are many types of statuses a game can have depending on its current state 
 | `forfeit_with_stats` | `manual`    | Game was forfeited but player stats do exist                               |
 | `postponed`          | `automatic` | Game was never started but moved to a different date                       |
 
-## Broken Games
-
-See the [BROKEN GAMES](BROKEN_GAMES.md) documentation for a list of all broken games and if they have been resolved.
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
