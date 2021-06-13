@@ -26,20 +26,21 @@ TODO: Write usage instructions here
 
 ## Game Statuses
 
-There are many statuses a game can be depending on its current state or if any problems arose to invalidate or change the status of the game (forfeit, COVID, etc). Games that need overriden statuses can be found in `game_object.rb` in the `IRREGULAR_GAMES` constant.
+There are many statuses a game can be depending on its current state or if any problems arose to invalidate or change the status of the game (forfeit, COVID, etc). Games that need overriden statuses can be found in `game_object.rb` in the `IRREGULAR_GAMES` constant. Statuses that can be assertained from the game data are marked as `automatic`, while the ones that are manually overridden are marked `manual`.
 
-| Status               | Description                                                                |
-| -------------------- | -------------------------------------------------------------------------- |
-| `in_progress`        | Game is currently being played                                             |
-| `finished`           | Game has finished                                                          |
-| `void`               | Game does not count for both the teams and the players                     |
-| `result_void`        | Game does not count for the team but the individual player results count   |
-| `stats_void`         | Game counts for the team but not for the individual player results         |
-| `finished_later`     | Game was partially played but finished on a different date                 |
-| `continuation`       | Game is a continuation of a previous game (likely a `finished_later` game) |
-| `forfeit`            | Game was forfeited and no player stats exist                               |
-| `forfeit_with_stats` | Game was forfeited but player stats do exist                               |
-| `postponed`          | Game was never started but moved to a different date                       |
+| Status               | Type        | Description                                                                |
+| -------------------- | ----------- | -------------------------------------------------------------------------- |
+| `not_started`        | `automatic` | Game has not started yet                                                   |
+| `in_progress`        | `automatic` | Game is currently being played                                             |
+| `finished`           | `automatic` | Game has finished                                                          |
+| `void`               | `manual`    | Game does not count for both the teams and the players                     |
+| `result_void`        | `manual`    | Game does not count for the team but the individual player results count   |
+| `stats_void`         | `manual`    | Game counts for the team but not for the individual player results         |
+| `finished_later`     | `manual`    | Game was partially played but finished on a different date                 |
+| `continuation`       | `manual`    | Game is a continuation of a previous game (likely a `finished_later` game) |
+| `forfeit`            | `manual`    | Game was forfeited and no player stats exist                               |
+| `forfeit_with_stats` | `manual`    | Game was forfeited but player stats do exist                               |
+| `postponed`          | `manual`    | Game was never started but moved to a different date                       |
 
 ## Broken Games
 
