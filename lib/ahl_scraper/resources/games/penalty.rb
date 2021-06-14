@@ -25,7 +25,7 @@ module AhlScraper
 
       def taken_by
         @taken_by ||= {
-          id: @raw_data.dig(:takenBy, :id),
+          id: @raw_data.dig(:takenBy, :id)&.positive? ? @raw_data.dig(:takenBy, :id) : nil,
           first_name: @raw_data.dig(:takenBy, :firstName),
           last_name: @raw_data.dig(:takenBy, :lastName),
           jersey_number: @raw_data.dig(:takenBy, :jerseyNumber),
@@ -36,7 +36,7 @@ module AhlScraper
 
       def served_by
         @served_by ||= {
-          id: @raw_data.dig(:servedBy, :id),
+          id: @raw_data.dig(:servedBy, :id)&.positive? ? @raw_data.dig(:servedBy, :id) : nil,
           first_name: @raw_data.dig(:servedBy, :firstName),
           last_name: @raw_data.dig(:servedBy, :lastName),
           jersey_number: @raw_data.dig(:servedBy, :jerseyNumber),

@@ -167,7 +167,7 @@ Returns an array of `RosterPlayer` objects which provide information on all of a
 
 ```ruby
 require "ahl_scraper"
-AhlScraper::RosterPlayers.retrieve(335, 68)
+AhlScraper::RosterPlayers.retrieve_all(335, 68)
 
 #=> [#<RosterPlayer:0x3c3c {:id=>6379, :current_age=>0.2521e2, :season_id=>68, :position=>"C", :shoots=>"L", :birthplace=>"Saskatoon, SK", :birthdate=>"1996-04-03", :height=>"6-0", :draft_year=>2014, :weight=>203, :rookie?=>false, :team_id=>335, :name=>"Rourke Chartier", :jersey_number=>15}>,
  #<RosterPlayer:0x3c50 {:id=>1844, :current_age=>0.3416e2, :season_id=>68, :position=>"LW", :shoots=>"L", :birthplace=>"Toronto, ON", :birthdate=>"1987-04-25", :height=>"5-11", :draft_year=>2005, :weight=>207, :rookie?=>false, :team_id=>335, :name=>"Richard Clune", :jersey_number=>17}>,

@@ -16,7 +16,7 @@ module AhlScraper
       end
 
       def name
-        @name ||= @raw_data[:info][:nickname]
+        @name ||= @raw_data[:info][:nickname] == @raw_data[:info][:city] ? parse_nickname : @raw_data[:info][:nickname]
       end
 
       def abbreviation
@@ -75,6 +75,10 @@ module AhlScraper
 
       def score
         @score ||= @opts[:shootout] && @opts[:winning_team_id] == id ? @raw_data[:stats][:goals] + 1 : @raw_data[:stats][:goals]
+      end
+
+      def parse_nickname
+        @raw_data[:info][:name].gsub(@raw_data[:info][:nickname], "").strip
       end
     end
   end

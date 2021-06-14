@@ -75,4 +75,27 @@ RSpec.describe AhlScraper::Games::Penalty do
       expect(penalty.taken_by[:birthdate]).to eq(nil)
     end
   end
+
+  context "when player id is 0" do
+    let(:penalty_data) do
+      {
+        period: { id: "1", shortName: "", longName: "1st" },
+        time: "00:52",
+        againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
+        minutes: 2,
+        description: "Bench minor - Too many men",
+        ruleNumber: "",
+        takenBy: { id: 0, firstName: nil, lastName: nil, jerseyNumber: 0, position: "", birthDate: "" },
+        servedBy: { id: 0, firstName: nil, lastName: nil, jerseyNumber: 0, position: "", birthDate: "" },
+        isPowerPlay: true,
+      }
+    end
+
+    it "sets player id as nil" do
+      penalty = described_class.new(penalty_data, opts)
+
+      expect(penalty.taken_by[:id]).to eq(nil)
+      expect(penalty.served_by[:id]).to eq(nil)
+    end
+  end
 end

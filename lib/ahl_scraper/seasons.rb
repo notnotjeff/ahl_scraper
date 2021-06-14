@@ -15,7 +15,7 @@ module AhlScraper
       end
 
       def retrieve(season_id)
-        @season_data ||= SeasonDataFetcher.new.call
+        @season_data ||= SeasonDataFetcher.new.call&.map { |season_data| SeasonListItem.new(season_data) }
         season = @season_data.find { |s| season_id.to_i == s.id }
         Season.new(season)
       end
