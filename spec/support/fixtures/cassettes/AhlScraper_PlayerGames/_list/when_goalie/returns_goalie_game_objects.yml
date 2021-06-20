@@ -1,0 +1,203 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=ccb91f29d6744675&lang=en&league_id=&player_id=368&season_id=1&site_id=3&statsType=standard&view=player
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Jun 2021 05:46:49 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=01p9oavk8amujdv1bahp9143r0; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '6229'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: 'json({"info":{"jerseyNumber":"35","firstName":"Jeff","lastName":"Glass","playerId":"368","personId":"395","position":"G","shoots":"L","catches":"L","height":"6-3","height_sans_hyphen":"6.3","height_hyphenated":"6-3","weight":"213","birthDate":"1985-11-19","profileImage":"https:\/\/assets.leaguestat.com\/ahl\/240x240\/368.jpg","teamImage":"https:\/\/assets.leaguestat.com\/ahl\/logos\/315.jpg","bio":"<p><strong>2019-20<\/strong><\/p><p>&middot;
+        In his 15th professional season and first with EHC Linz (Austria), went 4-5-0
+        with a 2.45 GAA and .920 SV% in nine appearances.<\/p><p>&middot; Appeared
+        in three postseason games, posting a 2.41 GAA and .920 SV%.<\/p><p>&middot;
+        Ranked tied-for-fourth among league leaders in SV% (min. 8 GP).<\/p><p>&nbsp;<\/p><p><strong>Career<\/strong><\/p><p>&middot;
+        Has appeared in 15 career NHL games, posting a 3-7-3 record with a 3.36 GAA
+        and .898 SV% with Chicago (2017-18).<\/p><p>&middot; Owns a 78-96-19 record
+        with six shutouts, a 3.24 GAA and .900 SV% in 214 career AHL games with Binghamton
+        (2005-09), Rockford (2016-17, 2017-18), Toronto (2016-17, 2018-19), and San
+        Diego (2018-19).<\/p><p>&middot; Helped guide the Gulls to the 2019 Western
+        Conference Final, earning six postseason wins with a 2.43 GAA and .912 SV%
+        in 11 Calder Cup Playoff games with San Diego.<\/p><p>&middot; Set a Gulls
+        franchise record with 51 saves in a four-OT win in Game 1 of the 2019 Pacific
+        Division Finals.<\/p><p>&middot; Made his NHL debut, Dec. 2017 w\/ CHI @ EDM&hellip;stopped
+        42-of-45 shots.<\/p><p>&middot; Backstopped Canada to gold at the 2005 World
+        Junior Championship&hellip;posted a 5-0 record with a tournament-leading 1.40
+        GAA and .922 SV%...also represented Canada at the 2015 Spengler Cup.<\/p><p>&middot;
+        Played three seasons (2002-05) for the Kootenay Ice (WHL)&hellip;Was named
+        recipient of the 2005 Del Wilson Trophy for the league&rsquo;s top goaltender&hellip;also
+        selected as WHL First Team All-Star and CHL goaltender of the year.<\/p>","teamName":"Binghamton
+        Senators","division":"North Division","commitment":false,"currentTeam":"","suspension_games_remaining":"","birthPlace":"Calgary,
+        AB","playerType":"goalie"},"currentSeason":"72","careerStats":[{"sections":[{"title":"Regular
+        Season","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season
+        Name","title":"Season Name","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_name":{"properties":{"key":"team_name","hidden":false,"class":"","label":"Team
+        Name","title":"Team Name","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":""}},"minutes_played":{"properties":{"key":"minutes_played","hidden":false,"class":"","label":"Min","title":"Minutes
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"saves":{"properties":{"key":"saves","hidden":false,"class":"","label":"SVS","title":"Saves","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals_against_average":{"properties":{"key":"goals_against_average","hidden":false,"class":"","label":"GAA","title":"Goals
+        Against Average","sortable":true,"align":"center","highlight":false,"sortKey":""}},"savepct":{"properties":{"key":"savepct","hidden":false,"class":"","label":"SV%","title":"Save
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":""}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OT","title":"OT
+        Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shutouts":{"properties":{"key":"shutouts","hidden":false,"class":"","label":"SO","title":"Shutouts","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2020-21
+        Regular Season","goals_against":"13","goals_against_average":"4.60","games_played":"4","minutes_played":"170","wins":"0","losses":"2","ot_losses":"0","shutouts":"0","saves":"88","savepct":"0.871","team_name":"San
+        Diego Gulls"}},{"prop":[],"row":{"season_name":"2018-19 Regular Season","goals_against":"33","goals_against_average":"4.31","games_played":"10","minutes_played":"460","wins":"3","losses":"4","ot_losses":"1","shutouts":"0","saves":"186","savepct":"0.849","team_name":"Toronto
+        Marlies"}},{"prop":[],"row":{"season_name":"2018-19 Regular Season","goals_against":"53","goals_against_average":"3.10","games_played":"19","minutes_played":"1024","wins":"9","losses":"5","ot_losses":"2","shutouts":"1","saves":"464","savepct":"0.897","team_name":"San
+        Diego Gulls"}},{"prop":[],"row":{"season_name":"2017-18 Regular Season","goals_against":"77","goals_against_average":"2.82","games_played":"28","minutes_played":"1639","wins":"15","losses":"9","ot_losses":"2","shutouts":"0","saves":"724","savepct":"0.904","team_name":"Rockford
+        IceHogs"}},{"prop":[],"row":{"season_name":"2016-17 Regular Season","goals_against":"4","goals_against_average":"2.05","games_played":"2","minutes_played":"117","wins":"1","losses":"1","ot_losses":"0","shutouts":"0","saves":"44","savepct":"0.917","team_name":"Toronto
+        Marlies"}},{"prop":[],"row":{"season_name":"2016-17 Regular Season","goals_against":"51","goals_against_average":"2.63","games_played":"20","minutes_played":"1165","wins":"8","losses":"10","ot_losses":"2","shutouts":"2","saves":"544","savepct":"0.914","team_name":"Rockford
+        IceHogs"}},{"prop":[],"row":{"season_name":"2008-09 Regular Season","goals_against":"119","goals_against_average":"3.22","games_played":"41","minutes_played":"2219","wins":"17","losses":"19","ot_losses":"0","shutouts":"0","saves":"1107","savepct":"0.903","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2007-08 Regular Season","goals_against":"111","goals_against_average":"2.88","games_played":"45","minutes_played":"2313","wins":"15","losses":"20","ot_losses":"0","shutouts":"2","saves":"1164","savepct":"0.913","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2006-07 Regular Season","goals_against":"149","goals_against_average":"4.11","games_played":"43","minutes_played":"2175","wins":"9","losses":"24","ot_losses":"0","shutouts":"1","saves":"1186","savepct":"0.888","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2005-06 Regular Season","goals_against":"20","goals_against_average":"3.85","games_played":"6","minutes_played":"312","wins":"1","losses":"4","ot_losses":"0","shutouts":"0","saves":"151","savepct":"0.883","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"Total","goals_against":630,"goals_against_average":"3.26","games_played":218,"minutes_played":11594,"wins":78,"losses":98,"ot_losses":7,"shutouts":6,"saves":5658,"savepct":"0.900"}}]},{"title":"Playoffs","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season
+        Name","title":"Season Name","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_name":{"properties":{"key":"team_name","hidden":false,"class":"","label":"Team
+        Name","title":"Team Name","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":""}},"minutes_played":{"properties":{"key":"minutes_played","hidden":false,"class":"","label":"Min","title":"Minutes
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"saves":{"properties":{"key":"saves","hidden":false,"class":"","label":"SVS","title":"Saves","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals_against_average":{"properties":{"key":"goals_against_average","hidden":false,"class":"","label":"GAA","title":"Goals
+        Against Average","sortable":true,"align":"center","highlight":false,"sortKey":""}},"savepct":{"properties":{"key":"savepct","hidden":false,"class":"","label":"SV%","title":"Save
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":""}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OT","title":"OT
+        Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shutouts":{"properties":{"key":"shutouts","hidden":false,"class":"","label":"SO","title":"Shutouts","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2019
+        Calder Cup Playoffs","goals_against":"29","goals_against_average":"2.43","games_played":"11","minutes_played":"715","wins":"6","losses":"4","ot_losses":"0","shutouts":"0","saves":"299","savepct":"0.912","team_name":"San
+        Diego Gulls"}},{"prop":[],"row":{"season_name":"2018 Calder Cup Playoffs","goals_against":"5","goals_against_average":"1.48","games_played":"3","minutes_played":"202","wins":"2","losses":"1","ot_losses":"0","shutouts":"0","saves":"106","savepct":"0.955","team_name":"Rockford
+        IceHogs"}},{"prop":[],"row":{"season_name":"Total","goals_against":34,"goals_against_average":"2.22","games_played":14,"minutes_played":917,"wins":8,"losses":5,"ot_losses":0,"shutouts":0,"saves":405,"savepct":"0.923"}}]}]}],"currentSeasonStats":[{"sections":[{"title":"","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season
+        Name","title":"Season Name","sortable":true,"align":"center","highlight":false,"sortKey":""}},"wins":{"properties":{"key":"wins","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":""}},"losses":{"properties":{"key":"losses","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"ot_losses":{"properties":{"key":"ot_losses","hidden":false,"class":"","label":"OT","title":"OT
+        Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shutouts":{"properties":{"key":"shutouts","hidden":false,"class":"","label":"SO","title":"Shutouts","sortable":true,"align":"center","highlight":false,"sortKey":""}},"gaa":{"properties":{"key":"gaa","hidden":false,"class":"","label":"GAA","title":"Goals
+        Against Average","sortable":true,"align":"center","highlight":false,"sortKey":""}},"savepct":{"properties":{"key":"savepct","hidden":false,"class":"","label":"SV%","title":"Save
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2020-21
+        Regular Season","shutouts":"0","wins":"0","losses":"2","ot_losses":"0","savepct":"0.871","gaa":"4.60"}}]}]}],"gameByGame":[{"sections":[{"title":"","headers":{"game":{"properties":{"key":"game","hidden":false,"class":"","label":"Game","title":"Game","sortable":true,"align":"center","highlight":false,"sortKey":""}},"date_played":{"properties":{"key":"date_played","hidden":false,"class":"","label":"Date","title":"Date
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"minutes":{"properties":{"key":"minutes","hidden":false,"class":"","label":"Min","title":"Minutes
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shots_against":{"properties":{"key":"shots_against","hidden":false,"class":"","label":"SA","title":"Shots
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals_against":{"properties":{"key":"goals_against","hidden":false,"class":"","label":"GA","title":"Goals
+        Against","sortable":true,"align":"center","highlight":false,"sortKey":""}},"saves":{"properties":{"key":"saves","hidden":false,"class":"","label":"SVS","title":"Saves","sortable":true,"align":"center","highlight":false,"sortKey":""}},"win":{"properties":{"key":"win","hidden":false,"class":"","label":"W","title":"Wins","sortable":true,"align":"center","highlight":false,"sortKey":""}},"loss":{"properties":{"key":"loss","hidden":false,"class":"","label":"L","title":"Losses","sortable":true,"align":"center","highlight":false,"sortKey":""}},"ot_loss":{"properties":{"key":"ot_loss","hidden":false,"class":"","label":"OT","title":"OT
+        Loss","sortable":true,"align":"center","highlight":false,"sortKey":""}},"gaa":{"properties":{"key":"gaa","hidden":false,"class":"","label":"GAA","title":"Goals
+        Against Average","sortable":true,"align":"center","highlight":false,"sortKey":""}},"svpct":{"properties":{"key":"svpct","hidden":false,"class":"","label":"SV%","title":"Save
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shutout":{"properties":{"key":"shutout","hidden":false,"class":"","label":"SO","title":"Shutouts","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":{"game":{"gameLink":"1001242"}},"row":{"date_played":"2005-11-19","goals_against":"2","win":"0","loss":"0","shutout":"0","ot_loss":"0","saves":"8","shots_against":"10","gaa":"4.25","svpct":"0.800","minutes":"28:13","game":"BNG
+        @ ALB"}},{"prop":{"game":{"gameLink":"1001271"}},"row":{"date_played":"2005-11-23","goals_against":"4","win":"0","loss":"1","shutout":"0","ot_loss":"0","saves":"27","shots_against":"31","gaa":"6.00","svpct":"0.871","minutes":"40:00","game":"BNG
+        @ ROC"}},{"prop":{"game":{"gameLink":"1001275"}},"row":{"date_played":"2005-11-24","goals_against":"3","win":"1","loss":"0","shutout":"0","ot_loss":"0","saves":"37","shots_against":"40","gaa":"2.92","svpct":"0.925","minutes":"61:37","game":"SYR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001289"}},"row":{"date_played":"2005-11-26","goals_against":"3","win":"0","loss":"1","shutout":"0","ot_loss":"0","saves":"32","shots_against":"35","gaa":"3.07","svpct":"0.914","minutes":"58:40","game":"WBS
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001315"}},"row":{"date_played":"2005-11-30","goals_against":"5","win":"0","loss":"1","shutout":"0","ot_loss":"0","saves":"23","shots_against":"28","gaa":"5.10","svpct":"0.821","minutes":"58:51","game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1001881"}},"row":{"date_played":"2006-03-10","goals_against":"3","win":"0","loss":"1","shutout":"0","ot_loss":"0","saves":"24","shots_against":"27","gaa":"2.78","svpct":"0.889","minutes":"64:43","game":"BNG
+        @ MCH"}}]}]}],"media":{"images":[{"id":"12058","person_id":"395","media_type":"png","lang_id":"1","title":"Glass_Jeff","uploaded":"2018-10-17
+        15:58:25","is_primary":"1","uploaded_name":"Glass_Jeff.png","file_name":"f123d13adddf5d21df591e4bda7e20d4.png","modified":"2021-01-16
+        18:38:57","deleted":"0","height":"240","width":"240","player_id":"368","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/f123d13adddf5d21df591e4bda7e20d4.png","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/f123d13adddf5d21df591e4bda7e20d4.png"},{"id":"12014","person_id":"395","media_type":"png","lang_id":"1","title":"glass","uploaded":"2018-10-16
+        18:45:46","is_primary":"0","uploaded_name":"glass.png","file_name":"dbcab4d9399242e7b94e1e80ac6fd44a.png","modified":"2018-10-17
+        15:58:28","deleted":"0","height":"240","width":"240","player_id":"368","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/dbcab4d9399242e7b94e1e80ac6fd44a.png","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/dbcab4d9399242e7b94e1e80ac6fd44a.png"},{"id":"9345","person_id":"395","media_type":"jpg","lang_id":"1","title":"Glass,
+        Jeff 17-18","uploaded":"2017-10-05 18:00:08","is_primary":"0","uploaded_name":"Glass,
+        Jeff 17-18.jpg","file_name":"afa32b71f691deffa6c31256c3285145.jpg","modified":"2018-10-16
+        18:45:51","deleted":"0","height":"500","width":"400","player_id":"368","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/afa32b71f691deffa6c31256c3285145.jpg","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/afa32b71f691deffa6c31256c3285145.jpg"},{"id":"8429","person_id":"395","media_type":"jpg","lang_id":"1","title":"glass","uploaded":"2016-11-26
+        15:13:09","is_primary":"0","uploaded_name":"glass.jpg","file_name":"fea54069cebb3c7533f1dc26a1793426.jpg","modified":"2017-10-05
+        22:00:13","deleted":"0","height":"500","width":"400","player_id":"368","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/fea54069cebb3c7533f1dc26a1793426.jpg","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/fea54069cebb3c7533f1dc26a1793426.jpg"},{"id":"370","person_id":"395","media_type":"jpg","lang_id":"1","title":"photo","uploaded":"","is_primary":"0","uploaded_name":"368.JPG","file_name":"922395d735da8bc0cb9e2b7baf183e5b.jpg","modified":"2016-10-14
+        22:25:18","deleted":"0","height":"0","width":"0","player_id":"368","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/922395d735da8bc0cb9e2b7baf183e5b.jpg","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/922395d735da8bc0cb9e2b7baf183e5b.jpg"}]},"seasons":[{"id":72,"name":"2021
+        Playoffs"},{"id":68,"name":"2020-21 Regular Season"},{"id":64,"name":"2019
+        Calder Cup Playoffs"},{"id":61,"name":"2018-19 Regular Season"},{"id":60,"name":"2018
+        Calder Cup Playoffs"},{"id":57,"name":"2017-18 Regular Season"},{"id":54,"name":"2016-17
+        Regular Season"},{"id":16,"name":"2008-09 Regular Season"},{"id":12,"name":"2007-08
+        Regular Season"},{"id":8,"name":"2006-07 Regular Season"},{"id":1,"name":"2005-06
+        Regular Season"}],"playerProfileHeaders":[{"sections":[{"title":"","headers":{"player_stats":{"properties":{"key":"player_stats","hidden":false,"class":"","label":"Player
+        Stats","title":"Player Stats","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_game_by_game":{"properties":{"key":"player_game_by_game","hidden":false,"class":"","label":"Game
+        by Game","title":"Game by Game","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_awards":{"properties":{"key":"player_awards","hidden":false,"class":"","label":"Player
+        Awards","title":"Player Awards","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_media":{"properties":{"key":"player_media","hidden":false,"class":"","label":"Player
+        Media","title":"Player Media","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_biography":{"properties":{"key":"player_biography","hidden":false,"class":"","label":"Biography","title":"Biography","sortable":false,"align":"center","highlight":false,"sortKey":""}}},"data":[]}]}],"playerProfileBioHeaders":[{"sections":[{"title":"","headers":{"position":{"properties":{"key":"position","hidden":false,"class":"","label":"Position","title":"Position","sortable":true,"align":"center","highlight":false,"sortKey":""}},"height_weight_hyphenated":{"properties":{"key":"height_weight_hyphenated","hidden":false,"class":"","label":"TXT_HT\/TXT_WT","title":"TXT_HT\/TXT_WT","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shoots":{"properties":{"key":"shoots","hidden":false,"class":"","label":"Shoots","title":"Shoots","sortable":true,"align":"center","highlight":false,"sortKey":""}},"catches":{"properties":{"key":"catches","hidden":false,"class":"","label":"Catches","title":"Catches","sortable":true,"align":"center","highlight":false,"sortKey":""}},"birthDate":{"properties":{"key":"birthDate","hidden":false,"class":"","label":"Birthdate","title":"Birthdate","sortable":true,"align":"center","highlight":false,"sortKey":""}},"birthPlace":{"properties":{"key":"birthPlace","hidden":false,"class":"","label":"Birth
+        place","title":"Birth place","sortable":true,"align":"center","highlight":false,"sortKey":""}},"hometown":{"properties":{"key":"hometown","hidden":false,"class":"","label":"Home
+        town","title":"Home town","sortable":true,"align":"center","highlight":false,"sortKey":""}},"committedto":{"properties":{"key":"committedto","hidden":false,"class":"","label":"TXT_COMMITTED_TO","title":"TXT_COMMITTED_TO","sortable":true,"align":"center","highlight":false,"sortKey":""}},"committedfor":{"properties":{"key":"committedfor","hidden":false,"class":"","label":"TXT_COMMITTED_FOR","title":"TXT_COMMITTED_FOR","sortable":true,"align":"center","highlight":false,"sortKey":""}},"suspended":{"properties":{"key":"suspended","hidden":false,"class":"","label":"Suspended
+        games remaining","title":"Suspended games remaining","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[]}]}],"translations":{"gamesPlayed":{"abbreviation":"GP","fullText":"Games
+        Played"},"goals":{"abbreviation":"G","fullText":"Goals"},"assists":{"abbreviation":"A","fullText":"Assists"},"points":{"abbreviation":"PTS","fullText":"Points"},"plus_minus":{"abbreviation":"+\/-","fullText":"Plus\/Minus"},"shots":{"abbreviation":"SH","fullText":"Shots"},"points_per_game":{"abbreviation":"Pt\/G","fullText":"Pt\/G"},"player_stats":{"abbreviation":"stats","fullText":"Player
+        Stats"},"game_by_game":{"abbreviation":"TXT_GBG","fullText":"Game by Game"},"position":{"abbreviation":"Pos","fullText":"Position"},"shoots":{"abbreviation":"SH","fullText":"Shoots"},"height":{"abbreviation":"H","fullText":"Height"},"weight":{"abbreviation":"W","fullText":"Weight"},"birthDate":{"abbreviation":"DOB","fullText":"Birthdate"},"birthPlace":{"abbreviation":"Birth
+        place","fullText":"Birth place"},"hometown":{"abbreviation":"Home town","fullText":"Home
+        town"},"biography":{"abbreviation":"TXT_ABBREV_BIO","fullText":"Biography"},"wins":{"abbreviation":"W","fullText":"Wins"},"losses":{"abbreviation":"L","fullText":"Losses"},"ties":{"abbreviation":"T","fullText":"Ties"},"shutouts":{"abbreviation":"SO","fullText":"Shutouts"},"goals_against_average":{"abbreviation":"GAA","fullText":"Goals
+        Against Average"},"save_percentage":{"abbreviation":"SV%","fullText":"Save
+        Percentage"},"committedTo":{"abbreviation":"TXT_COMMITTED_TO","fullText":"School
+        Name"},"committedFor":{"abbreviation":"TXT_COMMITTED_FOR","fullText":"Season"},"catches":{"abbreviation":"CA","fullText":"Catches"},"shootout_losses":{"abbreviation":"SOL","fullText":"Shootout
+        Losses"},"ot_losses":{"abbreviation":"OTL","fullText":"OT Losses"},"game_winning_goals":{"abbreviation":"GWG","fullText":"Game
+        Winning Goals"}},"svfLang":{"Submit":"Submit","SUBMIT":"SUBMIT","English":"TXT_ADMINISTRATION_UTILITIES_ENGLISH","French":"French","SEARCH":"SEARCH","FILTER":"FILTER","Schedule":"Schedule","Daily_Schedule":"Daily
+        Schedule and Scores","Team_Stats":"Team Stats","Skater_Stats":"Skater Stats","Goalie_Stats":"Goalie
+        Stats","Alt_Skater_Stats":"All-Time Skater Stats","Alt_Goalie_Stats":"All-Time
+        Goalie Stats","Streaks":"Streaks","Person_Search":"Person Search","Transactions":"Transactions","Playoff_Brackets":"Playoff
+        Brackets","Team_Attendance":"Team Attendance","Attendance":"Attendance","Leaders":"Leaders","Leaders_Extended":"Leaders
+        Extended","College_Commitments":"College Commitments","Home":"Home","Away":"Away","Home_Away":"Home
+        & Away","Next":"Next","Previous":"Previous","Today":"Today","Stats":"Stats","League":"League","Division":"Division","Conference":"Conference","Overall":"Overall","Special_Teams":"Special
+        Teams","Rookie":"Rookie","Standard":"Standard","Expanded":"Expanded","Skater":"Skater","Goalie":"Goalie","Goalie_min1":"Goalies
+        must have","Goalie_min2":"minutes to be considered qualified","Regular_Season":"Regular
+        Season","Team":"Team","Player":"Player","Goals":"Goals","Assists":"Assists","Points":"Points","Active":"Active","All_Players":"All
+        Players","Playoff_Tracker":"Playoff Tracker","Playoffs":"Playoffs","Round":"Round","Matchup":"Match
+        Up","Schedulescores":"Schedule\/Results","Game":"Game","Roster":"Roster","Round_Robin":"Round
+        Robin","Games":"Games","Games_Played":"Games Played","Group_Division":"Groups
+        by Division","Scoring":"Scoring","Shots":"Shots","View_All":"View All","Loading_Scoreboard":"Loading
+        Scoreboard...","Tickets":"Tickets","Boxscore":"Boxscore","wins":"wins","series":"series","if_necessary":"if
+        necessary","NO_GAMES":"NO GAMES MATCH THE SELECTED CRITERIA","NO_GAMES_SCHEDULE":"NO
+        GAMES MATCH THE SELECTED CRITERIA","NO_PLAYERS":"NO PLAYERS MATCH THE SELECTED
+        CRITERIA","NO_PLAYER":"NO DATA WAS FOUND","NO_IMAGE":"NO DATA WAS FOUND","NO_VIDEO":"NO
+        DATA WAS FOUND","NO_AUDIO":"NO DATA WAS FOUND","NO_TRANSACTIONS":"NO TRANSACTIONS
+        MATCH THE SELECTED CRITERIA","NO_DATA":"NO DATA WAS FOUND","Player_Stats":"Player
+        Stats","Player_Media":"Player Media","Images":"Images","Video":"Video","Audio":"Audio","Game_Game":"Game
+        by Game","Player_Awards":"Player Awards","Tap_Game_Summary":"Tap to see Game
+        Summary","Tap_Game_Details":"Tap to see Game Details","Schedule_Changes":"Schedule
+        Changes","Note_Players_Starting_Lineup":"NOTE: Players listed in Italics are
+        the starting lineup.","No_Scoring":"No Scoring","Plus":"plus","Minus":"minus","Penalties":"Penalties","No_Penalties":"No
+        Penalties","Penalty_Shots":"Penalty Shots","Shooter":"Shooter","Goaltender":"Goaltender","Goaltenders":"Goaltenders","Period":"Period","Time":"Time","Goal":"Goal","Yes":"Yes","No":"No","Shootout":"Shootout","Shootout_Abbrev":"SO","No_Goal":"No
+        Goal","Total":"Total","TOI":"TOI","SV_SH":"SV","G":"G","A":"A","PIM":"PIM","SA":"SA","SV":"SV","Three_Stars":"Three
+        Stars","first":"1st","second":"2nd","third":"3rd","PP":"PP","SO":"SO","FO":"FO","PS":"PS","SH":"SH","SHAND":"SH","EN":"EN","Bench":"Bench","Served_By":"Served
+        by","Player_of_the_Game":"Player of the Game","PTS":"PTS","Arena":"Arena","Officials":"OFFICIALS","Off_Ice_Officials":"Off-Ice
+        Officials","Start":"Start","End":"End","Length":"Length","Public_Notes":"Public
+        Notes","Min":"min","Inf":"inf","Game_Report":"Game Report","Text_Boxscore":"Text
+        Box Score","Error_Loading":"Error in loading data.","lbs":"lbs","Media_Kit":"Media
+        Kit","POS":"Pos","GA":"GA","MIN":"Mins","SVS":"SVS","See_All_Leaders":"See
+        All Leaders","See_Full_Standings":"See Full Standings","Player_seoTitle":"Stats
+        and Player Profile","Select":"-- Select --","TLP_Select":"Please select your
+        Season, Division and Team","TLP_Select2":"Please select your Playoff''s Season
+        and Division","NEXT_DAY":"Next Day","PREV_DAY":"Previous Day","ADD_TO_CAL":"Add
+        to Calendar","ALL_GAMES_TO_CAL":"Add All Games to Calendar","PLAYOFFS":"Playoffs","SEL_SDT_REG":"Please
+        select your Season, Division and Team:","SEL_SDT_PO":"Please select your Playoff''s
+        Season and Division:","GO":"Go","Visiting_Audio":"Visiting Audio","Home_Audio":"Home
+        Audio","Watch_Live":"Watch Live","Shots_on_Goal":"Shots on Goal","On":"On","Off":"Off","Name":"Name","Role":"Role","Head_to_Head":"Head
+        to Head","Previous_Meetings_This_Season":"Previous Meetings This Season","Top_Scorers":"Top
+        Scorers","Last_5_Games":"Last 5 Games","Last_10_Games":"Last 10 Games","Streak":"Streak","Last_Game":"Last
+        Game","Home_Record":"Home Record","Away_Record":"Away Record","Goals_For":"Goals
+        For","Goals_Against":"Goals Against","Penalty_Killing":"Penalty Killing","Penalty_Killing_Home":"Penalty
+        Killing (Home)","Penalty_Killing_Away":"Penalty Killing (Away)","Leading_Rookie":"Leading
+        Rookie","Team_PIM_GM":"Team PIM\/GM","Play_by_Play":"Play By Play","Hits":"Hits","GS_Hits":"Hits","Faceoffs":"Faceoffs","Goalie_Change":"Goalie
+        Change","In":"IN","Faceoff":"Faceoff","Shot":"Shot","Penalty":"Penalty","None":"None","None_Fem":"None","Power_Play":"Power
+        Play","Short_Handed":"SHORT HANDED","Empty_Net":"Empty Net","Penalty_Shot":"Penalty
+        shot","Hit":"Hit","Most_PIM":"Most PIM","Previous_Season":"Previous Season","Current_Season":"Current
+        Season","Last_5_Seasons":"Last 5 Seasons","Season_Record":"Season Record","Power_Plays":"Power
+        Plays","Power_Plays_Home":"Power Plays (Home)","Power_Plays_Away":"Power Plays
+        (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
+        on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
+        Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
+  recorded_at: Sun, 20 Jun 2021 05:46:49 GMT
+recorded_with: VCR 6.0.0

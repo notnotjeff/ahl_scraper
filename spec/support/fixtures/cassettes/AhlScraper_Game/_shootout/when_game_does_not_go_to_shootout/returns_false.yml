@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:21 GMT
+      - Sun, 20 Jun 2021 05:47:33 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=23h4alrfq9e44bl25fpp9o9mos; path=/
+      - PHPSESSID=pp226n3nplgkivpsgdro0lim8h; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -82,7 +82,7 @@ http_interactions:
         IceHogs","city":"Rockford","nickname":"IceHogs","abbreviation":"RFD","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/372.jpg","divisionName":"Central
         Division"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
         ","sponsor":{"name":null,"image":null}}})
-  recorded_at: Sun, 13 Jun 2021 17:58:21 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:33 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1018340&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
@@ -106,7 +106,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:21 GMT
+      - Sun, 20 Jun 2021 05:47:33 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -114,7 +114,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=pp56egic4g7vlj0kvfh03ql40e; path=/
+      - PHPSESSID=2jrqai7rohnm3a81ale6p91854; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -174,7 +174,7 @@ http_interactions:
         on net","shotType":"Default","xLocation":75,"yLocation":194}},{"event":"shot","details":{"shooter":{"id":6889,"firstName":"Calvin","lastName":"Thurkauf","jerseyNumber":27,"position":"C","birthDate":""},"goalie":{"id":7431,"firstName":"Kevin","lastName":"Lankinen","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"373","period":{"id":"3","shortName":"3","longName":"3rd"},"time":"16:27","isGoal":false,"shotQuality":"Non
         quality on net","shotType":"Default","xLocation":55,"yLocation":195}},{"event":"shot","details":{"shooter":{"id":6384,"firstName":"Justin","lastName":"Scott","jerseyNumber":20,"position":"C","birthDate":""},"goalie":{"id":7431,"firstName":"Kevin","lastName":"Lankinen","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"373","period":{"id":"3","shortName":"3","longName":"3rd"},"time":"17:07","isGoal":true,"shotQuality":"Quality
         goal","shotType":"Default","xLocation":525,"yLocation":159}},{"event":"goal","details":{"game_goal_id":"93373","team":{"id":373,"name":"","city":"","nickname":"","abbreviation":"CLE","logo":""},"period":{"id":"3","shortName":"3","longName":"3rd"},"time":"17:07","scorerGoalNumber":"1","scoredBy":{"id":6384,"firstName":"Justin","lastName":"Scott","jerseyNumber":20,"position":"C","birthDate":""},"assists":[],"assistNumbers":["0","0"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"1","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"0"},"plus_players":[{"id":6725,"firstName":"Ryan","lastName":"Collins","jerseyNumber":6,"position":"D","birthDate":""},{"id":6384,"firstName":"Justin","lastName":"Scott","jerseyNumber":20,"position":"C","birthDate":""},{"id":6887,"firstName":"Doyle","lastName":"Somerby","jerseyNumber":22,"position":"D","birthDate":""},{"id":6349,"firstName":"Paul","lastName":"Bittner","jerseyNumber":7,"position":"LW","birthDate":""},{"id":6699,"firstName":"Kole","lastName":"Sherwood","jerseyNumber":88,"position":"RW","birthDate":""}],"minus_players":[{"id":6861,"firstName":"Matthew","lastName":"Highmore","jerseyNumber":9,"position":"LW","birthDate":""},{"id":7432,"firstName":"Dylan","lastName":"Sikura","jerseyNumber":15,"position":"RW","birthDate":""},{"id":4452,"firstName":"Terry","lastName":"Broadhurst","jerseyNumber":16,"position":"LW","birthDate":""},{"id":7430,"firstName":"Jacob","lastName":"Nilsson","jerseyNumber":21,"position":"C","birthDate":""},{"id":7434,"firstName":"Lucas","lastName":"Carlsson","jerseyNumber":32,"position":"D","birthDate":""},{"id":5930,"firstName":"Carl","lastName":"Dahlstrom","jerseyNumber":63,"position":"D","birthDate":""}],"xLocation":525,"yLocation":159}},{"event":"goalie_change","details":{"goalieComingIn":{"id":7431,"firstName":"Kevin","lastName":"Lankinen","jerseyNumber":30,"position":"G","birthDate":""},"goalieGoingOut":null,"team_id":"372","period":{"id":"3","shortName":"3","longName":"3rd"},"time":"17:07"}}])
-  recorded_at: Sun, 13 Jun 2021 17:58:21 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:33 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_code=&league_id=&pageName=schedule&season=latest&site_id=1&view=bootstrap
@@ -198,7 +198,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:21 GMT
+      - Sun, 20 Jun 2021 05:47:34 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -206,7 +206,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=53ttfmfmnp8i80oji8608q1iib; path=/
+      - PHPSESSID=9gj0eir0334lh612u6v94tujag; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -345,5 +345,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Sun, 13 Jun 2021 17:58:21 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:34 GMT
 recorded_with: VCR 6.0.0

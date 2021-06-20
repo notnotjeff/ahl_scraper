@@ -49,19 +49,19 @@ module AhlScraper
     end
 
     def roster_url
-      @roster_url ||= "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=roster&team_id=#{@team_id}&season_id=#{@season_id}&key=50c2cd9b5e18e390&client_code=ahl&site_id=3&league_id=4&lang=en&callback=json" # rubocop:disable Layout/LineLength
+      "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=roster&team_id=#{@team_id}&season_id=#{@season_id}&key=50c2cd9b5e18e390&client_code=ahl&site_id=3&league_id=4&lang=en&callback=json" # rubocop:disable Layout/LineLength
     end
 
     def forwards_url
-      @forwards_url ||= "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=skaters&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=points&league_id=4&lang=en&division=-1&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
+      "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=skaters&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=points&league_id=4&lang=en&division=-1&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
     end
 
     def defencemen_url
-      @defencemen_url ||= "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=defencemen&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=points&league_id=4&lang=en&division=-1&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
+      "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=defencemen&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=points&league_id=4&lang=en&division=-1&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
     end
 
     def goalies_url
-      @goalies_url ||= "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=goalies&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=gaa&league_id=4&lang=en&division=-1&qualified=all&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
+      "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=players&season=#{@season_id}&team=#{@team_id}&position=goalies&rookies=0&statsType=standard&rosterstatus=undefined&site_id=3&first=0&limit=20&sort=gaa&league_id=4&lang=en&division=-1&qualified=all&key=50c2cd9b5e18e390&client_code=ahl&league_id=4&callback=json" # rubocop:disable Layout/LineLength
     end
   end
 end

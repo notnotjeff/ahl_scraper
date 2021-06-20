@@ -45,6 +45,8 @@ This gem is divided into multiple modules that provide you with an assortment of
   - `retrieve`
 - [RosterPlayers](#rosterplayers)
   - `retrieve_all`
+- [PlayerGames](#playergames)
+  - `list`
 
 ### Seasons
 
@@ -174,6 +176,20 @@ AhlScraper::RosterPlayers.retrieve_all(335, 68)
  #<RosterPlayer:0x3c64 {:id=>5660, :current_age=>0.2914e2, :season_id=>68, :position=>"LW", :shoots=>"L", :birthplace=>"Morristown, NJ", :birthdate=>"1992-04-30", :height=>"6-0", :draft_year=>2010, :weight=>200, :rookie?=>false, :team_id=>335, :name=>"Kenny Agostino", :jersey_number=>18}>,
  #...
  #]
+```
+
+### PlayerGames
+
+#### list(player_id, season_id)
+
+Returns an array of `SkaterGameListItem` or `GoalieGameListItem` objects (depending on player position) which provide information on each game a player has played that season. Pass the player id and the season id:
+
+```ruby
+require "ahl_scraper"
+AhlScraper::PlayerGames.list(304, 1)
+
+#=> [#<SkaterGameListItem:0x3c3c {:date=>"2005-10-08", :game_id=>1001046, :shots=>2, :goals_sh=>0, :game_name=>"BNG @ PHI", :game_winning_goals=>0, :plus_minus=>-1, :assists=>1, :points=>1, :shootout_goals=>0, :penalty_minutes=>0, :shootout_attempts=>0, :goals=>0, :goals_pp=>0}>,
+ #<SkaterGameListItem:0x3c50 {:date=>"2005-10-15", :game_id=>1001069, :shots=>4, :goals_sh=>0, ... ]
 ```
 
 ## Development

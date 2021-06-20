@@ -32,11 +32,11 @@ module AhlScraper
       end
 
       def birthdate
-        @birthdate ||= @raw_data[:info][:birthDate]
+        @birthdate ||= valid_birthdate? ? @raw_data[:info][:birthDate] : nil
       end
 
       def current_age
-        @current_age ||= birthdate ? BirthdateHelper.new(birthdate).age_on_date(@opts[:game_date]) : nil
+        @current_age ||= valid_birthdate? ? BirthdateHelper.new(birthdate).age_on_date(@opts[:game_date]) : nil
       end
 
       def stats
@@ -96,6 +96,10 @@ module AhlScraper
 
       def penalty_shot_data
         @penalty_shot_data ||= (@opts[:penalty_shot_data] || []).filter { |so| so[:goalie][:id] == id }
+      end
+
+      def valid_birthdate?
+        @valid_birthdate ||= !@raw_data.dig(:info, :birthDate).empty? && @raw_data.dig(:info, :birthDate) != "0000-00-00"
       end
     end
   end

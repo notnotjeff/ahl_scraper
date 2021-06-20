@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:53 GMT
+      - Sun, 20 Jun 2021 05:46:55 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=tsr6jkth5bpn6076l982p33ojj; path=/
+      - PHPSESSID=4cl9irb54fvc5uccdgamm09160; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -59,7 +59,7 @@ http_interactions:
         Diego Gulls"}},{"prop":{"team_code":{"teamLink":"403"},"name":{"teamLink":"403"}},"row":{"team_code":"ONT","wins":"0","losses":"1","ot_losses":"0","shootout_losses":"0","regulation_wins":"0","row":"0","points":"0","penalty_minutes":"19","streak":"0-0-0-1","goals_for":"4","goals_against":"5","percentage":"0.000","overall_rank":"6","games_played":"1","rank":6,"past_10":"0-0-0-1","name":"Ontario
         Reign"}},{"prop":{"team_code":{"teamLink":"412"},"name":{"teamLink":"412"}},"row":{"team_code":"TUC","wins":"0","losses":"1","ot_losses":"0","shootout_losses":"0","regulation_wins":"0","row":"0","points":"0","penalty_minutes":"6","streak":"0-1-0-0","goals_for":"1","goals_against":"2","percentage":"0.000","overall_rank":"7","games_played":"1","rank":7,"past_10":"0-1-0-0","name":"Tucson
         Roadrunners"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:53 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:55 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=68&site_id=1&view=teams
@@ -83,7 +83,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:53 GMT
+      - Sun, 20 Jun 2021 05:46:56 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -91,7 +91,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=i707r2grkdqu6v4ndmhj1h2lgh; path=/
+      - PHPSESSID=q6evs1jlvneq0ovbf9uui3adc7; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -181,7 +181,7 @@ http_interactions:
         Eagles"}},{"prop":{"team_code":{"teamLink":"403"},"name":{"teamLink":"403"}},"row":{"team_code":"ONT","wins":"17","losses":"19","ot_losses":"4","shootout_losses":"0","regulation_wins":"14","row":"16","points":"38","penalty_minutes":"418","streak":"2-0-0-0","goals_for":"136","goals_against":"149","percentage":"0.475","overall_rank":"22","games_played":"40","rank":6,"past_10":"8-2-0-0","name":"Ontario
         Reign"}},{"prop":{"team_code":{"teamLink":"412"},"name":{"teamLink":"412"}},"row":{"team_code":"TUC","wins":"13","losses":"20","ot_losses":"3","shootout_losses":"0","regulation_wins":"10","row":"13","points":"29","penalty_minutes":"405","streak":"0-2-1-0","goals_for":"103","goals_against":"126","percentage":"0.403","overall_rank":"24","games_played":"36","rank":7,"past_10":"3-6-1-0","name":"Tucson
         Roadrunners"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:53 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:56 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=65&site_id=1&view=teams
@@ -205,7 +205,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:54 GMT
+      - Sun, 20 Jun 2021 05:46:56 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -213,7 +213,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=tniio8d2apb95n7gk7vnhlmn3v; path=/
+      - PHPSESSID=ct76ba5bq5k6k15s4ghjcilded; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -292,7 +292,7 @@ http_interactions:
         Reign"}},{"prop":{"team_code":{"teamLink":"402"},"name":{"teamLink":"402"}},"row":{"team_code":"BAK","wins":"21","losses":"27","ot_losses":"5","shootout_losses":"3","regulation_wins":"17","row":"18","points":"50","penalty_minutes":"723","streak":"1-0-0-0","goals_for":"162","goals_against":"202","percentage":"0.446","overall_rank":"28","games_played":"56","rank":6,"past_10":"1-6-1-2","name":"Bakersfield
         Condors"}},{"prop":{"team_code":{"teamLink":"405"},"name":{"teamLink":"405"}},"row":{"team_code":"SJ","wins":"21","losses":"27","ot_losses":"5","shootout_losses":"2","regulation_wins":"17","row":"21","points":"49","penalty_minutes":"670","streak":"4-0-2-0","goals_for":"179","goals_against":"192","percentage":"0.445","overall_rank":"29","games_played":"55","rank":7,"past_10":"6-2-2-0","name":"San
         Jose Barracuda"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:54 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:56 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=64&site_id=1&view=teams
@@ -316,7 +316,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:54 GMT
+      - Sun, 20 Jun 2021 05:46:56 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -324,7 +324,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=rp38hfubtdnlqeag6iiull2neo; path=/
+      - PHPSESSID=m06u8hfgmc4ik2vg787kfsn26u; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -388,7 +388,7 @@ http_interactions:
         Condors"}},{"prop":{"team_code":{"teamLink":"405"},"name":{"teamLink":"405"}},"row":{"team_code":"SJ","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"50","streak":"0-2-0-0","goals_for":"14","goals_against":"18","percentage":"0.250","overall_rank":"12","games_played":"4","rank":3,"past_10":"1-2-0-1","name":"San
         Jose Barracuda"}},{"prop":{"team_code":{"teamLink":"419"},"name":{"teamLink":"419"}},"row":{"team_code":"COL","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","regulation_wins":"1","row":"1","points":"2","penalty_minutes":"59","streak":"0-2-0-0","goals_for":"10","goals_against":"14","percentage":"0.250","overall_rank":"13","games_played":"4","rank":4,"past_10":"1-3-0-0","name":"Colorado
         Eagles"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:54 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:56 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=61&site_id=1&view=teams
@@ -412,7 +412,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:54 GMT
+      - Sun, 20 Jun 2021 05:46:56 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -420,7 +420,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=i72lc350kjcd5e4hkr92rjdqb6; path=/
+      - PHPSESSID=svjlbmlbfe4odn1s8sumj490eq; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -515,7 +515,7 @@ http_interactions:
         Roadrunners"}},{"prop":{"team_code":{"teamLink":"406"},"name":{"teamLink":"406"}},"row":{"team_code":"STK","wins":"31","losses":"31","ot_losses":"4","shootout_losses":"2","regulation_wins":"24","row":"29","points":"68","penalty_minutes":"945","streak":"0-1-0-0","goals_for":"235","goals_against":"252","percentage":"0.500","overall_rank":"29","games_played":"68","rank":6,"past_10":"6-4-0-0","name":"Stockton
         Heat"}},{"prop":{"team_code":{"teamLink":"403"},"name":{"teamLink":"403"}},"row":{"team_code":"ONT","wins":"25","losses":"33","ot_losses":"6","shootout_losses":"4","regulation_wins":"19","row":"23","points":"60","penalty_minutes":"1069","streak":"0-2-0-0","goals_for":"213","goals_against":"274","percentage":"0.441","overall_rank":"31","games_played":"68","rank":7,"past_10":"3-5-0-2","name":"Ontario
         Reign"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:55 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:56 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=60&site_id=1&view=teams
@@ -539,7 +539,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:55 GMT
+      - Sun, 20 Jun 2021 05:46:57 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -547,7 +547,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=tm6bvusltqdinfocic7n49ff5b; path=/
+      - PHPSESSID=3i9us60hq4hrqb9unlf3if0jd4; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -599,7 +599,7 @@ http_interactions:
         Checkers"}},{"prop":{"team_code":{"teamLink":"309"},"name":{"teamLink":"309"}},"row":{"team_code":"PRO","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","row":"1","points":"2","penalty_minutes":"58","streak":"0-1-0-1","goals_for":"11","goals_against":"14","percentage":"0.250","games_played":"4","past_10":"1-2-0-1","name":"Providence
         Bruins"}},{"prop":{"team_code":{"teamLink":"316"},"name":{"teamLink":"316"}},"row":{"team_code":"WBS","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"60","streak":"0-2-0-1","goals_for":"6","goals_against":"14","percentage":"0.000","games_played":"3","past_10":"0-2-0-1","name":"Wilkes-Barre\/Scranton
         Penguins"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:55 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:57 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=57&site_id=1&view=teams
@@ -623,7 +623,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:55 GMT
+      - Sun, 20 Jun 2021 05:46:57 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -631,7 +631,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=o1n8f9fanjfvmaehhpskj9vdkh; path=/
+      - PHPSESSID=86it4usfebl82jvnhp8lfoij8f; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -725,7 +725,7 @@ http_interactions:
         Heat"}},{"prop":{"team_code":{"teamLink":"402"},"name":{"teamLink":"402"}},"row":{"team_code":"BAK","wins":"31","losses":"27","ot_losses":"9","shootout_losses":"1","regulation_wins":"23","row":"28","points":"72","penalty_minutes":"793","streak":"1-0-0-0","goals_for":"188","goals_against":"206","percentage":"0.529","overall_rank":"21","games_played":"68","rank":7,"past_10":"5-5-0-0","name":"Bakersfield
         Condors"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"35","losses":"31","ot_losses":"10","shootout_losses":"0","regulation_wins":"24","row":"29","points":"80","penalty_minutes":"961","streak":"1-0-0-0","goals_for":"198","goals_against":"219","percentage":"0.526","overall_rank":"23","games_played":"76","rank":8,"past_10":"4-6-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:55 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:57 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=56&site_id=1&view=teams
@@ -749,7 +749,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:55 GMT
+      - Sun, 20 Jun 2021 05:46:57 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -757,7 +757,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=u9747qtgpu2apojl973lfoj031; path=/
+      - PHPSESSID=vu2f03e3p8j4uq75274nfofq00; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -809,7 +809,7 @@ http_interactions:
         Diego Gulls"}},{"prop":{"team_code":{"teamLink":"406"},"name":{"teamLink":"406"}},"row":{"team_code":"STK","wins":"2","losses":"3","ot_losses":"0","shootout_losses":"0","row":"2","points":"4","penalty_minutes":"50","streak":"1-0-0-1","goals_for":"15","goals_against":"18","percentage":"0.400","games_played":"5","past_10":"2-2-0-1","name":"Stockton
         Heat"}},{"prop":{"team_code":{"teamLink":"403"},"name":{"teamLink":"403"}},"row":{"team_code":"ONT","wins":"2","losses":"3","ot_losses":"0","shootout_losses":"0","row":"2","points":"4","penalty_minutes":"38","streak":"0-1-0-0","goals_for":"10","goals_against":"12","percentage":"0.400","games_played":"5","past_10":"2-3-0-0","name":"Ontario
         Reign"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:56 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:57 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=54&site_id=1&view=teams
@@ -833,7 +833,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:56 GMT
+      - Sun, 20 Jun 2021 05:46:58 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -841,7 +841,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=seig9pp6gee7838nbofd7jsenl; path=/
+      - PHPSESSID=jfkrmi2gmt6n52kil5lrkcr2ai; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -935,7 +935,7 @@ http_interactions:
         Roadrunners"}},{"prop":{"team_code":{"teamLink":"380"},"name":{"teamLink":"380"}},"row":{"team_code":"TEX","wins":"34","losses":"37","ot_losses":"1","shootout_losses":"4","regulation_wins":"24","row":"31","points":"73","penalty_minutes":"1054","streak":"0-1-0-0","goals_for":"224","goals_against":"265","percentage":"0.480","overall_rank":"24","games_played":"76","rank":7,"past_10":"4-6-0-0","name":"Texas
         Stars"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"27","losses":"42","ot_losses":"5","shootout_losses":"2","regulation_wins":"22","row":"25","points":"61","penalty_minutes":"1025","streak":"1-0-0-0","goals_for":"184","goals_against":"240","percentage":"0.401","overall_rank":"28","games_played":"76","rank":8,"past_10":"2-8-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:56 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:58 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=53&site_id=1&view=teams
@@ -959,7 +959,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:56 GMT
+      - Sun, 20 Jun 2021 05:46:58 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -967,7 +967,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=d4obj2lps7ian83l515s6nogog; path=/
+      - PHPSESSID=i5egip6r14supc00vq5ocbqheb; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1019,7 +1019,7 @@ http_interactions:
         Marlies"}},{"prop":{"team_code":{"teamLink":"414"},"name":{"teamLink":"414"}},"row":{"team_code":"ALB","wins":"6","losses":"5","ot_losses":"0","shootout_losses":"0","row":"6","points":"12","penalty_minutes":"164","streak":"0-1-0-0","goals_for":"33","goals_against":"33","percentage":"0.545","games_played":"11","past_10":"5-4-0-1","name":"Albany
         Devils"}},{"prop":{"team_code":{"teamLink":"390"},"name":{"teamLink":"390"}},"row":{"team_code":"UTI","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","row":"1","points":"2","penalty_minutes":"48","streak":"0-1-0-0","goals_for":"8","goals_against":"15","percentage":"0.250","games_played":"4","past_10":"1-3-0-0","name":"Utica
         Comets"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:56 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:58 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=51&site_id=1&view=teams
@@ -1043,7 +1043,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:56 GMT
+      - Sun, 20 Jun 2021 05:46:58 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1051,7 +1051,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=kjej4n3td8uqn95r6fvhvrkm4i; path=/
+      - PHPSESSID=4qkbrkm679m6lkbcjf3orjh2tj; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1145,7 +1145,7 @@ http_interactions:
         Condors"}},{"prop":{"team_code":{"teamLink":"406"},"name":{"teamLink":"406"}},"row":{"team_code":"STK","wins":"32","losses":"32","ot_losses":"2","shootout_losses":"2","regulation_wins":"21","row":"28","points":"68","penalty_minutes":"1055","streak":"0-1-0-0","goals_for":"194","goals_against":"224","percentage":"0.500","overall_rank":"21","games_played":"68","rank":6,"past_10":"5-5-0-0","name":"Stockton
         Heat"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"33","losses":"35","ot_losses":"8","shootout_losses":"0","regulation_wins":"22","row":"30","points":"74","penalty_minutes":"1136","streak":"0-1-0-0","goals_for":"213","goals_against":"240","percentage":"0.487","overall_rank":"24","games_played":"76","rank":7,"past_10":"8-2-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:57 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:58 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=50&site_id=1&view=teams
@@ -1169,7 +1169,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:57 GMT
+      - Sun, 20 Jun 2021 05:46:59 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1177,7 +1177,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=2tuvrm6jitkp28os62ap3sebpt; path=/
+      - PHPSESSID=lk2jsf61e8l6rj0ljq6tgnuaq1; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1217,7 +1217,7 @@ http_interactions:
         Bruins"}},{"prop":{"team_code":{"teamLink":"370"},"name":{"teamLink":"370"}},"row":{"team_code":"WOR","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","row":"1","points":"2","penalty_minutes":"62","streak":"0-1-0-0","goals_for":"10","goals_against":"18","percentage":"0.250","games_played":"4","past_10":"1-3-0-0","name":"Worcester
         Sharks"}},{"prop":{"team_code":{"teamLink":"324"},"name":{"teamLink":"324"}},"row":{"team_code":"SYR","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"51","streak":"0-3-0-0","goals_for":"3","goals_against":"14","percentage":"0.000","games_played":"3","past_10":"0-3-0-0","name":"Syracuse
         Crunch"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:57 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:59 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=48&site_id=1&view=teams
@@ -1241,7 +1241,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:57 GMT
+      - Sun, 20 Jun 2021 05:46:59 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1249,7 +1249,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=c86lgj8ntr182p6arckqb91i2l; path=/
+      - PHPSESSID=uuuhaljdug2at19enf3kipv2hu; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1361,7 +1361,7 @@ http_interactions:
         - Oklahoma City Barons"}},{"prop":{"team_code":{"teamLink":"384"},"name":{"teamLink":"384"}},"row":{"team_code":"CHA","wins":"31","losses":"38","ot_losses":"6","shootout_losses":"1","regulation_wins":"24","row":"26","points":"69","penalty_minutes":"1314","streak":"1-0-0-0","goals_for":"172","goals_against":"231","percentage":"0.454","overall_rank":"26","games_played":"76","rank":4,"past_10":"4-5-1-0","name":"Charlotte
         Checkers"}},{"prop":{"team_code":{"teamLink":"389"},"name":{"teamLink":"389"}},"row":{"team_code":"IA","wins":"23","losses":"49","ot_losses":"2","shootout_losses":"2","regulation_wins":"18","row":"22","points":"50","penalty_minutes":"1028","streak":"0-4-0-0","goals_for":"172","goals_against":"245","percentage":"0.329","overall_rank":"30","games_played":"76","rank":5,"past_10":"2-8-0-0","name":"Iowa
         Wild"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:57 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:59 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=47&site_id=1&view=teams
@@ -1385,7 +1385,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:57 GMT
+      - Sun, 20 Jun 2021 05:46:59 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1393,7 +1393,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=1hgt4fg86u1qr1tumq06jhosok; path=/
+      - PHPSESSID=62jdvaggmlctc8a9cm4a027r81; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1433,7 +1433,7 @@ http_interactions:
         Heat"}},{"prop":{"team_code":{"teamLink":"383"},"name":{"teamLink":"383"}},"row":{"team_code":"OKC","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"57","streak":"0-1-2-0","goals_for":"6","goals_against":"10","percentage":"0.000","games_played":"3","past_10":"0-1-2-0","name":"Oklahoma
         City Barons"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"48","streak":"0-3-0-0","goals_for":"4","goals_against":"13","percentage":"0.000","games_played":"3","past_10":"0-3-0-0","name":"Milwaukee
         Admirals"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:58 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:00 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=43&site_id=1&view=teams
@@ -1457,7 +1457,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:58 GMT
+      - Sun, 20 Jun 2021 05:47:00 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1465,7 +1465,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=jg48flm0b9p4c0sa8lcrfp6mtm; path=/
+      - PHPSESSID=52op55bllo0c286jimais6b9vs; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1577,7 +1577,7 @@ http_interactions:
         - Oklahoma City Barons"}},{"prop":{"team_code":{"teamLink":"384"},"name":{"teamLink":"384"}},"row":{"team_code":"CHA","wins":"37","losses":"36","ot_losses":"1","shootout_losses":"2","regulation_wins":"30","row":"33","points":"77","penalty_minutes":"1118","streak":"0-3-0-0","goals_for":"228","goals_against":"241","percentage":"0.507","overall_rank":"22","games_played":"76","rank":4,"past_10":"4-6-0-0","name":"Charlotte
         Checkers"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"30","losses":"37","ot_losses":"3","shootout_losses":"6","regulation_wins":"17","row":"18","points":"69","penalty_minutes":"1082","streak":"0-2-0-0","goals_for":"206","goals_against":"235","percentage":"0.454","overall_rank":"26","games_played":"76","rank":5,"past_10":"3-7-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:58 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:01 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=42&site_id=1&view=teams
@@ -1601,7 +1601,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:58 GMT
+      - Sun, 20 Jun 2021 05:47:01 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1609,7 +1609,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=n5089h30q4ndtaps2g6sljt17b; path=/
+      - PHPSESSID=n09q8iakb0k4h612a1jigoptfu; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1649,7 +1649,7 @@ http_interactions:
         Monarchs"}},{"prop":{"team_code":{"teamLink":"310"},"name":{"teamLink":"310"}},"row":{"team_code":"POR","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"88","streak":"0-1-2-0","goals_for":"8","goals_against":"12","percentage":"0.000","games_played":"3","past_10":"0-1-2-0","name":"Portland
         Pirates"}},{"prop":{"team_code":{"teamLink":"315"},"name":{"teamLink":"315"}},"row":{"team_code":"BNG","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"48","streak":"0-2-1-0","goals_for":"6","goals_against":"9","percentage":"0.000","games_played":"3","past_10":"0-2-1-0","name":"Binghamton
         Senators"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:58 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:01 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=40&site_id=1&view=teams
@@ -1673,7 +1673,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:59 GMT
+      - Sun, 20 Jun 2021 05:47:01 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1681,7 +1681,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=n89kple0ak7s7u7fld105q0nbu; path=/
+      - PHPSESSID=tqddrshqnuse4fbfvg0h349rih; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1793,7 +1793,7 @@ http_interactions:
         - HOU","wins":"40","losses":"26","ot_losses":"5","shootout_losses":"5","regulation_wins":"30","row":"35","points":"90","penalty_minutes":"1005","streak":"0-1-0-0","goals_for":"212","goals_against":"199","percentage":"0.592","overall_rank":"10","games_played":"76","rank":4,"past_10":"7-3-0-0","name":"x
         - Houston Aeros"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"29","losses":"38","ot_losses":"2","shootout_losses":"7","regulation_wins":"23","row":"26","points":"67","penalty_minutes":"1163","streak":"0-9-1-1","goals_for":"195","goals_against":"241","percentage":"0.441","overall_rank":"29","games_played":"76","rank":5,"past_10":"0-8-1-1","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:59 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:02 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=39&site_id=1&view=teams
@@ -1817,7 +1817,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:59 GMT
+      - Sun, 20 Jun 2021 05:47:02 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1825,7 +1825,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=79rjupfmejj7uae9begkki48lh; path=/
+      - PHPSESSID=0kcbicg387v4vth9bue667696r; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -1865,7 +1865,7 @@ http_interactions:
         Monarchs"}},{"prop":{"team_code":{"teamLink":"324"},"name":{"teamLink":"324"}},"row":{"team_code":"SYR","wins":"1","losses":"3","ot_losses":"0","shootout_losses":"0","row":"1","points":"2","penalty_minutes":"56","streak":"0-1-0-1","goals_for":"10","goals_against":"15","percentage":"0.250","games_played":"4","past_10":"1-2-0-1","name":"Syracuse
         Crunch"}},{"prop":{"team_code":{"teamLink":"317"},"name":{"teamLink":"317"}},"row":{"team_code":"BRI","wins":"0","losses":"3","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"86","streak":"0-2-0-1","goals_for":"3","goals_against":"10","percentage":"0.000","games_played":"3","past_10":"0-2-0-1","name":"Bridgeport
         Sound Tigers"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:59 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:02 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=37&site_id=1&view=teams
@@ -1889,7 +1889,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:57:59 GMT
+      - Sun, 20 Jun 2021 05:47:02 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -1897,7 +1897,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=7qfaefssgp7cdcsrvv40j7fkc0; path=/
+      - PHPSESSID=otaammr66qf8d7aioscbddqv95; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2009,7 +2009,7 @@ http_interactions:
         - HOU","wins":"35","losses":"25","ot_losses":"5","shootout_losses":"11","regulation_wins":"29","row":"30","points":"86","penalty_minutes":"960","streak":"2-0-0-0","goals_for":"202","goals_against":"206","percentage":"0.566","overall_rank":"13","games_played":"76","rank":4,"past_10":"3-3-2-2","name":"x
         - Houston Aeros"}},{"prop":{"team_code":{"teamLink":"380"},"name":{"teamLink":"380"}},"row":{"team_code":"TEX","wins":"31","losses":"40","ot_losses":"3","shootout_losses":"2","regulation_wins":"21","row":"28","points":"67","penalty_minutes":"983","streak":"0-2-1-0","goals_for":"224","goals_against":"251","percentage":"0.441","overall_rank":"29","games_played":"76","rank":5,"past_10":"3-6-1-0","name":"Texas
         Stars"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:57:59 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:03 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=36&site_id=1&view=teams
@@ -2033,7 +2033,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:00 GMT
+      - Sun, 20 Jun 2021 05:47:03 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2041,7 +2041,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=rh9gbaa0f0k8b8mntg26oqmg8e; path=/
+      - PHPSESSID=5lj0a3oob450nej53cngrmof2u; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2093,7 +2093,7 @@ http_interactions:
         Stars"}},{"prop":{"team_code":{"teamLink":"383"},"name":{"teamLink":"383"}},"row":{"team_code":"OKC","wins":"2","losses":"4","ot_losses":"0","shootout_losses":"0","row":"2","points":"4","penalty_minutes":"93","streak":"0-2-0-0","goals_for":"11","goals_against":"15","percentage":"0.333","games_played":"6","past_10":"2-4-0-0","name":"Oklahoma
         City Barons"}},{"prop":{"team_code":{"teamLink":"334"},"name":{"teamLink":"334"}},"row":{"team_code":"PEO","wins":"0","losses":"4","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"57","streak":"0-3-0-1","goals_for":"7","goals_against":"14","percentage":"0.000","games_played":"4","past_10":"0-3-0-1","name":"Peoria
         Rivermen"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:00 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:03 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=34&site_id=1&view=teams
@@ -2117,7 +2117,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:00 GMT
+      - Sun, 20 Jun 2021 05:47:03 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2125,7 +2125,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=8qnkiqij112uopcj4gd9e3bm6j; path=/
+      - PHPSESSID=61i6tgahc67dt3iik2ultnouvp; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2219,7 +2219,7 @@ http_interactions:
         Wolves"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"40","losses":"33","ot_losses":"4","shootout_losses":"3","regulation_wins":"31","row":"33","points":"87","penalty_minutes":"1284","streak":"1-0-0-0","goals_for":"228","goals_against":"245","percentage":"0.544","overall_rank":"18","games_played":"80","rank":7,"past_10":"3-5-1-1","name":"San
         Antonio Rampage"}},{"prop":{"team_code":{"teamLink":"372"},"name":{"teamLink":"372"}},"row":{"team_code":"RFD","wins":"38","losses":"33","ot_losses":"4","shootout_losses":"5","regulation_wins":"28","row":"34","points":"85","penalty_minutes":"1508","streak":"5-0-0-0","goals_for":"216","goals_against":"245","percentage":"0.531","overall_rank":"20","games_played":"80","rank":8,"past_10":"9-1-0-0","name":"Rockford
         IceHogs"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:01 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:04 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=33&site_id=1&view=teams
@@ -2243,7 +2243,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:01 GMT
+      - Sun, 20 Jun 2021 05:47:04 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2251,7 +2251,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=46kpu3i676r1t6cs05t6659ug4; path=/
+      - PHPSESSID=tjid21ulgv1uccso5tqn92mr81; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2303,7 +2303,7 @@ http_interactions:
         Wolves"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"3","losses":"4","ot_losses":"0","shootout_losses":"0","row":"3","points":"6","penalty_minutes":"72","streak":"0-1-0-0","goals_for":"22","goals_against":"20","percentage":"0.429","games_played":"7","past_10":"3-4-0-0","name":"Milwaukee
         Admirals"}},{"prop":{"team_code":{"teamLink":"372"},"name":{"teamLink":"372"}},"row":{"team_code":"RFD","wins":"0","losses":"4","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"77","streak":"0-4-0-0","goals_for":"5","goals_against":"15","percentage":"0.000","games_played":"4","past_10":"0-4-0-0","name":"Rockford
         IceHogs"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:01 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:04 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=30&site_id=1&view=teams
@@ -2327,7 +2327,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:01 GMT
+      - Sun, 20 Jun 2021 05:47:04 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2335,7 +2335,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=oec21pbk6mlihjfbep4emq351l; path=/
+      - PHPSESSID=siig2j22nnhj5i23f08f1k389e; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2428,7 +2428,7 @@ http_interactions:
         Rivermen"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"36","losses":"32","ot_losses":"5","shootout_losses":"7","regulation_wins":"29","row":"34","points":"84","penalty_minutes":"1357","streak":"2-0-0-0","goals_for":"235","goals_against":"244","percentage":"0.525","overall_rank":"18","games_played":"80","rank":6,"past_10":"4-4-1-1","name":"San
         Antonio Rampage"}},{"prop":{"team_code":{"teamLink":"329"},"name":{"teamLink":"329"}},"row":{"team_code":"HOU","wins":"34","losses":"34","ot_losses":"7","shootout_losses":"5","regulation_wins":"24","row":"31","points":"80","penalty_minutes":"1300","streak":"0-1-0-0","goals_for":"206","goals_against":"224","percentage":"0.500","overall_rank":"22","games_played":"80","rank":7,"past_10":"5-4-0-1","name":"Houston
         Aeros"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:02 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:04 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=29&site_id=1&view=teams
@@ -2452,7 +2452,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:05 GMT
+      - Sun, 20 Jun 2021 05:47:05 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2460,7 +2460,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=iplsa4nchrpfi571elg0oiovoq; path=/
+      - PHPSESSID=0asrtnpab0df09v5t01jmlfim5; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2512,7 +2512,7 @@ http_interactions:
         Admirals"}},{"prop":{"team_code":{"teamLink":"334"},"name":{"teamLink":"334"}},"row":{"team_code":"PEO","wins":"3","losses":"4","ot_losses":"0","shootout_losses":"0","row":"3","points":"6","penalty_minutes":"78","streak":"0-1-0-0","goals_for":"17","goals_against":"20","percentage":"0.429","games_played":"7","past_10":"3-3-1-0","name":"Peoria
         Rivermen"}},{"prop":{"team_code":{"teamLink":"372"},"name":{"teamLink":"372"}},"row":{"team_code":"RFD","wins":"0","losses":"4","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"40","streak":"0-4-0-0","goals_for":"4","goals_against":"13","percentage":"0.000","games_played":"4","past_10":"0-4-0-0","name":"Rockford
         IceHogs"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:05 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:05 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=16&site_id=1&view=teams
@@ -2536,7 +2536,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:05 GMT
+      - Sun, 20 Jun 2021 05:47:05 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2544,7 +2544,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=ppet3u4cjh8eghvnpdn185c8vp; path=/
+      - PHPSESSID=rtaovanicru6c690u22phcer8e; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2637,7 +2637,7 @@ http_interactions:
         Wolves"}},{"prop":{"team_code":{"teamLink":"375"},"name":{"teamLink":"375"}},"row":{"team_code":"IOW","wins":"33","losses":"33","ot_losses":"4","shootout_losses":"10","regulation_wins":"29","row":"32","points":"80","penalty_minutes":"1437","streak":"0-3-0-1","goals_for":"209","goals_against":"260","percentage":"0.500","overall_rank":"22","games_played":"80","rank":7,"past_10":"3-5-0-2","name":"Iowa
         Chops"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"36","losses":"38","ot_losses":"2","shootout_losses":"4","regulation_wins":"30","row":"35","points":"78","penalty_minutes":"1822","streak":"0-1-0-0","goals_for":"205","goals_against":"243","percentage":"0.488","overall_rank":"24","games_played":"80","rank":8,"past_10":"8-2-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:06 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:05 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=15&site_id=1&view=teams
@@ -2661,7 +2661,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:06 GMT
+      - Sun, 20 Jun 2021 05:47:05 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2669,7 +2669,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=783gojg5ufm4tl6pb7h10vudrg; path=/
+      - PHPSESSID=l0jrtkmdivckkb0ca9okqn2oog; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2721,7 +2721,7 @@ http_interactions:
         Antonio Rampage"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"2","losses":"4","ot_losses":"0","shootout_losses":"0","row":"2","points":"4","penalty_minutes":"108","streak":"0-2-0-0","goals_for":"11","goals_against":"16","percentage":"0.333","games_played":"6","past_10":"2-3-1-0","name":"Milwaukee
         Admirals"}},{"prop":{"team_code":{"teamLink":"329"},"name":{"teamLink":"329"}},"row":{"team_code":"HOU","wins":"1","losses":"4","ot_losses":"0","shootout_losses":"0","row":"1","points":"2","penalty_minutes":"63","streak":"0-3-0-0","goals_for":"6","goals_against":"12","percentage":"0.200","games_played":"5","past_10":"1-4-0-0","name":"Houston
         Aeros"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:06 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:06 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=12&site_id=1&view=teams
@@ -2745,7 +2745,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:06 GMT
+      - Sun, 20 Jun 2021 05:47:06 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2753,7 +2753,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=51tctmo3am9mvbgp83pj2k3sn1; path=/
+      - PHPSESSID=hq550saob83696kouaei9j24ip; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2830,7 +2830,7 @@ http_interactions:
         City Flames"}},{"prop":{"team_code":{"teamLink":"334"},"name":{"teamLink":"334"}},"row":{"team_code":"PEO","wins":"38","losses":"33","ot_losses":"4","shootout_losses":"5","regulation_wins":"31","row":"33","points":"85","penalty_minutes":"1530","streak":"0-1-0-0","goals_for":"247","goals_against":"242","percentage":"0.531","overall_rank":"18","games_played":"80","rank":7,"past_10":"3-7-0-0","name":"Peoria
         Rivermen"}},{"prop":{"team_code":{"teamLink":"336"},"name":{"teamLink":"336"}},"row":{"team_code":"IOW","wins":"35","losses":"37","ot_losses":"5","shootout_losses":"3","regulation_wins":"26","row":"30","points":"78","penalty_minutes":"1198","streak":"0-2-0-0","goals_for":"217","goals_against":"255","percentage":"0.488","overall_rank":"23","games_played":"80","rank":8,"past_10":"4-4-1-1","name":"Iowa
         Stars"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:06 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:06 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=10&site_id=1&view=teams
@@ -2854,7 +2854,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:06 GMT
+      - Sun, 20 Jun 2021 05:47:06 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2862,7 +2862,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=2ep0abat1avoc0brr00s62i2ad; path=/
+      - PHPSESSID=ju79qbccin07isqh30k9nh09q7; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -2914,7 +2914,7 @@ http_interactions:
         Stars"}},{"prop":{"team_code":{"teamLink":"337"},"name":{"teamLink":"337"}},"row":{"team_code":"OMA","wins":"2","losses":"4","ot_losses":"0","shootout_losses":"0","row":"2","points":"4","penalty_minutes":"68","streak":"0-1-0-0","goals_for":"13","goals_against":"16","percentage":"0.333","games_played":"6","past_10":"2-3-1-0","name":"Omaha
         Ak-Sar-Ben Knights"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"0","losses":"4","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"71","streak":"0-3-1-0","goals_for":"7","goals_against":"13","percentage":"0.000","games_played":"4","past_10":"0-3-1-0","name":"Milwaukee
         Admirals"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:07 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:06 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=8&site_id=1&view=teams
@@ -2938,7 +2938,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:07 GMT
+      - Sun, 20 Jun 2021 05:47:07 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -2946,7 +2946,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=03u2jcm0f994c71ll485smt4dl; path=/
+      - PHPSESSID=fuejt1gqpigp3n7utoc9fm2k34; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3037,7 +3037,7 @@ http_interactions:
         Rivermen"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"32","losses":"42","ot_losses":"2","shootout_losses":"4","regulation_wins":"24","row":"28","points":"70","penalty_minutes":"1394","streak":"1-0-0-0","goals_for":"219","goals_against":"256","percentage":"0.438","overall_rank":"23","games_played":"80","rank":6,"past_10":"4-5-1-0","name":"San
         Antonio Rampage"}},{"prop":{"team_code":{"teamLink":"329"},"name":{"teamLink":"329"}},"row":{"team_code":"HOU","wins":"27","losses":"43","ot_losses":"4","shootout_losses":"6","regulation_wins":"19","row":"20","points":"64","penalty_minutes":"1614","streak":"0-1-0-0","goals_for":"205","goals_against":"269","percentage":"0.400","overall_rank":"25","games_played":"80","rank":7,"past_10":"3-6-1-0","name":"Houston
         Aeros"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:07 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:07 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=7&site_id=1&view=teams
@@ -3061,7 +3061,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:07 GMT
+      - Sun, 20 Jun 2021 05:47:07 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -3069,7 +3069,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=pngfugjsgh8fe7q6dk4rrcoaub; path=/
+      - PHPSESSID=krol72vch213sjof9cckjb3smc; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3121,7 +3121,7 @@ http_interactions:
         Aeros"}},{"prop":{"team_code":{"teamLink":"336"},"name":{"teamLink":"336"}},"row":{"team_code":"IOW","wins":"3","losses":"4","ot_losses":"0","shootout_losses":"0","row":"3","points":"6","penalty_minutes":"127","streak":"0-1-0-0","goals_for":"20","goals_against":"19","percentage":"0.429","games_played":"7","past_10":"3-4-0-0","name":"Iowa
         Stars"}},{"prop":{"team_code":{"teamLink":"334"},"name":{"teamLink":"334"}},"row":{"team_code":"PEO","wins":"0","losses":"4","ot_losses":"0","shootout_losses":"0","row":"0","points":"0","penalty_minutes":"84","streak":"0-2-2-0","goals_for":"10","goals_against":"19","percentage":"0.000","games_played":"4","past_10":"0-2-2-0","name":"Peoria
         Rivermen"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:08 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:07 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=1&site_id=1&view=teams
@@ -3145,7 +3145,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:08 GMT
+      - Sun, 20 Jun 2021 05:47:07 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -3153,7 +3153,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=rmsd70sqn5n3dj26q2uh9uo7mj; path=/
+      - PHPSESSID=cdbg2oiu6hu3b2ltkamolddffr; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3244,7 +3244,7 @@ http_interactions:
         Wolves"}},{"prop":{"team_code":{"teamLink":"337"},"name":{"teamLink":"337"}},"row":{"team_code":"OMA","wins":"35","losses":"31","ot_losses":"3","shootout_losses":"11","regulation_wins":"28","row":"31","points":"84","penalty_minutes":"1801","streak":"1-0-0-0","goals_for":"206","goals_against":"221","percentage":"0.525","overall_rank":"18","games_played":"80","rank":6,"past_10":"2-5-1-2","name":"Omaha
         Ak-Sar-Ben Knights"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"23","losses":"50","ot_losses":"3","shootout_losses":"4","regulation_wins":"14","row":"16","points":"53","penalty_minutes":"1598","streak":"0-1-0-0","goals_for":"153","goals_against":"251","percentage":"0.331","overall_rank":"27","games_played":"80","rank":7,"past_10":"2-7-1-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:08 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:08 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=69&site_id=1&view=teams
@@ -3268,7 +3268,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:08 GMT
+      - Sun, 20 Jun 2021 05:47:08 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -3276,7 +3276,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=vebkf9d9gglu7trbtf85nu3bb3; path=/
+      - PHPSESSID=38jd55n7vhsdmj093aksv89pnv; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3340,7 +3340,7 @@ http_interactions:
         Mighty Ducks"}},{"prop":{"team_code":{"teamLink":"327"},"name":{"teamLink":"327"}},"row":{"team_code":"MIL","wins":"3","losses":"4","ot_losses":"0","shootout_losses":"0","regulation_wins":"2","row":"3","points":"6","penalty_minutes":"242","streak":"0-3-0-0","goals_for":"18","goals_against":"20","percentage":"0.429","overall_rank":"9","games_played":"7","rank":3,"past_10":"3-3-0-1","name":"Milwaukee
         Admirals"}},{"prop":{"team_code":{"teamLink":"329"},"name":{"teamLink":"329"}},"row":{"team_code":"HOU","wins":"1","losses":"4","ot_losses":"0","shootout_losses":"0","regulation_wins":"0","row":"1","points":"2","penalty_minutes":"185","streak":"0-3-0-0","goals_for":"7","goals_against":"13","percentage":"0.200","overall_rank":"15","games_played":"5","rank":4,"past_10":"1-4-0-0","name":"Houston
         Aeros"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:08 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:08 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&groupTeamsBy=division&key=50c2cd9b5e18e390&league_id=4&season=46&site_id=1&view=teams
@@ -3364,7 +3364,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:08 GMT
+      - Sun, 20 Jun 2021 05:47:08 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -3372,7 +3372,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=qjiuq26rq4l9ubt6peurfvrc20; path=/
+      - PHPSESSID=s2lberqde00vfuhe8lj33ncm33; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3464,5 +3464,5 @@ http_interactions:
         Rapids Griffins"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"27","losses":"45","ot_losses":"3","shootout_losses":"5","regulation_wins":"20","row":"24","points":"62","penalty_minutes":"1654","streak":"0-1-0-0","goals_for":"156","goals_against":"232","percentage":"0.388","overall_rank":"26","games_played":"80","rank":6,"past_10":"2-8-0-0","name":"San
         Antonio Rampage"}},{"prop":{"team_code":{"teamLink":"399"},"name":{"teamLink":"399"}},"row":{"team_code":"UTA","wins":"23","losses":"50","ot_losses":"2","shootout_losses":"5","regulation_wins":"13","row":"13","points":"53","penalty_minutes":"1857","streak":"1-0-0-0","goals_for":"156","goals_against":"265","percentage":"0.331","overall_rank":"28","games_played":"80","rank":7,"past_10":"4-5-0-1","name":"Utah
         Grizzlies"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:09 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:08 GMT
 recorded_with: VCR 6.0.0

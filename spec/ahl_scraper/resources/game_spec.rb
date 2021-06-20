@@ -8,14 +8,6 @@ RSpec.describe AhlScraper::Game do
     end
   end
 
-  # TODO: REMOVE THIS AFTER TESTING
-  describe "#delete-me2", :vcr do
-    it "returns game id" do
-      game = described_class.new(1_012_612)
-      game.home_team
-    end
-  end
-
   describe "#status", :vcr do
     context "when game has ended" do
       it "returns finished" do

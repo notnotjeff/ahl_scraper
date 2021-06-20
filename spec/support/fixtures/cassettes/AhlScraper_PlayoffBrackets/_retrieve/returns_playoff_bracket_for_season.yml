@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 13 Jun 2021 17:57:55 GMT
+      - Sun, 20 Jun 2021 05:46:24 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=1ica3ub082gdgkj3ajeck5qgov; path=/
+      - PHPSESSID=c0f6evohvnaoft9fe6qsuni08j; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -284,5 +284,5 @@ http_interactions:
         integrated clock worked"}],"team1_wins":4,"team2_wins":1,"ties":0}]}],"logo":"https:\/\/lscluster.hockeytech.com\/download.php?file_path=img\/playoffs_64.jpg&client_code=ahl"},"Copyright":{"required_copyright":"Official
         statistics provided by American Hockey League","required_link":"http:\/\/leaguestat.com","powered_by":"Powered
         by HockeyTech.com","powered_by_url":"http:\/\/hockeytech.com"}}})'
-  recorded_at: Sun, 13 Jun 2021 17:57:55 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:25 GMT
 recorded_with: VCR 6.0.0

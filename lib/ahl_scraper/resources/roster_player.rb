@@ -35,11 +35,11 @@ module AhlScraper
     end
 
     def draft_year
-      @draft_year ||= birthdate ? BirthdateHelper.new(birthdate).draft_year : "Not Found"
+      @draft_year ||= valid_birthdate? ? birthdate_object.draft_year : nil
     end
 
     def current_age
-      @current_age ||= birthdate ? BirthdateHelper.new(birthdate).current_age : "Not Found"
+      @current_age ||= valid_birthdate? ? birthdate_object.current_age : nil
     end
 
     def jersey_number
@@ -56,6 +56,16 @@ module AhlScraper
 
     def rookie?
       @rookie ||= @raw_data.dig(:stats, :prop, :rookie, :rookie) == "1"
+    end
+
+    private
+
+    def birthdate_object
+      @birthdate_object ||= BirthdateHelper.new(birthdate)
+    end
+
+    def valid_birthdate?
+      @valid_birthdate ||= !@raw_data.dig(:bio, :row, :birthdate).empty? && @raw_data.dig(:bio, :row, :birthdate) != "0000-00-00"
     end
   end
 end

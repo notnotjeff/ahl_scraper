@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:04 GMT
+      - Sun, 20 Jun 2021 05:47:20 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=sd9716ko0navedh8o89e0p3h9b; path=/
+      - PHPSESSID=sd654cqo6c90fkevbhsnf7r22v; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -64,7 +64,7 @@ http_interactions:
         Division All-Stars","city":"Central Division","nickname":"Central","abbreviation":"CEN","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/409_63.jpg","divisionName":"All
         Star"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
         ","sponsor":{"name":null,"image":null}}})
-  recorded_at: Sun, 13 Jun 2021 17:58:04 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:20 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1019521&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
@@ -88,7 +88,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:04 GMT
+      - Sun, 20 Jun 2021 05:47:20 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -96,7 +96,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=uk8kc24n7vml5brtph8uho75su; path=/
+      - PHPSESSID=jj52apfp68bhdb6vu4mnviisu2; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -128,7 +128,7 @@ http_interactions:
         on net","shotType":"Default","xLocation":546,"yLocation":165}},{"event":"shot","details":{"shooter":{"id":5614,"firstName":"Trevor","lastName":"Carrick","jerseyNumber":44,"position":"D","birthDate":""},"goalie":{"id":7179,"firstName":"Kaapo","lastName":"Kahkonen","jerseyNumber":34,"position":"G","birthDate":""},"shooterTeamId":"407","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"4:56","isGoal":false,"shotQuality":"Quality
         on net","shotType":"Default","xLocation":67,"yLocation":170}},{"event":"shot","details":{"shooter":{"id":7417,"firstName":"Erik","lastName":"Brannstrom","jerseyNumber":26,"position":"D","birthDate":""},"goalie":{"id":5862,"firstName":"Vitek","lastName":"Vanecek","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"409","period":{"id":"2","shortName":"2","longName":"2nd"},"time":"5:00","isGoal":false,"shotQuality":"Quality
         on net","shotType":"Default","xLocation":507,"yLocation":127}}])
-  recorded_at: Sun, 13 Jun 2021 17:58:04 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:20 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_code=&league_id=&pageName=schedule&season=latest&site_id=1&view=bootstrap
@@ -152,7 +152,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:05 GMT
+      - Sun, 20 Jun 2021 05:47:20 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -160,7 +160,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=sg841aa094gd0njfleilakcrsm; path=/
+      - PHPSESSID=4t80ou5vtrkgtl342ql21dclne; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -299,5 +299,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Sun, 13 Jun 2021 17:58:05 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:21 GMT
 recorded_with: VCR 6.0.0

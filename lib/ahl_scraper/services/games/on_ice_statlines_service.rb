@@ -20,13 +20,13 @@ module AhlScraper
           skater_ids = on_scoring_team ? plus_player_ids : minus_player_ids
           opposing_skater_ids = on_scoring_team ? minus_player_ids : plus_player_ids
           goal_situation = find_goal_situation(goal, on_scoring_team)
-          goal_player_counts = on_scoring_team ? "#{skater_ids.length}v#{opposing_skater_ids.length}" : "#{opposing_skater_ids.length}v#{skater_ids.length}"
+          goal_player_counts = find_goal_player_counts(skater_ids, opposing_skater_ids, on_scoring_team)
 
           skater_ids.map(&:to_s).each do |skater_id|
             on_ice_statlines[skater_id] ||= blank_statline
             on_ice_statlines[skater_id]["#{goal_status}_as".to_sym] += 1
             on_ice_statlines[skater_id]["#{goal_status}_#{goal_situation}".to_sym] += 1
-            next unless opposing_skater_ids.length >= 3 && skater_ids.length >= 3
+            next unless opposing_skater_ids.length >= 3 && skater_ids.length >= 3 && opposing_skater_ids.length <= 6 && skater_ids.length <= 6
 
             on_ice_statlines[skater_id]["#{goal_status}_#{goal_player_counts}".to_sym] += 1
           end
@@ -39,6 +39,10 @@ module AhlScraper
 
       def on_ice_statlines
         @on_ice_statlines ||= @skater_ids.map { |s_id| [s_id.to_s, blank_statline] }.to_h
+      end
+
+      def find_goal_player_counts(skater_ids, opposing_skater_ids, on_scoring_team)
+        on_scoring_team ? "#{skater_ids.length}v#{opposing_skater_ids.length}" : "#{opposing_skater_ids.length}v#{skater_ids.length}"
       end
 
       def find_goal_situation(goal, on_scoring_team)

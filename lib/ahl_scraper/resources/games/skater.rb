@@ -24,11 +24,11 @@ module AhlScraper
       end
 
       def birthdate
-        @birthdate ||= @raw_data[:birthdate]
+        @birthdate ||= valid_birthdate? ? @raw_data[:birthdate] : nil
       end
 
       def current_age
-        @current_age ||= birthdate ? BirthdateHelper.new(birthdate).age_on_date(@opts[:game_date]) : nil
+        @current_age ||= valid_birthdate? ? BirthdateHelper.new(birthdate).age_on_date(@opts[:game_date]) : nil
       end
 
       def team_id
@@ -82,6 +82,12 @@ module AhlScraper
 
       def shootout
         @shootout ||= @opts[:shootout_statline] || {}
+      end
+
+      private
+
+      def valid_birthdate?
+        @valid_birthdate ||= !@raw_data[:birthdate].empty? && @raw_data[:birthdate] != "0000-00-00"
       end
     end
   end

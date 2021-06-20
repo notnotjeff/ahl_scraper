@@ -13,7 +13,7 @@ module AhlScraper
     private
 
     def url
-      @url ||= "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=#{@player_id}&season_id=&site_id=3&key=ccb91f29d6744675&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json" # rubocop:disable Layout/LineLength
+      "https://lscluster.hockeytech.com/feed/index.php?feed=statviewfeed&view=player&player_id=#{@player_id}&season_id=&site_id=3&key=ccb91f29d6744675&client_code=ahl&league_id=&lang=en&statsType=standard&callback=json" # rubocop:disable Layout/LineLength
     end
 
     def player_data_without_bio

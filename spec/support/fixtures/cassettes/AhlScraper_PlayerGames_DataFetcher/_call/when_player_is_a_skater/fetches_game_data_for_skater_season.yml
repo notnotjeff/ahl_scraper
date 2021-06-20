@@ -1,0 +1,332 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=ccb91f29d6744675&lang=en&league_id=&player_id=304&season_id=1&site_id=3&statsType=standard&view=player
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 20 Jun 2021 05:46:11 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=seb05hrv0o9butshfgodjhjl8k; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '9208'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: 'json({"info":{"jerseyNumber":"17","firstName":"Denis","lastName":"Hamel","playerId":"304","personId":"331","position":"LW","shoots":"L","catches":"L","height":"6-2","height_sans_hyphen":"6.2","height_hyphenated":"6-2","weight":"203","birthDate":"1977-05-10","profileImage":"https:\/\/assets.leaguestat.com\/ahl\/240x240\/304.jpg","teamImage":"https:\/\/assets.leaguestat.com\/ahl\/logos\/315.jpg","bio":"CAREER
+        AWARDS\/HONORS:  QMJHL All-Rookie Team (1995)\u2026AHL First All-Star Team
+        (2004)\u2026Willie Marshall Award (AHL leading goal scorer) 2005-06\u2026Yanick
+        Dupre Memorial Award (AHL Man of the Year) 2007-08\u2026\r\n2008-09:  Buried
+        game-winning shootout marker in B-Sens season opener @ TOR\u2026returned to
+        line-up after missing eight games with a knee injury and buried game-winning
+        goal in B-Sens 4-2 win over WBS\u2026notched two points, including game-winning
+        goal, in B-Sens 2-1 win over Portland 12\/12\/08\u2026collected 300th point
+        as a B-Sen with assist on Greg Mauldin\u2019s goal 12\/13\/08 @ Albany\u2026buried
+        two goals, including game-winning goal in OT, vs. Syracuse 12\/26\/08; two
+        goals give him 250 AHL goals\u2026buried game-winning power-play goal in 600th
+        AHL game @ Syracuse 12\/30\/08, his 70th power-play tally as a B-Sen\u2026\r\n2007-08:  Collected
+        first point of season with assist against HER 10\/13\/07\u2026buried two markers
+        against NOR in 5-1 win on 10\/20\/07\u2026netted hat trick to lead B-Sens
+        past WBS on 10\/27\/07, giving him 216 AHL markers in career\u2026added two
+        helpers in 5-4 win @ ROC 10\/28\/07\u2026collected two points (1+1=2) in 3-0
+        shutout victory over WBS\u2026buried two markers vs. ROC on Thanksgiving\u2026buried
+        two markers to lead B-Sens to a 4-0 win over BPT 11\/30\/07\u2026buried two
+        markers, including game-winner against NOR 12\/1\/07\u2026buried fourth game-winning
+        goal of season in 4-3 win over SYR 12\/14\/07\u2026returned to line-up after
+        missing 13 games with a broken bone in his foot and registered the game-winning
+        shootout goal vs. POR\u2026buried two goals, including game-winner, and added
+        one assist in B-Sens 6-3 win over SYR 1\/18\/08\u2026\r\n2006-07:  In 53 NHL
+        games with Ottawa, Atlanta and Philly, registered eight points (5+3=8)\u2026\r\n2005-06:  Had
+        first multi-point game of season on 10\/15 vs. BPT (1g, 1a)\u2026Tallied 3
+        assists in single game for the third time in his AHL career on 10\/30 @ LOW\u2026Scored
+        2 goals vs. ROC on 11\/5\u2026Registered third career AHL four-point game
+        (2g, 2a) vs. HAR on 11\/11; Scored twice in 3rd period, including game winner
+        with :39 remaining\u2026 Scored in final minute of regulation for 2nd straight
+        game on 11\/12 vs. PHI, helping lift Senators to shootout victory; had three
+        points in the game (2g, 1a)\u2026Named CCM\/Vector AHL Player of the Week
+        on 11\/14\/05\u2026Scored twice in 3-6 loss @ ALB on 11\/19\u2026Called up
+        to Ottawa on 11\/22 on emergency basis\u2026Returned to Binghamton 11\/27\u2026Appeared
+        in 450th AHL contest 12\/2 @ PHI\u2026Recorded fifth two-goal performance
+        of the season, including the shorthanded game-winner, 12\/3 @ ALB\u2026Tallied
+        2 assists vs. ROC on 12\/10\u2026Had 3 points (1g, 2a) on 12\/16 vs. NOR\u2026Had
+        3 points (1g, 2a) on 12\/18 @ ROC\u2026Scored a goal in fifth straight game
+        on 12\/27 @ TOR, setting a new franchise record for consecutive games with
+        a goal\u2026Extended franchise record with goal in sixth straight game on
+        12\/28 @ SYR; reached 20-goal mark in the game\u2026Recalled to Ottawa for
+        12\/30 game vs. NY Islanders; returned to BNG after game\u2026Named to 2006
+        AHL All-Star Canadian Team on 1\/11\u2026Recorded 2nd hat trick of the season
+        on 2\/3\/06 @ NOR\u2026Scored his 100th regular season goal in a B-Sens uniform
+        on 2\/11 @ TOR; also tied a franchise record with his 17th power-play goal
+        of the season\u2026Tallied 18th power-play goal of the season on 2\/24 vs.
+        TOR setting a new B-Sens franchise record\u2026Set several milestones in 7-4
+        win vs. NOR on 3\/8 including his career high for goals in a game (4), points
+        in a game (5) and goals in a season (42).  Also played in his 216th game with
+        the B-Sens, tying a franchise record held previously by defenseman Christoph
+        Schubert\u2026Scored his 200th AHL goal, 27 seconds into the first period,
+        on 3\/18 vs. PHI\u2026Matched pro career high for points in a season (78)
+        with 1 assist vs. ALB on 3\/22\u2026Scored his 50th goal of the season in
+        1-3 L vs. NOR on 4\/1\u2026Tied Binghamton AHL record for goals in one season
+        (54) on 4\/14\/06 @ NOR\u2026Set new Binghamton AHL record for most goals
+        in a season (55) on 4\/15\/06 @ HER\u2026Scored 56th goal vs. ALB on 4\/16,
+        tying him with Grand Rapids\u2019 Donald MacLean for the Willie Marshall Award,
+        given annually to the AHL\u2019s top goal scorer.  Also tied an AHL record
+        in that game with his 27th power-play goal of the season\u2026\r\n2005 Calder
+        Cup Playoffs:  Scored 1st goal of playoffs in Game 5 vs. WBS on 4\/29\u2026\r\n2004-05:  Had
+        first multi-point game of season on 11\/6 vs. ROC (1g,1a)\u2026Had first multi-goal
+        game of season with 2 goals and 1 assist at WBS on 11\/20\u2026Had second
+        straight 2 goal game on 11\/21\u2026Named 1st Star in ending six-game goalless
+        run with a pair of lamp-lighters, including the game winner, in 6-2 vs. ALB
+        12\/26\u2026Recorded first hat trick as a Senator vs. SPR on 12\/31 and was
+        named 1st star\u2026Extended career-high point streak to 11 games with 1 goal
+        vs. PRO on 1\/26\u2026scored 30th goal of season in 3-2 OTL vs. NOR on March
+        2nd\u2026Had 3 assists in a game for the second time in his AHL career on
+        3\/16 vs. BPT\u2026matched a professional career high for points in a season
+        (67) with an overtime game-winning goal on 3\/19 vs. PHI\u2026Had an assist
+        on 3\/30 vs. PHI giving him 300 points in his AHL career and his first 70-point
+        season\u2026Tied AHL career high for goals in a season with his 34th vs. WOR
+        on 4\/1\u2026Set new professional career high for goals in a season (35) with
+        game-winning empty net goal on 4\/2 vs. MTB\u2026Registered a hat trick in
+        regular season finale vs. HER raising his pro-career high goal total to 39.\r\n2003-04:
+        Three-point night (2+1) in 4-2 win @ PHI 10\/10 in his B-Sens debut\u20261st
+        Star with game-winning overtime goal vs. former teammates in 2-1win over ROC
+        10\/11\u2026 Appeared  in 300th AHL contest 12\/19 vs. WBS\u2026 Goal @ PHI
+        12\/28 broke an AHL career-high 14-game goal drought\u2026 Game-winning goal
+        12\/31 was his 100th career AHL marker\u2026 Empty net goal on 1\/17 was 200th
+        career AHL point\u2026 Recalled by Ottawa (NHL) 2\/4\u2026 Recalled by Ottawa
+        (NHL) 2\/15\u2026 Passed the 500 minute mark in career AHL PIM with minor
+        @ HER 2\/29\u2026 With goal and an assist 3\/14 @ ALB, set new personal AHL
+        best for points in a season with 60\u2026Empty net goal 3\/20 vs. BPT gave
+        him 62 points, tying the franchise record set last year by Antoine Vermette\u2026Assist
+        on Brad Tapper\u2019s goal 3\/24 vs. MTB established new single season scoring
+        record for the Senators (63 points)\u2026Named to AHL First All-Star Team
+        4\/1\u2026 Finished with AHL career-highs in assists (37) and points (67)\u2026\r\n2002-03:
+        Split the season between Buffalo (NHL) and Rochester (AHL) \u2026 Recorded
+        two points in Buffalo and 47 points (27-20) in 48 games in Rochester \u2026
+        Was second on the team in goals (27) and second in plus\/minus (+15) in Rochester
+        \u2026 Signed as a free-agent by Ottawa on July 5.\r\n","teamName":"Binghamton
+        Senators","division":"East Division","commitment":false,"currentTeam":"","suspension_games_remaining":"","birthPlace":"Lachute,
+        QC","playerType":"skater"},"currentSeason":"72","careerStats":[{"sections":[{"title":"Regular
+        Season","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season","title":"Season","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_name":{"properties":{"key":"team_name","hidden":false,"class":"","label":"Team","title":"Team","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals":{"properties":{"key":"goals","hidden":false,"class":"","label":"G","title":"Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"assists":{"properties":{"key":"assists","hidden":false,"class":"","label":"A","title":"Assists","sortable":true,"align":"center","highlight":false,"sortKey":""}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":""}},"plus_minus":{"properties":{"key":"plus_minus","hidden":false,"class":"","label":"+\/-","title":"Plus\/Minus","sortable":true,"align":"center","highlight":false,"sortKey":"plus_minus"}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":""}},"power_play_goals":{"properties":{"key":"power_play_goals","hidden":false,"class":"","label":"PPG","title":"Power
+        Play Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"short_handed_goals":{"properties":{"key":"short_handed_goals","hidden":false,"class":"","label":"SHG","title":"Short
+        Handed Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_winning_goals":{"properties":{"key":"game_winning_goals","hidden":false,"class":"","label":"GWG","title":"Game
+        Winning Goals","sortable":true,"align":"center","highlight":false,"sortKey":"game_winning_goals"}},"shootout_goals":{"properties":{"key":"shootout_goals","hidden":false,"class":"","label":"SOG","title":"Shootout
+        Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_attempts":{"properties":{"key":"shootout_attempts","hidden":false,"class":"","label":"SOA","title":"Shootout
+        Attempts","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_percentage":{"properties":{"key":"shootout_percentage","hidden":false,"class":"","label":"SO%","title":"Shootout
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shots":{"properties":{"key":"shots","hidden":false,"class":"","label":"SH","title":"Shots","sortable":true,"align":"center","highlight":false,"sortKey":"shots"}},"shooting_percentage":{"properties":{"key":"shooting_percentage","hidden":false,"class":"","label":"SH%","title":"Shooting
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2011-12
+        Regular Season","goals":"23","games_played":"74","assists":"23","points":"46","plus_minus":"-30","penalty_minutes":"14","power_play_goals":"12","shots":"293","shootout_attempts":"5","shootout_goals":"4","shootout_percentage":"80.0","shooting_percentage":"7.8","short_handed_goals":"0","game_winning_goals":"2","team_name":"Adirondack
+        Phantoms"}},{"prop":[],"row":{"season_name":"2010-11 Regular Season","goals":"25","games_played":"66","assists":"25","points":"50","plus_minus":"-6","penalty_minutes":"50","power_play_goals":"11","shots":"266","shootout_attempts":"6","shootout_goals":"0","shootout_percentage":"0.0","shooting_percentage":"9.4","short_handed_goals":"0","game_winning_goals":"4","team_name":"Adirondack
+        Phantoms"}},{"prop":[],"row":{"season_name":"2009-10 Regular Season","goals":"22","games_played":"73","assists":"29","points":"51","plus_minus":"-20","penalty_minutes":"45","power_play_goals":"11","shots":"249","shootout_attempts":"4","shootout_goals":"4","shootout_percentage":"100.0","shooting_percentage":"8.8","short_handed_goals":"0","game_winning_goals":"3","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2008-09 Regular Season","goals":"25","games_played":"63","assists":"25","points":"50","plus_minus":"8","penalty_minutes":"36","power_play_goals":"12","shots":"236","shootout_attempts":"8","shootout_goals":"5","shootout_percentage":"62.5","shooting_percentage":"10.6","short_handed_goals":"2","game_winning_goals":"5","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2007-08 Regular Season","goals":"32","games_played":"67","assists":"23","points":"55","plus_minus":"4","penalty_minutes":"60","power_play_goals":"14","shots":"267","shootout_attempts":"6","shootout_goals":"1","shootout_percentage":"16.7","shooting_percentage":"12.0","short_handed_goals":"4","game_winning_goals":"5","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2005-06 Regular Season","goals":"56","games_played":"77","assists":"35","points":"91","plus_minus":"-5","penalty_minutes":"65","power_play_goals":"27","shots":"378","shootout_attempts":"9","shootout_goals":"1","shootout_percentage":"11.1","shooting_percentage":"14.8","short_handed_goals":"2","game_winning_goals":"7","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"2004-05 Regular Season","goals":"39","games_played":"80","assists":"39","points":"78","plus_minus":"10","penalty_minutes":"75","power_play_goals":"17","shots":"247","shootout_attempts":"11","shootout_goals":"4","shootout_percentage":"36.4","shooting_percentage":"15.8","short_handed_goals":"2","game_winning_goals":"9","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"Total","goals":222,"games_played":500,"assists":199,"points":421,"plus_minus":-39,"penalty_minutes":345,"power_play_goals":104,"shots":1936,"shootout_attempts":49,"shootout_goals":19,"shootout_percentage":"38.8","shooting_percentage":"11.5","short_handed_goals":10,"game_winning_goals":35}}]},{"title":"Playoffs","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season","title":"Season","sortable":true,"align":"center","highlight":false,"sortKey":""}},"team_name":{"properties":{"key":"team_name","hidden":false,"class":"","label":"Team","title":"Team","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals":{"properties":{"key":"goals","hidden":false,"class":"","label":"G","title":"Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"assists":{"properties":{"key":"assists","hidden":false,"class":"","label":"A","title":"Assists","sortable":true,"align":"center","highlight":false,"sortKey":""}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":""}},"plus_minus":{"properties":{"key":"plus_minus","hidden":false,"class":"","label":"+\/-","title":"Plus\/Minus","sortable":true,"align":"center","highlight":false,"sortKey":"plus_minus"}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":""}},"power_play_goals":{"properties":{"key":"power_play_goals","hidden":false,"class":"","label":"PPG","title":"Power
+        Play Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"short_handed_goals":{"properties":{"key":"short_handed_goals","hidden":false,"class":"","label":"SHG","title":"Short
+        Handed Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_winning_goals":{"properties":{"key":"game_winning_goals","hidden":false,"class":"","label":"GWG","title":"Game
+        Winning Goals","sortable":true,"align":"center","highlight":false,"sortKey":"game_winning_goals"}},"shootout_goals":{"properties":{"key":"shootout_goals","hidden":false,"class":"","label":"SOG","title":"Shootout
+        Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_attempts":{"properties":{"key":"shootout_attempts","hidden":false,"class":"","label":"SOA","title":"Shootout
+        Attempts","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_percentage":{"properties":{"key":"shootout_percentage","hidden":false,"class":"","label":"SO%","title":"Shootout
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shots":{"properties":{"key":"shots","hidden":false,"class":"","label":"SH","title":"Shots","sortable":true,"align":"center","highlight":false,"sortKey":"shots"}},"shooting_percentage":{"properties":{"key":"shooting_percentage","hidden":false,"class":"","label":"SH%","title":"Shooting
+        Percentage","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2005
+        Calder Cup Playoffs","goals":"1","games_played":"5","assists":"0","points":"1","plus_minus":"-1","penalty_minutes":"4","power_play_goals":"1","shots":"12","shootout_attempts":"0","shootout_goals":"0","shootout_percentage":"0.0","shooting_percentage":"8.3","short_handed_goals":"0","game_winning_goals":"0","team_name":"Binghamton
+        Senators"}},{"prop":[],"row":{"season_name":"Total","goals":1,"games_played":5,"assists":0,"points":1,"plus_minus":-1,"penalty_minutes":4,"power_play_goals":1,"shots":12,"shootout_attempts":0,"shootout_goals":0,"shootout_percentage":"0.0","shooting_percentage":"8.3","short_handed_goals":0,"game_winning_goals":0}}]}]}],"currentSeasonStats":[{"sections":[{"title":"","headers":{"season_name":{"properties":{"key":"season_name","hidden":false,"class":"","label":"Season","title":"Season","sortable":true,"align":"center","highlight":false,"sortKey":""}},"games_played":{"properties":{"key":"games_played","hidden":false,"class":"","label":"GP","title":"Games
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals":{"properties":{"key":"goals","hidden":false,"class":"","label":"G","title":"Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"assists":{"properties":{"key":"assists","hidden":false,"class":"","label":"A","title":"Assists","sortable":true,"align":"center","highlight":false,"sortKey":""}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":""}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":[],"row":{"season_name":"2011-12
+        Regular Season","games_played":"74","goals":"23","assists":"23","points":"46","penalty_minutes":"14"}}]}]}],"gameByGame":[{"sections":[{"title":"","headers":{"game":{"properties":{"key":"game","hidden":false,"class":"","label":"Game","title":"Game","sortable":true,"align":"center","highlight":false,"sortKey":""}},"date_played":{"properties":{"key":"date_played","hidden":false,"class":"","label":"Date","title":"Date
+        Played","sortable":true,"align":"center","highlight":false,"sortKey":""}},"goals":{"properties":{"key":"goals","hidden":false,"class":"","label":"G","title":"Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"assists":{"properties":{"key":"assists","hidden":false,"class":"","label":"A","title":"Assists","sortable":true,"align":"center","highlight":false,"sortKey":""}},"points":{"properties":{"key":"points","hidden":false,"class":"","label":"PTS","title":"Points","sortable":true,"align":"center","highlight":false,"sortKey":""}},"plusminus":{"properties":{"key":"plusminus","hidden":false,"class":"","label":"+\/-","title":"Plus\/Minus","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shots":{"properties":{"key":"shots","hidden":false,"class":"","label":"SH","title":"Shots","sortable":true,"align":"center","highlight":false,"sortKey":"shots"}},"penalty_minutes":{"properties":{"key":"penalty_minutes","hidden":false,"class":"","label":"PIM","title":"Penalty
+        Minutes","sortable":true,"align":"center","highlight":false,"sortKey":""}},"pp":{"properties":{"key":"pp","hidden":false,"class":"","label":"PPG","title":"Power
+        Play Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"sh":{"properties":{"key":"sh","hidden":false,"class":"","label":"SHG","title":"Short
+        Handed Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"gw":{"properties":{"key":"gw","hidden":false,"class":"","label":"GWG","title":"Game
+        Winning Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_goals":{"properties":{"key":"shootout_goals","hidden":false,"class":"","label":"SOG","title":"Shootout
+        Goals","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shootout_attempts":{"properties":{"key":"shootout_attempts","hidden":false,"class":"","label":"SOA","title":"Shootout
+        Attempts","sortable":true,"align":"center","highlight":false,"sortKey":"shootout_attempts"}},"game_id":{"properties":{"key":"game_id","hidden":true,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":{"game":{"gameLink":"1001046"}},"row":{"date_played":"2005-10-08","shots":"2","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ PHI"}},{"prop":{"game":{"gameLink":"1001069"}},"row":{"date_played":"2005-10-15","shots":"4","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":2,"game":"BRI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001087"}},"row":{"date_played":"2005-10-21","shots":"7","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"HER
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001108"}},"row":{"date_played":"2005-10-22","shots":"2","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ WBS"}},{"prop":{"game":{"gameLink":"1001111"}},"row":{"date_played":"2005-10-23","shots":0,"goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ HER"}},{"prop":{"game":{"gameLink":"1001137"}},"row":{"date_played":"2005-10-29","shots":"2","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ POR"}},{"prop":{"game":{"gameLink":"1001144"}},"row":{"date_played":"2005-10-30","shots":"3","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"1","assists":"3","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"4","points":3,"game":"BNG
+        @ LOW"}},{"prop":{"game":{"gameLink":"1001167"}},"row":{"date_played":"2005-11-05","shots":"9","goals":"2","pp":"1","sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"0","points":2,"game":"ROC
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001177"}},"row":{"date_played":"2005-11-06","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":0,"game":"BNG
+        @ BRI"}},{"prop":{"game":{"gameLink":"1001187"}},"row":{"date_played":"2005-11-09","shots":"5","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ HAM"}},{"prop":{"game":{"gameLink":"1001192"}},"row":{"date_played":"2005-11-11","shots":"6","goals":"2","pp":"1","sh":0,"gw":"1","plusminus":0,"assists":"2","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":4,"game":"HFD
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001204"}},"row":{"date_played":"2005-11-12","shots":"9","goals":"2","pp":"1","sh":0,"gw":0,"plusminus":"1","assists":"1","shootout_goals":"1","shootout_attempts":"0","penalty_minutes":"0","points":3,"game":"PHI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001219"}},"row":{"date_played":"2005-11-13","shots":"5","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ PHI"}},{"prop":{"game":{"gameLink":"1001229"}},"row":{"date_played":"2005-11-18","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"TOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001242"}},"row":{"date_played":"2005-11-19","shots":"10","goals":"2","pp":"2","sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"BNG
+        @ ALB"}},{"prop":{"game":{"gameLink":"1001260"}},"row":{"date_played":"2005-11-20","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ SPR"}},{"prop":{"game":{"gameLink":"1001289"}},"row":{"date_played":"2005-11-26","shots":"6","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-3","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"WBS
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001301"}},"row":{"date_played":"2005-11-27","shots":"5","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"PHI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001315"}},"row":{"date_played":"2005-11-30","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1001325"}},"row":{"date_played":"2005-12-02","shots":"1","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ PHI"}},{"prop":{"game":{"gameLink":"1001330"}},"row":{"date_played":"2005-12-03","shots":"7","goals":"2","pp":0,"sh":"1","gw":"1","plusminus":"2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"BNG
+        @ ALB"}},{"prop":{"game":{"gameLink":"1001358"}},"row":{"date_played":"2005-12-09","shots":"6","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"HER
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001372"}},"row":{"date_played":"2005-12-10","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":"2","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"ROC
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001397"}},"row":{"date_played":"2005-12-16","shots":"2","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-1","assists":"2","shootout_goals":"0","shootout_attempts":"2","penalty_minutes":"2","points":3,"game":"NOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001410"}},"row":{"date_played":"2005-12-17","shots":"6","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"7","points":0,"game":"PRO
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001429"}},"row":{"date_played":"2005-12-18","shots":"2","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"3","assists":"2","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"4","points":3,"game":"BNG
+        @ ROC"}},{"prop":{"game":{"gameLink":"1001433"}},"row":{"date_played":"2005-12-21","shots":"10","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":2,"game":"NOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001442"}},"row":{"date_played":"2005-12-23","shots":"8","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"3","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"LOW
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001453"}},"row":{"date_played":"2005-12-26","shots":"5","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"2","assists":"2","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":3,"game":"ALB
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001464"}},"row":{"date_played":"2005-12-27","shots":"8","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ TOR"}},{"prop":{"game":{"gameLink":"1001472"}},"row":{"date_played":"2005-12-28","shots":"3","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ SYR"}},{"prop":{"game":{"gameLink":"1001488"}},"row":{"date_played":"2005-12-31","shots":"5","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"SYR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001510"}},"row":{"date_played":"2006-01-06","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"ROC
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001521"}},"row":{"date_played":"2006-01-07","shots":"5","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"HER
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001539"}},"row":{"date_played":"2006-01-08","shots":"3","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ PRO"}},{"prop":{"game":{"gameLink":"1001548"}},"row":{"date_played":"2006-01-13","shots":"7","goals":"3","pp":"1","sh":"1","gw":"1","plusminus":"2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":3,"game":"SPR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001561"}},"row":{"date_played":"2006-01-14","shots":"8","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"3","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"BRI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001591"}},"row":{"date_played":"2006-01-20","shots":"3","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"WBS
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001604"}},"row":{"date_played":"2006-01-21","shots":"4","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"NOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001633"}},"row":{"date_played":"2006-01-27","shots":"9","goals":"2","pp":"1","sh":0,"gw":0,"plusminus":"-2","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"BNG
+        @ ALB"}},{"prop":{"game":{"gameLink":"1001651"}},"row":{"date_played":"2006-01-28","shots":"2","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ HER"}},{"prop":{"game":{"gameLink":"1001667"}},"row":{"date_played":"2006-01-29","shots":"6","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":0,"game":"BNG
+        @ WBS"}},{"prop":{"game":{"gameLink":"1001672"}},"row":{"date_played":"2006-02-03","shots":"9","goals":"3","pp":"1","sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":3,"game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1001688"}},"row":{"date_played":"2006-02-04","shots":"3","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1001697"}},"row":{"date_played":"2006-02-08","shots":0,"goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":0,"game":"POR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001716"}},"row":{"date_played":"2006-02-10","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ SYR"}},{"prop":{"game":{"gameLink":"1001727"}},"row":{"date_played":"2006-02-11","shots":"6","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"BNG
+        @ TOR"}},{"prop":{"game":{"gameLink":"1001738"}},"row":{"date_played":"2006-02-15","shots":"7","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":2,"game":"SYR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001755"}},"row":{"date_played":"2006-02-17","shots":"6","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"0","points":1,"game":"BNG
+        @ ROC"}},{"prop":{"game":{"gameLink":"1001760"}},"row":{"date_played":"2006-02-18","shots":"10","goals":"2","pp":0,"sh":0,"gw":"1","plusminus":"3","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"PHI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001771"}},"row":{"date_played":"2006-02-19","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"SYR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001786"}},"row":{"date_played":"2006-02-22","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ PHI"}},{"prop":{"game":{"gameLink":"1001794"}},"row":{"date_played":"2006-02-24","shots":"4","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"TOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001805"}},"row":{"date_played":"2006-02-25","shots":"8","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"2","points":0,"game":"HAM
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001815"}},"row":{"date_played":"2006-02-26","shots":"4","goals":"1","pp":0,"sh":0,"gw":"1","plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"BNG
+        @ BRI"}},{"prop":{"game":{"gameLink":"1001854"}},"row":{"date_played":"2006-03-04","shots":"5","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ SYR"}},{"prop":{"game":{"gameLink":"1001857"}},"row":{"date_played":"2006-03-05","shots":"10","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":0,"game":"MCH
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001872"}},"row":{"date_played":"2006-03-08","shots":"7","goals":"4","pp":"2","sh":0,"gw":"1","plusminus":"3","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":5,"game":"NOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001881"}},"row":{"date_played":"2006-03-10","shots":"2","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ MCH"}},{"prop":{"game":{"gameLink":"1001892"}},"row":{"date_played":"2006-03-11","shots":"4","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"BNG
+        @ HFD"}},{"prop":{"game":{"gameLink":"1001907"}},"row":{"date_played":"2006-03-12","shots":"5","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"BNG
+        @ WBS"}},{"prop":{"game":{"gameLink":"1001912"}},"row":{"date_played":"2006-03-15","shots":"3","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"0","points":0,"game":"WBS
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001920"}},"row":{"date_played":"2006-03-17","shots":"8","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"0","points":0,"game":"HER
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001931"}},"row":{"date_played":"2006-03-18","shots":"4","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"PHI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001944"}},"row":{"date_played":"2006-03-19","shots":"4","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"1","penalty_minutes":"2","points":1,"game":"BNG
+        @ HER"}},{"prop":{"game":{"gameLink":"1001951"}},"row":{"date_played":"2006-03-22","shots":"6","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":"-2","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"ALB
+        @ BNG"}},{"prop":{"game":{"gameLink":"1001966"}},"row":{"date_played":"2006-03-24","shots":"8","goals":"2","pp":"1","sh":0,"gw":0,"plusminus":"-1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":3,"game":"BNG
+        @ SYR"}},{"prop":{"game":{"gameLink":"1001999"}},"row":{"date_played":"2006-03-31","shots":"2","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"WBS
+        @ BNG"}},{"prop":{"game":{"gameLink":"1002012"}},"row":{"date_played":"2006-04-01","shots":"4","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":1,"game":"NOR
+        @ BNG"}},{"prop":{"game":{"gameLink":"1002024"}},"row":{"date_played":"2006-04-02","shots":"3","goals":"1","pp":0,"sh":0,"gw":"1","plusminus":"1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"6","points":1,"game":"BNG
+        @ BRI"}},{"prop":{"game":{"gameLink":"1002037"}},"row":{"date_played":"2006-04-05","shots":"3","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":2,"game":"BNG
+        @ WBS"}},{"prop":{"game":{"gameLink":"1002040"}},"row":{"date_played":"2006-04-07","shots":"1","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":0,"game":"BRI
+        @ BNG"}},{"prop":{"game":{"gameLink":"1002050"}},"row":{"date_played":"2006-04-08","shots":"7","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"ROC
+        @ BNG"}},{"prop":{"game":{"gameLink":"1002080"}},"row":{"date_played":"2006-04-12","shots":"2","goals":0,"pp":0,"sh":0,"gw":0,"plusminus":0,"assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":0,"game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1002088"}},"row":{"date_played":"2006-04-14","shots":"4","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"-1","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ NOR"}},{"prop":{"game":{"gameLink":"1002101"}},"row":{"date_played":"2006-04-15","shots":"4","goals":"1","pp":0,"sh":0,"gw":0,"plusminus":"-3","assists":0,"shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"0","points":1,"game":"BNG
+        @ HER"}},{"prop":{"game":{"gameLink":"1002109"}},"row":{"date_played":"2006-04-16","shots":"4","goals":"1","pp":"1","sh":0,"gw":0,"plusminus":"1","assists":"1","shootout_goals":"0","shootout_attempts":"0","penalty_minutes":"2","points":2,"game":"ALB
+        @ BNG"}}]}]}],"media":{"images":[{"id":"309","person_id":"331","media_type":"jpg","lang_id":"1","title":"photo","uploaded":"","is_primary":"1","uploaded_name":"304.jpg","file_name":"4063e4f3ffffea6fc50323071c30af19.jpg","modified":"2012-10-11
+        13:09:57","deleted":"0","height":"0","width":"0","player_id":"304","thumb":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/4063e4f3ffffea6fc50323071c30af19.jpg","url":"https:\/\/lscluster.hockeytech.com\/download.php?client_code=ahl&file_path=media\/4063e4f3ffffea6fc50323071c30af19.jpg"}]},"seasons":[{"id":37,"name":"2011-12
+        Regular Season"},{"id":34,"name":"2010-11 Regular Season"},{"id":30,"name":"2009-10
+        Regular Season"},{"id":16,"name":"2008-09 Regular Season"},{"id":12,"name":"2007-08
+        Regular Season"},{"id":14,"name":"2008 All-Star Game"},{"id":1,"name":"2005-06
+        Regular Season"},{"id":2,"name":"2006 All-Star Game"},{"id":69,"name":"2005
+        Calder Cup Playoffs"},{"id":46,"name":"2004-05 Regular Season"},{"id":22,"name":"2000
+        All-Star Game"}],"playerProfileHeaders":[{"sections":[{"title":"","headers":{"player_stats":{"properties":{"key":"player_stats","hidden":false,"class":"","label":"Player
+        Stats","title":"Player Stats","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_game_by_game":{"properties":{"key":"player_game_by_game","hidden":false,"class":"","label":"Game
+        by Game","title":"Game by Game","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_awards":{"properties":{"key":"player_awards","hidden":false,"class":"","label":"Player
+        Awards","title":"Player Awards","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_media":{"properties":{"key":"player_media","hidden":false,"class":"","label":"Player
+        Media","title":"Player Media","sortable":false,"align":"center","highlight":false,"sortKey":""}},"player_biography":{"properties":{"key":"player_biography","hidden":false,"class":"","label":"Biography","title":"Biography","sortable":false,"align":"center","highlight":false,"sortKey":""}}},"data":[]}]}],"playerProfileBioHeaders":[{"sections":[{"title":"","headers":{"position":{"properties":{"key":"position","hidden":false,"class":"","label":"Position","title":"Position","sortable":true,"align":"center","highlight":false,"sortKey":""}},"height_weight_hyphenated":{"properties":{"key":"height_weight_hyphenated","hidden":false,"class":"","label":"TXT_HT\/TXT_WT","title":"TXT_HT\/TXT_WT","sortable":true,"align":"center","highlight":false,"sortKey":""}},"shoots":{"properties":{"key":"shoots","hidden":false,"class":"","label":"Shoots","title":"Shoots","sortable":true,"align":"center","highlight":false,"sortKey":""}},"catches":{"properties":{"key":"catches","hidden":false,"class":"","label":"Catches","title":"Catches","sortable":true,"align":"center","highlight":false,"sortKey":""}},"birthDate":{"properties":{"key":"birthDate","hidden":false,"class":"","label":"Birthdate","title":"Birthdate","sortable":true,"align":"center","highlight":false,"sortKey":""}},"birthPlace":{"properties":{"key":"birthPlace","hidden":false,"class":"","label":"Birth
+        place","title":"Birth place","sortable":true,"align":"center","highlight":false,"sortKey":""}},"hometown":{"properties":{"key":"hometown","hidden":false,"class":"","label":"Home
+        town","title":"Home town","sortable":true,"align":"center","highlight":false,"sortKey":""}},"committedto":{"properties":{"key":"committedto","hidden":false,"class":"","label":"TXT_COMMITTED_TO","title":"TXT_COMMITTED_TO","sortable":true,"align":"center","highlight":false,"sortKey":""}},"committedfor":{"properties":{"key":"committedfor","hidden":false,"class":"","label":"TXT_COMMITTED_FOR","title":"TXT_COMMITTED_FOR","sortable":true,"align":"center","highlight":false,"sortKey":""}},"suspended":{"properties":{"key":"suspended","hidden":false,"class":"","label":"Suspended
+        games remaining","title":"Suspended games remaining","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[]}]}],"translations":{"gamesPlayed":{"abbreviation":"GP","fullText":"Games
+        Played"},"goals":{"abbreviation":"G","fullText":"Goals"},"assists":{"abbreviation":"A","fullText":"Assists"},"points":{"abbreviation":"PTS","fullText":"Points"},"plus_minus":{"abbreviation":"+\/-","fullText":"Plus\/Minus"},"shots":{"abbreviation":"SH","fullText":"Shots"},"points_per_game":{"abbreviation":"Pt\/G","fullText":"Pt\/G"},"player_stats":{"abbreviation":"stats","fullText":"Player
+        Stats"},"game_by_game":{"abbreviation":"TXT_GBG","fullText":"Game by Game"},"position":{"abbreviation":"Pos","fullText":"Position"},"shoots":{"abbreviation":"SH","fullText":"Shoots"},"height":{"abbreviation":"H","fullText":"Height"},"weight":{"abbreviation":"W","fullText":"Weight"},"birthDate":{"abbreviation":"DOB","fullText":"Birthdate"},"birthPlace":{"abbreviation":"Birth
+        place","fullText":"Birth place"},"hometown":{"abbreviation":"Home town","fullText":"Home
+        town"},"biography":{"abbreviation":"TXT_ABBREV_BIO","fullText":"Biography"},"wins":{"abbreviation":"W","fullText":"Wins"},"losses":{"abbreviation":"L","fullText":"Losses"},"ties":{"abbreviation":"T","fullText":"Ties"},"shutouts":{"abbreviation":"SO","fullText":"Shutouts"},"goals_against_average":{"abbreviation":"GAA","fullText":"Goals
+        Against Average"},"save_percentage":{"abbreviation":"SV%","fullText":"Save
+        Percentage"},"committedTo":{"abbreviation":"TXT_COMMITTED_TO","fullText":"School
+        Name"},"committedFor":{"abbreviation":"TXT_COMMITTED_FOR","fullText":"Season"},"catches":{"abbreviation":"CA","fullText":"Catches"},"shootout_losses":{"abbreviation":"SOL","fullText":"Shootout
+        Losses"},"ot_losses":{"abbreviation":"OTL","fullText":"OT Losses"},"game_winning_goals":{"abbreviation":"GWG","fullText":"Game
+        Winning Goals"}},"display":{"plusMinus":true,"shots":true,"shootout":true,"faceoffs":false},"svfLang":{"Submit":"Submit","SUBMIT":"SUBMIT","English":"TXT_ADMINISTRATION_UTILITIES_ENGLISH","French":"French","SEARCH":"SEARCH","FILTER":"FILTER","Schedule":"Schedule","Daily_Schedule":"Daily
+        Schedule and Scores","Team_Stats":"Team Stats","Skater_Stats":"Skater Stats","Goalie_Stats":"Goalie
+        Stats","Alt_Skater_Stats":"All-Time Skater Stats","Alt_Goalie_Stats":"All-Time
+        Goalie Stats","Streaks":"Streaks","Person_Search":"Person Search","Transactions":"Transactions","Playoff_Brackets":"Playoff
+        Brackets","Team_Attendance":"Team Attendance","Attendance":"Attendance","Leaders":"Leaders","Leaders_Extended":"Leaders
+        Extended","College_Commitments":"College Commitments","Home":"Home","Away":"Away","Home_Away":"Home
+        & Away","Next":"Next","Previous":"Previous","Today":"Today","Stats":"Stats","League":"League","Division":"Division","Conference":"Conference","Overall":"Overall","Special_Teams":"Special
+        Teams","Rookie":"Rookie","Standard":"Standard","Expanded":"Expanded","Skater":"Skater","Goalie":"Goalie","Goalie_min1":"Goalies
+        must have","Goalie_min2":"minutes to be considered qualified","Regular_Season":"Regular
+        Season","Team":"Team","Player":"Player","Goals":"Goals","Assists":"Assists","Points":"Points","Active":"Active","All_Players":"All
+        Players","Playoff_Tracker":"Playoff Tracker","Playoffs":"Playoffs","Round":"Round","Matchup":"Match
+        Up","Schedulescores":"Schedule\/Results","Game":"Game","Roster":"Roster","Round_Robin":"Round
+        Robin","Games":"Games","Games_Played":"Games Played","Group_Division":"Groups
+        by Division","Scoring":"Scoring","Shots":"Shots","View_All":"View All","Loading_Scoreboard":"Loading
+        Scoreboard...","Tickets":"Tickets","Boxscore":"Boxscore","wins":"wins","series":"series","if_necessary":"if
+        necessary","NO_GAMES":"NO GAMES MATCH THE SELECTED CRITERIA","NO_GAMES_SCHEDULE":"NO
+        GAMES MATCH THE SELECTED CRITERIA","NO_PLAYERS":"NO PLAYERS MATCH THE SELECTED
+        CRITERIA","NO_PLAYER":"NO DATA WAS FOUND","NO_IMAGE":"NO DATA WAS FOUND","NO_VIDEO":"NO
+        DATA WAS FOUND","NO_AUDIO":"NO DATA WAS FOUND","NO_TRANSACTIONS":"NO TRANSACTIONS
+        MATCH THE SELECTED CRITERIA","NO_DATA":"NO DATA WAS FOUND","Player_Stats":"Player
+        Stats","Player_Media":"Player Media","Images":"Images","Video":"Video","Audio":"Audio","Game_Game":"Game
+        by Game","Player_Awards":"Player Awards","Tap_Game_Summary":"Tap to see Game
+        Summary","Tap_Game_Details":"Tap to see Game Details","Schedule_Changes":"Schedule
+        Changes","Note_Players_Starting_Lineup":"NOTE: Players listed in Italics are
+        the starting lineup.","No_Scoring":"No Scoring","Plus":"plus","Minus":"minus","Penalties":"Penalties","No_Penalties":"No
+        Penalties","Penalty_Shots":"Penalty Shots","Shooter":"Shooter","Goaltender":"Goaltender","Goaltenders":"Goaltenders","Period":"Period","Time":"Time","Goal":"Goal","Yes":"Yes","No":"No","Shootout":"Shootout","Shootout_Abbrev":"SO","No_Goal":"No
+        Goal","Total":"Total","TOI":"TOI","SV_SH":"SV","G":"G","A":"A","PIM":"PIM","SA":"SA","SV":"SV","Three_Stars":"Three
+        Stars","first":"1st","second":"2nd","third":"3rd","PP":"PP","SO":"SO","FO":"FO","PS":"PS","SH":"SH","SHAND":"SH","EN":"EN","Bench":"Bench","Served_By":"Served
+        by","Player_of_the_Game":"Player of the Game","PTS":"PTS","Arena":"Arena","Officials":"OFFICIALS","Off_Ice_Officials":"Off-Ice
+        Officials","Start":"Start","End":"End","Length":"Length","Public_Notes":"Public
+        Notes","Min":"min","Inf":"inf","Game_Report":"Game Report","Text_Boxscore":"Text
+        Box Score","Error_Loading":"Error in loading data.","lbs":"lbs","Media_Kit":"Media
+        Kit","POS":"Pos","GA":"GA","MIN":"Mins","SVS":"SVS","See_All_Leaders":"See
+        All Leaders","See_Full_Standings":"See Full Standings","Player_seoTitle":"Stats
+        and Player Profile","Select":"-- Select --","TLP_Select":"Please select your
+        Season, Division and Team","TLP_Select2":"Please select your Playoff''s Season
+        and Division","NEXT_DAY":"Next Day","PREV_DAY":"Previous Day","ADD_TO_CAL":"Add
+        to Calendar","ALL_GAMES_TO_CAL":"Add All Games to Calendar","PLAYOFFS":"Playoffs","SEL_SDT_REG":"Please
+        select your Season, Division and Team:","SEL_SDT_PO":"Please select your Playoff''s
+        Season and Division:","GO":"Go","Visiting_Audio":"Visiting Audio","Home_Audio":"Home
+        Audio","Watch_Live":"Watch Live","Shots_on_Goal":"Shots on Goal","On":"On","Off":"Off","Name":"Name","Role":"Role","Head_to_Head":"Head
+        to Head","Previous_Meetings_This_Season":"Previous Meetings This Season","Top_Scorers":"Top
+        Scorers","Last_5_Games":"Last 5 Games","Last_10_Games":"Last 10 Games","Streak":"Streak","Last_Game":"Last
+        Game","Home_Record":"Home Record","Away_Record":"Away Record","Goals_For":"Goals
+        For","Goals_Against":"Goals Against","Penalty_Killing":"Penalty Killing","Penalty_Killing_Home":"Penalty
+        Killing (Home)","Penalty_Killing_Away":"Penalty Killing (Away)","Leading_Rookie":"Leading
+        Rookie","Team_PIM_GM":"Team PIM\/GM","Play_by_Play":"Play By Play","Hits":"Hits","GS_Hits":"Hits","Faceoffs":"Faceoffs","Goalie_Change":"Goalie
+        Change","In":"IN","Faceoff":"Faceoff","Shot":"Shot","Penalty":"Penalty","None":"None","None_Fem":"None","Power_Play":"Power
+        Play","Short_Handed":"SHORT HANDED","Empty_Net":"Empty Net","Penalty_Shot":"Penalty
+        shot","Hit":"Hit","Most_PIM":"Most PIM","Previous_Season":"Previous Season","Current_Season":"Current
+        Season","Last_5_Seasons":"Last 5 Seasons","Season_Record":"Season Record","Power_Plays":"Power
+        Plays","Power_Plays_Home":"Power Plays (Home)","Power_Plays_Away":"Power Plays
+        (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
+        on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
+        Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
+  recorded_at: Sun, 20 Jun 2021 05:46:12 GMT
+recorded_with: VCR 6.0.0

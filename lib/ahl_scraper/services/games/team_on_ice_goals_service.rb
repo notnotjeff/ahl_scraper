@@ -72,7 +72,7 @@ module AhlScraper
 
       def goal_against(goal)
         @on_ice_statline[:ga_as] += 1
-        if goal[:plus_players].length >= 3 && goal[:minus_players].length >= 3
+        if goal[:plus_players].length >= 3 && goal[:minus_players].length >= 3 && goal[:plus_players].length <= 6 && goal[:minus_players].length <= 6
           @on_ice_statline["ga_#{goal[:minus_players].length}v#{goal[:plus_players].length}".to_sym] += 1
         end
 
@@ -109,7 +109,7 @@ module AhlScraper
 
       def goal_for(goal)
         @on_ice_statline[:gf_as] += 1
-        if goal[:plus_players].length >= 3 && goal[:minus_players].length >= 3
+        if goal[:plus_players].length >= 3 && goal[:minus_players].length >= 3 && goal[:plus_players].length <= 6 && goal[:minus_players].length <= 6
           @on_ice_statline["gf_#{goal[:plus_players].length}v#{goal[:minus_players].length}".to_sym] += 1
         end
 

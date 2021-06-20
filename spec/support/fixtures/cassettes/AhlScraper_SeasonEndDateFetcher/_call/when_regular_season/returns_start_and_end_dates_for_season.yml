@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:57:44 GMT
+      - Sun, 20 Jun 2021 05:46:12 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=45kaje86pag8flt9aqgav27dvt; path=/
+      - PHPSESSID=6rttj5688qrs5cjvg7tiiio4fv; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3661,5 +3661,5 @@ http_interactions:
         Apr 15","home_goal_count":"1","visiting_goal_count":"3","game_status":"Final","home_team_city":"Chicago","visiting_team_city":"Manitoba","game_report":"Game
         Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
         Center"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:57:45 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:14 GMT
 recorded_with: VCR 6.0.0

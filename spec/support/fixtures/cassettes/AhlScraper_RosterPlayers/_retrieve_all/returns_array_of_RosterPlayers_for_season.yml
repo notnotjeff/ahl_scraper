@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:28 GMT
+      - Sun, 20 Jun 2021 05:46:53 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=4hq8ee2jq8aichqj87q1376p0l; path=/
+      - PHPSESSID=br54coiiojp11c6eq4j4mllvqm; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -171,7 +171,7 @@ http_interactions:
         Gilman","role":"General Manager"}},{"prop":[],"row":{"name":"Sheldon Keefe","role":"Head
         Coach"}},{"prop":[],"row":{"name":"Rob Davison","role":"Assistant Coach"}},{"prop":[],"row":{"name":"A.J.
         MacLean","role":"Assistant Coach"}}]}]}]})
-  recorded_at: Sun, 13 Jun 2021 17:58:29 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:53 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=skaters&rookies=0&rosterstatus=undefined&season=61&site_id=3&sort=points&statsType=standard&team=335&view=players
@@ -195,7 +195,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:30 GMT
+      - Sun, 20 Jun 2021 05:46:54 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -203,7 +203,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=c82ee1nu91tnihm8ngv1h0t1hv; path=/
+      - PHPSESSID=s48p85ef1smiu701341sptid5l; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -339,7 +339,7 @@ http_interactions:
         McGregor","active":"1","position":"F","rookie":"1","team_code":"TOR","games_played":"4","goals":"0","shots":"3","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"-1","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":56}},{"prop":{"name":{"playerLink":"6265","seoName":"Kasimir
         Kaskisuo"},"active":{"active":"1"},"rookie":{"rookie":"0"},"team_code":{"teamLink":"335"}},"row":{"player_id":"6265","name":"Kasimir
         Kaskisuo","active":"1","position":"G","rookie":"0","team_code":"TOR","games_played":"30","goals":"0","shots":"0","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"0","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":57}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:30 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:54 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=defencemen&rookies=0&rosterstatus=undefined&season=61&site_id=3&sort=points&statsType=standard&team=335&view=players
@@ -363,7 +363,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:30 GMT
+      - Sun, 20 Jun 2021 05:46:54 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -371,7 +371,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=4hkfvk48petqdskpqudnj26gp9; path=/
+      - PHPSESSID=82pne727ikru9qeadq1rjvem1p; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -429,7 +429,7 @@ http_interactions:
         Basso","active":"1","position":"D","rookie":"1","team_code":"TOR","games_played":"2","goals":"0","shots":"0","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"3","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":17}},{"prop":{"name":{"playerLink":"7517","seoName":"Joseph
         Duszak"},"active":{"active":"1"},"rookie":{"rookie":"1"},"team_code":{"teamLink":"335"}},"row":{"player_id":"7517","name":"Joseph
         Duszak","active":"1","position":"D","rookie":"1","team_code":"TOR","games_played":"2","goals":"0","shots":"7","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"-3","penalty_minutes":"2","penalty_minutes_per_game":"1.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":18}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:31 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:54 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=goalies&qualified=all&rookies=0&rosterstatus=undefined&season=61&site_id=3&sort=gaa&statsType=standard&team=335&view=players
@@ -453,7 +453,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:31 GMT
+      - Sun, 20 Jun 2021 05:46:54 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -461,7 +461,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=76suc8u76ns4qfgi7tq6na0ai7; path=/
+      - PHPSESSID=mnm6avdom3n13urbi8jkor4a0v; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -495,5 +495,5 @@ http_interactions:
         Glass","active":"0","team_code":"TOR","games_played":"10","minutes_played":"459:41","saves":"186","shots":"219","save_percentage":"0.849","goals_against":"33","shutouts":"0","wins":"3","losses":"4","ot_losses":"1","shootout_goals_against":"3","shootout_attempts":"3","shootout_percentage":"0.000","goals_against_average":"4.31","rank":5}},{"prop":[],"row":{"games_played":"43","goals_against":"5","goals_against_average":"8.85","shots":"5","name":"Empty
         Net ","minutes_played":"33:55"}},{"prop":[],"row":{"games_played":"76","minutes_played":"4633:10","saves":"2017","shots":"2256","save_percentage":"0.894","goals_against":"239","shutouts":7,"wins":"39","losses":"24","ot_losses":"9","shootout_goals_against":"10","shootout_attempts":"15","shootout_percentage":"0.333","goals_against_average":"3.10","name":"Totals
         "}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:31 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:55 GMT
 recorded_with: VCR 6.0.0

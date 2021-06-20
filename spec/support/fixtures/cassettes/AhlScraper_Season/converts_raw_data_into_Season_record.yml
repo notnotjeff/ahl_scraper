@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:23 GMT
+      - Sun, 20 Jun 2021 05:46:49 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=5loktm35fkl73dqodq0r4ogsna; path=/
+      - PHPSESSID=nqgjnb2v6un1u8nhmsnuscima6; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -125,7 +125,7 @@ http_interactions:
         Heat"}},{"prop":{"team_code":{"teamLink":"402"},"name":{"teamLink":"402"}},"row":{"team_code":"BAK","wins":"31","losses":"27","ot_losses":"9","shootout_losses":"1","regulation_wins":"23","row":"28","points":"72","penalty_minutes":"793","streak":"1-0-0-0","goals_for":"188","goals_against":"206","percentage":"0.529","overall_rank":"21","games_played":"68","rank":7,"past_10":"5-5-0-0","name":"Bakersfield
         Condors"}},{"prop":{"team_code":{"teamLink":"331"},"name":{"teamLink":"331"}},"row":{"team_code":"SA","wins":"35","losses":"31","ot_losses":"10","shootout_losses":"0","regulation_wins":"24","row":"29","points":"80","penalty_minutes":"961","streak":"1-0-0-0","goals_for":"198","goals_against":"219","percentage":"0.526","overall_rank":"23","games_played":"76","rank":8,"past_10":"4-6-0-0","name":"San
         Antonio Rampage"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:23 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:49 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&location=homeaway&month=&season=57&site_id=1&team=-1&view=schedule
@@ -149,7 +149,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:23 GMT
+      - Sun, 20 Jun 2021 05:46:49 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -157,7 +157,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=gt4jbiq83292gvrfabjpgnflpf; path=/
+      - PHPSESSID=j18jpn5thip0s26m1kmen7kq3r; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3787,7 +3787,7 @@ http_interactions:
         Apr 15","home_goal_count":"1","visiting_goal_count":"3","game_status":"Final","home_team_city":"Chicago","visiting_team_city":"Manitoba","game_report":"Game
         Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
         Center"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:24 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:50 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division_id=-1&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_id=4&location=homeaway&month=&season=57&site_id=1&team=-1&view=schedule
@@ -3811,7 +3811,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:24 GMT
+      - Sun, 20 Jun 2021 05:46:51 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -3819,7 +3819,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=g2b98cksmg3bm2hrhl8r41klmv; path=/
+      - PHPSESSID=eovlbh67138si7q90638m91taf; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -7449,5 +7449,5 @@ http_interactions:
         Apr 15","home_goal_count":"1","visiting_goal_count":"3","game_status":"Final","home_team_city":"Chicago","visiting_team_city":"Manitoba","game_report":"Game
         Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
         Center"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 17:58:25 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:52 GMT
 recorded_with: VCR 6.0.0

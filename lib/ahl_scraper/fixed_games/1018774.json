@@ -1,0 +1,2573 @@
+{
+  "details": {
+    "id": 1018774,
+    "date": "Friday, December 21, 2018",
+    "gameNumber": "437",
+    "venue": "Allstate Arena",
+    "attendance": 6610,
+    "startTime": "7:12 pm",
+    "endTime": "9:42 pm",
+    "duration": "2:30",
+    "gameReportUrl": "https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1018774",
+    "textBoxscoreUrl": "https://lscluster.hockeytech.com/game_reports/text-game-report.php?lang_id=1&client_code=ahl&game_id=1018774",
+    "ticketsUrl": "https://theahl.com/game-tickets",
+    "started": "1",
+    "final": "1",
+    "publicNotes": "",
+    "status": "Final",
+    "seasonId": "61",
+    "htvGameId": "401223",
+    "GameDateISO8601": "2018-12-21T19:00:00-06:00"
+  },
+  "referees": [
+    {
+      "firstName": "Kenny",
+      "lastName": "Anderson",
+      "jerseyNumber": 66,
+      "role": "Referee"
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Howard",
+      "jerseyNumber": 50,
+      "role": "Referee"
+    }
+  ],
+  "linesmen": [
+    {
+      "firstName": "James",
+      "lastName": "Tobias",
+      "jerseyNumber": 61,
+      "role": "Linesman"
+    },
+    {
+      "firstName": "William",
+      "lastName": "Hancock",
+      "jerseyNumber": 17,
+      "role": "Linesman"
+    }
+  ],
+  "mostValuablePlayers": [
+    {
+      "team": {
+        "id": 372,
+        "name": "Rockford IceHogs",
+        "city": "Rockford",
+        "nickname": "IceHogs",
+        "abbreviation": "RFD",
+        "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+        "divisionName": "Central Division"
+      },
+      "player": {
+        "info": {
+          "id": 6863,
+          "firstName": "Alexandre",
+          "lastName": "Fortin",
+          "jerseyNumber": 26,
+          "position": "LW",
+          "birthDate": "1997-02-25"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/6863.jpg"
+    },
+    {
+      "team": {
+        "id": 330,
+        "name": "Chicago Wolves",
+        "city": "Chicago",
+        "nickname": "Wolves",
+        "abbreviation": "CHI",
+        "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+        "divisionName": "Central Division"
+      },
+      "player": {
+        "info": {
+          "id": 5671,
+          "firstName": "Daniel",
+          "lastName": "Carr",
+          "jerseyNumber": 7,
+          "position": "LW",
+          "birthDate": "1991-11-01"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/5671.jpg"
+    },
+    {
+      "team": {
+        "id": 372,
+        "name": "Rockford IceHogs",
+        "city": "Rockford",
+        "nickname": "IceHogs",
+        "abbreviation": "RFD",
+        "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+        "divisionName": "Central Division"
+      },
+      "player": {
+        "info": {
+          "id": 6862,
+          "firstName": "Darren",
+          "lastName": "Raddysh",
+          "jerseyNumber": 24,
+          "position": "D",
+          "birthDate": "1996-02-28"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/6862.jpg"
+    }
+  ],
+  "hasShootout": false,
+  "homeTeam": {
+    "info": {
+      "id": 330,
+      "name": "Chicago Wolves",
+      "city": "Chicago",
+      "nickname": "Wolves",
+      "abbreviation": "CHI",
+      "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+      "divisionName": "Central Division"
+    },
+    "stats": {
+      "shots": 36,
+      "goals": 4,
+      "hits": 0,
+      "powerPlayGoals": 0,
+      "powerPlayOpportunities": 2,
+      "goalCount": 4,
+      "assistCount": 8,
+      "penaltyMinuteCount": 4,
+      "infractionCount": 2
+    },
+    "media": {
+      "audioUrl": "https://www.facebook.com/ChicagoWolves",
+      "videoUrl": "",
+      "webcastUrl": "https://theahl.com/AHLTV"
+    },
+    "coaches": [
+      { "firstName": "Rocky", "lastName": "Thompson", "role": "Head Coach" },
+      { "firstName": "Chris", "lastName": "Dennis", "role": "Assistant Coach" },
+      { "firstName": "Bob", "lastName": "Nardella", "role": "Assistant Coach" }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 7088,
+          "firstName": "Nic",
+          "lastName": "Hague",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1998-12-05"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 7,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5715,
+          "firstName": "Griffin",
+          "lastName": "Reinhart",
+          "jerseyNumber": 6,
+          "position": "D",
+          "birthDate": "1994-01-24"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5671,
+          "firstName": "Daniel",
+          "lastName": "Carr",
+          "jerseyNumber": 7,
+          "position": "LW",
+          "birthDate": "1991-11-01"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6316,
+          "firstName": "Tyler",
+          "lastName": "Wong",
+          "jerseyNumber": 8,
+          "position": "RW",
+          "birthDate": "1996-02-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6883,
+          "firstName": "Gage",
+          "lastName": "Quinney",
+          "jerseyNumber": 9,
+          "position": "C",
+          "birthDate": "1995-07-29"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 4883,
+          "firstName": "Curtis",
+          "lastName": "McKenzie",
+          "jerseyNumber": 10,
+          "position": "LW",
+          "birthDate": "1991-02-22"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 3,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 6,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 7261,
+          "firstName": "Matt",
+          "lastName": "Weis",
+          "jerseyNumber": 14,
+          "position": "C",
+          "birthDate": "1995-05-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7267,
+          "firstName": "Dylan",
+          "lastName": "Coghlan",
+          "jerseyNumber": 15,
+          "position": "D",
+          "birthDate": "1998-02-19"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7260,
+          "firstName": "Brooks",
+          "lastName": "Macek",
+          "jerseyNumber": 17,
+          "position": "RW",
+          "birthDate": "1992-05-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5540,
+          "firstName": "T.J.",
+          "lastName": "Tynan",
+          "jerseyNumber": 18,
+          "position": "C",
+          "birthDate": "1992-02-25"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 6881,
+          "firstName": "Keegan",
+          "lastName": "Kolesar",
+          "jerseyNumber": 20,
+          "position": "RW",
+          "birthDate": "1997-04-08"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5071,
+          "firstName": "Stefan",
+          "lastName": "Matteau",
+          "jerseyNumber": 23,
+          "position": "C",
+          "birthDate": "1994-02-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6682,
+          "firstName": "Jake",
+          "lastName": "Bischoff",
+          "jerseyNumber": 28,
+          "position": "D",
+          "birthDate": "1994-07-25"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7268,
+          "firstName": "Zach",
+          "lastName": "Whitecloud",
+          "jerseyNumber": 32,
+          "position": "D",
+          "birthDate": "1996-11-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6141,
+          "firstName": "Marc-Olivier",
+          "lastName": "Roy",
+          "jerseyNumber": 36,
+          "position": "C",
+          "birthDate": "1994-11-05"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6092,
+          "firstName": "Zac",
+          "lastName": "Leslie",
+          "jerseyNumber": 37,
+          "position": "D",
+          "birthDate": "1994-01-31"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5368,
+          "firstName": "Tomas",
+          "lastName": "Hyka",
+          "jerseyNumber": 38,
+          "position": "RW",
+          "birthDate": "1993-03-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6728,
+          "firstName": "Reid",
+          "lastName": "Duke",
+          "jerseyNumber": 39,
+          "position": "C",
+          "birthDate": "1996-01-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 5717,
+          "firstName": "Max",
+          "lastName": "Lagace",
+          "jerseyNumber": 33,
+          "position": "G",
+          "birthDate": "1993-01-12"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "63:39",
+          "shotsAgainst": 25,
+          "goalsAgainst": 5,
+          "saves": 20
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5631,
+          "firstName": "Oscar",
+          "lastName": "Dansk",
+          "jerseyNumber": 35,
+          "position": "G",
+          "birthDate": "1994-02-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "visitingTeam": {
+    "info": {
+      "id": 372,
+      "name": "Rockford IceHogs",
+      "city": "Rockford",
+      "nickname": "IceHogs",
+      "abbreviation": "RFD",
+      "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+      "divisionName": "Central Division"
+    },
+    "stats": {
+      "shots": 25,
+      "goals": 5,
+      "hits": 0,
+      "powerPlayGoals": 1,
+      "powerPlayOpportunities": 2,
+      "goalCount": 5,
+      "assistCount": 10,
+      "penaltyMinuteCount": 4,
+      "infractionCount": 2
+    },
+    "media": {
+      "audioUrl": "https://www.sportsfanrockford.com/hear-the-hogs/",
+      "videoUrl": "http://www.theahl.com/AHLTV",
+      "webcastUrl": "https://theahl.com/AHLTV"
+    },
+    "coaches": [
+      { "firstName": "Derek", "lastName": "King", "role": "Head Coach" },
+      {
+        "firstName": "Sheldon",
+        "lastName": "Brookbank",
+        "role": "Assistant Coach"
+      }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 2507,
+          "firstName": "Andrew",
+          "lastName": "Campbell",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1988-02-04"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 5692,
+          "firstName": "Henrik",
+          "lastName": "Samuelsson",
+          "jerseyNumber": 5,
+          "position": "LW",
+          "birthDate": "1994-02-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6003,
+          "firstName": "Nick",
+          "lastName": "Moutrey",
+          "jerseyNumber": 7,
+          "position": "RW",
+          "birthDate": "1995-06-24"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7145,
+          "firstName": "Dennis",
+          "lastName": "Gilbert",
+          "jerseyNumber": 8,
+          "position": "D",
+          "birthDate": "1996-10-30"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 3555,
+          "firstName": "Jordan",
+          "lastName": "Schroeder",
+          "jerseyNumber": 10,
+          "position": "RW",
+          "birthDate": "1990-09-29"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 2,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 6689,
+          "firstName": "Will",
+          "lastName": "Pelletier",
+          "jerseyNumber": 16,
+          "position": "LW",
+          "birthDate": "1992-12-14"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 4452,
+          "firstName": "Terry",
+          "lastName": "Broadhurst",
+          "jerseyNumber": 17,
+          "position": "LW",
+          "birthDate": "1988-11-30"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6914,
+          "firstName": "Nathan",
+          "lastName": "Noel",
+          "jerseyNumber": 20,
+          "position": "LW",
+          "birthDate": "1997-06-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7430,
+          "firstName": "Jacob",
+          "lastName": "Nilsson",
+          "jerseyNumber": 21,
+          "position": "C",
+          "birthDate": "1993-10-12"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 2,
+          "points": 3,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7433,
+          "firstName": "Blake",
+          "lastName": "Hillman",
+          "jerseyNumber": 22,
+          "position": "D",
+          "birthDate": "1996-01-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7434,
+          "firstName": "Lucas",
+          "lastName": "Carlsson",
+          "jerseyNumber": 23,
+          "position": "D",
+          "birthDate": "1997-07-05"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 1,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6862,
+          "firstName": "Darren",
+          "lastName": "Raddysh",
+          "jerseyNumber": 24,
+          "position": "D",
+          "birthDate": "1996-02-28"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6863,
+          "firstName": "Alexandre",
+          "lastName": "Fortin",
+          "jerseyNumber": 26,
+          "position": "LW",
+          "birthDate": "1997-02-25"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5839,
+          "firstName": "Tyler",
+          "lastName": "Sikura",
+          "jerseyNumber": 28,
+          "position": "C",
+          "birthDate": "1992-05-18"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 7055,
+          "firstName": "Joni",
+          "lastName": "Tuulola",
+          "jerseyNumber": 36,
+          "position": "D",
+          "birthDate": "1996-01-01"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7477,
+          "firstName": "Jan",
+          "lastName": "Rutta",
+          "jerseyNumber": 44,
+          "position": "D",
+          "birthDate": "1990-07-29"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6629,
+          "firstName": "Anthony",
+          "lastName": "Louis",
+          "jerseyNumber": 45,
+          "position": "LW",
+          "birthDate": "1995-02-10"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6864,
+          "firstName": "Graham",
+          "lastName": "Knott",
+          "jerseyNumber": 49,
+          "position": "C",
+          "birthDate": "1997-01-13"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 7431,
+          "firstName": "Kevin",
+          "lastName": "Lankinen",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": "1995-04-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5755,
+          "firstName": "Anton",
+          "lastName": "Forsberg",
+          "jerseyNumber": 31,
+          "position": "G",
+          "birthDate": "1992-11-27"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "64:21",
+          "shotsAgainst": 36,
+          "goalsAgainst": 4,
+          "saves": 32
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "periods": [
+    {
+      "info": { "id": "1", "shortName": "1", "longName": "1st" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "13",
+        "visitingGoals": "1",
+        "visitingShots": "6"
+      },
+      "goals": [
+        {
+          "game_goal_id": "96321",
+          "team": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "10:40",
+          "scorerGoalNumber": "9",
+          "scoredBy": {
+            "id": 7088,
+            "firstName": "Nic",
+            "lastName": "Hague",
+            "jerseyNumber": 2,
+            "position": "D",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 5540,
+              "firstName": "T.J.",
+              "lastName": "Tynan",
+              "jerseyNumber": 18,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["23", "9"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 7088,
+              "firstName": "Nic",
+              "lastName": "Hague",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 4883,
+              "firstName": "Curtis",
+              "lastName": "McKenzie",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 5540,
+              "firstName": "T.J.",
+              "lastName": "Tynan",
+              "jerseyNumber": 18,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5368,
+              "firstName": "Tomas",
+              "lastName": "Hyka",
+              "jerseyNumber": 38,
+              "position": "RW",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 6689,
+              "firstName": "Will",
+              "lastName": "Pelletier",
+              "jerseyNumber": 16,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 6862,
+              "firstName": "Darren",
+              "lastName": "Raddysh",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 6863,
+              "firstName": "Alexandre",
+              "lastName": "Fortin",
+              "jerseyNumber": 26,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 5839,
+              "firstName": "Tyler",
+              "lastName": "Sikura",
+              "jerseyNumber": 28,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7055,
+              "firstName": "Joni",
+              "lastName": "Tuulola",
+              "jerseyNumber": 36,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "96327",
+          "team": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "12:58",
+          "scorerGoalNumber": "6",
+          "scoredBy": {
+            "id": 7430,
+            "firstName": "Jacob",
+            "lastName": "Nilsson",
+            "jerseyNumber": 21,
+            "position": "C",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7477,
+              "firstName": "Jan",
+              "lastName": "Rutta",
+              "jerseyNumber": 44,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["9", "2"],
+          "properties": {
+            "isPowerPlay": "1",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 7477,
+              "firstName": "Jan",
+              "lastName": "Rutta",
+              "jerseyNumber": 44,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 5715,
+              "firstName": "Griffin",
+              "lastName": "Reinhart",
+              "jerseyNumber": 6,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 5540,
+              "firstName": "T.J.",
+              "lastName": "Tynan",
+              "jerseyNumber": 18,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 219063,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "11:54",
+          "againstTeam": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "minutes": 2,
+          "description": "Holding",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6682,
+            "firstName": "Jake",
+            "lastName": "Bischoff",
+            "jerseyNumber": 45,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 6682,
+            "firstName": "Jake",
+            "lastName": "Bischoff",
+            "jerseyNumber": 45,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 219076,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "16:43",
+          "againstTeam": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "minutes": 2,
+          "description": "Kneeing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6914,
+            "firstName": "Nathan",
+            "lastName": "Noel",
+            "jerseyNumber": 20,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 6914,
+            "firstName": "Nathan",
+            "lastName": "Noel",
+            "jerseyNumber": 20,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "2", "shortName": "2", "longName": "2nd" },
+      "stats": {
+        "homeGoals": "2",
+        "homeShots": "6",
+        "visitingGoals": "2",
+        "visitingShots": "8"
+      },
+      "goals": [
+        {
+          "game_goal_id": "96338",
+          "team": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "0:36",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 6863,
+            "firstName": "Alexandre",
+            "lastName": "Fortin",
+            "jerseyNumber": 26,
+            "position": "LW",
+            "birthDate": "1997-02-25"
+          },
+          "assists": [
+            {
+              "id": 6689,
+              "firstName": "Will",
+              "lastName": "Pelletier",
+              "jerseyNumber": 16,
+              "position": "LW",
+              "birthDate": "1992-12-14"
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            }
+          ],
+          "assistNumbers": ["2", "10"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 6689,
+              "firstName": "Will",
+              "lastName": "Pelletier",
+              "jerseyNumber": 16,
+              "position": "LW",
+              "birthDate": "1992-12-14"
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            },
+            {
+              "id": 6863,
+              "firstName": "Alexandre",
+              "lastName": "Fortin",
+              "jerseyNumber": 26,
+              "position": "LW",
+              "birthDate": "1997-02-25"
+            },
+            {
+              "id": 5839,
+              "firstName": "Tyler",
+              "lastName": "Sikura",
+              "jerseyNumber": 28,
+              "position": "C",
+              "birthDate": "1992-05-18"
+            },
+            {
+              "id": 7477,
+              "firstName": "Jan",
+              "lastName": "Rutta",
+              "jerseyNumber": 44,
+              "position": "D",
+              "birthDate": "1990-07-29"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 7088,
+              "firstName": "Nic",
+              "lastName": "Hague",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 6883,
+              "firstName": "Gage",
+              "lastName": "Quinney",
+              "jerseyNumber": 9,
+              "position": "C",
+              "birthDate": "1995-07-29"
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            },
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "96341",
+          "team": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "4:06",
+          "scorerGoalNumber": "2",
+          "scoredBy": {
+            "id": 6863,
+            "firstName": "Alexandre",
+            "lastName": "Fortin",
+            "jerseyNumber": 26,
+            "position": "LW",
+            "birthDate": "1997-02-25"
+          },
+          "assists": [
+            {
+              "id": 6914,
+              "firstName": "Nathan",
+              "lastName": "Noel",
+              "jerseyNumber": 20,
+              "position": "LW",
+              "birthDate": "1997-06-21"
+            },
+            {
+              "id": 6864,
+              "firstName": "Graham",
+              "lastName": "Knott",
+              "jerseyNumber": 49,
+              "position": "C",
+              "birthDate": "1997-01-13"
+            }
+          ],
+          "assistNumbers": ["4", "5"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 2507,
+              "firstName": "Andrew",
+              "lastName": "Campbell",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1988-02-04"
+            },
+            {
+              "id": 6914,
+              "firstName": "Nathan",
+              "lastName": "Noel",
+              "jerseyNumber": 20,
+              "position": "LW",
+              "birthDate": "1997-06-21"
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            },
+            {
+              "id": 6863,
+              "firstName": "Alexandre",
+              "lastName": "Fortin",
+              "jerseyNumber": 26,
+              "position": "LW",
+              "birthDate": "1997-02-25"
+            },
+            {
+              "id": 6864,
+              "firstName": "Graham",
+              "lastName": "Knott",
+              "jerseyNumber": 49,
+              "position": "C",
+              "birthDate": "1997-01-13"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 5715,
+              "firstName": "Griffin",
+              "lastName": "Reinhart",
+              "jerseyNumber": 6,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 6316,
+              "firstName": "Tyler",
+              "lastName": "Wong",
+              "jerseyNumber": 8,
+              "position": "RW",
+              "birthDate": "1996-02-28"
+            },
+            {
+              "id": 7261,
+              "firstName": "Matt",
+              "lastName": "Weis",
+              "jerseyNumber": 14,
+              "position": "C",
+              "birthDate": "1995-05-23"
+            },
+            {
+              "id": 7267,
+              "firstName": "Dylan",
+              "lastName": "Coghlan",
+              "jerseyNumber": 15,
+              "position": "D",
+              "birthDate": "1998-02-19"
+            }
+          ]
+        },
+        {
+          "game_goal_id": "96348",
+          "team": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "9:11",
+          "scorerGoalNumber": "5",
+          "scoredBy": {
+            "id": 4883,
+            "firstName": "Curtis",
+            "lastName": "McKenzie",
+            "jerseyNumber": 10,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 5368,
+              "firstName": "Tomas",
+              "lastName": "Hyka",
+              "jerseyNumber": 38,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7267,
+              "firstName": "Dylan",
+              "lastName": "Coghlan",
+              "jerseyNumber": 15,
+              "position": "D",
+              "birthDate": "1998-02-19"
+            }
+          ],
+          "assistNumbers": ["11", "9"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 5715,
+              "firstName": "Griffin",
+              "lastName": "Reinhart",
+              "jerseyNumber": 6,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 4883,
+              "firstName": "Curtis",
+              "lastName": "McKenzie",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 7267,
+              "firstName": "Dylan",
+              "lastName": "Coghlan",
+              "jerseyNumber": 15,
+              "position": "D",
+              "birthDate": "1998-02-19"
+            },
+            {
+              "id": 5540,
+              "firstName": "T.J.",
+              "lastName": "Tynan",
+              "jerseyNumber": 18,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 5368,
+              "firstName": "Tomas",
+              "lastName": "Hyka",
+              "jerseyNumber": 38,
+              "position": "RW",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 6862,
+              "firstName": "Darren",
+              "lastName": "Raddysh",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 7055,
+              "firstName": "Joni",
+              "lastName": "Tuulola",
+              "jerseyNumber": 36,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": "1995-02-10"
+            }
+          ]
+        },
+        {
+          "game_goal_id": "96354",
+          "team": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "14:10",
+          "scorerGoalNumber": "15",
+          "scoredBy": {
+            "id": 5671,
+            "firstName": "Daniel",
+            "lastName": "Carr",
+            "jerseyNumber": 7,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            }
+          ],
+          "assistNumbers": ["9", "12"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 7088,
+              "firstName": "Nic",
+              "lastName": "Hague",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 6883,
+              "firstName": "Gage",
+              "lastName": "Quinney",
+              "jerseyNumber": 9,
+              "position": "C",
+              "birthDate": "1995-07-29"
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            },
+            {
+              "id": 7268,
+              "firstName": "Zach",
+              "lastName": "Whitecloud",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            },
+            {
+              "id": 7477,
+              "firstName": "Jan",
+              "lastName": "Rutta",
+              "jerseyNumber": 44,
+              "position": "D",
+              "birthDate": "1990-07-29"
+            },
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": "1995-02-10"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 774,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "17:58",
+          "againstTeam": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "minutes": 2,
+          "description": "Boarding",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 4883,
+            "firstName": "Curtis",
+            "lastName": "McKenzie",
+            "jerseyNumber": 10,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 4883,
+            "firstName": "Curtis",
+            "lastName": "McKenzie",
+            "jerseyNumber": 10,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "3", "shortName": "3", "longName": "3rd" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "12",
+        "visitingGoals": "1",
+        "visitingShots": "8"
+      },
+      "goals": [
+        {
+          "game_goal_id": "96382",
+          "team": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "16:39",
+          "scorerGoalNumber": "5",
+          "scoredBy": {
+            "id": 7434,
+            "firstName": "Lucas",
+            "lastName": "Carlsson",
+            "jerseyNumber": 23,
+            "position": "D",
+            "birthDate": "1997-07-05"
+          },
+          "assists": [
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["7", "10"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 2507,
+              "firstName": "Andrew",
+              "lastName": "Campbell",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1988-02-04"
+            },
+            {
+              "id": 3555,
+              "firstName": "Jordan",
+              "lastName": "Schroeder",
+              "jerseyNumber": 10,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            },
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": "1995-02-10"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 5715,
+              "firstName": "Griffin",
+              "lastName": "Reinhart",
+              "jerseyNumber": 6,
+              "position": "D",
+              "birthDate": "1994-01-24"
+            },
+            {
+              "id": 6316,
+              "firstName": "Tyler",
+              "lastName": "Wong",
+              "jerseyNumber": 8,
+              "position": "RW",
+              "birthDate": "1996-02-28"
+            },
+            {
+              "id": 6881,
+              "firstName": "Keegan",
+              "lastName": "Kolesar",
+              "jerseyNumber": 20,
+              "position": "RW",
+              "birthDate": "1997-04-08"
+            },
+            {
+              "id": 5071,
+              "firstName": "Stefan",
+              "lastName": "Matteau",
+              "jerseyNumber": 23,
+              "position": "C",
+              "birthDate": "1994-02-23"
+            },
+            {
+              "id": 6682,
+              "firstName": "Jake",
+              "lastName": "Bischoff",
+              "jerseyNumber": 28,
+              "position": "D",
+              "birthDate": "1994-07-25"
+            }
+          ]
+        },
+        {
+          "game_goal_id": "96383",
+          "team": {
+            "id": 330,
+            "name": "Chicago Wolves",
+            "city": "Chicago",
+            "nickname": "Wolves",
+            "abbreviation": "CHI",
+            "logo": "https://assets.leaguestat.com/ahl/logos/330.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "18:34",
+          "scorerGoalNumber": "8",
+          "scoredBy": {
+            "id": 6883,
+            "firstName": "Gage",
+            "lastName": "Quinney",
+            "jerseyNumber": 9,
+            "position": "C",
+            "birthDate": "1995-07-29"
+          },
+          "assists": [
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            }
+          ],
+          "assistNumbers": ["20", "13"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 7088,
+              "firstName": "Nic",
+              "lastName": "Hague",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 5671,
+              "firstName": "Daniel",
+              "lastName": "Carr",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 6883,
+              "firstName": "Gage",
+              "lastName": "Quinney",
+              "jerseyNumber": 9,
+              "position": "C",
+              "birthDate": "1995-07-29"
+            },
+            {
+              "id": 4883,
+              "firstName": "Curtis",
+              "lastName": "McKenzie",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 7267,
+              "firstName": "Dylan",
+              "lastName": "Coghlan",
+              "jerseyNumber": 15,
+              "position": "D",
+              "birthDate": "1998-02-19"
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 7145,
+              "firstName": "Dennis",
+              "lastName": "Gilbert",
+              "jerseyNumber": 8,
+              "position": "D",
+              "birthDate": "1996-10-30"
+            },
+            {
+              "id": 6689,
+              "firstName": "Will",
+              "lastName": "Pelletier",
+              "jerseyNumber": 16,
+              "position": "LW",
+              "birthDate": "1992-12-14"
+            },
+            {
+              "id": 7434,
+              "firstName": "Lucas",
+              "lastName": "Carlsson",
+              "jerseyNumber": 23,
+              "position": "D",
+              "birthDate": "1997-07-05"
+            },
+            {
+              "id": 5839,
+              "firstName": "Tyler",
+              "lastName": "Sikura",
+              "jerseyNumber": 28,
+              "position": "C",
+              "birthDate": "1992-05-18"
+            },
+            {
+              "id": 6864,
+              "firstName": "Graham",
+              "lastName": "Knott",
+              "jerseyNumber": 49,
+              "position": "C",
+              "birthDate": "1997-01-13"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 1234,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "4:19",
+          "againstTeam": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "minutes": 2,
+          "description": "Holding the stick",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 7145,
+            "firstName": "Dennis",
+            "lastName": "Gilbert",
+            "jerseyNumber": 8,
+            "position": "D",
+            "birthDate": "1996-10-30"
+          },
+          "servedBy": {
+            "id": 7145,
+            "firstName": "Dennis",
+            "lastName": "Gilbert",
+            "jerseyNumber": 8,
+            "position": "D",
+            "birthDate": "1996-10-30"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "4", "shortName": "OT", "longName": "OT" },
+      "stats": {
+        "homeGoals": "0",
+        "homeShots": "0",
+        "visitingGoals": "1",
+        "visitingShots": "1"
+      },
+      "goals": [
+        {
+          "game_goal_id": "96386",
+          "team": {
+            "id": 372,
+            "name": "Rockford IceHogs",
+            "city": "Rockford",
+            "nickname": "IceHogs",
+            "abbreviation": "RFD",
+            "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+            "divisionName": "Central Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "4:21",
+          "scorerGoalNumber": "7",
+          "scoredBy": {
+            "id": 6862,
+            "firstName": "Darren",
+            "lastName": "Raddysh",
+            "jerseyNumber": 24,
+            "position": "D",
+            "birthDate": "1996-02-28"
+          },
+          "assists": [
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": "1995-02-10"
+            },
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["11", "8"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "1"
+          },
+          "plus_players": [
+            {
+              "id": 7430,
+              "firstName": "Jacob",
+              "lastName": "Nilsson",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 6862,
+              "firstName": "Darren",
+              "lastName": "Raddysh",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": "1996-02-28"
+            },
+            {
+              "id": 6629,
+              "firstName": "Anthony",
+              "lastName": "Louis",
+              "jerseyNumber": 45,
+              "position": "LW",
+              "birthDate": "1995-02-10"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 7088,
+              "firstName": "Nic",
+              "lastName": "Hague",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 6883,
+              "firstName": "Gage",
+              "lastName": "Quinney",
+              "jerseyNumber": 9,
+              "position": "C",
+              "birthDate": "1995-07-29"
+            },
+            {
+              "id": 7260,
+              "firstName": "Brooks",
+              "lastName": "Macek",
+              "jerseyNumber": 17,
+              "position": "RW",
+              "birthDate": "1992-05-15"
+            }
+          ]
+        }
+      ],
+      "penalties": []
+    }
+  ],
+  "penaltyShots": { "homeTeam": [], "visitingTeam": [] },
+  "featuredPlayer": {
+    "team": {
+      "id": 372,
+      "name": "Rockford IceHogs",
+      "city": "Rockford",
+      "nickname": "IceHogs",
+      "abbreviation": "RFD",
+      "logo": "https://assets.leaguestat.com/ahl/logos/372.jpg",
+      "divisionName": "Central Division"
+    },
+    "player": {
+      "info": {
+        "id": 0,
+        "firstName": null,
+        "lastName": null,
+        "jerseyNumber": 0,
+        "position": null,
+        "birthDate": null
+      },
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "penaltyMinutes": 0,
+        "plusMinus": 0,
+        "faceoffAttempts": 0,
+        "faceoffWins": 0,
+        "shots": 0,
+        "hits": 0
+      },
+      "starting": 0,
+      "status": null
+    },
+    "isGoalie": false,
+    "playerImage": " ",
+    "sponsor": { "name": null, "image": null }
+  }
+}

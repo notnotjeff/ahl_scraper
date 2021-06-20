@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 22:58:56 GMT
+      - Sun, 20 Jun 2021 05:46:55 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=bimftmr4642lurfo49t3q0fk92; path=/
+      - PHPSESSID=dkg4qkjvk7n41q3afr0ves6ssj; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -126,5 +126,5 @@ http_interactions:
         Roadrunners"}},{"prop":{"team_code":{"teamLink":"406"},"name":{"teamLink":"406"}},"row":{"team_code":"STK","wins":"31","losses":"31","ot_losses":"4","shootout_losses":"2","regulation_wins":"24","row":"29","points":"68","penalty_minutes":"945","streak":"0-1-0-0","goals_for":"235","goals_against":"252","percentage":"0.500","overall_rank":"29","games_played":"68","rank":6,"past_10":"6-4-0-0","name":"Stockton
         Heat"}},{"prop":{"team_code":{"teamLink":"403"},"name":{"teamLink":"403"}},"row":{"team_code":"ONT","wins":"25","losses":"33","ot_losses":"6","shootout_losses":"4","regulation_wins":"19","row":"23","points":"60","penalty_minutes":"1069","streak":"0-2-0-0","goals_for":"213","goals_against":"274","percentage":"0.441","overall_rank":"31","games_played":"68","rank":7,"past_10":"3-5-0-2","name":"Ontario
         Reign"}}]}]}])
-  recorded_at: Sun, 13 Jun 2021 22:58:56 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:55 GMT
 recorded_with: VCR 6.0.0

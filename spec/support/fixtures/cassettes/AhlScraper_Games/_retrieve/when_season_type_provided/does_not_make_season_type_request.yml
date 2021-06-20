@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:57:54 GMT
+      - Sun, 20 Jun 2021 05:46:22 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=eiue90g2hib7btfgvr7p4tnftd; path=/
+      - PHPSESSID=gsrk6n6r1goce2edelko77v3n7; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -87,7 +87,7 @@ http_interactions:
         Valley Phantoms","city":"Lehigh Valley","nickname":"Phantoms","abbreviation":"LHV","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/313.jpg","divisionName":"North
         Division"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
         ","sponsor":{"name":null,"image":null}}})
-  recorded_at: Sun, 13 Jun 2021 17:57:54 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:22 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1022057&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
@@ -111,7 +111,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:57:54 GMT
+      - Sun, 20 Jun 2021 05:46:22 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -119,7 +119,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=hc4n8itr4bdc0aooiv6fntnpc0; path=/
+      - PHPSESSID=kb3jk0tji248qfupe41t4va646; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -195,5 +195,5 @@ http_interactions:
         on net","shotType":"Default","xLocation":503,"yLocation":176}},{"event":"shot","details":{"shooter":{"id":8042,"firstName":"Max","lastName":"Willman","jerseyNumber":20,"position":"LW","birthDate":""},"goalie":{"id":5658,"firstName":"Pheonix","lastName":"Copley","jerseyNumber":31,"position":"G","birthDate":""},"shooterTeamId":"313","period":{"id":"4","shortName":"OT","longName":"OT"},"time":"1:59","isGoal":false,"shotQuality":"Quality
         on net","shotType":"Default","xLocation":483,"yLocation":93}},{"event":"shot","details":{"shooter":{"id":6662,"firstName":"Ryan","lastName":"Fitzgerald","jerseyNumber":13,"position":"LW","birthDate":""},"goalie":{"id":5658,"firstName":"Pheonix","lastName":"Copley","jerseyNumber":31,"position":"G","birthDate":""},"shooterTeamId":"313","period":{"id":"4","shortName":"OT","longName":"OT"},"time":"1:59","isGoal":true,"shotQuality":"Quality
         goal","shotType":"Default","xLocation":460,"yLocation":80}},{"event":"goal","details":{"game_goal_id":"110380","team":{"id":313,"name":"","city":"","nickname":"","abbreviation":"LHV","logo":""},"period":{"id":"4","shortName":"OT","longName":"OT"},"time":"1:59","scorerGoalNumber":"1","scoredBy":{"id":6662,"firstName":"Ryan","lastName":"Fitzgerald","jerseyNumber":13,"position":"LW","birthDate":""},"assists":[{"id":7849,"firstName":"Wyatte","lastName":"Wylie","jerseyNumber":28,"position":"D","birthDate":""},{"id":1192,"firstName":"Cal","lastName":"O'Reilly","jerseyNumber":9,"position":"C","birthDate":""}],"assistNumbers":["1","1"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"1"},"plus_players":[{"id":1192,"firstName":"Cal","lastName":"O'Reilly","jerseyNumber":9,"position":"C","birthDate":""},{"id":6662,"firstName":"Ryan","lastName":"Fitzgerald","jerseyNumber":13,"position":"LW","birthDate":""},{"id":7849,"firstName":"Wyatte","lastName":"Wylie","jerseyNumber":28,"position":"D","birthDate":""}],"minus_players":[{"id":6787,"firstName":"Lucas","lastName":"Johansen","jerseyNumber":6,"position":"D","birthDate":""},{"id":7648,"firstName":"Riley","lastName":"Sutter","jerseyNumber":24,"position":"C","birthDate":""},{"id":1445,"firstName":"Matt","lastName":"Moulson","jerseyNumber":26,"position":"LW","birthDate":""}],"xLocation":460,"yLocation":80}}])
-  recorded_at: Sun, 13 Jun 2021 17:57:54 GMT
+  recorded_at: Sun, 20 Jun 2021 05:46:23 GMT
 recorded_with: VCR 6.0.0

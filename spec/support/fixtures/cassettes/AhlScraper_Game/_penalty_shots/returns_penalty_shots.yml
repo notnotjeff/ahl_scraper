@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:14 GMT
+      - Sun, 20 Jun 2021 05:47:29 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=6htb8c2s0fu6sj9g1t5mcdu24v; path=/
+      - PHPSESSID=o6qevk2vkv6dn3uvqmk3rl8pbs; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -187,7 +187,7 @@ http_interactions:
         Heat","city":"Stockton","nickname":"Heat","abbreviation":"STK","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/406_61.jpg","divisionName":"Pacific
         Division"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
         ","sponsor":{"name":null,"image":null}}})
-  recorded_at: Sun, 13 Jun 2021 17:58:14 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:29 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1018452&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
@@ -211,7 +211,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:14 GMT
+      - Sun, 20 Jun 2021 05:47:29 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -219,7 +219,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=gemjmp8mndhet5ilgq8gemke9b; path=/
+      - PHPSESSID=qh05kqrh3vi29e28fr1f35itfr; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -318,7 +318,7 @@ http_interactions:
         on net","shotType":"Default","xLocation":521,"yLocation":187}},{"event":"shootout","details":{"shooter":{"id":6285,"firstName":"Kalle","lastName":"Kossila","jerseyNumber":11,"position":"LW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6476,"firstName":"Andrew","lastName":"Mangiapane","jerseyNumber":26,"position":"LW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":7454,"firstName":"Troy","lastName":"Terry","jerseyNumber":13,"position":"RW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6784,"firstName":"Glenn","lastName":"Gawdin","jerseyNumber":21,"position":"C","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":4562,"firstName":"Sam","lastName":"Carrick","jerseyNumber":25,"position":"C","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":true,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":5073,"firstName":"Tyler","lastName":"Graovac","jerseyNumber":27,"position":"C","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":true,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6098,"firstName":"Chase","lastName":"De
         Leo","jerseyNumber":7,"position":"C","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":true,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6814,"firstName":"Spencer","lastName":"Foo","jerseyNumber":15,"position":"RW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":true,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6768,"firstName":"Giovanni","lastName":"Fiore","jerseyNumber":43,"position":"LW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6650,"firstName":"Adam","lastName":"Ollas
         Mattsson","jerseyNumber":34,"position":"D","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6780,"firstName":"Max","lastName":"Jones","jerseyNumber":16,"position":"LW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":5635,"firstName":"Kerby","lastName":"Rychel","jerseyNumber":21,"position":"LW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":3800,"firstName":"Corey","lastName":"Tropp","jerseyNumber":12,"position":"RW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6325,"firstName":"Brett","lastName":"Pollock","jerseyNumber":29,"position":"LW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":7319,"firstName":"Josh","lastName":"Mahura","jerseyNumber":6,"position":"D","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6069,"firstName":"Ryan","lastName":"Lomberg","jerseyNumber":41,"position":"LW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":4573,"firstName":"Logan","lastName":"Shaw","jerseyNumber":22,"position":"C","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":4848,"firstName":"Buddy","lastName":"Robinson","jerseyNumber":10,"position":"RW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6347,"firstName":"Deven","lastName":"Sideroff","jerseyNumber":18,"position":"RW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6436,"firstName":"Curtis","lastName":"Lazar","jerseyNumber":27,"position":"C","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6311,"firstName":"Andy","lastName":"Welinski","jerseyNumber":3,"position":"D","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":4910,"firstName":"Scott","lastName":"Sabourin","jerseyNumber":23,"position":"RW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":6790,"firstName":"Alex","lastName":"Dostie","jerseyNumber":10,"position":"LW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":5360,"firstName":"Oliver","lastName":"Kylington","jerseyNumber":4,"position":"D","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":7320,"firstName":"Simon","lastName":"Benoit","jerseyNumber":5,"position":"D","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":3237,"firstName":"Anthony","lastName":"Peluso","jerseyNumber":14,"position":"RW","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}},{"event":"shootout","details":{"shooter":{"id":5629,"firstName":"Ben","lastName":"Thomson","jerseyNumber":43,"position":"LW","birthDate":""},"goalie":{"id":6064,"firstName":"Jon","lastName":"Gillies","jerseyNumber":32,"position":"G","birthDate":""},"isGoal":false,"isGameWinningGoal":false,"shooterTeam":{"id":404,"name":"","city":"","nickname":"","abbreviation":"SD","logo":""}}},{"event":"shootout","details":{"shooter":{"id":3063,"firstName":"Matt","lastName":"Taormina","jerseyNumber":17,"position":"D","birthDate":""},"goalie":{"id":5021,"firstName":"Jared","lastName":"Coreau","jerseyNumber":50,"position":"G","birthDate":""},"isGoal":true,"isGameWinningGoal":true,"shooterTeam":{"id":406,"name":"","city":"","nickname":"","abbreviation":"STK","logo":""}}}])
-  recorded_at: Sun, 13 Jun 2021 17:58:14 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:30 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_code=&league_id=&pageName=schedule&season=latest&site_id=1&view=bootstrap
@@ -342,7 +342,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 13 Jun 2021 17:58:14 GMT
+      - Sun, 20 Jun 2021 05:47:30 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -350,7 +350,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=n4uuton8c9lah5s1266md7s78i; path=/
+      - PHPSESSID=4p5nrlfp14skuno3qkofqhqau9; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -489,5 +489,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Sun, 13 Jun 2021 17:58:14 GMT
+  recorded_at: Sun, 20 Jun 2021 05:47:30 GMT
 recorded_with: VCR 6.0.0
