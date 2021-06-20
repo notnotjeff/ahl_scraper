@@ -115,6 +115,15 @@ AhlScraper::Games.retrieve(1022050)
 #=> #<Game:0x4d6c {:game_id=>1022050, :season_type=>:regular, :info=>#<Info:0x4d80 {:date=>"Friday, February 05, 2021", :name=>"BRI @ PRO", :id=>1022050, :end_time=>"3:15 pm", ... >
 ```
 
+You can also pass in a `season_type` symbol (`:regular`, `:all_star`, `:exhibition`, or `:playoffs`) as the second parameter to skip an additional HTTP request being made by the scraper in order to fetch it:
+
+```ruby
+require "ahl_scraper"
+AhlScraper::Games.retrieve(1022050, :regular)
+
+#=> #<Game:0x4d6c {:game_id=>1022050, :season_type=>:regular, :info=>#<Info:0x4d80 {:date=>"Friday, February 05, 2021", :name=>"BRI @ PRO", :id=>1022050, :end_time=>"3:15 pm", ... >
+```
+
 ### Players
 
 #### retrieve(player_id)
