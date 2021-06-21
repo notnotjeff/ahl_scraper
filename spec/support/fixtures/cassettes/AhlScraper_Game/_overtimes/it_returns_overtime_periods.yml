@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:47:30 GMT
+      - Mon, 21 Jun 2021 03:36:37 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=k1r5f38vjcglm8bk26gi0812du; path=/
+      - PHPSESSID=vsmemt2qagi8v8ll5h73sqcuuf; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -86,7 +86,7 @@ http_interactions:
         Rocket","city":"Laval","nickname":"Rocket","abbreviation":"LAV","logo":"https:\/\/assets.leaguestat.com\/ahl\/logos\/415.jpg","divisionName":"North
         Division"},"player":{"info":{"id":0,"firstName":null,"lastName":null,"jerseyNumber":0,"position":null,"birthDate":null},"stats":{"goals":0,"assists":0,"points":0,"penaltyMinutes":0,"plusMinus":0,"faceoffAttempts":0,"faceoffWins":0,"shots":0,"hits":0},"starting":0,"status":null},"isGoalie":false,"playerImage":"
         ","sponsor":{"name":null,"image":null}}})
-  recorded_at: Sun, 20 Jun 2021 05:47:31 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:38 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&game_id=1019877&key=50c2cd9b5e18e390&lang=en&league_id=&view=gameCenterPlayByPlay
@@ -110,7 +110,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:47:31 GMT
+      - Mon, 21 Jun 2021 03:36:41 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -118,7 +118,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=6q1ptlok2v53nllvk0ecpv3if8; path=/
+      - PHPSESSID=jhip202bpk47n9acqakk0pb8a6; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -187,7 +187,7 @@ http_interactions:
         on net","shotType":"Default","xLocation":551,"yLocation":134}},{"event":"shot","details":{"shooter":{"id":6057,"firstName":"Riley","lastName":"Barber","jerseyNumber":11,"position":"RW","birthDate":""},"goalie":{"id":3701,"firstName":"Michael","lastName":"Hutchinson","jerseyNumber":30,"position":"G","birthDate":""},"shooterTeamId":"415","period":{"id":"4","shortName":"OT","longName":"OT"},"time":"4:17","isGoal":false,"shotQuality":"Non
         quality on net","shotType":"Default","xLocation":557,"yLocation":128}},{"event":"shot","details":{"shooter":{"id":5660,"firstName":"Kenny","lastName":"Agostino","jerseyNumber":18,"position":"LW","birthDate":""},"goalie":{"id":6514,"firstName":"Charlie","lastName":"Lindgren","jerseyNumber":35,"position":"G","birthDate":""},"shooterTeamId":"335","period":{"id":"4","shortName":"OT","longName":"OT"},"time":"4:35","isGoal":true,"shotQuality":"Quality
         goal","shotType":"Default","xLocation":93,"yLocation":117}},{"event":"goal","details":{"game_goal_id":"103029","team":{"id":335,"name":"","city":"","nickname":"","abbreviation":"TOR","logo":""},"period":{"id":"4","shortName":"OT","longName":"OT"},"time":"4:35","scorerGoalNumber":"9","scoredBy":{"id":5660,"firstName":"Kenny","lastName":"Agostino","jerseyNumber":18,"position":"LW","birthDate":""},"assists":[{"id":6893,"firstName":"Timothy","lastName":"Liljegren","jerseyNumber":7,"position":"D","birthDate":""},{"id":6891,"firstName":"Jeremy","lastName":"Bracco","jerseyNumber":27,"position":"RW","birthDate":""}],"assistNumbers":["8","12"],"properties":{"isPowerPlay":"0","isShortHanded":"0","isEmptyNet":"0","isPenaltyShot":"0","isInsuranceGoal":"0","isGameWinningGoal":"1"},"plus_players":[{"id":6893,"firstName":"Timothy","lastName":"Liljegren","jerseyNumber":7,"position":"D","birthDate":""},{"id":5660,"firstName":"Kenny","lastName":"Agostino","jerseyNumber":18,"position":"LW","birthDate":""},{"id":6891,"firstName":"Jeremy","lastName":"Bracco","jerseyNumber":27,"position":"RW","birthDate":""}],"minus_players":[{"id":7381,"firstName":"Jake","lastName":"Evans","jerseyNumber":10,"position":"C","birthDate":""},{"id":6041,"firstName":"Michael","lastName":"McCarron","jerseyNumber":23,"position":"C","birthDate":""},{"id":5471,"firstName":"Gustav","lastName":"Olofsson","jerseyNumber":29,"position":"D","birthDate":""}],"xLocation":93,"yLocation":117}}])
-  recorded_at: Sun, 20 Jun 2021 05:47:31 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:41 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&feed=statviewfeed&key=50c2cd9b5e18e390&lang=en&league_code=&league_id=&pageName=schedule&season=latest&site_id=1&view=bootstrap
@@ -211,7 +211,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:47:31 GMT
+      - Mon, 21 Jun 2021 03:36:41 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -219,7 +219,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=b7meaeijdu5s2p4rmnnpmq5qc8; path=/
+      - PHPSESSID=mt3s6brs9ln4jbcfgi2sjkj0dm; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -358,5 +358,5 @@ http_interactions:
         (Away)","Most_Penalty_Minutes":"Most Penalty Minutes","shoots_on":"shoots
         on","shootout_attempt_on":"shootout attempt on","Game_Winning":"Game Winning","Game_Center":"Game
         Center","Game_Summary":"Game Summary","Insurance_Goal":"Insurance Goal","Summary":"Summary","Standings":"Standings","Preview":"Preview"}})'
-  recorded_at: Sun, 20 Jun 2021 05:47:31 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:41 GMT
 recorded_with: VCR 6.0.0

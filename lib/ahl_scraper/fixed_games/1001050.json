@@ -1,0 +1,2182 @@
+{
+  "details": {
+    "id": 1001050,
+    "date": "Saturday, October 08, 2005",
+    "gameNumber": "17",
+    "venue": "Wachovia Arena at Casey Plaza",
+    "attendance": 8245,
+    "startTime": "7:05 pm",
+    "endTime": "9:26 pm",
+    "duration": "2:21",
+    "gameReportUrl": "https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1001050",
+    "textBoxscoreUrl": "https://lscluster.hockeytech.com/game_reports/text-game-report.php?lang_id=1&client_code=ahl&game_id=1001050",
+    "ticketsUrl": "",
+    "started": "1",
+    "final": "1",
+    "publicNotes": "",
+    "status": "Final",
+    "seasonId": "1",
+    "htvGameId": "",
+    "GameDateISO8601": "2005-10-08T19:05:00-04:00"
+  },
+  "referees": [],
+  "linesmen": [
+    {
+      "firstName": "Mark",
+      "lastName": "Hamlett",
+      "jerseyNumber": 81,
+      "role": "Linesman"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Everett",
+      "jerseyNumber": 82,
+      "role": "Linesman"
+    }
+  ],
+  "mostValuablePlayers": [
+    {
+      "team": {
+        "id": 316,
+        "name": "Wilkes-Barre/Scranton Penguins",
+        "city": "W-B/Scranton",
+        "nickname": "Penguins",
+        "abbreviation": "WBS",
+        "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+        "divisionName": "East Division"
+      },
+      "player": {
+        "info": {
+          "id": 2,
+          "firstName": "Marc-Andre",
+          "lastName": "Fleury",
+          "jerseyNumber": 29,
+          "position": "G",
+          "birthDate": "1984-11-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "60:00",
+          "shotsAgainst": 27,
+          "goalsAgainst": 1,
+          "saves": 26
+        },
+        "starting": 1,
+        "status": ""
+      },
+      "isGoalie": true,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/2.jpg"
+    },
+    {
+      "team": {
+        "id": 316,
+        "name": "Wilkes-Barre/Scranton Penguins",
+        "city": "W-B/Scranton",
+        "nickname": "Penguins",
+        "abbreviation": "WBS",
+        "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+        "divisionName": "East Division"
+      },
+      "player": {
+        "info": {
+          "id": 15,
+          "firstName": "Ryan",
+          "lastName": "Stone",
+          "jerseyNumber": 23,
+          "position": "C",
+          "birthDate": "1985-03-20"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/15.jpg"
+    },
+    {
+      "team": {
+        "id": 316,
+        "name": "Wilkes-Barre/Scranton Penguins",
+        "city": "W-B/Scranton",
+        "nickname": "Penguins",
+        "abbreviation": "WBS",
+        "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+        "divisionName": "East Division"
+      },
+      "player": {
+        "info": {
+          "id": 11,
+          "firstName": "Jonathan",
+          "lastName": "Filewich",
+          "jerseyNumber": 18,
+          "position": "RW",
+          "birthDate": "1984-10-02"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/11.jpg"
+    }
+  ],
+  "hasShootout": false,
+  "homeTeam": {
+    "info": {
+      "id": 316,
+      "name": "Wilkes-Barre/Scranton Penguins",
+      "city": "W-B/Scranton",
+      "nickname": "Penguins",
+      "abbreviation": "WBS",
+      "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+      "divisionName": "East Division"
+    },
+    "stats": {
+      "shots": 26,
+      "goals": 2,
+      "hits": 0,
+      "powerPlayGoals": 0,
+      "powerPlayOpportunities": 7,
+      "goalCount": 2,
+      "assistCount": 2,
+      "penaltyMinuteCount": 22,
+      "infractionCount": 11
+    },
+    "media": {
+      "audioUrl": "",
+      "videoUrl": "",
+      "webcastUrl": "https://www.b2livetv.com/hockey/ahl/wilkes-barre/billnow.asp"
+    },
+    "coaches": [
+      { "firstName": "Mike", "lastName": "Yeo", "role": "Assistant Coach" }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 21,
+          "firstName": "Andy",
+          "lastName": "Schneider",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1981-07-31"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 17,
+          "firstName": "Chris",
+          "lastName": "Kelleher",
+          "jerseyNumber": 4,
+          "position": "D",
+          "birthDate": "1975-03-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 22,
+          "firstName": "Noah",
+          "lastName": "Welch",
+          "jerseyNumber": 5,
+          "position": "D",
+          "birthDate": "1982-08-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 14,
+          "firstName": "Michel",
+          "lastName": "Ouellet",
+          "jerseyNumber": 7,
+          "position": "RW",
+          "birthDate": "1982-03-05"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 16,
+          "firstName": "Daniel",
+          "lastName": "Fernholm",
+          "jerseyNumber": 8,
+          "position": "D",
+          "birthDate": "1983-12-20"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 4,
+          "firstName": "Colby",
+          "lastName": "Armstrong",
+          "jerseyNumber": 9,
+          "position": "RW",
+          "birthDate": "1982-11-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 9,
+          "firstName": "Stephen",
+          "lastName": "Dixon",
+          "jerseyNumber": 10,
+          "position": "C",
+          "birthDate": "1985-09-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6,
+          "firstName": "Daniel",
+          "lastName": "Carcillo",
+          "jerseyNumber": 13,
+          "position": "LW",
+          "birthDate": "1985-01-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 6,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7,
+          "firstName": "Erik",
+          "lastName": "Christensen",
+          "jerseyNumber": 16,
+          "position": "C",
+          "birthDate": "1983-12-17"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 13,
+          "firstName": "Guillaume",
+          "lastName": "Lefebvre",
+          "jerseyNumber": 17,
+          "position": "LW",
+          "birthDate": "1981-05-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 4,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 11,
+          "firstName": "Jonathan",
+          "lastName": "Filewich",
+          "jerseyNumber": 18,
+          "position": "RW",
+          "birthDate": "1984-10-02"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 23,
+          "firstName": "Ryan",
+          "lastName": "Whitney",
+          "jerseyNumber": 19,
+          "position": "D",
+          "birthDate": "1983-02-19"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 15,
+          "firstName": "Ryan",
+          "lastName": "Stone",
+          "jerseyNumber": 23,
+          "position": "C",
+          "birthDate": "1985-03-20"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 24,
+          "firstName": "Tomas",
+          "lastName": "Surovy",
+          "jerseyNumber": 25,
+          "position": "LW",
+          "birthDate": "1981-09-24"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5,
+          "firstName": "Dennis",
+          "lastName": "Bonvie",
+          "jerseyNumber": 27,
+          "position": "RW",
+          "birthDate": "1973-07-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 12,
+          "firstName": "Matt",
+          "lastName": "Hussey",
+          "jerseyNumber": 28,
+          "position": "C",
+          "birthDate": "1979-05-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 20,
+          "firstName": "Alain",
+          "lastName": "Nasreddine",
+          "jerseyNumber": 32,
+          "position": "D",
+          "birthDate": "1975-07-10"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "C"
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 2,
+          "firstName": "Marc-Andre",
+          "lastName": "Fleury",
+          "jerseyNumber": 29,
+          "position": "G",
+          "birthDate": "1984-11-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "60:00",
+          "shotsAgainst": 27,
+          "goalsAgainst": 1,
+          "saves": 26
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 3,
+          "firstName": "Dany",
+          "lastName": "Sabourin",
+          "jerseyNumber": 35,
+          "position": "G",
+          "birthDate": "1980-09-02"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "visitingTeam": {
+    "info": {
+      "id": 319,
+      "name": "Hershey Bears",
+      "city": "Hershey",
+      "nickname": "Hershey",
+      "abbreviation": "HER",
+      "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+      "divisionName": "East Division"
+    },
+    "stats": {
+      "shots": 27,
+      "goals": 1,
+      "hits": 0,
+      "powerPlayGoals": 1,
+      "powerPlayOpportunities": 11,
+      "goalCount": 1,
+      "assistCount": 2,
+      "penaltyMinuteCount": 14,
+      "infractionCount": 7
+    },
+    "media": {
+      "audioUrl": "",
+      "videoUrl": "",
+      "webcastUrl": "https://www.b2livetv.com/hockey/ahl/hershey/billnow.asp"
+    },
+    "coaches": [
+      { "firstName": "Bruce", "lastName": "Boudreau", "role": "Head Coach" },
+      { "firstName": "Bob", "lastName": "Woods", "role": "Assistant Coach" }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 130,
+          "firstName": "Mark",
+          "lastName": "Wotton",
+          "jerseyNumber": 4,
+          "position": "D",
+          "birthDate": "1973-10-16"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 136,
+          "firstName": "Mike",
+          "lastName": "Green",
+          "jerseyNumber": 5,
+          "position": "D",
+          "birthDate": "1985-10-12"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 142,
+          "firstName": "Jean-Francois",
+          "lastName": "Fortin",
+          "jerseyNumber": 7,
+          "position": "D",
+          "birthDate": "1979-03-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 4,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 146,
+          "firstName": "Joey",
+          "lastName": "Tenute",
+          "jerseyNumber": 10,
+          "position": "C",
+          "birthDate": "1983-04-02"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 148,
+          "firstName": "Eric",
+          "lastName": "Fehr",
+          "jerseyNumber": 11,
+          "position": "RW",
+          "birthDate": "1985-09-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 150,
+          "firstName": "Boyd",
+          "lastName": "Kane",
+          "jerseyNumber": 12,
+          "position": "RW",
+          "birthDate": "1978-04-18"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 153,
+          "firstName": "Tomas",
+          "lastName": "Fleischmann",
+          "jerseyNumber": 14,
+          "position": "LW",
+          "birthDate": "1984-05-16"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 156,
+          "firstName": "Chris",
+          "lastName": "Bourque",
+          "jerseyNumber": 17,
+          "position": "LW",
+          "birthDate": "1986-01-29"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 159,
+          "firstName": "Jakub",
+          "lastName": "Klepis",
+          "jerseyNumber": 18,
+          "position": "RW",
+          "birthDate": "1984-06-05"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 168,
+          "firstName": "Dave",
+          "lastName": "Steckel",
+          "jerseyNumber": 20,
+          "position": "C",
+          "birthDate": "1982-05-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 170,
+          "firstName": "Graham",
+          "lastName": "Mink",
+          "jerseyNumber": 21,
+          "position": "RW",
+          "birthDate": "1979-05-21"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 172,
+          "firstName": "Owen",
+          "lastName": "Fussey",
+          "jerseyNumber": 22,
+          "position": "LW",
+          "birthDate": "1983-04-02"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 179,
+          "firstName": "Louis",
+          "lastName": "Robitaille",
+          "jerseyNumber": 24,
+          "position": "D",
+          "birthDate": "1982-03-16"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 184,
+          "firstName": "Brooks",
+          "lastName": "Laich",
+          "jerseyNumber": 26,
+          "position": "C",
+          "birthDate": "1983-06-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 187,
+          "firstName": "Lawrence",
+          "lastName": "Nycholat",
+          "jerseyNumber": 28,
+          "position": "D",
+          "birthDate": "1979-05-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 190,
+          "firstName": "Dean",
+          "lastName": "Arsene",
+          "jerseyNumber": 29,
+          "position": "D",
+          "birthDate": "1980-07-12"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 195,
+          "firstName": "Jakub",
+          "lastName": "Cutta",
+          "jerseyNumber": 32,
+          "position": "D",
+          "birthDate": "1981-12-29"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 4,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 192,
+          "firstName": "Kirk",
+          "lastName": "Daubenspeck",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": "1974-07-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 203,
+          "firstName": "Frederic",
+          "lastName": "Cassivi",
+          "jerseyNumber": 35,
+          "position": "G",
+          "birthDate": "1975-06-12"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "59:26",
+          "shotsAgainst": 26,
+          "goalsAgainst": 2,
+          "saves": 24
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "periods": [
+    {
+      "info": { "id": "1", "shortName": "", "longName": "1st" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "4",
+        "visitingGoals": "0",
+        "visitingShots": "11"
+      },
+      "goals": [
+        {
+          "game_goal_id": "71",
+          "team": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "8:07",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 15,
+            "firstName": "Ryan",
+            "lastName": "Stone",
+            "jerseyNumber": 23,
+            "position": "C",
+            "birthDate": "1985-03-20"
+          },
+          "assists": [],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "1",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 17,
+              "firstName": "Chris",
+              "lastName": "Kelleher",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": "1975-03-23"
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": "1982-08-26"
+            },
+            {
+              "id": 13,
+              "firstName": "Guillaume",
+              "lastName": "Lefebvre",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": "1981-05-07"
+            },
+            {
+              "id": 15,
+              "firstName": "Ryan",
+              "lastName": "Stone",
+              "jerseyNumber": 23,
+              "position": "C",
+              "birthDate": "1985-03-20"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 142,
+              "firstName": "Jean-Francois",
+              "lastName": "Fortin",
+              "jerseyNumber": 7,
+              "position": "D",
+              "birthDate": "1979-03-15"
+            },
+            {
+              "id": 150,
+              "firstName": "Boyd",
+              "lastName": "Kane",
+              "jerseyNumber": 12,
+              "position": "RW",
+              "birthDate": "1978-04-18"
+            },
+            {
+              "id": 156,
+              "firstName": "Chris",
+              "lastName": "Bourque",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": "1986-01-29"
+            },
+            {
+              "id": 159,
+              "firstName": "Jakub",
+              "lastName": "Klepis",
+              "jerseyNumber": 18,
+              "position": "RW",
+              "birthDate": "1984-06-05"
+            },
+            {
+              "id": 170,
+              "firstName": "Graham",
+              "lastName": "Mink",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": "1979-05-21"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "0:40",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Slashing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 13,
+            "firstName": "Guillaume",
+            "lastName": "Lefebvre",
+            "jerseyNumber": 17,
+            "position": "LW",
+            "birthDate": "1981-05-07"
+          },
+          "servedBy": {
+            "id": 13,
+            "firstName": "Guillaume",
+            "lastName": "Lefebvre",
+            "jerseyNumber": 17,
+            "position": "LW",
+            "birthDate": "1981-05-07"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "3:00",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Slashing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 13,
+            "firstName": "Guillaume",
+            "lastName": "Lefebvre",
+            "jerseyNumber": 17,
+            "position": "LW",
+            "birthDate": "1981-05-07"
+          },
+          "servedBy": {
+            "id": 13,
+            "firstName": "Guillaume",
+            "lastName": "Lefebvre",
+            "jerseyNumber": 17,
+            "position": "LW",
+            "birthDate": "1981-05-07"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "6:29",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Unsportsmanlike conduct",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 5,
+            "firstName": "Dennis",
+            "lastName": "Bonvie",
+            "jerseyNumber": 27,
+            "position": "RW",
+            "birthDate": "1973-07-23"
+          },
+          "servedBy": {
+            "id": 5,
+            "firstName": "Dennis",
+            "lastName": "Bonvie",
+            "jerseyNumber": 27,
+            "position": "RW",
+            "birthDate": "1973-07-23"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "8:19",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 195,
+            "firstName": "Jakub",
+            "lastName": "Cutta",
+            "jerseyNumber": 32,
+            "position": "D",
+            "birthDate": "1981-12-29"
+          },
+          "servedBy": {
+            "id": 195,
+            "firstName": "Jakub",
+            "lastName": "Cutta",
+            "jerseyNumber": 32,
+            "position": "D",
+            "birthDate": "1981-12-29"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "8:59",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 24,
+            "firstName": "Tomas",
+            "lastName": "Surovy",
+            "jerseyNumber": 25,
+            "position": "LW",
+            "birthDate": "1981-09-24"
+          },
+          "servedBy": {
+            "id": 24,
+            "firstName": "Tomas",
+            "lastName": "Surovy",
+            "jerseyNumber": 25,
+            "position": "LW",
+            "birthDate": "1981-09-24"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "17:54",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Kneeing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "servedBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "2", "shortName": "", "longName": "2nd" },
+      "stats": {
+        "homeGoals": "0",
+        "homeShots": "10",
+        "visitingGoals": "0",
+        "visitingShots": "7"
+      },
+      "goals": [],
+      "penalties": [
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "2:52",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 21,
+            "firstName": "Andy",
+            "lastName": "Schneider",
+            "jerseyNumber": 2,
+            "position": "D",
+            "birthDate": "1981-07-31"
+          },
+          "servedBy": {
+            "id": 21,
+            "firstName": "Andy",
+            "lastName": "Schneider",
+            "jerseyNumber": 2,
+            "position": "D",
+            "birthDate": "1981-07-31"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "5:31",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Interference",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 195,
+            "firstName": "Jakub",
+            "lastName": "Cutta",
+            "jerseyNumber": 32,
+            "position": "D",
+            "birthDate": "1981-12-29"
+          },
+          "servedBy": {
+            "id": 195,
+            "firstName": "Jakub",
+            "lastName": "Cutta",
+            "jerseyNumber": 32,
+            "position": "D",
+            "birthDate": "1981-12-29"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "8:05",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Goaltender interference",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 146,
+            "firstName": "Joey",
+            "lastName": "Tenute",
+            "jerseyNumber": 10,
+            "position": "C",
+            "birthDate": "1983-04-02"
+          },
+          "servedBy": {
+            "id": 146,
+            "firstName": "Joey",
+            "lastName": "Tenute",
+            "jerseyNumber": 10,
+            "position": "C",
+            "birthDate": "1983-04-02"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "13:02",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 12,
+            "firstName": "Matt",
+            "lastName": "Hussey",
+            "jerseyNumber": 28,
+            "position": "C",
+            "birthDate": "1979-05-28"
+          },
+          "servedBy": {
+            "id": 12,
+            "firstName": "Matt",
+            "lastName": "Hussey",
+            "jerseyNumber": 28,
+            "position": "C",
+            "birthDate": "1979-05-28"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "14:16",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 4,
+            "firstName": "Colby",
+            "lastName": "Armstrong",
+            "jerseyNumber": 9,
+            "position": "RW",
+            "birthDate": "1982-11-23"
+          },
+          "servedBy": {
+            "id": 4,
+            "firstName": "Colby",
+            "lastName": "Armstrong",
+            "jerseyNumber": 9,
+            "position": "RW",
+            "birthDate": "1982-11-23"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "3", "shortName": "", "longName": "3rd" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "12",
+        "visitingGoals": "1",
+        "visitingShots": "9"
+      },
+      "goals": [
+        {
+          "game_goal_id": "92",
+          "team": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "7:53",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 11,
+            "firstName": "Jonathan",
+            "lastName": "Filewich",
+            "jerseyNumber": 18,
+            "position": "RW",
+            "birthDate": "1984-10-02"
+          },
+          "assists": [
+            {
+              "id": 21,
+              "firstName": "Andy",
+              "lastName": "Schneider",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1981-07-31"
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": "1982-08-26"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "1"
+          },
+          "plus_players": [
+            {
+              "id": 21,
+              "firstName": "Andy",
+              "lastName": "Schneider",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1981-07-31"
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": "1982-08-26"
+            },
+            {
+              "id": 9,
+              "firstName": "Stephen",
+              "lastName": "Dixon",
+              "jerseyNumber": 10,
+              "position": "C",
+              "birthDate": "1985-09-07"
+            },
+            {
+              "id": 11,
+              "firstName": "Jonathan",
+              "lastName": "Filewich",
+              "jerseyNumber": 18,
+              "position": "RW",
+              "birthDate": "1984-10-02"
+            },
+            {
+              "id": 15,
+              "firstName": "Ryan",
+              "lastName": "Stone",
+              "jerseyNumber": 23,
+              "position": "C",
+              "birthDate": "1985-03-20"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 130,
+              "firstName": "Mark",
+              "lastName": "Wotton",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": "1973-10-16"
+            },
+            {
+              "id": 142,
+              "firstName": "Jean-Francois",
+              "lastName": "Fortin",
+              "jerseyNumber": 7,
+              "position": "D",
+              "birthDate": "1979-03-15"
+            },
+            {
+              "id": 168,
+              "firstName": "Dave",
+              "lastName": "Steckel",
+              "jerseyNumber": 20,
+              "position": "C",
+              "birthDate": "1982-05-15"
+            },
+            {
+              "id": 172,
+              "firstName": "Owen",
+              "lastName": "Fussey",
+              "jerseyNumber": 22,
+              "position": "LW",
+              "birthDate": "1983-04-02"
+            },
+            {
+              "id": 190,
+              "firstName": "Dean",
+              "lastName": "Arsene",
+              "jerseyNumber": 29,
+              "position": "D",
+              "birthDate": "1980-07-12"
+            }
+          ]
+        },
+        {
+          "game_goal_id": "93",
+          "team": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "16:27",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 170,
+            "firstName": "Graham",
+            "lastName": "Mink",
+            "jerseyNumber": 21,
+            "position": "RW",
+            "birthDate": "1979-05-21"
+          },
+          "assists": [
+            {
+              "id": 184,
+              "firstName": "Brooks",
+              "lastName": "Laich",
+              "jerseyNumber": 26,
+              "position": "C",
+              "birthDate": "1983-06-23"
+            },
+            {
+              "id": 148,
+              "firstName": "Eric",
+              "lastName": "Fehr",
+              "jerseyNumber": 11,
+              "position": "RW",
+              "birthDate": "1985-09-07"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "1",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 148,
+              "firstName": "Eric",
+              "lastName": "Fehr",
+              "jerseyNumber": 11,
+              "position": "RW",
+              "birthDate": "1985-09-07"
+            },
+            {
+              "id": 156,
+              "firstName": "Chris",
+              "lastName": "Bourque",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": "1986-01-29"
+            },
+            {
+              "id": 170,
+              "firstName": "Graham",
+              "lastName": "Mink",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": "1979-05-21"
+            },
+            {
+              "id": 184,
+              "firstName": "Brooks",
+              "lastName": "Laich",
+              "jerseyNumber": 26,
+              "position": "C",
+              "birthDate": "1983-06-23"
+            },
+            {
+              "id": 187,
+              "firstName": "Lawrence",
+              "lastName": "Nycholat",
+              "jerseyNumber": 28,
+              "position": "D",
+              "birthDate": "1979-05-07"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 4,
+              "firstName": "Colby",
+              "lastName": "Armstrong",
+              "jerseyNumber": 9,
+              "position": "RW",
+              "birthDate": "1982-11-23"
+            },
+            {
+              "id": 13,
+              "firstName": "Guillaume",
+              "lastName": "Lefebvre",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": "1981-05-07"
+            },
+            {
+              "id": 23,
+              "firstName": "Ryan",
+              "lastName": "Whitney",
+              "jerseyNumber": 19,
+              "position": "D",
+              "birthDate": "1983-02-19"
+            },
+            {
+              "id": 20,
+              "firstName": "Alain",
+              "lastName": "Nasreddine",
+              "jerseyNumber": 32,
+              "position": "D",
+              "birthDate": "1975-07-10"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "1:32",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 136,
+            "firstName": "Mike",
+            "lastName": "Green",
+            "jerseyNumber": 5,
+            "position": "D",
+            "birthDate": "1985-10-12"
+          },
+          "servedBy": {
+            "id": 136,
+            "firstName": "Mike",
+            "lastName": "Green",
+            "jerseyNumber": 5,
+            "position": "D",
+            "birthDate": "1985-10-12"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "5:51",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Slashing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 142,
+            "firstName": "Jean-Francois",
+            "lastName": "Fortin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": "1979-03-15"
+          },
+          "servedBy": {
+            "id": 142,
+            "firstName": "Jean-Francois",
+            "lastName": "Fortin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": "1979-03-15"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "10:22",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 15,
+            "firstName": "Ryan",
+            "lastName": "Stone",
+            "jerseyNumber": 23,
+            "position": "C",
+            "birthDate": "1985-03-20"
+          },
+          "servedBy": {
+            "id": 15,
+            "firstName": "Ryan",
+            "lastName": "Stone",
+            "jerseyNumber": 23,
+            "position": "C",
+            "birthDate": "1985-03-20"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "12:05",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 142,
+            "firstName": "Jean-Francois",
+            "lastName": "Fortin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": "1979-03-15"
+          },
+          "servedBy": {
+            "id": 142,
+            "firstName": "Jean-Francois",
+            "lastName": "Fortin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": "1979-03-15"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "15:53",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Kneeing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "servedBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "15:53",
+          "againstTeam": {
+            "id": 316,
+            "name": "Wilkes-Barre/Scranton Penguins",
+            "city": "W-B/Scranton",
+            "nickname": "Penguins",
+            "abbreviation": "WBS",
+            "logo": "https://assets.leaguestat.com/ahl/logos/316.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Unsportsmanlike conduct",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "servedBy": {
+            "id": 6,
+            "firstName": "Daniel",
+            "lastName": "Carcillo",
+            "jerseyNumber": 13,
+            "position": "LW",
+            "birthDate": "1985-01-28"
+          },
+          "isPowerPlay": false,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "17:11",
+          "againstTeam": {
+            "id": 319,
+            "name": "Hershey Bears",
+            "city": "Hershey",
+            "nickname": "Hershey",
+            "abbreviation": "HER",
+            "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+            "divisionName": "East Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 150,
+            "firstName": "Boyd",
+            "lastName": "Kane",
+            "jerseyNumber": 12,
+            "position": "RW",
+            "birthDate": "1978-04-18"
+          },
+          "servedBy": {
+            "id": 150,
+            "firstName": "Boyd",
+            "lastName": "Kane",
+            "jerseyNumber": 12,
+            "position": "RW",
+            "birthDate": "1978-04-18"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    }
+  ],
+  "penaltyShots": { "homeTeam": [], "visitingTeam": [] },
+  "featuredPlayer": {
+    "team": {
+      "id": 319,
+      "name": "Hershey Bears",
+      "city": "Hershey",
+      "nickname": "Hershey",
+      "abbreviation": "HER",
+      "logo": "https://assets.leaguestat.com/ahl/logos/319_1.jpg",
+      "divisionName": "East Division"
+    },
+    "player": {
+      "info": {
+        "id": 0,
+        "firstName": null,
+        "lastName": null,
+        "jerseyNumber": 0,
+        "position": null,
+        "birthDate": null
+      },
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "penaltyMinutes": 0,
+        "plusMinus": 0,
+        "faceoffAttempts": 0,
+        "faceoffWins": 0,
+        "shots": 0,
+        "hits": 0
+      },
+      "starting": 0,
+      "status": null
+    },
+    "isGoalie": false,
+    "playerImage": " ",
+    "sponsor": { "name": null, "image": null }
+  }
+}

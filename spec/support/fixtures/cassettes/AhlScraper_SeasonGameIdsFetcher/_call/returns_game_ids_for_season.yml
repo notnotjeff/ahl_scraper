@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:46:15 GMT
+      - Mon, 21 Jun 2021 03:36:10 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=68fv4u924848904bgb0lj7djbv; path=/
+      - PHPSESSID=ii0l041uib02hiv31d9nleavmu; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -3078,5 +3078,5 @@ http_interactions:
         Mar 11","home_goal_count":"2","visiting_goal_count":"4","game_status":"Final","home_team_city":"Tucson","visiting_team_city":"San
         Diego","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
         SUMMARY","game_center":"Game Center"}}]}]}])
-  recorded_at: Sun, 20 Jun 2021 05:46:16 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:11 GMT
 recorded_with: VCR 6.0.0

@@ -47,6 +47,8 @@ This gem is divided into multiple modules that provide you with an assortment of
   - `retrieve_all`
 - [PlayerGames](#playergames)
   - `list`
+- [TeamGames](#teamgames)
+  - `list`
 
 ### Seasons
 
@@ -199,6 +201,19 @@ AhlScraper::PlayerGames.list(304, 1)
 
 #=> [#<SkaterGameListItem:0x3c3c {:date=>"2005-10-08", :game_id=>1001046, :shots=>2, :goals_sh=>0, :game_name=>"BNG @ PHI", :game_winning_goals=>0, :plus_minus=>-1, :assists=>1, :points=>1, :shootout_goals=>0, :penalty_minutes=>0, :shootout_attempts=>0, :goals=>0, :goals_pp=>0}>,
  #<SkaterGameListItem:0x3c50 {:date=>"2005-10-15", :game_id=>1001069, :shots=>4, :goals_sh=>0, ... ]
+```
+
+### TeamGames
+
+#### list(team_id, season_id)
+
+Returns an array of `TeamGameListItem` objects which provide information on each game a team has played that season. Pass the team id and the season id:
+
+```ruby
+require "ahl_scraper"
+AhlScraper::TeamGames.list(335, 61)
+
+#=> [#<TeamGameListItem:0x418c {:at_home?=>false, :status=>"Final", :game_id=>1018347, :away_team=>{:id=>335, :city=>"Toronto"}, :home_team=>{:id=>390, :city=>"Utica"}, :game_name=>"Toronto @ Utica", :game_report_url=>"https://lscluster.hockeytech.com/game_reports/text-game-report.php?client_code=ahl&game_id=1018347&lang_id=1", :game_sheet_url=>"https://lscluster.hockeytech.com/game_reports/official-game-report.php?client_code=ahl&game_id=1018347&lang_id=1", :game_center_url=>"https://theahl.com/stats/game-center/1018347", :home_score=>3, :away_score=>7, :date=>"Fri, Oct 5"}>, ...]
 ```
 
 ## Development

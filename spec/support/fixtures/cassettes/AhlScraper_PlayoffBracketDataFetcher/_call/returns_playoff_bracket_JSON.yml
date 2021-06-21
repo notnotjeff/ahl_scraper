@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 20 Jun 2021 05:46:21 GMT
+      - Mon, 21 Jun 2021 03:36:17 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=cnpvkqem3jr4e4v9cnr8s6st3o; path=/
+      - PHPSESSID=bamdopb83jt3odug4dq7bd9gq6; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -314,5 +314,5 @@ http_interactions:
         review the call  on the ice stands GOAL Texas."}],"team1_wins":4,"team2_wins":3,"ties":0}]}],"logo":"https:\/\/lscluster.hockeytech.com\/download.php?file_path=img\/playoffs_60.jpg&client_code=ahl"},"Copyright":{"required_copyright":"Official
         statistics provided by American Hockey League","required_link":"http:\/\/leaguestat.com","powered_by":"Powered
         by HockeyTech.com","powered_by_url":"http:\/\/hockeytech.com"}}})'
-  recorded_at: Sun, 20 Jun 2021 05:46:21 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:17 GMT
 recorded_with: VCR 6.0.0

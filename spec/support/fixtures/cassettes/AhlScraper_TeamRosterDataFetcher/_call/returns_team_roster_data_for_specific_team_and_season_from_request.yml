@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:46:20 GMT
+      - Mon, 21 Jun 2021 03:36:15 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -31,7 +31,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=jo1eb8i4o9dto5nj3jc6ekjdqb; path=/
+      - PHPSESSID=vq16drmrba327j77j4ovgvrtqa; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -168,7 +168,7 @@ http_interactions:
         Coach"}},{"prop":[],"row":{"name":"Rob Davison","role":"Assistant Coach"}},{"prop":[],"row":{"name":"Jack
         Han","role":"Assistant Coach"}},{"prop":[],"row":{"name":"A.J. MacLean","role":"Assistant
         Coach"}}]}]}]})
-  recorded_at: Sun, 20 Jun 2021 05:46:20 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:16 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=skaters&rookies=0&rosterstatus=undefined&season=65&site_id=3&sort=points&statsType=standard&team=335&view=players
@@ -192,7 +192,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:46:20 GMT
+      - Mon, 21 Jun 2021 03:36:16 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -200,7 +200,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=pete2uhcossepuc0ogm8sd2tdh; path=/
+      - PHPSESSID=47q4jcpi0gnkrttst1b779a0l0; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -326,7 +326,7 @@ http_interactions:
         Hutchinson","active":"0","position":"G","rookie":"0","team_code":"TOR","games_played":"4","goals":"0","shots":"0","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"0","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":51}},{"prop":{"name":{"playerLink":"8003","seoName":"Joseph
         Woll"},"active":{"active":"1"},"rookie":{"rookie":"1"},"team_code":{"teamLink":"335"}},"row":{"player_id":"8003","name":"Joseph
         Woll","active":"1","position":"G","rookie":"1","team_code":"TOR","games_played":"32","goals":"0","shots":"0","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"0","penalty_minutes":"4","penalty_minutes_per_game":"0.13","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":52}}]}]}])
-  recorded_at: Sun, 20 Jun 2021 05:46:20 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:16 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=defencemen&rookies=0&rosterstatus=undefined&season=65&site_id=3&sort=points&statsType=standard&team=335&view=players
@@ -350,7 +350,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:46:21 GMT
+      - Mon, 21 Jun 2021 03:36:16 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -358,7 +358,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=3ahqa2a274vipoosg6mih9u5fq; path=/
+      - PHPSESSID=t59fqcf1k16pp9piv9rcjpac54; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -414,7 +414,7 @@ http_interactions:
         Johnston","active":"0","position":"D","rookie":"1","team_code":"TOR","games_played":"1","goals":"0","shots":"1","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"0","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":16}},{"prop":{"name":{"playerLink":"3586","seoName":"Jake
         Muzzin"},"active":{"active":"0"},"rookie":{"rookie":"0"},"team_code":{"teamLink":"335"}},"row":{"player_id":"3586","name":"Jake
         Muzzin","active":"0","position":"D","rookie":"0","team_code":"TOR","games_played":"1","goals":"0","shots":"3","assists":"0","points":"0","points_per_game":"0.00","plus_minus":"0","penalty_minutes":"0","penalty_minutes_per_game":"0.00","power_play_goals":"0","short_handed_goals":"0","shootout_goals":"0","shootout_attempts":"0","shootout_winning_goals":"0","shootout_percentage":"0.0","rank":17}}]}]}])
-  recorded_at: Sun, 20 Jun 2021 05:46:21 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:16 GMT
 - request:
     method: get
     uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division=-1&feed=statviewfeed&first=0&key=50c2cd9b5e18e390&lang=en&league_id=4&limit=20&position=goalies&qualified=all&rookies=0&rosterstatus=undefined&season=65&site_id=3&sort=gaa&statsType=standard&team=335&view=players
@@ -438,7 +438,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sun, 20 Jun 2021 05:46:21 GMT
+      - Mon, 21 Jun 2021 03:36:16 GMT
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Pragma:
@@ -446,7 +446,7 @@ http_interactions:
       Server:
       - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
       Set-Cookie:
-      - PHPSESSID=sbojfd0abj5ir9pv6u01rnl9m7; path=/
+      - PHPSESSID=a3a1sei0d44269p7akffa4arve; path=/
       Vary:
       - Accept-Encoding
       X-Powered-By:
@@ -478,5 +478,5 @@ http_interactions:
         Woll","active":"1","team_code":"TOR","games_played":"32","minutes_played":"1745:19","saves":"803","shots":"912","save_percentage":"0.880","goals_against":"109","shutouts":"2","wins":"11","losses":"16","ot_losses":"3","shootout_goals_against":"2","shootout_attempts":"9","shootout_percentage":"0.778","goals_against_average":"3.75","rank":4}},{"prop":[],"row":{"games_played":"43","goals_against":"15","goals_against_average":"16.75","shots":"15","name":"Empty
         Net ","minutes_played":"53:44"}},{"prop":[],"row":{"games_played":"61","minutes_played":"3688:09","saves":"1688","shots":"1898","save_percentage":"0.889","goals_against":"210","shutouts":3,"wins":"29","losses":"27","ot_losses":"3","shootout_goals_against":"3","shootout_attempts":"14","shootout_percentage":"0.786","goals_against_average":"3.42","name":"Totals
         "}}]}]}])
-  recorded_at: Sun, 20 Jun 2021 05:46:21 GMT
+  recorded_at: Mon, 21 Jun 2021 03:36:17 GMT
 recorded_with: VCR 6.0.0

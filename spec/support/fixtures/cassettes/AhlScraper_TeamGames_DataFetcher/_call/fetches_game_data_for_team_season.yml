@@ -1,0 +1,158 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://lscluster.hockeytech.com/feed/index.php?callback=json&client_code=ahl&division_id=-1&feed=statviewfeed&key=ccb91f29d6744675&lang=en&league_id=4&location=homeaway&month=-1&season=68&site_id=3&team=313&view=schedule
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 21 Jun 2021 03:36:15 GMT
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.3.13
+      Set-Cookie:
+      - PHPSESSID=c7tkuflsugva32k4crlrvo475e; path=/
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - PHP/7.3.13
+      Content-Length:
+      - '1947'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: json([{"sections":[{"title":"","headers":{"date_with_day":{"properties":{"key":"date_with_day","hidden":false,"class":"","label":"Date","title":"Date","sortable":true,"align":"left","highlight":false,"sortKey":""}},"game_status":{"properties":{"key":"game_status","hidden":false,"class":"","label":"Time","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"visiting_team_city":{"properties":{"key":"visiting_team_city","hidden":false,"class":"","label":"Visiting
+        Team","title":"","sortable":true,"align":"left","highlight":false,"sortKey":""}},"visiting_goal_count":{"properties":{"key":"visiting_goal_count","hidden":false,"class":"","label":"Score","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"home_team_city":{"properties":{"key":"home_team_city","hidden":false,"class":"","label":"Home
+        Team","title":"","sortable":true,"align":"left","highlight":false,"sortKey":""}},"home_goal_count":{"properties":{"key":"home_goal_count","hidden":false,"class":"","label":"Score","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_center":{"properties":{"key":"game_center","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_sheet":{"properties":{"key":"game_sheet","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_report":{"properties":{"key":"game_report","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_summary_long":{"properties":{"key":"game_summary_long","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"mobile_calendar":{"properties":{"key":"mobile_calendar","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"tickets_url":{"properties":{"key":"tickets_url","hidden":false,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}},"game_id":{"properties":{"key":"game_id","hidden":true,"class":"","label":"","title":"","sortable":true,"align":"center","highlight":false,"sortKey":""}}},"data":[{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022057&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022057&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022057","gameLink":"1022057"},"game_center":{"link":"\/game-center\/?game_id=1022057","gameLink":"1022057"}},"row":{"game_id":"1022057","date_with_day":"Sat,
+        Feb 6","home_goal_count":"1","visiting_goal_count":"2","game_status":"Final
+        OT","home_team_city":"Hershey","visiting_team_city":"Lehigh Valley","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022068&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022068&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022068","gameLink":"1022068"},"game_center":{"link":"\/game-center\/?game_id=1022068","gameLink":"1022068"}},"row":{"game_id":"1022068","date_with_day":"Wed,
+        Feb 10","home_goal_count":"2","visiting_goal_count":"1","game_status":"Final
+        OT","home_team_city":"Binghamton","visiting_team_city":"Lehigh Valley","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022085&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022085&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022085","gameLink":"1022085"},"game_center":{"link":"\/game-center\/?game_id=1022085","gameLink":"1022085"}},"row":{"game_id":"1022085","date_with_day":"Sun,
+        Feb 14","home_goal_count":"4","visiting_goal_count":"5","game_status":"Final
+        OT","home_team_city":"Hershey","visiting_team_city":"Lehigh Valley","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"414"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022106&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022106&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022106","gameLink":"1022106"},"game_center":{"link":"\/game-center\/?game_id=1022106","gameLink":"1022106"}},"row":{"game_id":"1022106","date_with_day":"Sat,
+        Feb 20","home_goal_count":"3","visiting_goal_count":"0","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Binghamton","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022098&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022098&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022098","gameLink":"1022098"},"game_center":{"link":"\/game-center\/?game_id=1022098","gameLink":"1022098"}},"row":{"game_id":"1022098","date_with_day":"Wed,
+        Feb 24","home_goal_count":"4","visiting_goal_count":"5","game_status":"Final
+        OT","home_team_city":"Binghamton","visiting_team_city":"Lehigh Valley","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"316"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022129&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022129&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022129","gameLink":"1022129"},"game_center":{"link":"\/game-center\/?game_id=1022129","gameLink":"1022129"}},"row":{"game_id":"1022129","date_with_day":"Fri,
+        Feb 26","home_goal_count":"4","visiting_goal_count":"2","game_status":"Final","home_team_city":"Wilkes-Barre\/Scranton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"316"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022136&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022136&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022136","gameLink":"1022136"},"game_center":{"link":"\/game-center\/?game_id=1022136","gameLink":"1022136"}},"row":{"game_id":"1022136","date_with_day":"Sat,
+        Feb 27","home_goal_count":"4","visiting_goal_count":"5","game_status":"Final
+        OT","home_team_city":"Lehigh Valley","visiting_team_city":"Wilkes-Barre\/Scranton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"319"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022145&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022145&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022145","gameLink":"1022145"},"game_center":{"link":"\/game-center\/?game_id=1022145","gameLink":"1022145"}},"row":{"game_id":"1022145","date_with_day":"Wed,
+        Mar 3","home_goal_count":"4","visiting_goal_count":"3","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Hershey","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022162&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022162&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022162","gameLink":"1022162"},"game_center":{"link":"\/game-center\/?game_id=1022162","gameLink":"1022162"}},"row":{"game_id":"1022162","date_with_day":"Sat,
+        Mar 6","home_goal_count":"4","visiting_goal_count":"1","game_status":"Final","home_team_city":"Hershey","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"316"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022171&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022171&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022171","gameLink":"1022171"},"game_center":{"link":"\/game-center\/?game_id=1022171","gameLink":"1022171"}},"row":{"game_id":"1022171","date_with_day":"Mon,
+        Mar 8","home_goal_count":"3","visiting_goal_count":"4","game_status":"Final
+        OT","home_team_city":"Wilkes-Barre\/Scranton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022174&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022174&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022174","gameLink":"1022174"},"game_center":{"link":"\/game-center\/?game_id=1022174","gameLink":"1022174"}},"row":{"game_id":"1022174","date_with_day":"Wed,
+        Mar 10","home_goal_count":"1","visiting_goal_count":"1","game_status":"Final","home_team_city":"Binghamton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022196&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022196&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022196","gameLink":"1022196"},"game_center":{"link":"\/game-center\/?game_id=1022196","gameLink":"1022196"}},"row":{"game_id":"1022196","date_with_day":"Sun,
+        Mar 14","home_goal_count":"1","visiting_goal_count":"4","game_status":"Final","home_team_city":"Hershey","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"316"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022224&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022224&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022224","gameLink":"1022224"},"game_center":{"link":"\/game-center\/?game_id=1022224","gameLink":"1022224"}},"row":{"game_id":"1022224","date_with_day":"Sun,
+        Mar 21","home_goal_count":"5","visiting_goal_count":"4","game_status":"Final
+        OT","home_team_city":"Lehigh Valley","visiting_team_city":"Wilkes-Barre\/Scranton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"319"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022229&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022229&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022229","gameLink":"1022229"},"game_center":{"link":"\/game-center\/?game_id=1022229","gameLink":"1022229"}},"row":{"game_id":"1022229","date_with_day":"Wed,
+        Mar 24","home_goal_count":"2","visiting_goal_count":"6","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Hershey","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022235&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022235&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022235","gameLink":"1022235"},"game_center":{"link":"\/game-center\/?game_id=1022235","gameLink":"1022235"}},"row":{"game_id":"1022235","date_with_day":"Fri,
+        Mar 26","home_goal_count":"2","visiting_goal_count":"3","game_status":"Final","home_team_city":"Binghamton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"414"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022247&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022247&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022247","gameLink":"1022247"},"game_center":{"link":"\/game-center\/?game_id=1022247","gameLink":"1022247"}},"row":{"game_id":"1022247","date_with_day":"Sat,
+        Mar 27","home_goal_count":"6","visiting_goal_count":"3","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Binghamton","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"319"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022260&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022260&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022260","gameLink":"1022260"},"game_center":{"link":"\/game-center\/?game_id=1022260","gameLink":"1022260"}},"row":{"game_id":"1022260","date_with_day":"Wed,
+        Mar 31","home_goal_count":"4","visiting_goal_count":"1","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Hershey","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"316"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022277&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022277&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022277","gameLink":"1022277"},"game_center":{"link":"\/game-center\/?game_id=1022277","gameLink":"1022277"}},"row":{"game_id":"1022277","date_with_day":"Sat,
+        Apr 3","home_goal_count":"5","visiting_goal_count":"4","game_status":"Final
+        SO","home_team_city":"Lehigh Valley","visiting_team_city":"Wilkes-Barre\/Scranton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022296&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022296&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022296","gameLink":"1022296"},"game_center":{"link":"\/game-center\/?game_id=1022296","gameLink":"1022296"}},"row":{"game_id":"1022296","date_with_day":"Mon,
+        Apr 5","home_goal_count":"2","visiting_goal_count":"1","game_status":"Final
+        SO","home_team_city":"Binghamton","visiting_team_city":"Lehigh Valley","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"319"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022345&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022345&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022345","gameLink":"1022345"},"game_center":{"link":"\/game-center\/?game_id=1022345","gameLink":"1022345"}},"row":{"game_id":"1022345","date_with_day":"Wed,
+        Apr 21","home_goal_count":"1","visiting_goal_count":"6","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Hershey","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022352&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022352&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022352","gameLink":"1022352"},"game_center":{"link":"\/game-center\/?game_id=1022352","gameLink":"1022352"}},"row":{"game_id":"1022352","date_with_day":"Fri,
+        Apr 23","home_goal_count":"2","visiting_goal_count":"4","game_status":"Final","home_team_city":"Binghamton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"414"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022361&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022361&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022361","gameLink":"1022361"},"game_center":{"link":"\/game-center\/?game_id=1022361","gameLink":"1022361"}},"row":{"game_id":"1022361","date_with_day":"Sat,
+        Apr 24","home_goal_count":"3","visiting_goal_count":"2","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Binghamton","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022609&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022609&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022609","gameLink":"1022609"},"game_center":{"link":"\/game-center\/?game_id=1022609","gameLink":"1022609"}},"row":{"game_id":"1022609","date_with_day":"Mon,
+        Apr 26","home_goal_count":"5","visiting_goal_count":"6","game_status":"Final","home_team_city":"Binghamton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"316"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022375&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022375&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022375","gameLink":"1022375"},"game_center":{"link":"\/game-center\/?game_id=1022375","gameLink":"1022375"}},"row":{"game_id":"1022375","date_with_day":"Wed,
+        Apr 28","home_goal_count":"2","visiting_goal_count":"1","game_status":"Final
+        OT","home_team_city":"Wilkes-Barre\/Scranton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"414"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022389&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022389&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022389","gameLink":"1022389"},"game_center":{"link":"\/game-center\/?game_id=1022389","gameLink":"1022389"}},"row":{"game_id":"1022389","date_with_day":"Sat,
+        May 1","home_goal_count":"2","visiting_goal_count":"4","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Binghamton","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022396&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022396&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022396","gameLink":"1022396"},"game_center":{"link":"\/game-center\/?game_id=1022396","gameLink":"1022396"}},"row":{"game_id":"1022396","date_with_day":"Sun,
+        May 2","home_goal_count":"2","visiting_goal_count":"0","game_status":"Final","home_team_city":"Hershey","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"319"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022401&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022401&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022401","gameLink":"1022401"},"game_center":{"link":"\/game-center\/?game_id=1022401","gameLink":"1022401"}},"row":{"game_id":"1022401","date_with_day":"Wed,
+        May 5","home_goal_count":"5","visiting_goal_count":"3","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Hershey","game_report":"Game Report","game_sheet":"Game
+        Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"319"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022417&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022417&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022417","gameLink":"1022417"},"game_center":{"link":"\/game-center\/?game_id=1022417","gameLink":"1022417"}},"row":{"game_id":"1022417","date_with_day":"Sat,
+        May 8","home_goal_count":"3","visiting_goal_count":"0","game_status":"Final","home_team_city":"Hershey","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"316"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022423&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022423&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022423","gameLink":"1022423"},"game_center":{"link":"\/game-center\/?game_id=1022423","gameLink":"1022423"}},"row":{"game_id":"1022423","date_with_day":"Sun,
+        May 9","home_goal_count":"6","visiting_goal_count":"2","game_status":"Final","home_team_city":"Lehigh
+        Valley","visiting_team_city":"Wilkes-Barre\/Scranton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"414"},"visiting_team_city":{"teamLink":"313"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022429&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022429&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022429","gameLink":"1022429"},"game_center":{"link":"\/game-center\/?game_id=1022429","gameLink":"1022429"}},"row":{"game_id":"1022429","date_with_day":"Wed,
+        May 12","home_goal_count":"1","visiting_goal_count":"2","game_status":"Final","home_team_city":"Binghamton","visiting_team_city":"Lehigh
+        Valley","game_report":"Game Report","game_sheet":"Game Sheet","game_summary_long":"GAME
+        SUMMARY","game_center":"Game Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"316"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022450&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022450&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022450","gameLink":"1022450"},"game_center":{"link":"\/game-center\/?game_id=1022450","gameLink":"1022450"}},"row":{"game_id":"1022450","date_with_day":"Sat,
+        May 15","home_goal_count":"1","visiting_goal_count":"2","game_status":"Final
+        OT","home_team_city":"Lehigh Valley","visiting_team_city":"Wilkes-Barre\/Scranton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}},{"prop":{"home_team_city":{"teamLink":"313"},"visiting_team_city":{"teamLink":"414"},"game_report":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/text-game-report.php?client_code=ahl&game_id=1022454&lang_id=1"},"game_sheet":{"link":"https:\/\/lscluster.hockeytech.com\/game_reports\/official-game-report.php?client_code=ahl&game_id=1022454&lang_id=1"},"game_summary_long":{"link":"\/game-summary\/?game_id=1022454","gameLink":"1022454"},"game_center":{"link":"\/game-center\/?game_id=1022454","gameLink":"1022454"}},"row":{"game_id":"1022454","date_with_day":"Sun,
+        May 16","home_goal_count":"3","visiting_goal_count":"4","game_status":"Final
+        SO","home_team_city":"Lehigh Valley","visiting_team_city":"Binghamton","game_report":"Game
+        Report","game_sheet":"Game Sheet","game_summary_long":"GAME SUMMARY","game_center":"Game
+        Center"}}]}]}])
+  recorded_at: Mon, 21 Jun 2021 03:36:15 GMT
+recorded_with: VCR 6.0.0

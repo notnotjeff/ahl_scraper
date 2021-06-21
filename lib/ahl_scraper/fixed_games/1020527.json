@@ -1,0 +1,2483 @@
+{
+  "details": {
+    "id": 1020527,
+    "date": "Friday, March 06, 2020",
+    "gameNumber": "910",
+    "venue": "Rocket Mortgage FieldHouse",
+    "attendance": 13056,
+    "startTime": "7:09 pm",
+    "endTime": "9:33 pm",
+    "duration": "2:24",
+    "gameReportUrl": "https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1020527",
+    "textBoxscoreUrl": "https://lscluster.hockeytech.com/game_reports/text-game-report.php?lang_id=1&client_code=ahl&game_id=1020527",
+    "ticketsUrl": "https://www.clevelandmonsters.com/games",
+    "started": "1",
+    "final": "1",
+    "publicNotes": "",
+    "status": "Final",
+    "seasonId": "65",
+    "htvGameId": "407751",
+    "GameDateISO8601": "2020-03-06T19:00:00-05:00"
+  },
+  "referees": [
+    {
+      "firstName": "Jeremy",
+      "lastName": "Tufts",
+      "jerseyNumber": 78,
+      "role": "Referee"
+    },
+    {
+      "firstName": "Mackenzie",
+      "lastName": "Nichol",
+      "jerseyNumber": 68,
+      "role": "Referee"
+    }
+  ],
+  "linesmen": [
+    {
+      "firstName": "Tom",
+      "lastName": "George",
+      "jerseyNumber": 61,
+      "role": "Linesman"
+    },
+    {
+      "firstName": "Ray",
+      "lastName": "King",
+      "jerseyNumber": 55,
+      "role": "Linesman"
+    }
+  ],
+  "mostValuablePlayers": [
+    {
+      "team": {
+        "id": 415,
+        "name": "Laval Rocket",
+        "city": "Laval",
+        "nickname": "Rocket",
+        "abbreviation": "LAV",
+        "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 7512,
+          "firstName": "Jake",
+          "lastName": "Lucchini",
+          "jerseyNumber": 24,
+          "position": "LW",
+          "birthDate": "1995-05-09"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/7512.jpg"
+    },
+    {
+      "team": {
+        "id": 415,
+        "name": "Laval Rocket",
+        "city": "Laval",
+        "nickname": "Rocket",
+        "abbreviation": "LAV",
+        "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 5927,
+          "firstName": "Laurent",
+          "lastName": "Dauphin",
+          "jerseyNumber": 25,
+          "position": "C",
+          "birthDate": "1995-03-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 3,
+          "points": 3,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/5927.jpg"
+    },
+    {
+      "team": {
+        "id": 415,
+        "name": "Laval Rocket",
+        "city": "Laval",
+        "nickname": "Rocket",
+        "abbreviation": "LAV",
+        "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 7308,
+          "firstName": "Joe",
+          "lastName": "Cox",
+          "jerseyNumber": 37,
+          "position": "RW",
+          "birthDate": "1994-01-07"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/7308.jpg"
+    }
+  ],
+  "hasShootout": false,
+  "homeTeam": {
+    "info": {
+      "id": 373,
+      "name": "Cleveland Monsters",
+      "city": "Cleveland",
+      "nickname": "Monsters",
+      "abbreviation": "CLE",
+      "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+      "divisionName": "North Division"
+    },
+    "stats": {
+      "shots": 21,
+      "goals": 1,
+      "hits": 0,
+      "powerPlayGoals": 1,
+      "powerPlayOpportunities": 7,
+      "goalCount": 1,
+      "assistCount": 2,
+      "penaltyMinuteCount": 20,
+      "infractionCount": 6
+    },
+    "media": {
+      "audioUrl": "https://www.clevelandmonsters.com/",
+      "videoUrl": "",
+      "webcastUrl": "https://www.theahl.com/AHLTV"
+    },
+    "coaches": [
+      { "firstName": "Mike", "lastName": "Eaves", "role": "Head Coach" },
+      {
+        "firstName": "Steve",
+        "lastName": "McCarthy",
+        "role": "Assistant Coach"
+      },
+      {
+        "firstName": "Trent",
+        "lastName": "Vogelhuber",
+        "role": "Assistant Coach"
+      }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 4638,
+          "firstName": "Adam",
+          "lastName": "Clendening",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1992-10-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 6349,
+          "firstName": "Paul",
+          "lastName": "Bittner",
+          "jerseyNumber": 7,
+          "position": "LW",
+          "birthDate": "1996-11-04"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5577,
+          "firstName": "Branden",
+          "lastName": "Troock",
+          "jerseyNumber": 8,
+          "position": "RW",
+          "birthDate": "1994-03-03"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7038,
+          "firstName": "Steve",
+          "lastName": "Johnson",
+          "jerseyNumber": 10,
+          "position": "D",
+          "birthDate": "1994-06-27"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6570,
+          "firstName": "Lindsay",
+          "lastName": "Sparks",
+          "jerseyNumber": 11,
+          "position": "LW",
+          "birthDate": "1990-08-08"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5612,
+          "firstName": "Dillon",
+          "lastName": "Simpson",
+          "jerseyNumber": 18,
+          "position": "D",
+          "birthDate": "1993-02-10"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 6384,
+          "firstName": "Justin",
+          "lastName": "Scott",
+          "jerseyNumber": 20,
+          "position": "C",
+          "birthDate": "1995-08-13"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6636,
+          "firstName": "Sam",
+          "lastName": "Vigneault",
+          "jerseyNumber": 21,
+          "position": "C",
+          "birthDate": "1995-09-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7226,
+          "firstName": "Michael",
+          "lastName": "Prapavessis",
+          "jerseyNumber": 24,
+          "position": "D",
+          "birthDate": "1996-01-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -3,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7508,
+          "firstName": "Derek",
+          "lastName": "Barach",
+          "jerseyNumber": 25,
+          "position": "C",
+          "birthDate": "1995-02-27"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6887,
+          "firstName": "Doyle",
+          "lastName": "Somerby",
+          "jerseyNumber": 26,
+          "position": "D",
+          "birthDate": "1994-07-04"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6889,
+          "firstName": "Calvin",
+          "lastName": "Thurkauf",
+          "jerseyNumber": 27,
+          "position": "LW",
+          "birthDate": "1997-06-27"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7413,
+          "firstName": "Jared",
+          "lastName": "VanWormer",
+          "jerseyNumber": 38,
+          "position": "RW",
+          "birthDate": "1992-09-07"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 3417,
+          "firstName": "Brett",
+          "lastName": "Gallant",
+          "jerseyNumber": 44,
+          "position": "LW",
+          "birthDate": "1988-12-28"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 12,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 8006,
+          "firstName": "Anton",
+          "lastName": "Karlsson",
+          "jerseyNumber": 47,
+          "position": "D",
+          "birthDate": "1993-05-20"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5449,
+          "firstName": "Marko",
+          "lastName": "Dano",
+          "jerseyNumber": 56,
+          "position": "LW",
+          "birthDate": "1994-11-30"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7669,
+          "firstName": "Trey",
+          "lastName": "Fix-Wolansky",
+          "jerseyNumber": 64,
+          "position": "RW",
+          "birthDate": "1999-05-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6699,
+          "firstName": "Kole",
+          "lastName": "Sherwood",
+          "jerseyNumber": 88,
+          "position": "RW",
+          "birthDate": "1997-01-22"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 8005,
+          "firstName": "Veini",
+          "lastName": "Vehviläinen",
+          "jerseyNumber": 35,
+          "position": "G",
+          "birthDate": "1997-02-13"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 3145,
+          "firstName": "Brad",
+          "lastName": "Thiessen",
+          "jerseyNumber": 39,
+          "position": "G",
+          "birthDate": "1986-03-19"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "60:00",
+          "shotsAgainst": 24,
+          "goalsAgainst": 5,
+          "saves": 19
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "visitingTeam": {
+    "info": {
+      "id": 415,
+      "name": "Laval Rocket",
+      "city": "Laval",
+      "nickname": "Rocket",
+      "abbreviation": "LAV",
+      "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+      "divisionName": "North Division"
+    },
+    "stats": {
+      "shots": 24,
+      "goals": 5,
+      "hits": 0,
+      "powerPlayGoals": 1,
+      "powerPlayOpportunities": 5,
+      "goalCount": 5,
+      "assistCount": 9,
+      "penaltyMinuteCount": 14,
+      "infractionCount": 7
+    },
+    "media": {
+      "audioUrl": "https://919sports.ca/",
+      "videoUrl": "",
+      "webcastUrl": "https://www.theahl.com/AHLTV"
+    },
+    "coaches": [
+      { "firstName": "Joël", "lastName": "Bouchard", "role": "Head Coach" },
+      {
+        "firstName": "Alexandre",
+        "lastName": "Burrows",
+        "role": "Assistant Coach"
+      },
+      { "firstName": "Daniel", "lastName": "Jacob", "role": "Assistant Coach" }
+    ],
+    "skaters": [
+      {
+        "info": {
+          "id": 8054,
+          "firstName": "Nathanael",
+          "lastName": "Halbert",
+          "jerseyNumber": 3,
+          "position": "D",
+          "birthDate": "1993-09-30"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5581,
+          "firstName": "Ryan",
+          "lastName": "Culkin",
+          "jerseyNumber": 7,
+          "position": "D",
+          "birthDate": "1993-12-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7577,
+          "firstName": "Josh",
+          "lastName": "Brook",
+          "jerseyNumber": 8,
+          "position": "D",
+          "birthDate": "1999-06-17"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6091,
+          "firstName": "Nikita",
+          "lastName": "Jevpalovs",
+          "jerseyNumber": 11,
+          "position": "RW",
+          "birthDate": "1994-09-09"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6689,
+          "firstName": "Will",
+          "lastName": "Pelletier",
+          "jerseyNumber": 15,
+          "position": "LW",
+          "birthDate": "1992-12-14"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6838,
+          "firstName": "Antoine",
+          "lastName": "Waked",
+          "jerseyNumber": 19,
+          "position": "RW",
+          "birthDate": "1996-05-17"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5042,
+          "firstName": "Maxim",
+          "lastName": "Lamarche",
+          "jerseyNumber": 20,
+          "position": "D",
+          "birthDate": "1992-07-11"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7383,
+          "firstName": "Michael",
+          "lastName": "Pezzetta",
+          "jerseyNumber": 23,
+          "position": "LW",
+          "birthDate": "1998-03-13"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7512,
+          "firstName": "Jake",
+          "lastName": "Lucchini",
+          "jerseyNumber": 24,
+          "position": "LW",
+          "birthDate": "1995-05-09"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5927,
+          "firstName": "Laurent",
+          "lastName": "Dauphin",
+          "jerseyNumber": 25,
+          "position": "C",
+          "birthDate": "1995-03-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 3,
+          "points": 3,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7379,
+          "firstName": "Alexandre",
+          "lastName": "Alain",
+          "jerseyNumber": 27,
+          "position": "C",
+          "birthDate": "1997-03-03"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 7806,
+          "firstName": "Otto",
+          "lastName": "Leskinen",
+          "jerseyNumber": 28,
+          "position": "D",
+          "birthDate": "1997-03-06"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 5471,
+          "firstName": "Gustav",
+          "lastName": "Olofsson",
+          "jerseyNumber": 29,
+          "position": "D",
+          "birthDate": "1994-12-01"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 7308,
+          "firstName": "Joe",
+          "lastName": "Cox",
+          "jerseyNumber": 37,
+          "position": "RW",
+          "birthDate": "1994-01-07"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 4870,
+          "firstName": "Yannick",
+          "lastName": "Veilleux",
+          "jerseyNumber": 38,
+          "position": "LW",
+          "birthDate": "1993-02-22"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 5404,
+          "firstName": "Kevin",
+          "lastName": "Lynch",
+          "jerseyNumber": 39,
+          "position": "C",
+          "birthDate": "1991-04-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 8053,
+          "firstName": "Jesperi",
+          "lastName": "Kotkaniemi",
+          "jerseyNumber": 45,
+          "position": "C",
+          "birthDate": "2000-07-06"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6023,
+          "firstName": "Joseph",
+          "lastName": "Blandisi",
+          "jerseyNumber": 46,
+          "position": "C",
+          "birthDate": "1994-07-18"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 7595,
+          "firstName": "Cayden",
+          "lastName": "Primeau",
+          "jerseyNumber": 31,
+          "position": "G",
+          "birthDate": "1999-08-11"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 6922,
+          "firstName": "Michael",
+          "lastName": "McNiven",
+          "jerseyNumber": 40,
+          "position": "G",
+          "birthDate": "1997-07-09"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "59:26",
+          "shotsAgainst": 21,
+          "goalsAgainst": 1,
+          "saves": 20
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalieLog": [],
+    "seasonStats": []
+  },
+  "periods": [
+    {
+      "info": { "id": "1", "shortName": "1", "longName": "1st" },
+      "stats": {
+        "homeGoals": "0",
+        "homeShots": "2",
+        "visitingGoals": "0",
+        "visitingShots": "7"
+      },
+      "goals": [],
+      "penalties": [
+        {
+          "game_penalty_id": 237186,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "03:06",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Interference",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 5471,
+            "firstName": "Gustav",
+            "lastName": "Olofsson",
+            "jerseyNumber": 29,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 5471,
+            "firstName": "Gustav",
+            "lastName": "Olofsson",
+            "jerseyNumber": 29,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 237187,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "03:16",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 5449,
+            "firstName": "Marko",
+            "lastName": "Dano",
+            "jerseyNumber": 10,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 5449,
+            "firstName": "Marko",
+            "lastName": "Dano",
+            "jerseyNumber": 10,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 237189,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "06:37",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "High-sticking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 5581,
+            "firstName": "Ryan",
+            "lastName": "Culkin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 5581,
+            "firstName": "Ryan",
+            "lastName": "Culkin",
+            "jerseyNumber": 7,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 237199,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "10:22",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 7512,
+            "firstName": "Jake",
+            "lastName": "Lucchini",
+            "jerseyNumber": 24,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 7512,
+            "firstName": "Jake",
+            "lastName": "Lucchini",
+            "jerseyNumber": 24,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 237204,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "11:19",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Holding",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6349,
+            "firstName": "Paul",
+            "lastName": "Bittner",
+            "jerseyNumber": 7,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 6349,
+            "firstName": "Paul",
+            "lastName": "Bittner",
+            "jerseyNumber": 7,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "2", "shortName": "", "longName": "2nd" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "5",
+        "visitingGoals": "2",
+        "visitingShots": "10"
+      },
+      "goals": [
+        {
+          "game_goal_id": 106976,
+          "team": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "13:31",
+          "scorerGoalNumber": "4",
+          "scoredBy": {
+            "id": 7308,
+            "firstName": "Joe",
+            "lastName": "Cox",
+            "jerseyNumber": 37,
+            "position": "RW",
+            "birthDate": "1994-01-07"
+          },
+          "assists": [
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            },
+            {
+              "id": 7379,
+              "firstName": "Alexandre",
+              "lastName": "Alain",
+              "jerseyNumber": 27,
+              "position": "C",
+              "birthDate": "1997-03-03"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 7577,
+              "firstName": "Josh",
+              "lastName": "Brook",
+              "jerseyNumber": 8,
+              "position": "D",
+              "birthDate": "1999-06-17"
+            },
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            },
+            {
+              "id": 7379,
+              "firstName": "Alexandre",
+              "lastName": "Alain",
+              "jerseyNumber": 27,
+              "position": "C",
+              "birthDate": "1997-03-03"
+            },
+            {
+              "id": 5471,
+              "firstName": "Gustav",
+              "lastName": "Olofsson",
+              "jerseyNumber": 29,
+              "position": "D",
+              "birthDate": "1994-12-01"
+            },
+            {
+              "id": 7308,
+              "firstName": "Joe",
+              "lastName": "Cox",
+              "jerseyNumber": 37,
+              "position": "RW",
+              "birthDate": "1994-01-07"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 4638,
+              "firstName": "Adam",
+              "lastName": "Clendening",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1992-10-26"
+            },
+            {
+              "id": 7226,
+              "firstName": "Michael",
+              "lastName": "Prapavessis",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": "1996-01-07"
+            },
+            {
+              "id": 7508,
+              "firstName": "Derek",
+              "lastName": "Barach",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-02-27"
+            },
+            {
+              "id": 5449,
+              "firstName": "Marko",
+              "lastName": "Dano",
+              "jerseyNumber": 56,
+              "position": "LW",
+              "birthDate": "1994-11-30"
+            },
+            {
+              "id": 7669,
+              "firstName": "Trey",
+              "lastName": "Fix-Wolansky",
+              "jerseyNumber": 64,
+              "position": "RW",
+              "birthDate": "1999-05-26"
+            }
+          ]
+        },
+        {
+          "game_goal_id": 106980,
+          "team": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "18:38",
+          "scorerGoalNumber": "12",
+          "scoredBy": {
+            "id": 4870,
+            "firstName": "Yannick",
+            "lastName": "Veilleux",
+            "jerseyNumber": 38,
+            "position": "LW",
+            "birthDate": "1993-02-22"
+          },
+          "assists": [
+            {
+              "id": 6023,
+              "firstName": "Joseph",
+              "lastName": "Blandisi",
+              "jerseyNumber": 46,
+              "position": "C",
+              "birthDate": "1994-07-18"
+            },
+            {
+              "id": 8054,
+              "firstName": "Nathanael",
+              "lastName": "Halbert",
+              "jerseyNumber": 3,
+              "position": "D",
+              "birthDate": "1993-09-30"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 8054,
+              "firstName": "Nathanael",
+              "lastName": "Halbert",
+              "jerseyNumber": 3,
+              "position": "D",
+              "birthDate": "1993-09-30"
+            },
+            {
+              "id": 7577,
+              "firstName": "Josh",
+              "lastName": "Brook",
+              "jerseyNumber": 8,
+              "position": "D",
+              "birthDate": "1999-06-17"
+            },
+            {
+              "id": 6091,
+              "firstName": "Nikita",
+              "lastName": "Jevpalovs",
+              "jerseyNumber": 11,
+              "position": "RW",
+              "birthDate": "1994-09-09"
+            },
+            {
+              "id": 4870,
+              "firstName": "Yannick",
+              "lastName": "Veilleux",
+              "jerseyNumber": 38,
+              "position": "LW",
+              "birthDate": "1993-02-22"
+            },
+            {
+              "id": 6023,
+              "firstName": "Joseph",
+              "lastName": "Blandisi",
+              "jerseyNumber": 46,
+              "position": "C",
+              "birthDate": "1994-07-18"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 4638,
+              "firstName": "Adam",
+              "lastName": "Clendening",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1992-10-26"
+            },
+            {
+              "id": 6349,
+              "firstName": "Paul",
+              "lastName": "Bittner",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": "1996-11-04"
+            },
+            {
+              "id": 5577,
+              "firstName": "Branden",
+              "lastName": "Troock",
+              "jerseyNumber": 8,
+              "position": "RW",
+              "birthDate": "1994-03-03"
+            },
+            {
+              "id": 6636,
+              "firstName": "Sam",
+              "lastName": "Vigneault",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": "1995-09-07"
+            },
+            {
+              "id": 6887,
+              "firstName": "Doyle",
+              "lastName": "Somerby",
+              "jerseyNumber": 26,
+              "position": "D",
+              "birthDate": "1994-07-04"
+            }
+          ]
+        },
+        {
+          "game_goal_id": 106981,
+          "team": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "19:54",
+          "scorerGoalNumber": "9",
+          "scoredBy": {
+            "id": 5612,
+            "firstName": "Dillon",
+            "lastName": "Simpson",
+            "jerseyNumber": 18,
+            "position": "D",
+            "birthDate": "1993-02-10"
+          },
+          "assists": [
+            {
+              "id": 7508,
+              "firstName": "Derek",
+              "lastName": "Barach",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-02-27"
+            },
+            {
+              "id": 6349,
+              "firstName": "Paul",
+              "lastName": "Bittner",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": "1996-11-04"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "1",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 4638,
+              "firstName": "Adam",
+              "lastName": "Clendening",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": "1992-10-26"
+            },
+            {
+              "id": 6349,
+              "firstName": "Paul",
+              "lastName": "Bittner",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": "1996-11-04"
+            },
+            {
+              "id": 5612,
+              "firstName": "Dillon",
+              "lastName": "Simpson",
+              "jerseyNumber": 18,
+              "position": "D",
+              "birthDate": "1993-02-10"
+            },
+            {
+              "id": 7508,
+              "firstName": "Derek",
+              "lastName": "Barach",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-02-27"
+            },
+            {
+              "id": 5449,
+              "firstName": "Marko",
+              "lastName": "Dano",
+              "jerseyNumber": 56,
+              "position": "LW",
+              "birthDate": "1994-11-30"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 5581,
+              "firstName": "Ryan",
+              "lastName": "Culkin",
+              "jerseyNumber": 7,
+              "position": "D",
+              "birthDate": "1993-12-15"
+            },
+            {
+              "id": 7577,
+              "firstName": "Josh",
+              "lastName": "Brook",
+              "jerseyNumber": 8,
+              "position": "D",
+              "birthDate": "1999-06-17"
+            },
+            {
+              "id": 7379,
+              "firstName": "Alexandre",
+              "lastName": "Alain",
+              "jerseyNumber": 27,
+              "position": "C",
+              "birthDate": "1997-03-03"
+            },
+            {
+              "id": 7308,
+              "firstName": "Joe",
+              "lastName": "Cox",
+              "jerseyNumber": 37,
+              "position": "RW",
+              "birthDate": "1994-01-07"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "2:08",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 5927,
+            "firstName": "Laurent",
+            "lastName": "Dauphin",
+            "jerseyNumber": 25,
+            "position": "C",
+            "birthDate": "1995-03-26"
+          },
+          "servedBy": {
+            "id": 5927,
+            "firstName": "Laurent",
+            "lastName": "Dauphin",
+            "jerseyNumber": 25,
+            "position": "C",
+            "birthDate": "1995-03-26"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "4:52",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Bench minor - Too many men",
+          "ruleNumber": "",
+          "takenBy": null,
+          "servedBy": {
+            "id": 3417,
+            "firstName": "Brett",
+            "lastName": "Gallant",
+            "jerseyNumber": 44,
+            "position": "LW",
+            "birthDate": "1988-12-28"
+          },
+          "isPowerPlay": true,
+          "isBench": true
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "6:26",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 7508,
+            "firstName": "Derek",
+            "lastName": "Barach",
+            "jerseyNumber": 25,
+            "position": "C",
+            "birthDate": "1995-02-27"
+          },
+          "servedBy": {
+            "id": 7508,
+            "firstName": "Derek",
+            "lastName": "Barach",
+            "jerseyNumber": 25,
+            "position": "C",
+            "birthDate": "1995-02-27"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "18:48",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "High-sticking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6689,
+            "firstName": "Will",
+            "lastName": "Pelletier",
+            "jerseyNumber": 15,
+            "position": "LW",
+            "birthDate": "1992-12-14"
+          },
+          "servedBy": {
+            "id": 6689,
+            "firstName": "Will",
+            "lastName": "Pelletier",
+            "jerseyNumber": 15,
+            "position": "LW",
+            "birthDate": "1992-12-14"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "3", "shortName": "", "longName": "3rd" },
+      "stats": {
+        "homeGoals": "0",
+        "homeShots": "14",
+        "visitingGoals": "3",
+        "visitingShots": "7"
+      },
+      "goals": [
+        {
+          "game_goal_id": 106985,
+          "team": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "2:04",
+          "scorerGoalNumber": "9",
+          "scoredBy": {
+            "id": 7512,
+            "firstName": "Jake",
+            "lastName": "Lucchini",
+            "jerseyNumber": 24,
+            "position": "LW",
+            "birthDate": "1995-05-09"
+          },
+          "assists": [
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 8054,
+              "firstName": "Nathanael",
+              "lastName": "Halbert",
+              "jerseyNumber": 3,
+              "position": "D",
+              "birthDate": "1993-09-30"
+            },
+            {
+              "id": 5581,
+              "firstName": "Ryan",
+              "lastName": "Culkin",
+              "jerseyNumber": 7,
+              "position": "D",
+              "birthDate": "1993-12-15"
+            },
+            {
+              "id": 6838,
+              "firstName": "Antoine",
+              "lastName": "Waked",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": "1996-05-17"
+            },
+            {
+              "id": 7512,
+              "firstName": "Jake",
+              "lastName": "Lucchini",
+              "jerseyNumber": 24,
+              "position": "LW",
+              "birthDate": "1995-05-09"
+            },
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 6349,
+              "firstName": "Paul",
+              "lastName": "Bittner",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": "1996-11-04"
+            },
+            {
+              "id": 5577,
+              "firstName": "Branden",
+              "lastName": "Troock",
+              "jerseyNumber": 8,
+              "position": "RW",
+              "birthDate": "1994-03-03"
+            },
+            {
+              "id": 5612,
+              "firstName": "Dillon",
+              "lastName": "Simpson",
+              "jerseyNumber": 18,
+              "position": "D",
+              "birthDate": "1993-02-10"
+            },
+            {
+              "id": 6636,
+              "firstName": "Sam",
+              "lastName": "Vigneault",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": "1995-09-07"
+            },
+            {
+              "id": 7226,
+              "firstName": "Michael",
+              "lastName": "Prapavessis",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": "1996-01-07"
+            }
+          ]
+        },
+        {
+          "game_goal_id": 106995,
+          "team": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "11:56",
+          "scorerGoalNumber": "10",
+          "scoredBy": {
+            "id": 7512,
+            "firstName": "Jake",
+            "lastName": "Lucchini",
+            "jerseyNumber": 24,
+            "position": "LW",
+            "birthDate": "1995-05-09"
+          },
+          "assists": [
+            {
+              "id": 6838,
+              "firstName": "Antoine",
+              "lastName": "Waked",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": "1996-05-17"
+            },
+            {
+              "id": 7806,
+              "firstName": "Otto",
+              "lastName": "Leskinen",
+              "jerseyNumber": 28,
+              "position": "D",
+              "birthDate": "1997-03-06"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 5581,
+              "firstName": "Ryan",
+              "lastName": "Culkin",
+              "jerseyNumber": 7,
+              "position": "D",
+              "birthDate": "1993-12-15"
+            },
+            {
+              "id": 6838,
+              "firstName": "Antoine",
+              "lastName": "Waked",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": "1996-05-17"
+            },
+            {
+              "id": 7512,
+              "firstName": "Jake",
+              "lastName": "Lucchini",
+              "jerseyNumber": 24,
+              "position": "LW",
+              "birthDate": "1995-05-09"
+            },
+            {
+              "id": 7806,
+              "firstName": "Otto",
+              "lastName": "Leskinen",
+              "jerseyNumber": 28,
+              "position": "D",
+              "birthDate": "1997-03-06"
+            },
+            {
+              "id": 5404,
+              "firstName": "Kevin",
+              "lastName": "Lynch",
+              "jerseyNumber": 39,
+              "position": "C",
+              "birthDate": "1991-04-23"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 5612,
+              "firstName": "Dillon",
+              "lastName": "Simpson",
+              "jerseyNumber": 18,
+              "position": "D",
+              "birthDate": "1993-02-10"
+            },
+            {
+              "id": 6384,
+              "firstName": "Justin",
+              "lastName": "Scott",
+              "jerseyNumber": 20,
+              "position": "C",
+              "birthDate": "1995-08-13"
+            },
+            {
+              "id": 7226,
+              "firstName": "Michael",
+              "lastName": "Prapavessis",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": "1996-01-07"
+            },
+            {
+              "id": 6889,
+              "firstName": "Calvin",
+              "lastName": "Thurkauf",
+              "jerseyNumber": 27,
+              "position": "LW",
+              "birthDate": "1997-06-27"
+            },
+            {
+              "id": 6699,
+              "firstName": "Kole",
+              "lastName": "Sherwood",
+              "jerseyNumber": 88,
+              "position": "RW",
+              "birthDate": "1997-01-22"
+            }
+          ]
+        },
+        {
+          "game_goal_id": 107005,
+          "team": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "18:19",
+          "scorerGoalNumber": "5",
+          "scoredBy": {
+            "id": 7308,
+            "firstName": "Joe",
+            "lastName": "Cox",
+            "jerseyNumber": 37,
+            "position": "RW",
+            "birthDate": "1994-01-07"
+          },
+          "assists": [
+            {
+              "id": 5471,
+              "firstName": "Gustav",
+              "lastName": "Olofsson",
+              "jerseyNumber": 29,
+              "position": "D",
+              "birthDate": "1994-12-01"
+            },
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            }
+          ],
+          "assistNumbers": [null, null],
+          "properties": {
+            "isPowerPlay": "1",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 5042,
+              "firstName": "Maxim",
+              "lastName": "Lamarche",
+              "jerseyNumber": 20,
+              "position": "D",
+              "birthDate": "1992-07-11"
+            },
+            {
+              "id": 5927,
+              "firstName": "Laurent",
+              "lastName": "Dauphin",
+              "jerseyNumber": 25,
+              "position": "C",
+              "birthDate": "1995-03-26"
+            },
+            {
+              "id": 5471,
+              "firstName": "Gustav",
+              "lastName": "Olofsson",
+              "jerseyNumber": 29,
+              "position": "D",
+              "birthDate": "1994-12-01"
+            },
+            {
+              "id": 7308,
+              "firstName": "Joe",
+              "lastName": "Cox",
+              "jerseyNumber": 37,
+              "position": "RW",
+              "birthDate": "1994-01-07"
+            },
+            {
+              "id": 4870,
+              "firstName": "Yannick",
+              "lastName": "Veilleux",
+              "jerseyNumber": 38,
+              "position": "LW",
+              "birthDate": "1993-02-22"
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 6349,
+              "firstName": "Paul",
+              "lastName": "Bittner",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": "1996-11-04"
+            },
+            {
+              "id": 6636,
+              "firstName": "Sam",
+              "lastName": "Vigneault",
+              "jerseyNumber": 21,
+              "position": "C",
+              "birthDate": "1995-09-07"
+            },
+            {
+              "id": 7226,
+              "firstName": "Michael",
+              "lastName": "Prapavessis",
+              "jerseyNumber": 24,
+              "position": "D",
+              "birthDate": "1996-01-07"
+            },
+            {
+              "id": 8006,
+              "firstName": "Anton",
+              "lastName": "Karlsson",
+              "jerseyNumber": 47,
+              "position": "D",
+              "birthDate": "1993-05-20"
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "4:35",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Interference",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 6023,
+            "firstName": "Joseph",
+            "lastName": "Blandisi",
+            "jerseyNumber": 46,
+            "position": "C",
+            "birthDate": "1994-07-18"
+          },
+          "servedBy": {
+            "id": 6023,
+            "firstName": "Joseph",
+            "lastName": "Blandisi",
+            "jerseyNumber": 46,
+            "position": "C",
+            "birthDate": "1994-07-18"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "13:27",
+          "againstTeam": {
+            "id": 415,
+            "name": "Laval Rocket",
+            "city": "Laval",
+            "nickname": "Rocket",
+            "abbreviation": "LAV",
+            "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 7383,
+            "firstName": "Michael",
+            "lastName": "Pezzetta",
+            "jerseyNumber": 23,
+            "position": "LW",
+            "birthDate": "1998-03-13"
+          },
+          "servedBy": {
+            "id": 7383,
+            "firstName": "Michael",
+            "lastName": "Pezzetta",
+            "jerseyNumber": 23,
+            "position": "LW",
+            "birthDate": "1998-03-13"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "16:49",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Roughing",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 3417,
+            "firstName": "Brett",
+            "lastName": "Gallant",
+            "jerseyNumber": 44,
+            "position": "LW",
+            "birthDate": "1988-12-28"
+          },
+          "servedBy": {
+            "id": 3417,
+            "firstName": "Brett",
+            "lastName": "Gallant",
+            "jerseyNumber": 44,
+            "position": "LW",
+            "birthDate": "1988-12-28"
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": null,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "16:49",
+          "againstTeam": {
+            "id": 373,
+            "name": "Cleveland Monsters",
+            "city": "Cleveland",
+            "nickname": "Monsters",
+            "abbreviation": "CLE",
+            "logo": "https://assets.leaguestat.com/ahl/logos/373_65.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 10,
+          "description": "Misconduct - Continuing altercation",
+          "ruleNumber": "46.5",
+          "takenBy": {
+            "id": 3417,
+            "firstName": "Brett",
+            "lastName": "Gallant",
+            "jerseyNumber": 44,
+            "position": "LW",
+            "birthDate": "1988-12-28"
+          },
+          "servedBy": {
+            "id": 3417,
+            "firstName": "Brett",
+            "lastName": "Gallant",
+            "jerseyNumber": 44,
+            "position": "LW",
+            "birthDate": "1988-12-28"
+          },
+          "isPowerPlay": false,
+          "isBench": false
+        }
+      ]
+    }
+  ],
+  "penaltyShots": { "homeTeam": [], "visitingTeam": [] },
+  "featuredPlayer": {
+    "team": {
+      "id": 415,
+      "name": "Laval Rocket",
+      "city": "Laval",
+      "nickname": "Rocket",
+      "abbreviation": "LAV",
+      "logo": "https://assets.leaguestat.com/ahl/logos/415.jpg",
+      "divisionName": "North Division"
+    },
+    "player": {
+      "info": {
+        "id": 0,
+        "firstName": null,
+        "lastName": null,
+        "jerseyNumber": 0,
+        "position": null,
+        "birthDate": null
+      },
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "penaltyMinutes": 0,
+        "plusMinus": 0,
+        "faceoffAttempts": 0,
+        "faceoffWins": 0,
+        "shots": 0,
+        "hits": 0
+      },
+      "starting": 0,
+      "status": null
+    },
+    "isGoalie": false,
+    "playerImage": " ",
+    "sponsor": { "name": null, "image": null }
+  }
+}
