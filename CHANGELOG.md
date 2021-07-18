@@ -1,10 +1,6 @@
 # CHANGELOG
 
-## 0.2
-
-### Games
-
-- `Penalty` resource now includes its AHL id under the `id` attribute
+## 0.2.0
 
 ### RosterPlayers
 
@@ -16,6 +12,7 @@
 
 ### Penalties
 
+- Uses AHL id under the `id` attribute
 - Add `penalty_shot` type
 - Add `bench?` for bench related penalties
 - Add `invalid?` for tagging broken penalties that can be skipped
