@@ -18,8 +18,8 @@ module AhlScraper
       @name ||= @raw_data.dig(:bio, :row, :name)
     end
 
-    def shoots
-      @shoots ||= @raw_data.dig(:bio, :row, :shoots)
+    def handedness
+      @handedness ||= position == "G" ? @raw_data.dig(:bio, :row, :catches) : @raw_data.dig(:bio, :row, :shoots)
     end
 
     def birthplace

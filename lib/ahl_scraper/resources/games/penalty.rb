@@ -3,12 +3,16 @@
 module AhlScraper
   module Games
     class Penalty < Resource
+      def id
+        @id ||= @raw_data.dig(:game_penalty_id)&.to_i
+      end
+
       def number
         @number ||= @opts[:number]
       end
 
       def period
-        @period ||= @raw_data.dig(:period, :id).to_i
+        @period ||= @raw_data.dig(:period, :id)&.to_i
       end
 
       def time
@@ -70,12 +74,22 @@ module AhlScraper
       end
 
       def power_play?
-        @power_play ||= @raw_data[:isPowerPlay]
+        @raw_data[:isPowerPlay]
+      end
+
+      def bench?
+        @raw_data[:isPowerPlay]
+      end
+
+      def invalid?
+        [240_773].include? id
       end
 
       def penalty_type
         @penalty_type ||=
           case @raw_data[:description]
+          when /penalty shot/i
+            :penalty_shot
           when /double minor/i
             :double_minor
           when /major/i
