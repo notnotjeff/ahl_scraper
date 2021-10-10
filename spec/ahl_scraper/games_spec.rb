@@ -26,5 +26,16 @@ RSpec.describe AhlScraper::Games do
 
       expect(game_ids).to all(be_a(AhlScraper::GameListItem))
     end
+
+    context "when season has not started", :vcr do
+      let(:season_id) { 73 }
+
+      it "returns array of game_ids for season", :vcr do
+        game_ids = described_class.list(season_id)
+        game_ids[0].id
+  
+        expect(game_ids).to all(be_a(AhlScraper::GameListItem))
+      end
+    end
   end
 end
