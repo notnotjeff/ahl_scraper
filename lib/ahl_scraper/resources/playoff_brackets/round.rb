@@ -24,7 +24,7 @@ module AhlScraper
       end
 
       def series
-        @series ||= @raw_data[:matchups].map { |series| Series.new(series) }
+        @series ||= @raw_data[:matchups].map { |series| Series.new(series, { bracket_data: @opts[:bracket_data] }) }
       end
     end
   end

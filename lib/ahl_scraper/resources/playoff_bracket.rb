@@ -11,7 +11,7 @@ module AhlScraper
     end
 
     def rounds
-      @rounds ||= @bracket_data[:rounds].map { |round| PlayoffBrackets::Round.new(round) }
+      @rounds ||= @bracket_data[:rounds].map { |round| PlayoffBrackets::Round.new(round, { bracket_data: @bracket_data }) }
     end
 
     def logo_url

@@ -22,6 +22,8 @@ module AhlScraper
           "#{start_year.to_s[-2..-1]}ASG"
         when :exhibition
           "#{start_year.to_s[-2..-1]}-#{end_year.to_s[-2..-1]}EX"
+        when :preseason
+          "#{start_year.to_s[-2..-1]}PS"
         end
     end
 
@@ -30,7 +32,7 @@ module AhlScraper
         case season_type
         when :regular, :exhibition
           name[/(.*?)\-/].to_i
-        when :playoffs, :all_star_game
+        when :playoffs, :all_star_game, :preseason
           name[/(.*?) /].to_i
         end
     end
@@ -48,7 +50,7 @@ module AhlScraper
         case season_type
         when :regular, :exhibition
           start_year + 1
-        when :playoffs, :all_star_game
+        when :playoffs, :all_star_game, :preseason
           start_year
         end
     end
@@ -73,6 +75,8 @@ module AhlScraper
         :playoffs
       when /Regular/
         :regular
+      when /Preseason/
+        :preseason
       end
     end
 

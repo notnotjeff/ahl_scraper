@@ -2,7 +2,7 @@
 
 module AhlScraper
   class GameDataFetcher
-    BROKEN_GAMES = [1_018_774, 1_001_050, 1_020_527].freeze
+    BROKEN_GAMES = [1_018_774, 1_001_050, 1_020_527, 1_003_351].freeze
 
     def initialize(game_id)
       @game_id = game_id

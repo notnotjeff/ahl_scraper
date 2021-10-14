@@ -7,7 +7,7 @@ require "vcr"
 require "bundler/setup"
 require "ahl_scraper"
 
-Dir[File.join(File.dirname(__FILE__), 'support/helpers/*.rb')].sort.each { |f| require f }
+Dir[File.join(File.dirname(__FILE__), "support/helpers/*.rb")].sort.each { |f| require f }
 
 VCR.configure do |config|
   config.cassette_library_dir = "spec/support/fixtures/cassettes"
