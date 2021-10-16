@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.2.1
+
+### General
+
+- Use `p1_` for primary point short form instead of full words
+
+### Playoff Brackets
+
 ## 0.2.0
 
 ### RosterPlayers
