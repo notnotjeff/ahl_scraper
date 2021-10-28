@@ -1,12 +1,53 @@
 # CHANGELOG
 
-## 0.2.1
+## 0.3.0
 
 ### General
 
-- Use `p1_` for primary point short form instead of full words
+- Upgrade project Ruby version to `2.7.3`
+- Update gem minimum version to `2.7.0`
+- Use JSON override for game `1003351` where goalie boxscore stats don't match goal records (see wiki)
+- Use term `handedness` for players
+- Added penalty ids to JSON override games
 
-### Playoff Brackets
+### GameInfo
+
+- If game has not started set status to reflect that and include start time
+
+### Game
+
+- Current time will check for whether a game has started so that games that haven't been played yet will return nil
+
+### GameListItem
+
+- Use `dig` to be less error prone
+- Set status to `Not Started` if game status still shows start time
+
+### Games::Penalty
+
+- Add `id` field
+- Add `bench?` attribute for when bench minor penalty
+- Add `:penalty_shot` penalty type
+
+### PlayoffBracket
+
+- Hardcode wins needed for series to allow for accurate series statuses
+- Revamp `active?` logic to work even for finals (which remained set to active by AHL)
+- Stick with `home` and `away` teams instead of `team1` and `team2` for:
+  - `feeder_series1` to `home_feeder_series`
+  - `feeder_series2` to `away_feeder_series`
+  - `team1` to `home_team_id`
+  - `team2` to `away_team_id`
+- Change `winning_team` to `winning_team_id`
+- Add `wins_needed` attribute
+
+### Game::Skater
+
+- Use `p1_` for primary point short form instead of full words for `scoring_statline`
+
+### Season
+
+- Add `preseason` season type with appropriate abbreviations
 
 ## 0.2.0
 

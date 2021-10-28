@@ -2,8 +2,8 @@
 
 module AhlScraper
   class GameListItem < Resource
-    def initialize(raw_data)
-      @raw_data = raw_data
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
     end
 
     def id
@@ -39,7 +39,7 @@ module AhlScraper
     end
 
     def status
-      @status ||= @raw_data&.dig(:row, :game_status).match(/am|pm/) ? "Not Started" : @raw_data&.dig(:row, :game_status)
+      @status ||= @raw_data&.dig(:row, :game_status)&.match(/am|pm/) ? "Not Started" : @raw_data&.dig(:row, :game_status)
     end
 
     def game_report_url

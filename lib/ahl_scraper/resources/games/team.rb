@@ -49,7 +49,7 @@ module AhlScraper
           p1_sog: @opts[:shots].dig(0, home_team? ? :home : :away),
           p2_sog: @opts[:shots].dig(1, home_team? ? :home : :away),
           p3_sog: @opts[:shots].dig(2, home_team? ? :home : :away),
-          ot_sog: @opts[:shots][3..-1]&.map { |ot| ot[home_team? ? :home : :away].to_i },
+          ot_sog: @opts[:shots][3..]&.map { |ot| ot[home_team? ? :home : :away].to_i },
         }
       end
 
@@ -59,7 +59,7 @@ module AhlScraper
           p1_goals: @opts[:goal_totals].dig(0, home_team? ? :home : :away),
           p2_goals: @opts[:goal_totals].dig(1, home_team? ? :home : :away),
           p3_goals: @opts[:goal_totals].dig(2, home_team? ? :home : :away),
-          ot_goals: @opts[:goal_totals][3..-1]&.map { |ot| ot[home_team? ? :home : :away].to_i },
+          ot_goals: @opts[:goal_totals][3..]&.map { |ot| ot[home_team? ? :home : :away].to_i },
         }
       end
 

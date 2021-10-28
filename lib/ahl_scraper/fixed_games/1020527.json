@@ -1768,7 +1768,7 @@
       ],
       "penalties": [
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237213,
           "period": { "id": "2", "shortName": "", "longName": "2nd" },
           "time": "2:08",
           "againstTeam": {
@@ -1803,7 +1803,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237215,
           "period": { "id": "2", "shortName": "", "longName": "2nd" },
           "time": "4:52",
           "againstTeam": {
@@ -1831,7 +1831,7 @@
           "isBench": true
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237217,
           "period": { "id": "2", "shortName": "", "longName": "2nd" },
           "time": "6:26",
           "againstTeam": {
@@ -1866,7 +1866,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237227,
           "period": { "id": "2", "shortName": "", "longName": "2nd" },
           "time": "18:48",
           "againstTeam": {
@@ -2300,7 +2300,7 @@
       ],
       "penalties": [
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237233,
           "period": { "id": "3", "shortName": "", "longName": "3rd" },
           "time": "4:35",
           "againstTeam": {
@@ -2335,7 +2335,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237245,
           "period": { "id": "3", "shortName": "", "longName": "3rd" },
           "time": "13:27",
           "againstTeam": {
@@ -2370,7 +2370,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237262,
           "period": { "id": "3", "shortName": "", "longName": "3rd" },
           "time": "16:49",
           "againstTeam": {
@@ -2405,7 +2405,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": null,
+          "game_penalty_id": 237268,
           "period": { "id": "3", "shortName": "", "longName": "3rd" },
           "time": "16:49",
           "againstTeam": {

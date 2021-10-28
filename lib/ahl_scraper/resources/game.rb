@@ -47,8 +47,9 @@ module AhlScraper
     attr_reader(*ATTRIBUTES)
 
     def initialize(game_id, opts = {})
+      raw_data = GameDataFetcher.new(game_id).call
+      super(raw_data, opts)
       @game_id = game_id
-      @raw_data = GameDataFetcher.new(game_id).call
       @raw_event_data = GameEventDataFetcher.new(game_id).call
       @season_type = opts[:season_type] || SeasonTypeFetcher.new(@raw_data[:details][:seasonId]).call
     end
@@ -224,7 +225,7 @@ module AhlScraper
     end
 
     def overtimes
-      @overtimes ||= Array(@raw_data[:periods][3..-1]).map { |o| Games::Overtime.new(o, { regular_season: season_type == :regular }) }
+      @overtimes ||= Array(@raw_data[:periods][3..]).map { |o| Games::Overtime.new(o, { regular_season: season_type == :regular }) }
     end
 
     def overtime?
@@ -353,7 +354,7 @@ module AhlScraper
     end
 
     def set_current_game_time
-      return if /Final/.match?(@raw_data[:details][:status])
+      return if @raw_data[:details][:final] == "1" || @raw_data[:details][:started] == "0"
 
       game_time = @raw_data[:details][:status].match(/\d{1,2}:\d{2}/).to_s
       return if game_time.empty?

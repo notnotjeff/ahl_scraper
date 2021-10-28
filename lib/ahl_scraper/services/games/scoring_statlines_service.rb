@@ -17,27 +17,31 @@ module AhlScraper
           a1_id = goal[:assists][0]&.dig(:id) && scoring_statlines[goal[:assists][0]&.dig(:id).to_s] ? goal[:assists][0]&.dig(:id).to_s : false # Make sure assist exists and does not belong to goalie
           a2_id = goal[:assists][1]&.dig(:id) && scoring_statlines[goal[:assists][1]&.dig(:id).to_s] ? goal[:assists][1]&.dig(:id).to_s : false # Make sure assist exists and does not belong to goalie
 
-          add_points(goalscorer_id, a1_id, a2_id, "as")
-          if goal[:properties][:isPenaltyShot].to_i.positive?
-            scoring_statlines[goalscorer_id][:goals_ps] += 1
-          elsif extra_skater?(goal, plus_player_count, minus_player_count)
-            add_points(goalscorer_id, a1_id, a2_id, "ex")
-          elsif goal[:properties][:isEmptyNet].to_i.positive?
-            add_points(goalscorer_id, a1_id, a2_id, "en")
-          elsif goal[:properties][:isPowerPlay].to_i.positive?
-            add_points(goalscorer_id, a1_id, a2_id, "pp")
-          elsif goal[:properties][:isShortHanded].to_i.positive?
-            add_points(goalscorer_id, a1_id, a2_id, "sh")
-          elsif plus_player_count == minus_player_count
-            add_points(goalscorer_id, a1_id, a2_id, "ev")
-            add_points(goalscorer_id, a1_id, a2_id, "5v5") if plus_player_count == 5 && minus_player_count == 5
-          end
+          add_to_statline(goal, plus_player_count, minus_player_count, goalscorer_id, a1_id, a2_id)
         end
 
         scoring_statlines
       end
 
       private
+
+      def add_to_statline(goal, plus_player_count, minus_player_count, goalscorer_id, a1_id, a2_id)
+        add_points(goalscorer_id, a1_id, a2_id, "as")
+        if goal[:properties][:isPenaltyShot].to_i.positive?
+          scoring_statlines[goalscorer_id][:goals_ps] += 1
+        elsif extra_skater?(goal, plus_player_count, minus_player_count)
+          add_points(goalscorer_id, a1_id, a2_id, "ex")
+        elsif goal[:properties][:isEmptyNet].to_i.positive?
+          add_points(goalscorer_id, a1_id, a2_id, "en")
+        elsif goal[:properties][:isPowerPlay].to_i.positive?
+          add_points(goalscorer_id, a1_id, a2_id, "pp")
+        elsif goal[:properties][:isShortHanded].to_i.positive?
+          add_points(goalscorer_id, a1_id, a2_id, "sh")
+        elsif plus_player_count == minus_player_count
+          add_points(goalscorer_id, a1_id, a2_id, "ev")
+          add_points(goalscorer_id, a1_id, a2_id, "5v5") if plus_player_count == 5 && minus_player_count == 5
+        end
+      end
 
       def scoring_statlines
         @scoring_statlines ||= @skater_ids.map { |s_id| [s_id.to_s, blank_statline] }.to_h

@@ -27,6 +27,7 @@ RSpec.describe AhlScraper::Games::ScoringStatlinesService do
     statlines = described_class.new(goal_data, skater_ids, { home_team: true }).call
 
     expect(statlines[skater_id.to_s][:goals_as]).to eq(2)
+    expect(statlines[skater_id.to_s][:p1_as]).to eq(2)
     expect(statlines[skater_id.to_s][:points_as]).to eq(2)
     expect(statlines[skater_id.to_s][:goals_5v5]).to eq(2)
     expect(statlines[skater_id.to_s][:points_5v5]).to eq(2)

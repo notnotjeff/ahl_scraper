@@ -243,4 +243,20 @@ RSpec.describe AhlScraper::Game do
       end
     end
   end
+
+  describe "#current_time", :vcr do
+    context "when game has not started" do
+      it "returns nil" do
+        game = described_class.new(1_023_743)
+        expect(game.current_time).to be_nil
+      end
+    end
+
+    context "when game is finished" do
+      it "returns nil" do
+        game = described_class.new(1_018_340)
+        expect(game.current_time).to be_nil
+      end
+    end
+  end
 end

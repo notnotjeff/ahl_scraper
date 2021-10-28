@@ -36,11 +36,11 @@ module AhlScraper
       end
 
       def home_feeder_series
-        @feeder_series1 ||= home_team_id == team1 ? @raw_data[:feeder_series1] : @raw_data[:feeder_series2]
+        @home_feeder_series ||= home_team_id == team1 ? @raw_data[:feeder_series1] : @raw_data[:feeder_series2]
       end
 
       def away_feeder_series
-        @feeder_series2 ||= home_team_id == team1 ? @raw_data[:feeder_series2] : @raw_data[:feeder_series1]
+        @away_feeder_series ||= home_team_id == team1 ? @raw_data[:feeder_series2] : @raw_data[:feeder_series1]
       end
 
       def winning_team_id
@@ -71,6 +71,10 @@ module AhlScraper
         @games ||= @raw_data[:games].map { |game| Game.new(game) }
       end
 
+      def wins_needed
+        @wins_needed ||= OVERRIDE_WINS_NEEDED.dig(season_id, round.to_s) || (round == 1 ? 3 : 4)
+      end
+
       private
 
       def first_game
@@ -87,10 +91,6 @@ module AhlScraper
 
       def season_id
         @opts[:bracket_data]&.dig(:rounds, round - 1, :season_id)
-      end
-
-      def wins_needed
-        OVERRIDE_WINS_NEEDED.dig(season_id, round.to_s) || (round == 1 ? 3 : 4)
       end
 
       def team1

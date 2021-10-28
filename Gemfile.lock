@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ahl_scraper (0.2.1)
+    ahl_scraper (0.3.0)
 
 GEM
   remote: https://rubygems.org/

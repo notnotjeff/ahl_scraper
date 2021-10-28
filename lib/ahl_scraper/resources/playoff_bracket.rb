@@ -2,20 +2,20 @@
 
 module AhlScraper
   class PlayoffBracket < Resource
-    def initialize(bracket_data)
-      @bracket_data = bracket_data
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
     end
 
     def teams
-      @teams ||= @bracket_data[:teams].map { |_team_id, team_data| PlayoffBrackets::Team.new(team_data) }
+      @teams ||= @raw_data[:teams].map { |_team_id, team_data| PlayoffBrackets::Team.new(team_data) }
     end
 
     def rounds
-      @rounds ||= @bracket_data[:rounds].map { |round| PlayoffBrackets::Round.new(round, { bracket_data: @bracket_data }) }
+      @rounds ||= @raw_data[:rounds].map { |round| PlayoffBrackets::Round.new(round, { raw_data: @raw_data }) }
     end
 
     def logo_url
-      @logo_url ||= @bracket_data[:logo]
+      @logo_url ||= @raw_data[:logo]
     end
   end
 end

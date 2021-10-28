@@ -28,8 +28,8 @@ module AhlScraper
         "henderson-silver-knights" => { city: "Henderson", name: "Silver Knights" },
       }.freeze
 
-      def initialize(raw_data, division)
-        @raw_data = raw_data
+      def initialize(raw_data, division, opts = {})
+        super(raw_data, opts)
         @division = division
       end
 
@@ -42,7 +42,8 @@ module AhlScraper
       end
 
       def abbreviation
-        @abbreviation ||= EXCEPTIONS[parameterized_name]&.dig(:abbreviation) || @raw_data.dig(:row, :team_code)&.delete_prefix("y -")&.delete_prefix("x -")&.delete_prefix("xy -")&.strip
+        @abbreviation ||= EXCEPTIONS[parameterized_name]&.dig(:abbreviation) || @raw_data.dig(:row,
+          :team_code)&.delete_prefix("y -")&.delete_prefix("x -")&.delete_prefix("xy -")&.strip
       end
 
       def parameterized_name

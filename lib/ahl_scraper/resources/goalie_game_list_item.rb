@@ -2,7 +2,8 @@
 
 module AhlScraper
   class GoalieGameListItem < Resource
-    def initialize(raw_data)
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
       @raw_data = raw_data
     end
 

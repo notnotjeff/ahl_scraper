@@ -1438,7 +1438,7 @@
       ],
       "penalties": [
         {
-          "game_penalty_id": 219063,
+          "game_penalty_id": 219032,
           "period": { "id": "1", "shortName": "", "longName": "1st" },
           "time": "11:54",
           "againstTeam": {
@@ -1473,7 +1473,7 @@
           "isBench": false
         },
         {
-          "game_penalty_id": 219076,
+          "game_penalty_id": 219034,
           "period": { "id": "1", "shortName": "", "longName": "1st" },
           "time": "16:43",
           "againstTeam": {
@@ -2057,7 +2057,7 @@
       ],
       "penalties": [
         {
-          "game_penalty_id": 774,
+          "game_penalty_id": 219045,
           "period": { "id": "2", "shortName": "", "longName": "2nd" },
           "time": "17:58",
           "againstTeam": {
@@ -2381,7 +2381,7 @@
       ],
       "penalties": [
         {
-          "game_penalty_id": 1234,
+          "game_penalty_id": 219082,
           "period": { "id": "3", "shortName": "", "longName": "3rd" },
           "time": "4:19",
           "againstTeam": {

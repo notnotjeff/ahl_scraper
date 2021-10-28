@@ -4,7 +4,8 @@ module AhlScraper
   class Season < Resource
     attr_reader :id, :name, :season_type
 
-    def initialize(raw_data)
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
       @id = raw_data[:id].to_i
       @name = raw_data[:name]
       @season_type = set_season_type
@@ -15,15 +16,15 @@ module AhlScraper
       @abbreviation ||=
         case season_type
         when :regular
-          "#{start_year.to_s[-2..-1]}-#{end_year.to_s[-2..-1]}"
+          "#{start_year.to_s[-2..]}-#{end_year.to_s[-2..]}"
         when :playoffs
-          "#{start_year.to_s[-2..-1]}PO"
+          "#{start_year.to_s[-2..]}PO"
         when :all_star_game
-          "#{start_year.to_s[-2..-1]}ASG"
+          "#{start_year.to_s[-2..]}ASG"
         when :exhibition
-          "#{start_year.to_s[-2..-1]}-#{end_year.to_s[-2..-1]}EX"
+          "#{start_year.to_s[-2..]}-#{end_year.to_s[-2..]}EX"
         when :preseason
-          "#{start_year.to_s[-2..-1]}PS"
+          "#{start_year.to_s[-2..]}PS"
         end
     end
 
@@ -31,7 +32,7 @@ module AhlScraper
       @start_year ||=
         case season_type
         when :regular, :exhibition
-          name[/(.*?)\-/].to_i
+          name[/(.*?)-/].to_i
         when :playoffs, :all_star_game, :preseason
           name[/(.*?) /].to_i
         end

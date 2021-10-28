@@ -4,7 +4,7 @@ module AhlScraper
   module Games
     class Penalty < Resource
       def id
-        @id ||= @raw_data.dig(:game_penalty_id)&.to_i
+        @id ||= @raw_data[:game_penalty_id]&.to_i
       end
 
       def number
@@ -78,7 +78,7 @@ module AhlScraper
       end
 
       def bench?
-        @raw_data[:isPowerPlay]
+        @raw_data[:isBench]
       end
 
       def invalid?

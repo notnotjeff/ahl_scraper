@@ -33,7 +33,7 @@ RSpec.describe AhlScraper::Games do
       it "returns array of game_ids for season", :vcr do
         game_ids = described_class.list(season_id)
         game_ids[0].id
-  
+
         expect(game_ids).to all(be_a(AhlScraper::GameListItem))
       end
     end

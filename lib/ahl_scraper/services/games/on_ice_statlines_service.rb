@@ -45,7 +45,7 @@ module AhlScraper
         on_scoring_team ? "#{skater_ids.length}v#{opposing_skater_ids.length}" : "#{opposing_skater_ids.length}v#{skater_ids.length}"
       end
 
-      def find_goal_situation(goal, on_scoring_team)
+      def find_goal_situation(goal, on_scoring_team) # rubocop:disable Metrics/CyclomaticComplexity
         return "pp" if (goal[:properties][:isPowerPlay] == "1" && on_scoring_team) || (goal[:properties][:isShortHanded] == "1" && !on_scoring_team)
 
         return "sh" if goal[:properties][:isShortHanded] == "1" && on_scoring_team || (goal[:properties][:isPowerPlay] == "1" && !on_scoring_team)

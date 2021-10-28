@@ -64,7 +64,7 @@ module AhlScraper
       end
 
       def status
-        @status ||= @raw_data[:status]
+        @status ||= @raw_data[:started] == "0" ? @raw_data[:status].strip : @raw_data[:status]
       end
 
       def season_id
