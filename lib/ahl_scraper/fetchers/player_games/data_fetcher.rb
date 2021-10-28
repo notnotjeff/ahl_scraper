@@ -22,7 +22,7 @@ module AhlScraper
 
       def player_data_without_bio
         data = Nokogiri::HTML(URI.parse(url).open).text[5..-2]
-        bio = data[/\"bio"\:(.*?)\,\"teamName/m, 1]
+        bio = data[/"bio":(.*?),"teamName/m, 1]
         data.gsub(bio, "\"\"")
       end
     end

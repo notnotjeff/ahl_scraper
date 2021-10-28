@@ -3,7 +3,7 @@
 module AhlScraper
   module Games
     class CreateSkatersService
-      def initialize(skater_data, goal_data, penalty_data, shootout_data, penalty_shot_data, opts)
+      def initialize(skater_data, goal_data, penalty_data, shootout_data, penalty_shot_data, opts = {})
         @skater_data = skater_data
         @goal_data = goal_data
         @penalty_data = penalty_data

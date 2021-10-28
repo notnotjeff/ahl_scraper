@@ -2,9 +2,8 @@
 
 module AhlScraper
   class TeamGameListItem < Resource
-    def initialize(raw_data, opts)
-      @raw_data = raw_data
-      @opts = opts
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
     end
 
     def game_id

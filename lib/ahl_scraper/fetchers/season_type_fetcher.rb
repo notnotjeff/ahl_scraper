@@ -7,8 +7,7 @@ module AhlScraper
     end
 
     def call
-      season = JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)
-        .dig(:seasons)
+      season = JSON.parse(Nokogiri::HTML(URI.parse(url).open).text[5..-2], symbolize_names: true)[:seasons]
         &.find { |s| s[:id].to_i == @season_id.to_i }
       return nil unless season
 

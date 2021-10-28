@@ -83,4 +83,25 @@ RSpec.describe AhlScraper::Season do
       expect(season.divisions).to match_array([])
     end
   end
+
+  context "when preseason" do
+    let(:raw_data) do
+      { "id": "74", "name": "2021 Preseason", "default_sort": "" }
+    end
+
+    it "converts raw data into Season record", :vcr do
+      season = described_class.new(raw_data)
+
+      expect(season.id).to eq(74)
+      expect(season.name).to eq("2021 Preseason")
+      expect(season.abbreviation).to eq("21PS")
+      expect(season.season_type).to eq(:preseason)
+      expect(season.start_year).to eq(2021)
+      expect(season.end_year).to eq(2021)
+      expect(season.start_date).to eq(nil)
+      expect(season.end_date).to eq(nil)
+      expect(season.teams.length).to eq(0)
+      expect(season.divisions).to match_array([])
+    end
+  end
 end

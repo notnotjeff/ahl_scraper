@@ -5,7 +5,7 @@ module AhlScraper
     attr_reader :season_id
 
     def initialize(raw_data, season_id)
-      @raw_data = raw_data
+      super(raw_data, {})
       @season_id = season_id
     end
 

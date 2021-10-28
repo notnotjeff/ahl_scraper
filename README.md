@@ -136,7 +136,7 @@ Returns a `Player` object which has full details on a player by passing their id
 require "ahl_scraper"
 AhlScraper::Players.retrieve(6845)
 
-#=> #<Player:0x4b8c {:id=>6845, :current_age=>0.2534e2, :position=>"D", :first_name=>"Sebastian", :shoots=>"L", :last_name=>"Aho", :birthplace=>"Umea, Sweden", :height=>"5-11", :birthdate=>"1996-02-17", :draft_year=>2014, :weight=>177, :catches=>"R", :name=>"Sebastian Aho", :jersey_number=>28}>
+#=> #<Player:0x4b8c {:id=>6845, :current_age=>0.2534e2, :position=>"D", :first_name=>"Sebastian", :handedness=>"L", :last_name=>"Aho", :birthplace=>"Umea, Sweden", :height=>"5-11", :birthdate=>"1996-02-17", :draft_year=>2014, :weight=>177, :name=>"Sebastian Aho", :jersey_number=>28}>
 ```
 
 ### Teams
@@ -182,9 +182,9 @@ Returns an array of `RosterPlayer` objects which provide information on all of a
 require "ahl_scraper"
 AhlScraper::RosterPlayers.retrieve_all(335, 68)
 
-#=> [#<RosterPlayer:0x3c3c {:id=>6379, :current_age=>0.2521e2, :season_id=>68, :position=>"C", :shoots=>"L", :birthplace=>"Saskatoon, SK", :birthdate=>"1996-04-03", :height=>"6-0", :draft_year=>2014, :weight=>203, :rookie?=>false, :team_id=>335, :name=>"Rourke Chartier", :jersey_number=>15}>,
- #<RosterPlayer:0x3c50 {:id=>1844, :current_age=>0.3416e2, :season_id=>68, :position=>"LW", :shoots=>"L", :birthplace=>"Toronto, ON", :birthdate=>"1987-04-25", :height=>"5-11", :draft_year=>2005, :weight=>207, :rookie?=>false, :team_id=>335, :name=>"Richard Clune", :jersey_number=>17}>,
- #<RosterPlayer:0x3c64 {:id=>5660, :current_age=>0.2914e2, :season_id=>68, :position=>"LW", :shoots=>"L", :birthplace=>"Morristown, NJ", :birthdate=>"1992-04-30", :height=>"6-0", :draft_year=>2010, :weight=>200, :rookie?=>false, :team_id=>335, :name=>"Kenny Agostino", :jersey_number=>18}>,
+#=> [#<RosterPlayer:0x3c3c {:id=>6379, :current_age=>0.2521e2, :season_id=>68, :position=>"C", :handedness=>"L", :birthplace=>"Saskatoon, SK", :birthdate=>"1996-04-03", :height=>"6-0", :draft_year=>2014, :weight=>203, :rookie?=>false, :team_id=>335, :name=>"Rourke Chartier", :jersey_number=>15}>,
+ #<RosterPlayer:0x3c50 {:id=>1844, :current_age=>0.3416e2, :season_id=>68, :position=>"LW", :handedness=>"L", :birthplace=>"Toronto, ON", :birthdate=>"1987-04-25", :height=>"5-11", :draft_year=>2005, :weight=>207, :rookie?=>false, :team_id=>335, :name=>"Richard Clune", :jersey_number=>17}>,
+ #<RosterPlayer:0x3c64 {:id=>5660, :current_age=>0.2914e2, :season_id=>68, :position=>"LW", :handedness=>"L", :birthplace=>"Morristown, NJ", :birthdate=>"1992-04-30", :height=>"6-0", :draft_year=>2010, :weight=>200, :rookie?=>false, :team_id=>335, :name=>"Kenny Agostino", :jersey_number=>18}>,
  #...
  #]
 ```

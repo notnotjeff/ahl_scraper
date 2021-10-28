@@ -1,17 +1,30 @@
 # frozen_string_literal: true
 
 RSpec.describe AhlScraper::Games::Penalty do
+  let(:penalty_id) { 249_878 }
+  let(:taken_by) { { id: 6914, firstName: "Nathan", lastName: "Noel", jerseyNumber: 20, position: "LW", birthDate: "" } }
+  let(:served_by) { taken_by }
+  let(:period) { { id: "2", shortName: "", longName: "2nd" } }
+  let(:against_team) { { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" } }
+  let(:description) { "Fighting" }
+  let(:time) { "05:28" }
+  let(:minutes) { 5 }
+  let(:rule_number) { "" }
+  let(:is_powerplay) { false }
+  let(:is_bench) { false }
   let(:penalty_data) do
     {
-      period: { id: "2", shortName: "", longName: "2nd" },
-      time: "05:28",
-      againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
-      minutes: 5,
-      description: "Fighting",
-      ruleNumber: "",
-      takenBy: { id: 6914, firstName: "Nathan", lastName: "Noel", jerseyNumber: 20, position: "LW", birthDate: "" },
-      servedBy: { id: 6914, firstName: "Nathan", lastName: "Noel", jerseyNumber: 20, position: "LW", birthDate: "" },
-      isPowerPlay: false,
+      game_penalty_id: penalty_id,
+      period: period,
+      time: time,
+      againstTeam: against_team,
+      minutes: minutes,
+      description: description,
+      ruleNumber: rule_number,
+      takenBy: taken_by,
+      servedBy: served_by,
+      isPowerPlay: is_powerplay,
+      isBench: is_bench,
     }
   end
   let(:opts) { { number: 1 } }
@@ -19,6 +32,7 @@ RSpec.describe AhlScraper::Games::Penalty do
   it "imports penalty data" do
     penalty = described_class.new(penalty_data, opts)
 
+    expect(penalty.id).to eq(penalty_data[:game_penalty_id])
     expect(penalty.number).to eq(opts[:number])
     expect(penalty.period).to eq(penalty_data[:period][:id].to_i)
     expect(penalty.time).to eq(penalty_data[:time])
@@ -26,6 +40,8 @@ RSpec.describe AhlScraper::Games::Penalty do
     expect(penalty.description).to eq(penalty_data[:description])
     expect(penalty.rule_number).to be_nil
     expect(penalty.power_play?).to eq(penalty_data[:isPowerPlay])
+    expect(penalty.bench?).to eq(penalty_data[:isBench])
+    expect(penalty.invalid?).to be_falsey
 
     expect(penalty.penalized_team[:id]).to eq(penalty_data[:againstTeam][:id])
     expect(penalty.penalized_team[:name]).to eq(penalty_data[:againstTeam][:name])
@@ -50,19 +66,8 @@ RSpec.describe AhlScraper::Games::Penalty do
   end
 
   context "when penalty is served by another player" do
-    let(:penalty_data) do
-      {
-        period: { id: "1", shortName: "", longName: "1st" },
-        time: "00:52",
-        againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
-        minutes: 2,
-        description: "Bench minor - Too many men",
-        ruleNumber: "",
-        takenBy: nil,
-        servedBy: { id: 7432, firstName: "Dylan", lastName: "Sikura", jerseyNumber: 15, position: "RW", birthDate: "" },
-        isPowerPlay: true,
-      }
-    end
+    let(:taken_by) { nil }
+    let(:served_by) { { id: 7432, firstName: "Dylan", lastName: "Sikura", jerseyNumber: 15, position: "RW", birthDate: "" } }
 
     it "imports nil infractor data into object" do
       penalty = described_class.new(penalty_data, opts)
@@ -77,25 +82,33 @@ RSpec.describe AhlScraper::Games::Penalty do
   end
 
   context "when player id is 0" do
-    let(:penalty_data) do
-      {
-        period: { id: "1", shortName: "", longName: "1st" },
-        time: "00:52",
-        againstTeam: { id: 372, name: "Rockford IceHogs", city: "Rockford", nickname: "IceHogs", abbreviation: "RFD", logo: "https://assets.leaguestat.com/ahl/logos/372.jpg" },
-        minutes: 2,
-        description: "Bench minor - Too many men",
-        ruleNumber: "",
-        takenBy: { id: 0, firstName: nil, lastName: nil, jerseyNumber: 0, position: "", birthDate: "" },
-        servedBy: { id: 0, firstName: nil, lastName: nil, jerseyNumber: 0, position: "", birthDate: "" },
-        isPowerPlay: true,
-      }
-    end
+    let(:taken_by) { { id: 0, firstName: nil, lastName: nil, jerseyNumber: 0, position: "", birthDate: "" } }
 
     it "sets player id as nil" do
       penalty = described_class.new(penalty_data, opts)
 
       expect(penalty.taken_by[:id]).to eq(nil)
       expect(penalty.served_by[:id]).to eq(nil)
+    end
+  end
+
+  context "when penalty is on invalid list" do
+    let(:penalty_id) { 240_773 }
+
+    it "sets invalid? to true" do
+      penalty = described_class.new(penalty_data, opts)
+
+      expect(penalty.invalid?).to be_truthy
+    end
+  end
+
+  context "when penalty shot penalty" do
+    let(:description) { "Penalty Shot - Tripping from behind" }
+
+    it "sets type to penalty shot" do
+      penalty = described_class.new(penalty_data, opts)
+
+      expect(penalty.penalty_type).to eq(:penalty_shot)
     end
   end
 end

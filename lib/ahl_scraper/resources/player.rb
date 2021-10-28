@@ -2,8 +2,8 @@
 
 module AhlScraper
   class Player < Resource
-    def initialize(raw_data)
-      @raw_data = raw_data
+    def initialize(raw_data, opts = {})
+      super(raw_data, opts)
     end
 
     def id
@@ -22,12 +22,8 @@ module AhlScraper
       @last_name ||= @raw_data.dig(:info, :lastName)
     end
 
-    def shoots
-      @shoots ||= @raw_data.dig(:info, :shoots)
-    end
-
-    def catches
-      @catches ||= @raw_data.dig(:info, :catches)
+    def handedness
+      @handedness ||= position == "G" ? @raw_data.dig(:info, :catches) : @raw_data.dig(:info, :shoots)
     end
 
     def birthplace

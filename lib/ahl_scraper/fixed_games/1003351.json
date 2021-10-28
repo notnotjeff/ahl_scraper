@@ -1,0 +1,2728 @@
+{
+  "details": {
+    "id": 1003351,
+    "date": "Saturday, April 28, 2007",
+    "gameNumber": "6",
+    "venue": "Copps Coliseum",
+    "attendance": 3221,
+    "startTime": "7:07 pm",
+    "endTime": "9:35 pm",
+    "duration": "2:28",
+    "gameReportUrl": "https://lscluster.hockeytech.com/game_reports/official-game-report.php?lang_id=1&client_code=ahl&game_id=1003351",
+    "textBoxscoreUrl": "https://lscluster.hockeytech.com/game_reports/text-game-report.php?lang_id=1&client_code=ahl&game_id=1003351",
+    "ticketsUrl": "",
+    "started": "1",
+    "final": "1",
+    "publicNotes": "",
+    "status": "Final",
+    "seasonId": "10",
+    "htvGameId": "",
+    "GameDateISO8601": "2007-04-28T19:00:00-04:00"
+  },
+  "referees": [
+    {
+      "firstName": "Dean",
+      "lastName": "Morton",
+      "jerseyNumber": 36,
+      "role": "Referee"
+    }
+  ],
+  "linesmen": [
+    {
+      "firstName": "Scott",
+      "lastName": "Cherrey",
+      "jerseyNumber": 50,
+      "role": "Linesman"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Lachine",
+      "jerseyNumber": 83,
+      "role": "Linesman"
+    }
+  ],
+  "mostValuablePlayers": [
+    {
+      "team": {
+        "id": 326,
+        "name": "Hamilton Bulldogs",
+        "city": "Hamilton",
+        "nickname": "Hamilton",
+        "abbreviation": "HAM",
+        "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 551,
+          "firstName": "Maxim",
+          "lastName": "Lapierre",
+          "jerseyNumber": 26,
+          "position": "C",
+          "birthDate": "1985-03-29"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/551.jpg"
+    },
+    {
+      "team": {
+        "id": 326,
+        "name": "Hamilton Bulldogs",
+        "city": "Hamilton",
+        "nickname": "Hamilton",
+        "abbreviation": "HAM",
+        "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 1470,
+          "firstName": "Ryan",
+          "lastName": "O'Byrne",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1984-07-19"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/1470.jpg"
+    },
+    {
+      "team": {
+        "id": 323,
+        "name": "Rochester Americans",
+        "city": "Rochester",
+        "nickname": "Rochester",
+        "abbreviation": "ROC",
+        "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+        "divisionName": "North Division"
+      },
+      "player": {
+        "info": {
+          "id": 511,
+          "firstName": "Clarke",
+          "lastName": "MacArthur",
+          "jerseyNumber": 41,
+          "position": "LW",
+          "birthDate": "1985-04-06"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      "isGoalie": false,
+      "playerImage": "https://assets.leaguestat.com/ahl/240x240/511.jpg"
+    }
+  ],
+  "hasShootout": false,
+  "homeTeam": {
+    "info": {
+      "id": 326,
+      "name": "Hamilton Bulldogs",
+      "city": "Hamilton",
+      "nickname": "Hamilton",
+      "abbreviation": "HAM",
+      "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+      "divisionName": "North Division"
+    },
+    "stats": {
+      "shots": 33,
+      "goals": 6,
+      "hits": 0,
+      "powerPlayGoals": 1,
+      "powerPlayOpportunities": 6,
+      "goalCount": 6,
+      "assistCount": 8,
+      "penaltyMinuteCount": 8,
+      "infractionCount": 4
+    },
+    "media": { "audioUrl": "", "videoUrl": "", "webcastUrl": "" },
+    "coaches": [],
+    "skaters": [
+      {
+        "info": {
+          "id": 1470,
+          "firstName": "Ryan",
+          "lastName": "O'Byrne",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1984-07-19"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 345,
+          "firstName": "Dan",
+          "lastName": "Jancevski",
+          "jerseyNumber": 4,
+          "position": "D",
+          "birthDate": "1981-06-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 536,
+          "firstName": "Eric",
+          "lastName": "Manlow",
+          "jerseyNumber": 7,
+          "position": "LW",
+          "birthDate": "1975-04-07"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 713,
+          "firstName": "Cory",
+          "lastName": "Urquhart",
+          "jerseyNumber": 10,
+          "position": "C",
+          "birthDate": "1984-10-01"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 562,
+          "firstName": "Andre",
+          "lastName": "Benoit",
+          "jerseyNumber": 16,
+          "position": "D",
+          "birthDate": "1984-01-06"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1127,
+          "firstName": "Kyle",
+          "lastName": "Chipchura",
+          "jerseyNumber": 17,
+          "position": "C",
+          "birthDate": "1986-02-19"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 555,
+          "firstName": "Duncan",
+          "lastName": "Milroy",
+          "jerseyNumber": 19,
+          "position": "RW",
+          "birthDate": "1983-02-08"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 400,
+          "firstName": "Zack",
+          "lastName": "Stortini",
+          "jerseyNumber": 20,
+          "position": "C",
+          "birthDate": "1985-09-11"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 547,
+          "firstName": "Jonathan",
+          "lastName": "Ferland",
+          "jerseyNumber": 21,
+          "position": "RW",
+          "birthDate": "1983-02-09"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 1460,
+          "firstName": "Matt",
+          "lastName": "D'Agostini",
+          "jerseyNumber": 22,
+          "position": "RW",
+          "birthDate": "1986-10-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 552,
+          "firstName": "Francis",
+          "lastName": "Lemieux",
+          "jerseyNumber": 24,
+          "position": "RW",
+          "birthDate": "1984-02-22"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 551,
+          "firstName": "Maxim",
+          "lastName": "Lapierre",
+          "jerseyNumber": 26,
+          "position": "C",
+          "birthDate": "1985-03-29"
+        },
+        "stats": {
+          "goals": 2,
+          "assists": 0,
+          "points": 2,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 5,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1469,
+          "firstName": "Danny",
+          "lastName": "Groulx",
+          "jerseyNumber": 27,
+          "position": "D",
+          "birthDate": "1981-06-23"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1462,
+          "firstName": "Mikhail",
+          "lastName": "Grabovski",
+          "jerseyNumber": 31,
+          "position": "C",
+          "birthDate": "1984-01-31"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 37,
+          "firstName": "Ajay",
+          "lastName": "Baines",
+          "jerseyNumber": 32,
+          "position": "C",
+          "birthDate": "1978-03-25"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 1416,
+          "firstName": "Mathieu",
+          "lastName": "Biron",
+          "jerseyNumber": 34,
+          "position": "D",
+          "birthDate": "1980-04-29"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 561,
+          "firstName": "Andrew",
+          "lastName": "Archer",
+          "jerseyNumber": 55,
+          "position": "D",
+          "birthDate": "1983-05-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 554,
+          "firstName": "Corey",
+          "lastName": "Locke",
+          "jerseyNumber": 84,
+          "position": "C",
+          "birthDate": "1984-05-08"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 2,
+          "points": 3,
+          "penaltyMinutes": 0,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 4,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 1834,
+          "firstName": "Carey",
+          "lastName": "Price",
+          "jerseyNumber": 29,
+          "position": "G",
+          "birthDate": "1987-08-16"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "59:49",
+          "shotsAgainst": 27,
+          "goalsAgainst": 2,
+          "saves": 25
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 809,
+          "firstName": "Yann",
+          "lastName": "Danis",
+          "jerseyNumber": 35,
+          "position": "G",
+          "birthDate": "1981-06-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      }
+    ],
+    "goalieLog": [
+      {
+        "info": {
+          "id": 1834,
+          "firstName": "Carey",
+          "lastName": "Price",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": ""
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "52:37",
+          "shotsAgainst": 27,
+          "goalsAgainst": 2,
+          "saves": 25
+        },
+        "periodStart": { "id": "1", "shortName": "1", "longName": "1st" },
+        "timeStart": "0:00",
+        "periodEnd": { "id": "3", "shortName": "3", "longName": "3rd" },
+        "timeEnd": "12:37",
+        "result": "W"
+      },
+      {
+        "info": {
+          "id": 1834,
+          "firstName": "Carey",
+          "lastName": "Price",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": ""
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "07:12",
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "periodStart": { "id": "3", "shortName": "3", "longName": "3rd" },
+        "timeStart": "12:48",
+        "periodEnd": { "id": "3", "shortName": "3", "longName": "3rd" },
+        "timeEnd": "20:00",
+        "result": "W"
+      }
+    ],
+    "seasonStats": []
+  },
+  "visitingTeam": {
+    "info": {
+      "id": 323,
+      "name": "Rochester Americans",
+      "city": "Rochester",
+      "nickname": "Rochester",
+      "abbreviation": "ROC",
+      "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+      "divisionName": "North Division"
+    },
+    "stats": {
+      "shots": 27,
+      "goals": 2,
+      "hits": 0,
+      "powerPlayGoals": 0,
+      "powerPlayOpportunities": 3,
+      "goalCount": 2,
+      "assistCount": 4,
+      "penaltyMinuteCount": 14,
+      "infractionCount": 7
+    },
+    "media": { "audioUrl": "", "videoUrl": "", "webcastUrl": "" },
+    "coaches": [],
+    "skaters": [
+      {
+        "info": {
+          "id": 1478,
+          "firstName": "Mike",
+          "lastName": "Card",
+          "jerseyNumber": 2,
+          "position": "D",
+          "birthDate": "1986-02-18"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 777,
+          "firstName": "Jeremy",
+          "lastName": "Swanson",
+          "jerseyNumber": 3,
+          "position": "D",
+          "birthDate": "1984-06-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1479,
+          "firstName": "Michael",
+          "lastName": "Funk",
+          "jerseyNumber": 4,
+          "position": "D",
+          "birthDate": "1986-08-15"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 731,
+          "firstName": "Timo",
+          "lastName": "Helbling",
+          "jerseyNumber": 5,
+          "position": "D",
+          "birthDate": "1981-07-21"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 740,
+          "firstName": "Stefan",
+          "lastName": "Meyer",
+          "jerseyNumber": 10,
+          "position": "LW",
+          "birthDate": "1985-07-20"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1475,
+          "firstName": "David",
+          "lastName": "Booth",
+          "jerseyNumber": 12,
+          "position": "LW",
+          "birthDate": "1984-11-24"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 446,
+          "firstName": "Michael",
+          "lastName": "Ryan",
+          "jerseyNumber": 17,
+          "position": "LW",
+          "birthDate": "1980-05-16"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 452,
+          "firstName": "Rob",
+          "lastName": "Globke",
+          "jerseyNumber": 18,
+          "position": "RW",
+          "birthDate": "1982-10-24"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1480,
+          "firstName": "Dylan",
+          "lastName": "Hunter",
+          "jerseyNumber": 19,
+          "position": "LW",
+          "birthDate": "1985-05-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 669,
+          "firstName": "Greg",
+          "lastName": "Jacina",
+          "jerseyNumber": 22,
+          "position": "RW",
+          "birthDate": "1982-05-22"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1515,
+          "firstName": "Marek",
+          "lastName": "Zagrapan",
+          "jerseyNumber": 23,
+          "position": "C",
+          "birthDate": "1986-12-06"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 0,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 487,
+          "firstName": "Anthony",
+          "lastName": "Stewart",
+          "jerseyNumber": 24,
+          "position": "RW",
+          "birthDate": "1985-01-05"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 681,
+          "firstName": "Mark",
+          "lastName": "Mancari",
+          "jerseyNumber": 26,
+          "position": "RW",
+          "birthDate": "1985-07-11"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 495,
+          "firstName": "Brandon",
+          "lastName": "Smith",
+          "jerseyNumber": 27,
+          "position": "D",
+          "birthDate": "1973-02-25"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": 1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": "C"
+      },
+      {
+        "info": {
+          "id": 500,
+          "firstName": "Kamil",
+          "lastName": "Kreps",
+          "jerseyNumber": 28,
+          "position": "C",
+          "birthDate": "1984-11-18"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 3,
+          "hits": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1516,
+          "firstName": "Janis",
+          "lastName": "Sprukts",
+          "jerseyNumber": 33,
+          "position": "C",
+          "birthDate": "1982-01-31"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 1,
+          "points": 1,
+          "penaltyMinutes": 2,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": "A"
+      },
+      {
+        "info": {
+          "id": 511,
+          "firstName": "Clarke",
+          "lastName": "MacArthur",
+          "jerseyNumber": 41,
+          "position": "LW",
+          "birthDate": "1985-04-06"
+        },
+        "stats": {
+          "goals": 1,
+          "assists": 0,
+          "points": 1,
+          "penaltyMinutes": 0,
+          "plusMinus": -1,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 2,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 22,
+          "firstName": "Noah",
+          "lastName": "Welch",
+          "jerseyNumber": 45,
+          "position": "D",
+          "birthDate": "1982-08-26"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 2,
+          "plusMinus": -2,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "shots": 1,
+          "hits": 0
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalies": [
+      {
+        "info": {
+          "id": 1537,
+          "firstName": "Adam",
+          "lastName": "Dennis",
+          "jerseyNumber": 29,
+          "position": "G",
+          "birthDate": "1985-02-08"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": null,
+          "shotsAgainst": 0,
+          "goalsAgainst": 0,
+          "saves": 0
+        },
+        "starting": 0,
+        "status": ""
+      },
+      {
+        "info": {
+          "id": 1476,
+          "firstName": "Craig",
+          "lastName": "Anderson",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": "1981-05-21"
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "58:24",
+          "shotsAgainst": 32,
+          "goalsAgainst": 5,
+          "saves": 27
+        },
+        "starting": 1,
+        "status": ""
+      }
+    ],
+    "goalieLog": [
+      {
+        "info": {
+          "id": 1476,
+          "firstName": "Craig",
+          "lastName": "Anderson",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": ""
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "12:36",
+          "shotsAgainst": 28,
+          "goalsAgainst": 1,
+          "saves": 27
+        },
+        "periodStart": { "id": "1", "shortName": "1", "longName": "1st" },
+        "timeStart": "0:00",
+        "periodEnd": { "id": "1", "shortName": "1", "longName": "1st" },
+        "timeEnd": "12:36",
+        "result": "L"
+      },
+      {
+        "info": {
+          "id": 1476,
+          "firstName": "Craig",
+          "lastName": "Anderson",
+          "jerseyNumber": 30,
+          "position": "G",
+          "birthDate": ""
+        },
+        "stats": {
+          "goals": 0,
+          "assists": 0,
+          "points": 0,
+          "penaltyMinutes": 0,
+          "plusMinus": 0,
+          "faceoffAttempts": 0,
+          "faceoffWins": 0,
+          "timeOnIce": "45:48",
+          "shotsAgainst": 3,
+          "goalsAgainst": 3,
+          "saves": 0
+        },
+        "periodStart": { "id": "1", "shortName": "1", "longName": "1st" },
+        "timeStart": "12:45",
+        "periodEnd": { "id": "3", "shortName": "3", "longName": "3rd" },
+        "timeEnd": "18:33",
+        "result": "L"
+      }
+    ],
+    "seasonStats": []
+  },
+  "periods": [
+    {
+      "info": { "id": "1", "shortName": "1", "longName": "1st" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "10",
+        "visitingGoals": "1",
+        "visitingShots": "9"
+      },
+      "goals": [
+        {
+          "game_goal_id": "13795",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "8:55",
+          "scorerGoalNumber": "2",
+          "scoredBy": {
+            "id": 536,
+            "firstName": "Eric",
+            "lastName": "Manlow",
+            "jerseyNumber": 7,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 1462,
+              "firstName": "Mikhail",
+              "lastName": "Grabovski",
+              "jerseyNumber": 31,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 561,
+              "firstName": "Andrew",
+              "lastName": "Archer",
+              "jerseyNumber": 55,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["1", "1"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 536,
+              "firstName": "Eric",
+              "lastName": "Manlow",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 1460,
+              "firstName": "Matt",
+              "lastName": "D'Agostini",
+              "jerseyNumber": 22,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1469,
+              "firstName": "Danny",
+              "lastName": "Groulx",
+              "jerseyNumber": 27,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1462,
+              "firstName": "Mikhail",
+              "lastName": "Grabovski",
+              "jerseyNumber": 31,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 561,
+              "firstName": "Andrew",
+              "lastName": "Archer",
+              "jerseyNumber": 55,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 1478,
+              "firstName": "Mike",
+              "lastName": "Card",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 446,
+              "firstName": "Michael",
+              "lastName": "Ryan",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 669,
+              "firstName": "Greg",
+              "lastName": "Jacina",
+              "jerseyNumber": 22,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1515,
+              "firstName": "Marek",
+              "lastName": "Zagrapan",
+              "jerseyNumber": 23,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 45,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "13798",
+          "team": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "14:46",
+          "scorerGoalNumber": "2",
+          "scoredBy": {
+            "id": 731,
+            "firstName": "Timo",
+            "lastName": "Helbling",
+            "jerseyNumber": 5,
+            "position": "D",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 1480,
+              "firstName": "Dylan",
+              "lastName": "Hunter",
+              "jerseyNumber": 19,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 740,
+              "firstName": "Stefan",
+              "lastName": "Meyer",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["2", "2"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 731,
+              "firstName": "Timo",
+              "lastName": "Helbling",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 740,
+              "firstName": "Stefan",
+              "lastName": "Meyer",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 1480,
+              "firstName": "Dylan",
+              "lastName": "Hunter",
+              "jerseyNumber": 19,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 669,
+              "firstName": "Greg",
+              "lastName": "Jacina",
+              "jerseyNumber": 22,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 45,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 547,
+              "firstName": "Jonathan",
+              "lastName": "Ferland",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1469,
+              "firstName": "Danny",
+              "lastName": "Groulx",
+              "jerseyNumber": 27,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1462,
+              "firstName": "Mikhail",
+              "lastName": "Grabovski",
+              "jerseyNumber": 31,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 561,
+              "firstName": "Andrew",
+              "lastName": "Archer",
+              "jerseyNumber": 55,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 37774,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "04:52",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 681,
+            "firstName": "Mark",
+            "lastName": "Mancari",
+            "jerseyNumber": 26,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 681,
+            "firstName": "Mark",
+            "lastName": "Mancari",
+            "jerseyNumber": 26,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37777,
+          "period": { "id": "1", "shortName": "", "longName": "1st" },
+          "time": "12:45",
+          "againstTeam": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "High-sticking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1462,
+            "firstName": "Mikhail",
+            "lastName": "Grabovski",
+            "jerseyNumber": 0,
+            "position": "C",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1462,
+            "firstName": "Mikhail",
+            "lastName": "Grabovski",
+            "jerseyNumber": 0,
+            "position": "C",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "2", "shortName": "2", "longName": "2nd" },
+      "stats": {
+        "homeGoals": "1",
+        "homeShots": "7",
+        "visitingGoals": "1",
+        "visitingShots": "10"
+      },
+      "goals": [
+        {
+          "game_goal_id": "13802",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "4:57",
+          "scorerGoalNumber": "3",
+          "scoredBy": {
+            "id": 551,
+            "firstName": "Maxim",
+            "lastName": "Lapierre",
+            "jerseyNumber": 26,
+            "position": "C",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["2", "0"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 555,
+              "firstName": "Duncan",
+              "lastName": "Milroy",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 551,
+              "firstName": "Maxim",
+              "lastName": "Lapierre",
+              "jerseyNumber": 26,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 1469,
+              "firstName": "Danny",
+              "lastName": "Groulx",
+              "jerseyNumber": 27,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 561,
+              "firstName": "Andrew",
+              "lastName": "Archer",
+              "jerseyNumber": 55,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 777,
+              "firstName": "Jeremy",
+              "lastName": "Swanson",
+              "jerseyNumber": 3,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 731,
+              "firstName": "Timo",
+              "lastName": "Helbling",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1475,
+              "firstName": "David",
+              "lastName": "Booth",
+              "jerseyNumber": 12,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 487,
+              "firstName": "Anthony",
+              "lastName": "Stewart",
+              "jerseyNumber": 24,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 500,
+              "firstName": "Kamil",
+              "lastName": "Kreps",
+              "jerseyNumber": 28,
+              "position": "C",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "13803",
+          "team": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "6:10",
+          "scorerGoalNumber": "2",
+          "scoredBy": {
+            "id": 511,
+            "firstName": "Clarke",
+            "lastName": "MacArthur",
+            "jerseyNumber": 41,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 1516,
+              "firstName": "Janis",
+              "lastName": "Sprukts",
+              "jerseyNumber": 33,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 681,
+              "firstName": "Mark",
+              "lastName": "Mancari",
+              "jerseyNumber": 26,
+              "position": "RW",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["3", "5"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 1479,
+              "firstName": "Michael",
+              "lastName": "Funk",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 681,
+              "firstName": "Mark",
+              "lastName": "Mancari",
+              "jerseyNumber": 26,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 495,
+              "firstName": "Brandon",
+              "lastName": "Smith",
+              "jerseyNumber": 27,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1516,
+              "firstName": "Janis",
+              "lastName": "Sprukts",
+              "jerseyNumber": 33,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 511,
+              "firstName": "Clarke",
+              "lastName": "MacArthur",
+              "jerseyNumber": 41,
+              "position": "LW",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 345,
+              "firstName": "Dan",
+              "lastName": "Jancevski",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 536,
+              "firstName": "Eric",
+              "lastName": "Manlow",
+              "jerseyNumber": 7,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 1460,
+              "firstName": "Matt",
+              "lastName": "D'Agostini",
+              "jerseyNumber": 22,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1462,
+              "firstName": "Mikhail",
+              "lastName": "Grabovski",
+              "jerseyNumber": 31,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 1416,
+              "firstName": "Mathieu",
+              "lastName": "Biron",
+              "jerseyNumber": 34,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 37787,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "12:06",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Cross-checking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 495,
+            "firstName": "Brandon",
+            "lastName": "Smith",
+            "jerseyNumber": 27,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 495,
+            "firstName": "Brandon",
+            "lastName": "Smith",
+            "jerseyNumber": 27,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37790,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "16:51",
+          "againstTeam": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1460,
+            "firstName": "Matt",
+            "lastName": "D'Agostini",
+            "jerseyNumber": 22,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1460,
+            "firstName": "Matt",
+            "lastName": "D'Agostini",
+            "jerseyNumber": 22,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37792,
+          "period": { "id": "2", "shortName": "", "longName": "2nd" },
+          "time": "19:18",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Holding",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 22,
+            "firstName": "Noah",
+            "lastName": "Welch",
+            "jerseyNumber": 3,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 22,
+            "firstName": "Noah",
+            "lastName": "Welch",
+            "jerseyNumber": 3,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        }
+      ]
+    },
+    {
+      "info": { "id": "3", "shortName": "3", "longName": "3rd" },
+      "stats": {
+        "homeGoals": "4",
+        "homeShots": "16",
+        "visitingGoals": "0",
+        "visitingShots": "8"
+      },
+      "goals": [
+        {
+          "game_goal_id": "13810",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "7:57",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 1470,
+            "firstName": "Ryan",
+            "lastName": "O'Byrne",
+            "jerseyNumber": 2,
+            "position": "D",
+            "birthDate": ""
+          },
+          "assists": [],
+          "assistNumbers": ["0", "0"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "1"
+          },
+          "plus_players": [
+            {
+              "id": 1470,
+              "firstName": "Ryan",
+              "lastName": "O'Byrne",
+              "jerseyNumber": 2,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 562,
+              "firstName": "Andre",
+              "lastName": "Benoit",
+              "jerseyNumber": 16,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1127,
+              "firstName": "Kyle",
+              "lastName": "Chipchura",
+              "jerseyNumber": 17,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 547,
+              "firstName": "Jonathan",
+              "lastName": "Ferland",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 37,
+              "firstName": "Ajay",
+              "lastName": "Baines",
+              "jerseyNumber": 32,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 777,
+              "firstName": "Jeremy",
+              "lastName": "Swanson",
+              "jerseyNumber": 3,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 731,
+              "firstName": "Timo",
+              "lastName": "Helbling",
+              "jerseyNumber": 5,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 681,
+              "firstName": "Mark",
+              "lastName": "Mancari",
+              "jerseyNumber": 26,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1516,
+              "firstName": "Janis",
+              "lastName": "Sprukts",
+              "jerseyNumber": 33,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 511,
+              "firstName": "Clarke",
+              "lastName": "MacArthur",
+              "jerseyNumber": 41,
+              "position": "LW",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "13813",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "16:17",
+          "scorerGoalNumber": "4",
+          "scoredBy": {
+            "id": 551,
+            "firstName": "Maxim",
+            "lastName": "Lapierre",
+            "jerseyNumber": 26,
+            "position": "C",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 555,
+              "firstName": "Duncan",
+              "lastName": "Milroy",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["3", "5"],
+          "properties": {
+            "isPowerPlay": "1",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "1",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 345,
+              "firstName": "Dan",
+              "lastName": "Jancevski",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 555,
+              "firstName": "Duncan",
+              "lastName": "Milroy",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 551,
+              "firstName": "Maxim",
+              "lastName": "Lapierre",
+              "jerseyNumber": 26,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 1416,
+              "firstName": "Mathieu",
+              "lastName": "Biron",
+              "jerseyNumber": 34,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 1475,
+              "firstName": "David",
+              "lastName": "Booth",
+              "jerseyNumber": 12,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 495,
+              "firstName": "Brandon",
+              "lastName": "Smith",
+              "jerseyNumber": 27,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 511,
+              "firstName": "Clarke",
+              "lastName": "MacArthur",
+              "jerseyNumber": 41,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 45,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "13814",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "19:11",
+          "scorerGoalNumber": "1",
+          "scoredBy": {
+            "id": 1127,
+            "firstName": "Kyle",
+            "lastName": "Chipchura",
+            "jerseyNumber": 17,
+            "position": "C",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 1834,
+              "firstName": "Carey",
+              "lastName": "Price",
+              "jerseyNumber": 29,
+              "position": "G",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["1", "0"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "1",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 562,
+              "firstName": "Andre",
+              "lastName": "Benoit",
+              "jerseyNumber": 16,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 1127,
+              "firstName": "Kyle",
+              "lastName": "Chipchura",
+              "jerseyNumber": 17,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 555,
+              "firstName": "Duncan",
+              "lastName": "Milroy",
+              "jerseyNumber": 19,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1416,
+              "firstName": "Mathieu",
+              "lastName": "Biron",
+              "jerseyNumber": 34,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 446,
+              "firstName": "Michael",
+              "lastName": "Ryan",
+              "jerseyNumber": 17,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 681,
+              "firstName": "Mark",
+              "lastName": "Mancari",
+              "jerseyNumber": 26,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1516,
+              "firstName": "Janis",
+              "lastName": "Sprukts",
+              "jerseyNumber": 33,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 511,
+              "firstName": "Clarke",
+              "lastName": "MacArthur",
+              "jerseyNumber": 41,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 45,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        },
+        {
+          "game_goal_id": "13815",
+          "team": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "19:49",
+          "scorerGoalNumber": "5",
+          "scoredBy": {
+            "id": 554,
+            "firstName": "Corey",
+            "lastName": "Locke",
+            "jerseyNumber": 84,
+            "position": "C",
+            "birthDate": ""
+          },
+          "assists": [
+            {
+              "id": 547,
+              "firstName": "Jonathan",
+              "lastName": "Ferland",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1416,
+              "firstName": "Mathieu",
+              "lastName": "Biron",
+              "jerseyNumber": 34,
+              "position": "D",
+              "birthDate": ""
+            }
+          ],
+          "assistNumbers": ["2", "3"],
+          "properties": {
+            "isPowerPlay": "0",
+            "isShortHanded": "0",
+            "isEmptyNet": "0",
+            "isPenaltyShot": "0",
+            "isInsuranceGoal": "0",
+            "isGameWinningGoal": "0"
+          },
+          "plus_players": [
+            {
+              "id": 345,
+              "firstName": "Dan",
+              "lastName": "Jancevski",
+              "jerseyNumber": 4,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 547,
+              "firstName": "Jonathan",
+              "lastName": "Ferland",
+              "jerseyNumber": 21,
+              "position": "RW",
+              "birthDate": ""
+            },
+            {
+              "id": 1416,
+              "firstName": "Mathieu",
+              "lastName": "Biron",
+              "jerseyNumber": 34,
+              "position": "D",
+              "birthDate": ""
+            },
+            {
+              "id": 554,
+              "firstName": "Corey",
+              "lastName": "Locke",
+              "jerseyNumber": 84,
+              "position": "C",
+              "birthDate": ""
+            }
+          ],
+          "minus_players": [
+            {
+              "id": 740,
+              "firstName": "Stefan",
+              "lastName": "Meyer",
+              "jerseyNumber": 10,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 1480,
+              "firstName": "Dylan",
+              "lastName": "Hunter",
+              "jerseyNumber": 19,
+              "position": "LW",
+              "birthDate": ""
+            },
+            {
+              "id": 1515,
+              "firstName": "Marek",
+              "lastName": "Zagrapan",
+              "jerseyNumber": 23,
+              "position": "C",
+              "birthDate": ""
+            },
+            {
+              "id": 22,
+              "firstName": "Noah",
+              "lastName": "Welch",
+              "jerseyNumber": 45,
+              "position": "D",
+              "birthDate": ""
+            }
+          ]
+        }
+      ],
+      "penalties": [
+        {
+          "game_penalty_id": 37796,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "03:20",
+          "againstTeam": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Boarding",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1127,
+            "firstName": "Kyle",
+            "lastName": "Chipchura",
+            "jerseyNumber": 19,
+            "position": "C",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1127,
+            "firstName": "Kyle",
+            "lastName": "Chipchura",
+            "jerseyNumber": 19,
+            "position": "C",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37800,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "08:24",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 446,
+            "firstName": "Michael",
+            "lastName": "Ryan",
+            "jerseyNumber": 19,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 446,
+            "firstName": "Michael",
+            "lastName": "Ryan",
+            "jerseyNumber": 19,
+            "position": "LW",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37802,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "12:48",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Tripping",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1516,
+            "firstName": "Janis",
+            "lastName": "Sprukts",
+            "jerseyNumber": 5,
+            "position": "C",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1516,
+            "firstName": "Janis",
+            "lastName": "Sprukts",
+            "jerseyNumber": 5,
+            "position": "C",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37806,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "15:01",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Hooking",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1479,
+            "firstName": "Michael",
+            "lastName": "Funk",
+            "jerseyNumber": 14,
+            "position": "D",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1479,
+            "firstName": "Michael",
+            "lastName": "Funk",
+            "jerseyNumber": 14,
+            "position": "D",
+            "birthDate": ""
+          },
+          "isPowerPlay": true,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37807,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "19:00",
+          "againstTeam": {
+            "id": 323,
+            "name": "Rochester Americans",
+            "city": "Rochester",
+            "nickname": "Rochester",
+            "abbreviation": "ROC",
+            "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Goaltender interference",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 669,
+            "firstName": "Greg",
+            "lastName": "Jacina",
+            "jerseyNumber": 44,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 669,
+            "firstName": "Greg",
+            "lastName": "Jacina",
+            "jerseyNumber": 44,
+            "position": "RW",
+            "birthDate": ""
+          },
+          "isPowerPlay": false,
+          "isBench": false
+        },
+        {
+          "game_penalty_id": 37808,
+          "period": { "id": "3", "shortName": "", "longName": "3rd" },
+          "time": "19:00",
+          "againstTeam": {
+            "id": 326,
+            "name": "Hamilton Bulldogs",
+            "city": "Hamilton",
+            "nickname": "Hamilton",
+            "abbreviation": "HAM",
+            "logo": "https://assets.leaguestat.com/ahl/logos/326.jpg",
+            "divisionName": "North Division"
+          },
+          "minutes": 2,
+          "description": "Leaving the crease",
+          "ruleNumber": "",
+          "takenBy": {
+            "id": 1834,
+            "firstName": "Carey",
+            "lastName": "Price",
+            "jerseyNumber": 30,
+            "position": "G",
+            "birthDate": ""
+          },
+          "servedBy": {
+            "id": 1834,
+            "firstName": "Carey",
+            "lastName": "Price",
+            "jerseyNumber": 30,
+            "position": "G",
+            "birthDate": ""
+          },
+          "isPowerPlay": false,
+          "isBench": false
+        }
+      ]
+    }
+  ],
+  "penaltyShots": { "homeTeam": [], "visitingTeam": [] },
+  "featuredPlayer": {
+    "team": {
+      "id": 323,
+      "name": "Rochester Americans",
+      "city": "Rochester",
+      "nickname": "Rochester",
+      "abbreviation": "ROC",
+      "logo": "https://assets.leaguestat.com/ahl/logos/323.jpg",
+      "divisionName": "North Division"
+    },
+    "player": {
+      "info": {
+        "id": 0,
+        "firstName": null,
+        "lastName": null,
+        "jerseyNumber": 0,
+        "position": null,
+        "birthDate": null
+      },
+      "stats": {
+        "goals": 0,
+        "assists": 0,
+        "points": 0,
+        "penaltyMinutes": 0,
+        "plusMinus": 0,
+        "faceoffAttempts": 0,
+        "faceoffWins": 0,
+        "shots": 0,
+        "hits": 0
+      },
+      "starting": 0,
+      "status": null
+    },
+    "isGoalie": false,
+    "playerImage": " ",
+    "sponsor": { "name": null, "image": null }
+  }
+}
