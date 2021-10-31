@@ -39,6 +39,7 @@ require "ahl_scraper/resources/goalie_game_list_item"
 require "ahl_scraper/resources/season_list_item"
 require "ahl_scraper/resources/skater_game_list_item"
 require "ahl_scraper/resources/roster_player"
+require "ahl_scraper/resources/scoreboard"
 require "ahl_scraper/resources/player"
 
 require "ahl_scraper/games"
@@ -49,6 +50,7 @@ require "ahl_scraper/player_games"
 require "ahl_scraper/players"
 require "ahl_scraper/playoff_brackets"
 require "ahl_scraper/roster_players"
+require "ahl_scraper/scoreboards"
 
 module AhlScraper
   class Error < StandardError; end

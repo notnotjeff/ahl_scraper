@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.3.1
+
+### Scoreboards
+
+- Add new module for getting the scores seen at the top of the AHL website
+  - Retrieve Scoreboards based on a passed in date range
+
 ## 0.3.0
 
 ### General
