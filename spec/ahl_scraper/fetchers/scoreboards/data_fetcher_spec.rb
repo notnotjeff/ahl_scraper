@@ -11,7 +11,6 @@ RSpec.describe AhlScraper::Scoreboards::DataFetcher do
 
     it "fetches scoreboard data for date range", :vcr do
       games = described_class.new(start_date: start_date, end_date: end_date).call
-      byebug
 
       games.each do |_game|
         expect(Date.parse(card[:Date])).to be_between(start_date, end_date)
