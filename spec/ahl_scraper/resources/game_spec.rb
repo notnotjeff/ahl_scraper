@@ -17,6 +17,14 @@ RSpec.describe AhlScraper::Game do
       end
     end
 
+    context "when game has been postponed" do
+      it "returns postponed" do
+        game = described_class.new(1_022_727)
+
+        expect(game.status).to eq("postponed")
+      end
+    end
+
     context "when game result needs to be voided" do
       it "returns result_void" do
         game = described_class.new(1_022_174)
