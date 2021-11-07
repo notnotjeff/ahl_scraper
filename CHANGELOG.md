@@ -7,6 +7,10 @@
 - Add new module for getting the scores seen at the top of the AHL website
   - Retrieve Scoreboards based on a passed in date range
 
+### Game
+
+- Add postponed status to possible game statuses
+
 ## 0.3.0
 
 ### General
