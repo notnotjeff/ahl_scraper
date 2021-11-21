@@ -44,7 +44,7 @@ module AhlScraper
           goals: @raw_data[:stats][:goals],
           assists: @raw_data[:stats][:assists],
           points: @raw_data[:stats][:points],
-          penalty_minutes: @raw_data[:stats][:penaltyMinute],
+          penalty_minutes: @raw_data[:stats][:penaltyMinutes],
           toi: @raw_data[:stats][:timeOnIce],
           toi_in_seconds: set_time_on_ice_in_seconds,
           shots_against: @raw_data[:stats][:shotsAgainst],
