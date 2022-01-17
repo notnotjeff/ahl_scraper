@@ -10,12 +10,16 @@ module AhlScraper
     end
 
     def to_period_seconds
-      period_time = time.split(":")
+      return unless time
+
+      period_time = time&.split(":")
       period_time[0].to_i * 60 + period_time[1].to_i
     end
 
     def to_time_elapsed
-      period_time = time.split(":")
+      return unless time
+
+      period_time = time&.split(":")
       period_time[0].to_i * 60 + period_time[1].to_i + ((period - 1) * 1200)
     end
 

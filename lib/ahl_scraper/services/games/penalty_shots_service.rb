@@ -17,13 +17,8 @@ module AhlScraper
 
       def ordered_penalty_shots
         @ordered_penalty_shots ||= penalty_shot_data.sort do |a, b|
-          [a[:period][:id].to_i, convert_time(a[:time])] <=> [b[:period][:id].to_i, convert_time(b[:time])]
+          [a[:period][:id].to_i, IceTimeHelper.new(a[:time]).to_sec] <=> [b[:period][:id].to_i, IceTimeHelper.new(b[:time]).to_sec]
         end
-      end
-
-      def convert_time(game_time)
-        time = game_time.split(":")
-        time[0].to_i * 60 + time[1].to_i
       end
     end
   end

@@ -72,11 +72,6 @@ module AhlScraper
       def period_time
         @period_time ||= PeriodTimeHelper.new(time, period)
       end
-
-      def convert_time(game_time)
-        time = game_time.split(":")
-        time[0].to_i * 60 + time[1].to_i
-      end
     end
   end
 end

@@ -344,12 +344,12 @@ module AhlScraper
       irregular_game_status = IRREGULAR_GAMES.dig(game_id.to_s, :status)
       return irregular_game_status if irregular_game_status
 
-      return "postponed" if @raw_data[:details][:status] == "Postponed"
+      return "postponed" if @raw_data.dig(:details, :status) == "Postponed"
       # return "forfeited" if game is a forfeit, need to figure this out if it happens
 
-      return "finished" if @raw_data[:details][:final] == "1"
+      return "finished" if @raw_data.dig(:details, :final) == "1"
 
-      return "in_progress" if @raw_data[:details][:started] == "1"
+      return "in_progress" if @raw_data.dig(:details, :started) == "1"
 
       "not_started"
     end

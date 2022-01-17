@@ -9,7 +9,9 @@ module AhlScraper
     end
 
     def to_seconds
-      ice_time = time.split(":")
+      return unless time
+
+      ice_time = time&.split(":")
       ice_time[0].to_i * 60 + ice_time[1].to_i
     end
 

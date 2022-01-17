@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 0.3.2
+
+## General
+
+- Changed `.split` to `&.split` and use `.dig` more to not fail when fields don't exist (often on games that have not finished)
+
+### Game::Goalie
+
+- Fix penalty minutes not being copied to the object because of a typo
+
 ## 0.3.1
 
 ### Scoreboards

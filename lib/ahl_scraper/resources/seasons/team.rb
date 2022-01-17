@@ -51,11 +51,11 @@ module AhlScraper
       end
 
       def city
-        @city ||= full_name.split.length > 2 ? exception_split_object&.dig(:city) : full_name.split[0]
+        @city ||= full_name&.split.length > 2 ? exception_split_object&.dig(:city) : full_name&.split[0]
       end
 
       def name
-        @name ||= full_name.split.length > 2 ? exception_split_object&.dig(:name) : full_name.split[1]
+        @name ||= full_name&.split.length > 2 ? exception_split_object&.dig(:name) : full_name&.split[1]
       end
 
       def game_file_city
