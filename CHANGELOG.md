@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.3.3
+
+## Developer
+
+- Added `.tool-versions` file for `asdf` package manager use
+
 ## 0.3.2
 
 ## General
