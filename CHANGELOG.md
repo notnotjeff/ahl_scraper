@@ -6,6 +6,14 @@
 
 - Added `.tool-versions` file for `asdf` package manager use
 
+## PlayoffBrackets::Round
+
+- Add `active?` attribute which checks if any series is active, if so it returns truthy, else falsey
+
+## PlayoffBrackets::Series
+
+- Add check for existance of team ids for `active?` attribute to be truthy
+
 ## 0.3.2
 
 ## General

@@ -7,6 +7,24 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
   let(:active) { "1" }
   let(:team1_wins) { 4 }
   let(:team2_wins) { 0 }
+  let(:feeder_series1) { "A" }
+  let(:feeder_series2) { "B" }
+  let(:team1)  { "384" }
+  let(:team2)  { "319" }
+  let(:game) do
+    {
+      game_id: "1019576",
+      home_team: "384",
+      home_goal_count: "4",
+      visiting_team: "319",
+      visiting_goal_count: "1",
+      status: "4",
+      game_status: "Final",
+      date_time: "2019-05-03 19:00:00",
+      if_necessary: "0",
+      game_notes: "",
+    }
+  end
   let(:raw_data) do
     {
       series_letter: "I",
@@ -14,27 +32,14 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
       series_logo: "",
       round: round,
       active: active,
-      feeder_series1: "A",
-      feeder_series2: "B",
-      team1: "384",
-      team2: "319",
+      feeder_series1: feeder_series1,
+      feeder_series2: feeder_series2,
+      team1: team1,
+      team2: team2,
       content_en: "",
       content_fr: "",
       winner: winning_team,
-      games: [
-        {
-          game_id: "1019576",
-          home_team: "384",
-          home_goal_count: "4",
-          visiting_team: "319",
-          visiting_goal_count: "1",
-          status: "4",
-          game_status: "Final",
-          date_time: "2019-05-03 19:00:00",
-          if_necessary: "0",
-          game_notes: "",
-        },
-      ],
+      games: [game],
       team1_wins: team1_wins,
       team2_wins: team2_wins,
       ties: 0,
@@ -122,6 +127,17 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
       context "when team has reached win threshold" do
         let(:team1_wins) { 4 }
         let(:team2_wins) { 0 }
+
+        it "returns false" do
+          series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+          expect(series.active?).to be_falsey
+        end
+      end
+
+      context "when team ids are not present" do
+        let(:team1)  { "0" }
+        let(:team2)  { "0" }
 
         it "returns false" do
           series = described_class.new(raw_data, { bracket_data: bracket_data })

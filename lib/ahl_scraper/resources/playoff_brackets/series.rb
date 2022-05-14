@@ -32,7 +32,7 @@ module AhlScraper
       end
 
       def active?
-        @active ||= @raw_data[:active] == "1" && team1_wins < wins_needed && team2_wins < wins_needed
+        @active ||= @raw_data[:active] == "1" && team_ids_present? && team1_wins < wins_needed && team2_wins < wins_needed
       end
 
       def home_feeder_series
@@ -48,11 +48,13 @@ module AhlScraper
       end
 
       def home_team_id
-        @home_team_id ||= first_game[:home_team].to_i
+        @home_team_id = first_game&.dig(:home_team)&.to_i if @home_team_id.nil?
+        @home_team_id
       end
 
       def away_team_id
-        @away_team_id ||= first_game[:visiting_team].to_i
+        @away_team_id = first_game&.dig(:visiting_team)&.to_i if @away_team_id.nil?
+        @away_team_id
       end
 
       def home_team_wins
@@ -78,7 +80,7 @@ module AhlScraper
       private
 
       def first_game
-        @first_game ||= @raw_data[:games][0]
+        @first_game ||= @raw_data.dig(:games, 0)
       end
 
       def find_winner
@@ -90,23 +92,27 @@ module AhlScraper
       end
 
       def season_id
-        @opts[:bracket_data]&.dig(:rounds, round - 1, :season_id)
+        @opts.dig(:bracket_data, :rounds, round - 1, :season_id)
       end
 
       def team1
-        @team1 ||= @raw_data[:team1].to_i
+        @team1 ||= @raw_data[:team1].to_i.zero? ? nil : @raw_data[:team1].to_i
       end
 
       def team2
-        @team2 ||= @raw_data[:team2].to_i
+        @team2 ||= @raw_data[:team2].to_i.zero? ? nil : @raw_data[:team2].to_i
+      end
+
+      def team_ids_present?
+        team1 && team2
       end
 
       def team1_wins
-        @team1_wins ||= @raw_data[:team1_wins]
+        @team1_wins ||= @raw_data[:team1_wins].to_i
       end
 
       def team2_wins
-        @team2_wins ||= @raw_data[:team2_wins]
+        @team2_wins ||= @raw_data[:team2_wins].to_i
       end
     end
   end

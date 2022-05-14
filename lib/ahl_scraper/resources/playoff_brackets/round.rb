@@ -23,6 +23,11 @@ module AhlScraper
         @round_type_name ||= @raw_data[:round_type_name]
       end
 
+      def active?
+        @active = series.filter(&:active?).any? if @active.nil?
+        @active
+      end
+
       def series
         @series ||= @raw_data[:matchups].map { |series| Series.new(series, { bracket_data: @opts[:bracket_data] }) }
       end
