@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.3.4
+
+## PlayoffBrackets::Series
+
+- Add new series wins required for current playoffs (2022 with id `76`)
+
 ## 0.3.3
 
 ## Developer
