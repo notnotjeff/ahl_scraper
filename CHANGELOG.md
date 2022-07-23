@@ -1,28 +1,38 @@
 # CHANGELOG
 
+## 0.3.5
+
+### Developer
+
+- Add ability to use `rake console` to access gem in console to do manual testing
+
+### Seasons::Team
+
+- Add Coachella Valley Firebirds to naming hash
+
 ## 0.3.4
 
-## PlayoffBrackets::Series
+### PlayoffBrackets::Series
 
 - Add new series wins required for current playoffs (2022 with id `76`)
 
 ## 0.3.3
 
-## Developer
+### Developer
 
 - Added `.tool-versions` file for `asdf` package manager use
 
-## PlayoffBrackets::Round
+### PlayoffBrackets::Round
 
 - Add `active?` attribute which checks if any series is active, if so it returns truthy, else falsey
 
-## PlayoffBrackets::Series
+### PlayoffBrackets::Series
 
 - Add check for existance of team ids for `active?` attribute to be truthy
 
 ## 0.3.2
 
-## General
+### General
 
 - Changed `.split` to `&.split` and use `.dig` more to not fail when fields don't exist (often on games that have not finished)
 
