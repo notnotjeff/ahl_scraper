@@ -26,6 +26,7 @@ module AhlScraper
         "wilkes-barre-scranton-penguins" => { city: "Wilkes-Barre/Scranton", name: "Penguins", game_file_city: "W-B/Scranton" },
         "edmonton-road-runners" => { city: "Edmonton", name: "Road Runners" },
         "henderson-silver-knights" => { city: "Henderson", name: "Silver Knights" },
+        "coachella-valley-firebirds" => { city: "Coachella Valley", name: "Firebirds" },
       }.freeze
 
       def initialize(raw_data, division, opts = {})
