@@ -43,6 +43,7 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
       team1_wins: team1_wins,
       team2_wins: team2_wins,
       ties: 0,
+      season_id: season_id,
     }
   end
   let(:bracket_data) do
@@ -92,6 +93,34 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
     end
   end
 
+  describe "#season_id" do
+    it "returns season_id" do
+      series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+      expect(series.season_id).to eq(season_id.to_i)
+    end
+
+    context "when season_id is blank" do
+      let(:season_id) { "" }
+
+      it "returns nil" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.season_id).to be_nil
+      end
+    end
+
+    context "when season_id is nil" do
+      let(:season_id) { nil }
+
+      it "returns nil" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.season_id).to be_nil
+      end
+    end
+  end
+
   describe "#logo_url" do
     it "returns logo_url" do
       series = described_class.new(raw_data, { bracket_data: bracket_data })
@@ -108,52 +137,61 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
     end
   end
 
-  describe "#active?" do
-    context "when active is 1 in raw data" do
+  describe "#started?" do
+    context "when active has been set to 1" do
       let(:active) { "1" }
-      let(:season_id) { "64" }
-
-      context "when neither team has reached win threshold" do
-        let(:team1_wins) { 0 }
-        let(:team2_wins) { 0 }
-
-        it "returns true" do
-          series = described_class.new(raw_data, { bracket_data: bracket_data })
-
-          expect(series.active?).to be_truthy
-        end
-      end
-
-      context "when team has reached win threshold" do
-        let(:team1_wins) { 4 }
-        let(:team2_wins) { 0 }
-
-        it "returns false" do
-          series = described_class.new(raw_data, { bracket_data: bracket_data })
-
-          expect(series.active?).to be_falsey
-        end
-      end
-
-      context "when team ids are not present" do
-        let(:team1)  { "0" }
-        let(:team2)  { "0" }
-
-        it "returns false" do
-          series = described_class.new(raw_data, { bracket_data: bracket_data })
-
-          expect(series.active?).to be_falsey
-        end
-      end
-    end
-
-    context "when active is 0 in raw data" do
-      let(:active) { "0" }
 
       it "returns true" do
         series = described_class.new(raw_data, { bracket_data: bracket_data })
 
-        expect(series.active?).to be_falsey
+        expect(series.started?).to be(true)
+      end
+    end
+
+    context "when active has not been set to 1" do
+      let(:active) { "0" }
+
+      it "returns false" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.started?).to be(false)
+      end
+    end
+  end
+
+  describe "#active?" do
+    let(:season_id) { "64" }
+
+    context "when neither team has reached win threshold" do
+      let(:team1_wins) { 0 }
+      let(:team2_wins) { 0 }
+
+      it "returns true" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.active?).to be(true)
+      end
+    end
+
+    context "when team has reached win threshold" do
+      let(:team1_wins) { 4 }
+      let(:team2_wins) { 0 }
+
+      it "returns false" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.active?).to be(false)
+      end
+    end
+
+    context "when team ids are not present" do
+      let(:team1)  { "0" }
+      let(:team2)  { "0" }
+
+      it "returns false" do
+        series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+        expect(series.active?).to be(false)
       end
     end
   end
