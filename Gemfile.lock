@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ahl_scraper (0.3.3)
+    ahl_scraper (0.3.6)
       json (~> 2.5.1)
       nokogiri (~> 1.12.4)
       rake (~> 13.0.0)
@@ -118,4 +118,4 @@ DEPENDENCIES
   webmock (>= 3.8.0)
 
 BUNDLED WITH
-   2.3.12
+   2.3.20

@@ -32,6 +32,14 @@ RSpec.describe AhlScraper::Game do
         expect(game.status).to eq("result_void")
       end
     end
+
+    context "when game is suspended" do
+      it "returns result_void" do
+        game = described_class.new(1_023_909)
+
+        expect(game.status).to eq("suspended")
+      end
+    end
   end
 
   describe "#info", :vcr do

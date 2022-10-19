@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 0.3.6
+
+### Game
+- Add `suspended` game status
+
+### PlayoffBrackets::Round
+
+- Add `started?` for when round has started (even if it is finished)
+- Add `active?` for when round has active series
+- Add `finished?` for when round has started and has no active series
+
+### PlayoffBrackets::Series
+
+- Fix `active?` to properly assess `active: "1"` meaning has started but not necessarily currently active
+- Added `started?` which now uses `active: "1"` to determine if the series has started
+- Set round one series win count needed to `2` for season `76`
+
 ## 0.3.5
 
 ### Developer

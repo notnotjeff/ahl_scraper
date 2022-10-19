@@ -13,7 +13,7 @@ module AhlScraper
         "7" => { "1" => 4 },
         "69" => { "1" => 4 },
         "72" => { "1" => 1, "2" => 1, "3" => 2, "4" => 2 },
-        "76" => { "1" => 3, "2" => 3, "3" => 4, "4" => 4, "5" => 4 },
+        "76" => { "1" => 2, "2" => 3, "3" => 4, "4" => 4, "5" => 4 },
       }.freeze
 
       def id
@@ -24,6 +24,10 @@ module AhlScraper
         @name ||= @raw_data[:series_name]
       end
 
+      def season_id
+        @season_id ||= find_season_id
+      end
+
       def logo_url
         @logo_url ||= @raw_data[:series_logo]
       end
@@ -32,8 +36,14 @@ module AhlScraper
         @round ||= @raw_data[:round].to_i
       end
 
+      def started?
+        @started = @raw_data[:active] == "1" if @started.nil?
+        @started
+      end
+
       def active?
-        @active ||= @raw_data[:active] == "1" && team_ids_present? && team1_wins < wins_needed && team2_wins < wins_needed
+        @active ||= team_ids_present? && team1_wins < wins_needed && team2_wins < wins_needed if @active.nil?
+        @active
       end
 
       def home_feeder_series
@@ -75,10 +85,23 @@ module AhlScraper
       end
 
       def wins_needed
-        @wins_needed ||= OVERRIDE_WINS_NEEDED.dig(season_id, round.to_s) || (round == 1 ? 3 : 4)
+        @wins_needed ||= OVERRIDE_WINS_NEEDED.dig(season_id.to_s, round.to_s) || (round == 1 ? 3 : 4)
+      end
+
+      def finished?
+        @finished = winning_team_id.present? if @finished.nil?
+        @finished
       end
 
       private
+
+      def find_season_id
+        dig_season_id = @opts.dig(:bracket_data, :rounds, round - 1, :season_id)
+
+        return if dig_season_id.nil? || dig_season_id.empty?
+
+        dig_season_id.to_i
+      end
 
       def first_game
         @first_game ||= @raw_data.dig(:games, 0)
@@ -92,10 +115,6 @@ module AhlScraper
         nil
       end
 
-      def season_id
-        @opts.dig(:bracket_data, :rounds, round - 1, :season_id)
-      end
-
       def team1
         @team1 ||= @raw_data[:team1].to_i.zero? ? nil : @raw_data[:team1].to_i
       end
@@ -105,7 +124,7 @@ module AhlScraper
       end
 
       def team_ids_present?
-        team1 && team2
+        !team1.nil? && !team2.nil?
       end
 
       def team1_wins
