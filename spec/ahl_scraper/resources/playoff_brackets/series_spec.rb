@@ -240,6 +240,31 @@ RSpec.describe AhlScraper::PlayoffBrackets::Series do
             expect(series.winning_team_id).to be_nil
           end
         end
+
+        context "when round one and team has 3 wins" do
+          let(:round) { 1 }
+          let(:team1_wins) { 0 }
+          let(:team2_wins) { 3 }
+
+          it "returns winning_team_id" do
+            series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+            expect(series.winning_team_id).to eq(319)
+          end
+        end
+
+        context "when season id greater than latest season in dictionary" do
+          let(:season_id) { "1000" }
+          let(:round) { 2 }
+          let(:team1_wins) { 0 }
+          let(:team2_wins) { 3 }
+
+          it "returns winning_team_id" do
+            series = described_class.new(raw_data, { bracket_data: bracket_data })
+
+            expect(series.winning_team_id).to eq(319)
+          end
+        end
       end
 
       context "when season needs win override" do
