@@ -14,6 +14,8 @@ module AhlScraper
         "69" => { "1" => 4 },
         "72" => { "1" => 1, "2" => 1, "3" => 2, "4" => 2 },
         "76" => { "1" => 2, "2" => 3, "3" => 4, "4" => 4, "5" => 4 },
+        "80" => { "1" => 2, "2" => 3, "3" => 3, "4" => 4, "5" => 4 },
+        "default" => { "1" => 2, "2" => 3, "3" => 3, "4" => 4, "5" => 4 },
       }.freeze
 
       def id
@@ -85,7 +87,7 @@ module AhlScraper
       end
 
       def wins_needed
-        @wins_needed ||= OVERRIDE_WINS_NEEDED.dig(season_id.to_s, round.to_s) || (round == 1 ? 3 : 4)
+        @wins_needed ||= find_wins_needed
       end
 
       def finished?
@@ -94,6 +96,14 @@ module AhlScraper
       end
 
       private
+
+      def find_wins_needed
+        return OVERRIDE_WINS_NEEDED.dig(season_id.to_s, round.to_s) unless OVERRIDE_WINS_NEEDED.dig(season_id.to_s, round.to_s).nil?
+
+        return (round == 1 ? 3 : 4) if season_id.to_i < OVERRIDE_WINS_NEEDED.keys.map(&:to_i).max
+
+        OVERRIDE_WINS_NEEDED.dig("default", round.to_s)
+      end
 
       def find_season_id
         dig_season_id = @opts.dig(:bracket_data, :rounds, round - 1, :season_id)

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.3.7
+
+### PlayoffBrackets::Series
+
+- Add playoff season `80` to series wins needed dictionary
+- Add default wins needed to dictionary and use for future seasons
+
 ## 0.3.6
 
 ### Game
