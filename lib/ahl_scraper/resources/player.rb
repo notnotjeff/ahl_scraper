@@ -58,10 +58,22 @@ module AhlScraper
       @weight ||= @raw_data.dig(:info, :weight).to_i
     end
 
+    def draft_info
+      @draft_info ||= Players::DraftInfo.new(draft_data)
+    end
+
     private
 
     def valid_birthdate?
       @valid_birthdate ||= !@raw_data.dig(:info, :birthDate).empty? && @raw_data.dig(:info, :birthDate) != "0000-00-00"
+    end
+
+    def draft_data
+      nhl_draft = @raw_data.dig(:info, :drafts)&.select { |draft| draft[:draft_league] == "NHL" }&.dig(0)
+
+      return {} if nhl_draft.nil?
+
+      nhl_draft
     end
   end
 end

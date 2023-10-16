@@ -27,6 +27,20 @@ RSpec.describe AhlScraper::Player do
         suspension_games_remaining: "",
         birthPlace: "Joensuu, Finland ",
         playerType: "skater",
+        drafts: [{
+          id: "111157",
+          draft_league: "NHL",
+          draft_team: "Toronto Maple Leafs",
+          draft_team_id: "28",
+          draft_year: "2019",
+          draft_round: "2",
+          draft_rank: "53",
+          draft_junior_team: "Peterborough (OHL)",
+          draft_logo: "https:\/\/assets.leaguestat.com\/leaguestat\/nhlLogos\/toronto.png",
+          draft_logo_caption: "Toronto Maple Leafs",
+          show_on_roster: "1",
+          draft_text: " Toronto Maple Leafs - Drafted: 2019, Round: 2 (#53)",
+        }],
       },
     }
   end
@@ -51,5 +65,6 @@ RSpec.describe AhlScraper::Player do
     expect(player.birthplace).to eq("Joensuu, Finland")
     expect(player.height).to eq("6-1")
     expect(player.draft_year).to eq(2016)
+    expect(player.draft_info).to be_instance_of(AhlScraper::Players::DraftInfo)
   end
 end
