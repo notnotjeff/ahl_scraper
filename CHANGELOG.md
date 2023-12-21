@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.3.8
+
+### Players
+
+- Add `draft_info` to players (when AHL provides it)
+
 ## 0.3.7
 
 ### PlayoffBrackets::Series
