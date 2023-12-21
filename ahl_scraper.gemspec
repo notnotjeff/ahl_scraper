@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.metadata["changelog_uri"] = "https://github.com/notnotjeff/ahl_scraper"
 
   spec.add_dependency "json", "~> 2.5.1"
-  spec.add_dependency "nokogiri", "~> 1.12.4"
+  spec.add_dependency "nokogiri", "~> 1.14.0"
   spec.add_dependency "rake", "~> 13.0.0"
 
   spec.add_development_dependency "byebug", "~> 11.1.3"
