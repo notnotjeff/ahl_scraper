@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.4.1
+
+### Games
+
+- When a game has `Unofficial Final` status set it to have status `finished`
+
 ## 0.3.8
 
 ### Players

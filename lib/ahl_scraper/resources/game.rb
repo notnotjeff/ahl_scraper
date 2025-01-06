@@ -352,7 +352,7 @@ module AhlScraper
 
       # return "forfeited" if game is a forfeit, need to figure this out if it happens
 
-      return "finished" if @raw_data.dig(:details, :final) == "1"
+      return "finished" if @raw_data.dig(:details, :final) == "1" || @raw_data.dig(:details, :status) == "Unofficial Final"
 
       return "in_progress" if @raw_data.dig(:details, :started) == "1"
 

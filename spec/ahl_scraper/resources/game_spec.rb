@@ -40,6 +40,14 @@ RSpec.describe AhlScraper::Game do
         expect(game.status).to eq("suspended")
       end
     end
+
+    context "when game is unofficial final" do
+      it "returns finished" do
+        game = described_class.new(1_026_971)
+
+        expect(game.status).to eq("finished")
+      end
+    end
   end
 
   describe "#info", :vcr do

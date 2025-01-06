@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ahl_scraper (0.3.9)
+    ahl_scraper (0.4.1)
       json (~> 2.5.1)
       nokogiri (~> 1.14.0)
       rake (~> 13.0.0)
