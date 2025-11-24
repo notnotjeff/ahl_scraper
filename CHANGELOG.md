@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.4.2
+
+### Ruby Upgrade
+
+- Upgrade Ruby version to `2.7.7`
+
 ## 0.4.1
 
 ### Games
