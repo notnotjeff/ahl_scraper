@@ -12,14 +12,14 @@ Gem::Specification.new do |spec|
   spec.description   = "Allows users to gather game, season, and player data from the AHL website"
   spec.homepage      = "http://www.ahltracker.com"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 3.0.0")
 
   spec.metadata["homepage_uri"] = "https://github.com/notnotjeff/ahl_scraper"
   spec.metadata["source_code_uri"] = "https://github.com/notnotjeff/ahl_scraper"
   spec.metadata["changelog_uri"] = "https://github.com/notnotjeff/ahl_scraper"
 
   spec.add_dependency "json", "~> 2.5.1"
-  spec.add_dependency "nokogiri", "~> 1.14.0"
+  spec.add_dependency "nokogiri", "~> 1.18.10"
   spec.add_dependency "rake", "~> 13.0.0"
 
   spec.add_development_dependency "byebug", "~> 11.1.3"
@@ -29,8 +29,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop", "~> 0.89.0"
   spec.add_development_dependency "rubocop-performance", "~> 1.8.1"
   spec.add_development_dependency "solargraph", "~> 0.43.0"
-  spec.add_development_dependency "vcr", "~> 6.0.0"
-  spec.add_development_dependency "webmock", ">= 3.8.0"
+  spec.add_development_dependency "vcr", "~> 6.3.1"
+  spec.add_development_dependency "webmock", ">= 3.26.1"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

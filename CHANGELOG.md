@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 0.5.0
+
+- Upgrade development Ruby version to `3.3.5`
+- Set supported version greater than `3.0.0`
+- Upgrade nokogiri to `1.18.10`
+- Upgrade webmock to `3.26.1`
+- Upgrade vcr to `3.6.1`
+
 ## 0.4.2
 
 ### Ruby Upgrade
